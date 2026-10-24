@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "scope": "Original preparation and consumer inspection only",
+  "complete_isolated_run": {
+    "started_utc": "2026-10-24T13:50:05.051788+00:00",
+    "finished_utc": "2026-10-24T13:53:46.160482+00:00",
+    "status": "PASS"
+  },
+  "phases": 10,
+  "retained_gene_n": {
+    "NONE": 14217,
+    "GSM6235292": 14158,
+    "GSM6235293": 14164,
+    "GSM6235294": 14168,
+    "GSM6235295": 14147,
+    "GSM6235296": 14158,
+    "GSM6235297": 14153,
+    "GSM6235298": 14174,
+    "GSM6235299": 14166,
+    "GSM6235300": 14155
+  },
+  "eligible_programs": {
+    "NONE": {
+      "Reactome": 1546,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 81
+    },
+    "GSM6235292": {
+      "Reactome": 1543,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 79
+    },
+    "GSM6235293": {
+      "Reactome": 1544,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 80
+    },
+    "GSM6235294": {
+      "Reactome": 1545,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 81
+    },
+    "GSM6235295": {
+      "Reactome": 1546,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 79
+    },
+    "GSM6235296": {
+      "Reactome": 1545,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 80
+    },
+    "GSM6235297": {
+      "Reactome": 1544,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 80
+    },
+    "GSM6235298": {
+      "Reactome": 1545,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 80
+    },
+    "GSM6235299": {
+      "Reactome": 1544,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 81
+    },
+    "GSM6235300": {
+      "Reactome": 1543,
+      "SynGO_sensitivity": 78,
+      "PROGENy": 14,
+      "DoRothEA_AB": 80
+    }
+  },
+  "resource_validation": {
+    "externally_supplied_export_n": 5,
+    "RDS_only_comparison_role_n": 5,
+    "RDS_domain_role_n": 10,
+    "factor_labels_not_codes": true,
+    "selected_export_agreement": true,
+    "manifest_fixed_six_entities_agreement": true,
+    "source_or_count_filtered_programs_replaced": false
+  },
+  "consumer_status": "PREPARED",
+  "consumer_events": "PREPARED",
+  "output_released": false,
+  "input_objects_unchanged": true,
+  "input_files_unchanged": true,
+  "source_files_unchanged": true,
+  "new_real_data_model_fits": 0,
+  "reference_refits": 0,
+  "new_cloud_use": false,
+  "first_run": {
+    "status": "FAILED_READBACK_ASSERTION_AFTER_PREPARATION",
+    "cause": "In-memory data.table self-reference pointer identity is not preserved by RDS; serialized scientific content was identical",
+    "preserved": true
+  },
+  "exact_preparation_files_equal_between_runs": {
+    "count_matrix.rds": {
+      "bytes": 2039026,
+      "sha256": "5142797a36f4bac74a046e912c244b665cbd0b763a4789d8ac6fb20295c25199"
+    },
+    "fixed_gene_ids.rds": {
+      "bytes": 854989,
+      "sha256": "380b85436ba97370e1c288e2b34f8f38bc5caef341b3eef574e30f4ca1e9063b"
+    },
+    "gene_annotation.rds": {
+      "bytes": 10314878,
+      "sha256": "73640f36155384a8b12dcc9f12ebbbbd99b19d10ecd90d1fe8048afb881c6a73"
+    },
+    "mapping.rds": {
+      "bytes": 7113143,
+      "sha256": "527f348dad333f8302317cc0828c091785c028806b77a8b9481efb76087ec767"
+    },
+    "prefit.rds": {
+      "bytes": 9392381,
+      "sha256": "5dc5d693fc3208f1126eb27e9df21e9f0e0b524629b3d6dc2387c28258e5e7b0"
+    },
+    "sample_ledger.rds": {
+      "bytes": 14340,
+      "sha256": "110584b08083a1f21ed749ebfb5920a5a48724e0ebaadb95b59f58b6d2a03420"
+    }
+  },
+  "negative_checks": {
+    "original_altered_source_rejected": true,
+    "original_wrong_library_rejected": true,
+    "original_altered_gene_order_rejected": true,
+    "parent_cli": [
+      {
+        "case": "existing_output",
+        "passed": true,
+        "returncode": 2,
+        "expected_rejection": "output must be a new directory",
+        "no_output_created": true
+      },
+      {
+        "case": "wrong_prepared",
+        "passed": true,
+        "returncode": 1,
+        "expected_rejection": "Prepared HISAT2 s0 object mismatch",
+        "no_output_created": true
+      },
+      {
+        "case": "wrong_resource",
+        "passed": true,
+        "returncode": 1,
+        "expected_rejection": "Frozen resource mismatch: Reactome",
+        "no_output_created": true
+      }
+    ]
+  },
+  "historical_native_custody_recreated": false,
+  "linux_execution_tested": false,
+  "cold_environment_restore_tested": false,
+  "environment": {
+    "scope": "CURRENT_PREPARATION_RUNTIME_VERSION_CHECK_NOT_HISTORICAL_LINUX_CUSTODY",
+    "R": "4.6.1",
+    "platform": "x86_64-w64-mingw32",
+    "packages": {
+      "edgeR": "4.10.1",
+      "limma": "3.68.4",
+      "DESeq2": "1.52.0",
+      "fgsea": "1.38.0",
+      "decoupleR": "2.17.0",
+      "data.table": "1.18.4",
+      "yaml": "2.3.12",
+      "jsonlite": "2.0.0",
+      "digest": "0.6.39",
+      "openssl": "2.4.2"
+    },
+    "threads": 1,
+    "backend": "SerialParam",
+    "RNGkind": [
+      "Mersenne-Twister",
+      "Inversion",
+      "Rejection"
+    ]
+  },
+  "scope_note": "These are newly prepared objects from accepted public count inputs, not new fitted results, independent biological validation or historical run manifests."
+}

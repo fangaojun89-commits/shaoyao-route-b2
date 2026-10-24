@@ -1,0 +1,155 @@
+{
+  "scope": "Original deterministic HISAT2 s0 preparation only; no statistical model or reference fits",
+  "worker": "analysis/study_sources/code/R/gse205906_ensembl101_checked_model_RAM_worker_v4_20261006.R",
+  "full_config": "analysis/study_sources/config/GSE205906_Ensembl101_full_model_v1_20261006.json",
+  "baseline_config": "analysis/study_sources/config/GSE205906_bulk_model_v2_r4.json",
+  "sources": {
+    "analysis/study_sources/code/R/gse205906_checked_execution_v1.R": {
+      "bytes": 15674,
+      "sha256": "37bacea977472600ae9879d7e43448f953c5a0ddd93f0967e7586f8a1a5d3d49"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_checked_core_v1_20261006.R": {
+      "bytes": 17175,
+      "sha256": "ac070364dca4369f9a9cb196550a8c6f3daced3114184f1572d5274ec03261e6"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_gene_reference_v1_20261006.R": {
+      "bytes": 13197,
+      "sha256": "4c6593f0ed6cdd6838699f8d844dbd7aa321baca990b2dac79abe9ee7c1f76d1"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_program_reference_v1_20261006.R": {
+      "bytes": 9509,
+      "sha256": "917c2ff7ec82615288c4a957a76beb7f67b040ebb4bc6d2c8e3169cb97f856ed"
+    },
+    "analysis/study_sources/code/R/gse205906_bound_scientific_core_v2.R": {
+      "bytes": 9530,
+      "sha256": "44754554efed7a51b0b2ec1bb68cb7310ac22367f1222edc7cf2d1a91cc90b28"
+    },
+    "analysis/study_sources/code/R/analyze_gse205906_bulk_model_v2_r4.R": {
+      "bytes": 72490,
+      "sha256": "b8b274667dcb68e5c8a729e10f4df46d9e596371be4ee6a8a99efc7be1286cd2"
+    },
+    "analysis/study_sources/code/R/gse205906_bulk_model_v2_r4_lib.R": {
+      "bytes": 175131,
+      "sha256": "407bbf2acda7db749f33a4f679564e5cddd0c758f1d0ad9f45e870b2c25432c3"
+    },
+    "analysis/study_sources/code/R/gse205906_program_binding_v1.R": {
+      "bytes": 15697,
+      "sha256": "2aaa386df70c0031933c244eafa895d63c5dbd7a7be77277cfd4a57aceba538d"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_annotation_adapter_v1_20261006.R": {
+      "bytes": 9943,
+      "sha256": "9f223ec6163a4ac6aca5e85edccac9594f2c5a631889c76bd81f6d560f187470"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_effect_independent_prefit_v1_20261006.R": {
+      "bytes": 18762,
+      "sha256": "b394a9e301db4e17a3c0495ada7071337198e8aae15eccf82d87cfa7b32f9bc3"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_full_model_config_v1_20261006.R": {
+      "bytes": 7852,
+      "sha256": "29ffe9705e675058c006d808305349275979efb58eeab2ea4236e5eb82fd339a"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_program_contract_v2_20261006.R": {
+      "bytes": 12746,
+      "sha256": "bd86c229834a35317a701bfd53f727943d5238a44b99a94a549e3be8b5ba3adc"
+    },
+    "analysis/study_sources/code/R/gse205906_in_memory_gene_validator_v1.R": {
+      "bytes": 9590,
+      "sha256": "4188175759fc7db35b18269bf54e92be0b217517226a676ed4f444aaabf8968f"
+    },
+    "analysis/study_sources/code/R/validate_gse205906_bulk_model_v2_r4.R": {
+      "bytes": 104432,
+      "sha256": "c63296157a833611ef92b17f1cbb6b27ab3c23c1028cab79fd706aaab564225d"
+    },
+    "analysis/study_sources/code/R/gse205906_bound_program_validator_v2.R": {
+      "bytes": 25221,
+      "sha256": "4e0f3cd999b327e06de1388f8fe92472a1af20bf62e9d71d7cea24ed3b44d493"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_checked_consumer_v1_20261006.R": {
+      "bytes": 13213,
+      "sha256": "faedb8d48c90f7c96790aadd43ba51339236ed04340e61b52a358592e6fc6872"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_input_loader_v2_20261006.R": {
+      "bytes": 10884,
+      "sha256": "45f21c67674b5cd2b424e9c145662910361baee1019cbc68d366a9aab1fcc4ba"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_mapping_v2_20261006.R": {
+      "bytes": 18639,
+      "sha256": "fc3ec2b20608cb13b358337f0fc439c51876d8ecc75f285f21e80a11edd6ee48"
+    },
+    "analysis/study_sources/code/R/gse205906_resource_object_validation_v1.R": {
+      "bytes": 13034,
+      "sha256": "e93aae6769a1173bb7842f213152f56695f5b7b5621b71106c54181496f994ae"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_nofit_RAM_worker_v2_20261006.R": {
+      "bytes": 10769,
+      "sha256": "1f0549994bb9aef084c8278fceb336f3bf436abcb589fe4c1755add018dbd61b"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_checked_model_RAM_worker_v4_20261006.R": {
+      "bytes": 31616,
+      "sha256": "3acd88e536a7808ad750c1d5aaa8d79ff6f1c84510f1bd9e4ed5d92f68363efc"
+    },
+    "analysis/study_sources/config/GSE205906_Ensembl101_full_model_v1_20261006.json": {
+      "bytes": 10612,
+      "sha256": "ee6e22592b06ecdb31707234e97dc55b7b66cbad8dd11c364187af0624ece980"
+    },
+    "analysis/study_sources/config/GSE205906_bulk_model_v2_r4.json": {
+      "bytes": 40558,
+      "sha256": "d8304d8713593f98d80119dc2f0d5d3d39f6b7eb096a3ccee0bc7b13cab9f16c"
+    }
+  },
+  "resources": {
+    "Reactome": {
+      "relative_path": "data/processed/gene_sets/reactome97_human_long.tsv",
+      "identity": {
+        "bytes": 11599354,
+        "sha256": "1ea55f41f5b0a4ea51f723fb82b940f8b13fce1cab13ea6825b91d207c72fdc0"
+      }
+    },
+    "SynGO_sensitivity": {
+      "relative_path": "data/processed/gene_sets/quickgo_syngo_mammalian_direct_human.tsv",
+      "identity": {
+        "bytes": 4835295,
+        "sha256": "2a40eeb2bddcf556ea5ac8d6ef6a0cb1bd71f85ac8dddb1aad8165a8d075eb3a"
+      }
+    },
+    "PROGENy": {
+      "relative_path": "data/processed/gene_sets/progeny_human_top500.tsv",
+      "identity": {
+        "bytes": 609987,
+        "sha256": "b78892ec4d56212b08eb33ea80551fcb018e89b3c698e3d804008537c96bbdb9"
+      }
+    },
+    "DoRothEA_AB": {
+      "relative_path": "data/processed/gene_sets/dorothea_rat_AB_one_to_one.tsv",
+      "identity": {
+        "bytes": 687990,
+        "sha256": "e709ea4a9e0a1517cb00082bfbf6e8c4408d786694b6864f31ec3f57b458ecb8"
+      }
+    },
+    "orthology": {
+      "relative_path": "data/processed/gene_sets/ncbi_human_mouse_rat_one_to_one.tsv",
+      "identity": {
+        "bytes": 1922349,
+        "sha256": "e9dd0c9268e0044f615085e27292cbf977f5a648003ba90054cf3d01225cf998"
+      }
+    },
+    "frozen_resource_RDS": {
+      "relative_path": "data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds",
+      "identity": {
+        "bytes": 1506178,
+        "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51"
+      }
+    },
+    "gene_set_manifest": {
+      "relative_path": "metadata/gene_set_manifest.tsv",
+      "identity": {
+        "bytes": 32072,
+        "sha256": "b3a9089a6e136c5271cf6ac3999d10304dc2316fafd10f5c170d9f43084bbce1"
+      }
+    }
+  },
+  "prepared_identity": {
+    "bytes": 1883691,
+    "sha256": "e8dad4011176f2368cb6406e34777e7f7ba1abdf793e8d82d52212e091abd583"
+  }
+}
