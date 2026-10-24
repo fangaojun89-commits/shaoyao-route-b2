@@ -1,6 +1,6 @@
 # Shaoyao Route B2: reproducibility components
 
-Version 0.1.1 publishes the **accepted-table reporting companion** for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. It is a bounded, executable component, not the complete raw-to-model study pipeline. This version adds `.gitattributes` to preserve the pinned bytes on Windows checkouts; v0.1.0 remains in history.
+Version 0.2.0 publishes the **accepted-table reporting companion and dated data ledger** for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are bounded, executable components, not the complete raw-to-model study pipeline. `.gitattributes` preserves the pinned bytes on Windows checkouts; earlier tags remain in history.
 
 ## What is available
 
@@ -8,8 +8,10 @@ Version 0.1.1 publishes the **accepted-table reporting companion** for a seconda
 - `data/derived/`: accepted GSE128623 (448 families) and JGW03 (123 families) aggregate reference tables.
 - `expected/`: three fixed descriptive outputs for comparison.
 - `MANIFEST.json`: SHA-256 identities of the release files.
+- `data/ledger/`: the 15 October submitted-unit membership and reporting snapshots, their provenance, and the original metadata builder source.
+- `pipeline/ledger.py`: export and verification of that dated metadata selection. See the [ledger guide](data/ledger/README.md) for later analyses and interpretation limits.
 
-These tables are family-level aggregate outputs. They contain neither individual-level clinical records nor raw sequencing data or third-party gene-set memberships.
+The derived tables are family-level aggregate outputs. The ledger adds public submitted-array/library identifiers and qualified analysis membership. Neither contains individual-level clinical records, raw sequencing data or third-party gene-set memberships.
 
 ## Run
 
@@ -21,6 +23,14 @@ python -I -B pipeline/report.py --g128 data/derived/G128_FAMILY_SUMMARY.tsv --jg
 
 Use a new output directory. Compare the three named outputs with `expected/`. `RECEIPT.json` records the runtime and file identities. The reporting code and data are unchanged from the privately verified companion, which ran under Python 3.12.14 and reproduced the expected outputs byte-for-byte. This release does not claim testing on all later Python versions.
 
+Verify the dated ledger independently of the reporting command:
+
+```sh
+python -I -B pipeline/ledger.py verify data/ledger
+```
+
+The verifier checks 165 submitted identifiers, 18 overlapping analysis specifications and nine reporting contracts across eight accessions. The identifiers do not establish 165 independent animals or cultures. GSE85871 selected membership remains unknown, not zero.
+
 ## Interpretation
 
 The study's specified experimental-spasticity gate admitted 0 of 1,771 programs. Downstream candidate tests remained unevaluated. The published tables describe separate source-wide conditional-reference analyses; they are not independent biological or clinical validation. G128 empirical-q descriptors and JGW conditional-P descriptors retain different definitions and must not be pooled. Feature-family counts are not independent samples or necessarily unique genes.
@@ -29,7 +39,7 @@ The command computes descriptive groups from already accepted tables. It does no
 
 ## Scope of this release
 
-The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.1.1. Additional source modules require separate selection and provenance review. Whole-study cold restoration is not established by this release.
+The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.2.0. Additional source modules require separate selection and provenance review. Whole-study cold restoration is not established by this release. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions.
 
 ## Licences and attribution
 

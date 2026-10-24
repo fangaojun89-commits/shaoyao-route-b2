@@ -1,6 +1,6 @@
 {
-  "version": "0.1.1",
-  "scope": "ACCEPTED_TABLE_REPORTING_COMPONENT_ONLY",
+  "version": "0.2.0",
+  "scope": "ACCEPTED_REPORTING_AND_DATED_METADATA_LEDGER_NOT_FULL_STUDY",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "models_run": 0,
@@ -18,12 +18,12 @@
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
     },
     "README.md": {
-      "bytes": 3745,
-      "sha256": "39a522da576737b179a74f521945d00a8ef2efb4c69e3a38468f16d41bba2f9b"
+      "bytes": 4657,
+      "sha256": "fb30d07631808cba7621e8f87272f20cac124f9bcf208bb204166de4b1da1c5c"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 1482,
-      "sha256": "172f6f7b5ccfd989d84ff2a17d56f31376140fb9faee26ccd84d671ab9475a8f"
+      "bytes": 1698,
+      "sha256": "533cf5736c2d61750ecd9c2a529ee3538475ce9fed620bd6f97bc8ea2e2b1d6d"
     },
     "data/derived/G128_FAMILY_SUMMARY.tsv": {
       "bytes": 63236,
@@ -32,6 +32,26 @@
     "data/derived/JGW_FAMILY_SUMMARY.tsv": {
       "bytes": 54236,
       "sha256": "829f3ea818cd9e3b10a5f4ee6c6804ae27fd5bc980aa752be78218c21836645a"
+    },
+    "data/ledger/ANALYSIS_MEMBERSHIP_20261015.tsv": {
+      "bytes": 75343,
+      "sha256": "52d7caf471ee96a9f3098327d6d6a349fd31b47ae12d570b67c51c993711262d"
+    },
+    "data/ledger/DATASET_REPORTING_20261015_public.tsv": {
+      "bytes": 15887,
+      "sha256": "9b55e873b890357bdf4135ffd9fcf3c6f7038848cf90b5ac82f24fef39ece192"
+    },
+    "data/ledger/PROVENANCE.json": {
+      "bytes": 1231,
+      "sha256": "1d5e740f731ae029a9ff1a25fee5b0e70470918a7b08fe59f7343d22e1098f27"
+    },
+    "data/ledger/README.md": {
+      "bytes": 3693,
+      "sha256": "6b212dcf31d2476bce57cdbf8c38bff676a4217f4382c543f7b3e078ccc305b3"
+    },
+    "data/ledger/historical_builder.py": {
+      "bytes": 18171,
+      "sha256": "79f2000041201f75eda22efb44338460cf4dca055a3d2b3032f4d2226f777eeb"
     },
     "expected/G128_GROUP_SUMMARY.tsv": {
       "bytes": 1254,
@@ -44,6 +64,10 @@
     "expected/READING_NOTES.md": {
       "bytes": 624,
       "sha256": "e9b253ca002c0549d7991ca3ba3528bb5c2ae05bfd3927f15173b5d89e47455e"
+    },
+    "pipeline/ledger.py": {
+      "bytes": 6295,
+      "sha256": "4646b56b653e0441ff694c4927e73ee71a00468533f81281bb2d75de49e2a237"
     },
     "pipeline/report.py": {
       "bytes": 5108,

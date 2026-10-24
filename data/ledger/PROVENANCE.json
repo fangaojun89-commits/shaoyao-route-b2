@@ -1,0 +1,29 @@
+{
+  "metadata_snapshot_date": "2026-10-15",
+  "source_archive_sha256": "89f65a8ceb6c720797da9fb553293627d3b40283938f81132610017a7b143109",
+  "original_sources": {
+    "pipeline/expected_membership/CURRENT_ANALYSIS_MEMBERSHIP_20261015.tsv": "52d7caf471ee96a9f3098327d6d6a349fd31b47ae12d570b67c51c993711262d",
+    "pipeline/expected_membership/CURRENT_REPORTING_DATASET_LEDGER_20261015.tsv": "c2fdcbd446ed3ecafd50687ee18435db69934b2a5498603d175285de76f35a51"
+  },
+  "transformation": {
+    "membership": "BYTE_IDENTICAL",
+    "contracts": "OMIT_ONLY_current_large_data_location_COLUMN",
+    "rows_dropped": 0,
+    "scientific_fields_changed": 0,
+    "historical_builder": "BYTE_IDENTICAL_CODE_ONLY_INPUT_BUNDLE_NOT_INCLUDED"
+  },
+  "files": {
+    "ANALYSIS_MEMBERSHIP_20261015.tsv": {
+      "bytes": 75343,
+      "sha256": "52d7caf471ee96a9f3098327d6d6a349fd31b47ae12d570b67c51c993711262d"
+    },
+    "DATASET_REPORTING_20261015_public.tsv": {
+      "bytes": 15887,
+      "sha256": "9b55e873b890357bdf4135ffd9fcf3c6f7038848cf90b5ac82f24fef39ece192"
+    },
+    "historical_builder.py": {
+      "bytes": 18171,
+      "sha256": "79f2000041201f75eda22efb44338460cf4dca055a3d2b3032f4d2226f777eeb"
+    }
+  }
+}

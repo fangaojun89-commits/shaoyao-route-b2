@@ -1,6 +1,6 @@
 # Licence scope and third-party resources
 
-The MIT grant applies to the original code in `pipeline/`. Documentation and project-generated aggregate tables are offered under CC BY 4.0, as stated in README. No licence in this release overrides rights in any external resource or source dataset.
+The MIT grant applies to the original code in `pipeline/` and `data/ledger/historical_builder.py`. Original documentation, project-generated aggregate tables and original metadata curation are offered under CC BY 4.0, as stated in README. Source accessions and source-reported factual metadata retain their provenance; this grant does not claim exclusive rights in those facts. No licence in this release overrides rights in any external resource or source dataset.
 
 Upstream resources include DoRothEA, PROGENy, Reactome, GO/QuickGO annotations and Matrisome definitions. This reporting companion does not distribute their source files, gene-set memberships or downloadable package archives. It distributes aggregate family counts and reference descriptors, retaining collection labels to describe the analysis. Users reconstructing upstream analyses must obtain the exact frozen resources separately and observe their applicable version-specific terms.
 
