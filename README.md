@@ -1,6 +1,6 @@
 # Shaoyao Route B2: reproducibility components
 
-Version 0.4.0 adds **original scientific sources for GSE128623, GSE277064, JGW03 and GSE205906** to the experimental-spasticity anchor, accepted-table reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves the pinned bytes on Windows checkouts; earlier tags remain in history.
+Version 0.5.0 adds **conditional-reference, anchor sensitivity and matched-quantifier sources** to the original scientific branch kernels, experimental-spasticity anchor, accepted-table reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves pinned bytes on Windows checkouts; two explicitly identified path derivatives have separate original/public hashes. Earlier tags remain in history.
 
 ## What is available
 
@@ -14,6 +14,8 @@ Version 0.4.0 adds **original scientific sources for GSE128623, GSE277064, JGW03
 - `pipeline/anchor.py`: read-only source/metadata and enumerated external-input verification; never executes R or reruns a model.
 - `analysis/study_sources/`: 38 unchanged R sources, five original configurations, 99 submitted-unit metadata rows and explicit GSE205906 source-role identities. See the [branch guide](analysis/study_sources/README.md) for dependency order, historical entry points and remaining reconstruction requirements.
 - `pipeline/sources.py`: read-only release/source identity and embedded source-role verification.
+- `analysis/reference_sources/`: a 151-source inventory spanning conditional references, anchor companions, matched quantification and saved-result checks; 124 source files are newly provided and 27 reuse prior public locations. [Guide and limits](analysis/reference_sources/README.md).
+- `pipeline/references.py`: read-only verification of that inventory and the literal caller bindings of three source-archive omissions now supplied.
 
 The derived tables are family-level aggregate outputs. The ledger adds public submitted-array/library identifiers and qualified analysis membership. Neither contains individual-level clinical records, raw sequencing data or third-party gene-set memberships.
 
@@ -43,7 +45,7 @@ The command computes descriptive groups from already accepted tables. It does no
 
 ## Scope of this release
 
-The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.4.0. Acquisition and full conditional-reference controllers, later anchor companions and the GSE205906 matched-quantification extension still require public selection and provenance review. Whole-study cold restoration is not established by this release. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions. The anchor metadata preserves original curation language without independently establishing animal lineage or pre-outcome chronology.
+The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.5.0. The new reference-source inventory supplies many previously absent producers and readers, but complete acquisition, dynamic execution manifests, environment provisioning and portable orchestration remain unfinished. Whole-study cold restoration is not established by this release. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions. The anchor metadata preserves original curation language without independently establishing animal lineage or pre-outcome chronology.
 
 ## Licences and attribution
 
