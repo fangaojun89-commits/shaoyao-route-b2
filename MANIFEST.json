@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0",
-  "scope": "SELECTED_ORIGINAL_SCIENTIFIC_AND_REFERENCE_SOURCES_WITH_TWO_EXPLICIT_PATH_DERIVATIVES_NOT_FULL_RECONSTRUCTION",
+  "version": "0.6.0",
+  "scope": "SCOPED_SOURCES_TECHNICAL_INPUTS_AND_ACCEPTED_CORE_ENVIRONMENT_NOT_WHOLE_STUDY_RESTORE",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "models_run": 0,
@@ -781,6 +781,14 @@
       "bytes": 922,
       "sha256": "1ab56f25f2bde1070e13ee1bbc387658b6e086862a9e93c93fb6e99081012e94"
     },
+    "data/acquisition/INPUTS.json": {
+      "bytes": 39431,
+      "sha256": "1b2681f910416d1323290280e3ca8bc83d547b4fe6f2653ccdd2b47693a7c219"
+    },
+    "data/acquisition/README.md": {
+      "bytes": 2782,
+      "sha256": "230db0f1dd1d7b067acd7fe3f297f98cd526104f93202d523d6f7ff78531dfee"
+    },
     "data/derived/G128_FAMILY_SUMMARY.tsv": {
       "bytes": 63236,
       "sha256": "81bd5bd9fb018e714b06fcf1e7c11cd167865dccfd8e98db44c3285270cf0512"
@@ -809,6 +817,22 @@
       "bytes": 3693,
       "sha256": "6b212dcf31d2476bce57cdbf8c38bff676a4217f4382c543f7b3e078ccc305b3"
     },
+    "environment/G205_core/ACCEPTED_ENVIRONMENT.json": {
+      "bytes": 33817,
+      "sha256": "508aeb91c3cc0d0d25e2b410c7e3dbd2d8b9d05815438f59de9b444c07be54e1"
+    },
+    "environment/G205_core/README.md": {
+      "bytes": 3849,
+      "sha256": "3810e45a10d06a42892d6f5db6b8a1f9b4f4cf73e59a4216eb4cabba7f64d346"
+    },
+    "environment/G205_core/SOURCES.json": {
+      "bytes": 42802,
+      "sha256": "edae2b007f532270835ba082fda71bfe89a91348d9cfd1fdc6c38427814e2056"
+    },
+    "environment/G205_core/verify_library.R": {
+      "bytes": 2553,
+      "sha256": "b679124133eeb0a124185bb40c323c196b877b4b9f178c04d59540027e66f5d6"
+    },
     "expected/G128_GROUP_SUMMARY.tsv": {
       "bytes": 1254,
       "sha256": "98c8ef19eda7bdf8c54867ba91460f5b14972b61a1ed349f8e034574257d6bc2"
@@ -824,6 +848,10 @@
     "LICENSE": {
       "bytes": 1094,
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
+    },
+    "pipeline/acquisition.py": {
+      "bytes": 6651,
+      "sha256": "640507e731b76a1ef54a366fe422ee9f69dbf9475600ec5130ad0cbfe31b5d8f"
     },
     "pipeline/anchor.py": {
       "bytes": 3922,
@@ -846,8 +874,8 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 6428,
-      "sha256": "9eb73b017e5fdc941513622abe768755fc366bf866013a3578edd6ebf6d79cd0"
+      "bytes": 7443,
+      "sha256": "154e6bc042a03f837adcd7fb18bcc65955d627c769903c5c8002b4bc0285b088"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2019,

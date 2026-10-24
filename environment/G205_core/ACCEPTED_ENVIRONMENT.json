@@ -1,0 +1,1193 @@
+{
+  "status": "70_INSTALLED_VERSIONS_AND_EIGHT_ROOT_LOADS_PASS",
+  "R_version": "4.6.1",
+  "scientific_execution": false,
+  "existing_R_runtime_reused": true,
+  "whole_study_cold_restore": false,
+  "installed_versions": [
+    {
+      "package": "BH",
+      "version": "1.90.0-1"
+    },
+    {
+      "package": "Biobase",
+      "version": "2.72.0"
+    },
+    {
+      "package": "BiocGenerics",
+      "version": "0.58.1"
+    },
+    {
+      "package": "BiocParallel",
+      "version": "1.46.0"
+    },
+    {
+      "package": "DESeq2",
+      "version": "1.52.0"
+    },
+    {
+      "package": "DelayedArray",
+      "version": "0.38.2"
+    },
+    {
+      "package": "GenomicRanges",
+      "version": "1.64.0"
+    },
+    {
+      "package": "IRanges",
+      "version": "2.46.0"
+    },
+    {
+      "package": "Matrix",
+      "version": "1.7-5"
+    },
+    {
+      "package": "MatrixGenerics",
+      "version": "1.24.0"
+    },
+    {
+      "package": "R6",
+      "version": "2.6.1"
+    },
+    {
+      "package": "RColorBrewer",
+      "version": "1.1-3"
+    },
+    {
+      "package": "Rcpp",
+      "version": "1.1.2"
+    },
+    {
+      "package": "RcppArmadillo",
+      "version": "15.4.2-1"
+    },
+    {
+      "package": "S4Arrays",
+      "version": "1.12.0"
+    },
+    {
+      "package": "S4Vectors",
+      "version": "0.50.1"
+    },
+    {
+      "package": "S7",
+      "version": "0.2.2"
+    },
+    {
+      "package": "Seqinfo",
+      "version": "1.2.0"
+    },
+    {
+      "package": "SparseArray",
+      "version": "1.12.2"
+    },
+    {
+      "package": "SummarizedExperiment",
+      "version": "1.42.0"
+    },
+    {
+      "package": "XVector",
+      "version": "0.52.0"
+    },
+    {
+      "package": "abind",
+      "version": "1.4-8"
+    },
+    {
+      "package": "backports",
+      "version": "1.5.1"
+    },
+    {
+      "package": "broom",
+      "version": "1.0.13"
+    },
+    {
+      "package": "cli",
+      "version": "3.6.6"
+    },
+    {
+      "package": "codetools",
+      "version": "0.2-20"
+    },
+    {
+      "package": "cowplot",
+      "version": "1.2.0"
+    },
+    {
+      "package": "cpp11",
+      "version": "0.5.5"
+    },
+    {
+      "package": "data.table",
+      "version": "1.18.4"
+    },
+    {
+      "package": "decoupleR",
+      "version": "2.17.0"
+    },
+    {
+      "package": "digest",
+      "version": "0.6.39"
+    },
+    {
+      "package": "dplyr",
+      "version": "1.2.1"
+    },
+    {
+      "package": "edgeR",
+      "version": "4.10.1"
+    },
+    {
+      "package": "farver",
+      "version": "2.1.2"
+    },
+    {
+      "package": "fastmatch",
+      "version": "1.1-8"
+    },
+    {
+      "package": "fgsea",
+      "version": "1.38.0"
+    },
+    {
+      "package": "formatR",
+      "version": "1.14"
+    },
+    {
+      "package": "futile.logger",
+      "version": "1.4.9"
+    },
+    {
+      "package": "futile.options",
+      "version": "1.0.1"
+    },
+    {
+      "package": "generics",
+      "version": "0.1.4"
+    },
+    {
+      "package": "ggplot2",
+      "version": "4.0.3"
+    },
+    {
+      "package": "glue",
+      "version": "1.8.1"
+    },
+    {
+      "package": "gtable",
+      "version": "0.3.6"
+    },
+    {
+      "package": "isoband",
+      "version": "0.3.0"
+    },
+    {
+      "package": "jsonlite",
+      "version": "2.0.0"
+    },
+    {
+      "package": "labeling",
+      "version": "0.4.3"
+    },
+    {
+      "package": "lambda.r",
+      "version": "1.2.4"
+    },
+    {
+      "package": "lattice",
+      "version": "0.22-9"
+    },
+    {
+      "package": "lifecycle",
+      "version": "1.0.5"
+    },
+    {
+      "package": "limma",
+      "version": "3.68.4"
+    },
+    {
+      "package": "locfit",
+      "version": "1.5-9.12"
+    },
+    {
+      "package": "magrittr",
+      "version": "2.0.5"
+    },
+    {
+      "package": "matrixStats",
+      "version": "1.5.0"
+    },
+    {
+      "package": "parallelly",
+      "version": "1.48.0"
+    },
+    {
+      "package": "pillar",
+      "version": "1.11.1"
+    },
+    {
+      "package": "pkgconfig",
+      "version": "2.0.3"
+    },
+    {
+      "package": "purrr",
+      "version": "1.2.2"
+    },
+    {
+      "package": "rlang",
+      "version": "1.3.0"
+    },
+    {
+      "package": "scales",
+      "version": "1.4.0"
+    },
+    {
+      "package": "snow",
+      "version": "0.4-4"
+    },
+    {
+      "package": "statmod",
+      "version": "1.5.2"
+    },
+    {
+      "package": "stringi",
+      "version": "1.8.9"
+    },
+    {
+      "package": "stringr",
+      "version": "1.6.0"
+    },
+    {
+      "package": "tibble",
+      "version": "3.3.1"
+    },
+    {
+      "package": "tidyr",
+      "version": "1.3.2"
+    },
+    {
+      "package": "tidyselect",
+      "version": "1.2.1"
+    },
+    {
+      "package": "utf8",
+      "version": "1.2.6"
+    },
+    {
+      "package": "vctrs",
+      "version": "0.7.3"
+    },
+    {
+      "package": "viridisLite",
+      "version": "0.4.3"
+    },
+    {
+      "package": "withr",
+      "version": "3.0.3"
+    }
+  ],
+  "loaded_namespaces": [
+    "abind",
+    "base",
+    "Biobase",
+    "BiocGenerics",
+    "BiocParallel",
+    "cli",
+    "codetools",
+    "compiler",
+    "cowplot",
+    "data.table",
+    "datasets",
+    "decoupleR",
+    "DelayedArray",
+    "DESeq2",
+    "digest",
+    "dplyr",
+    "edgeR",
+    "farver",
+    "fastmatch",
+    "fgsea",
+    "generics",
+    "GenomicRanges",
+    "ggplot2",
+    "glue",
+    "graphics",
+    "grDevices",
+    "grid",
+    "gtable",
+    "IRanges",
+    "jsonlite",
+    "lattice",
+    "lifecycle",
+    "limma",
+    "locfit",
+    "magrittr",
+    "Matrix",
+    "MatrixGenerics",
+    "matrixStats",
+    "methods",
+    "parallel",
+    "parallelly",
+    "pillar",
+    "pkgconfig",
+    "purrr",
+    "R6",
+    "RColorBrewer",
+    "Rcpp",
+    "rlang",
+    "S4Arrays",
+    "S4Vectors",
+    "S7",
+    "scales",
+    "Seqinfo",
+    "SparseArray",
+    "statmod",
+    "stats",
+    "stats4",
+    "stringi",
+    "stringr",
+    "SummarizedExperiment",
+    "tibble",
+    "tidyr",
+    "tidyselect",
+    "tools",
+    "utils",
+    "vctrs",
+    "withr",
+    "XVector"
+  ],
+  "operating_system": "PRETTY_NAME=\"Ubuntu 22.04.1 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.1 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+  "runtime_conda_packages": [
+    {
+      "name": "_openmp_mutex",
+      "version": "4.5",
+      "build": "20_gnu",
+      "build_number": 20,
+      "subdir": "linux-64",
+      "sha256": "1dd3fffd892081df9726d7eb7e0dea6198962ba775bd88842135a4ddb4deb3c9",
+      "md5": "a9f577daf3de00bca7c3c76c0ecbd1de"
+    },
+    {
+      "name": "_r-mutex",
+      "version": "1.0.1",
+      "build": "anacondar_1",
+      "build_number": 1,
+      "subdir": "noarch",
+      "sha256": "e58f9eeb416b92b550e824bcb1b9fb1958dee69abfe3089dfd1a9173e3a0528a",
+      "md5": "19f9db5f4f1b7f5ef5f6d67207f25f38"
+    },
+    {
+      "name": "binutils_impl_linux-64",
+      "version": "2.46.1",
+      "build": "default_hfdba357_102",
+      "build_number": 102,
+      "subdir": "linux-64",
+      "sha256": "fb7bf36984a37ce7e4714d1d1da0bd0e3bfc679520f5cdc184afc676fd4b5da2",
+      "md5": "a0c5e0b7f58c8ceeb08e5bc41251d5a2"
+    },
+    {
+      "name": "binutils_linux-64",
+      "version": "2.46.1",
+      "build": "default_h4852527_102",
+      "build_number": 102,
+      "subdir": "linux-64",
+      "sha256": "08d7238663fc408ba2ab60b02fa3d06a7ca9d872962e03e90c7e0fdecb7ed1d0",
+      "md5": "32fd07abe84eb14f17c7f5cc6fa8df82"
+    },
+    {
+      "name": "bwidget",
+      "version": "1.10.1",
+      "build": "hfc2019e_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "5451e5d9abe192438f9efe8c0737c6ac0ddd6cfb932cb88e2ef2f88e97fc3c3a",
+      "md5": "38d3e0382f3f10344ac30772dec58035"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8",
+      "build": "hda65f42_10",
+      "build_number": 10,
+      "subdir": "linux-64",
+      "sha256": "1a0d382c515ebf55f8ee1f38c8b81bc95af5c2acc42ad53b66bc5df932032f96",
+      "md5": "e675fabcf81499adc7edf58124fb1e01"
+    },
+    {
+      "name": "c-ares",
+      "version": "1.34.8",
+      "build": "hebe6cf0_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "9c37cc233238adf366ea75b0e845662a5be07ceadf62e458183516369340274b",
+      "md5": "3ad2b403be8fc5612b9159e2ce621f69"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "2026.7.22",
+      "build": "hbd8a1cb_0",
+      "build_number": 0,
+      "subdir": "noarch",
+      "sha256": "0a0544cf95f64394fe4959286f5c71f5444ad58feb0602e53becb27448d24da6",
+      "md5": "0f51e2391ade309db462a55611263e9c"
+    },
+    {
+      "name": "cairo",
+      "version": "1.18.4",
+      "build": "h3c89d7e_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "6b551d9346997bc4c6fadf96b7b92442b8f3244011cc462e4ee77afc714d52c5",
+      "md5": "7b870cffbaa8430290e567a0facd8dca"
+    },
+    {
+      "name": "curl",
+      "version": "8.22.0",
+      "build": "ha042cf0_0",
+      "build_number": 0,
+      "subdir": "linux-64",
+      "sha256": "1a35faf4bf079c4438c52c9795b95d6c97c1b60e0bb51802cf48e2b7352b57e5",
+      "md5": "399a7c0b7ca511de34c5ee5762cee149"
+    },
+    {
+      "name": "font-ttf-dejavu-sans-mono",
+      "version": "2.37",
+      "build": "hab24e00_0",
+      "build_number": 0,
+      "subdir": "noarch",
+      "sha256": "58d7f40d2940dd0a8aa28651239adbf5613254df0f75789919c4e6762054403b",
+      "md5": "0c96522c6bdaed4b1566d11387caaf45"
+    },
+    {
+      "name": "font-ttf-inconsolata",
+      "version": "3.000",
+      "build": "h77eed37_0",
+      "build_number": 0,
+      "subdir": "noarch",
+      "sha256": "c52a29fdac682c20d252facc50f01e7c2e7ceac52aa9817aaf0bb83f7559ec5c",
+      "md5": "34893075a5c9e55cdafac56607368fc6"
+    },
+    {
+      "name": "font-ttf-source-code-pro",
+      "version": "2.038",
+      "build": "h77eed37_0",
+      "build_number": 0,
+      "subdir": "noarch",
+      "sha256": "00925c8c055a2275614b4d983e1df637245e19058d79fc7dd1a93b8d9fb4b139",
+      "md5": "4d59c254e01d9cde7957100457e2d5fb"
+    },
+    {
+      "name": "font-ttf-ubuntu",
+      "version": "0.83",
+      "build": "h77eed37_3",
+      "build_number": 3,
+      "subdir": "noarch",
+      "sha256": "2821ec1dc454bd8b9a31d0ed22a7ce22422c0aef163c59f49dfdf915d0f0ca14",
+      "md5": "49023d73832ef61042f6a237cb2687e7"
+    },
+    {
+      "name": "fontconfig",
+      "version": "2.18.3",
+      "build": "h4db4eae_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "5a3eb10b18a97223ab06b3a7f0d7f56658db2f2800e2f2af95836fe3bf55ba63",
+      "md5": "922776b528a470ab5afa81fd42abfa1d"
+    },
+    {
+      "name": "fonts-conda-ecosystem",
+      "version": "1",
+      "build": "0",
+      "build_number": 0,
+      "subdir": "noarch",
+      "sha256": "a997f2f1921bb9c9d76e6fa2f6b408b7fa549edd349a77639c9fe7a23ea93e61",
+      "md5": "fee5683a3f04bd15cbd8318b096a27ab"
+    },
+    {
+      "name": "fonts-conda-forge",
+      "version": "1",
+      "build": "hc364b38_1",
+      "build_number": 1,
+      "subdir": "noarch",
+      "sha256": "54eea8469786bc2291cc40bca5f46438d3e062a399e8f53f013b6a9f50e98333",
+      "md5": "a7970cd949a077b7cb9696379d338681"
+    },
+    {
+      "name": "fribidi",
+      "version": "1.0.16",
+      "build": "h7cc23a3_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "76dd097bd65d812a9104edb0e266386e152e65928ac5c8eb4f480ce24affc470",
+      "md5": "16d6e5a0f8dbc17bd6669dba6f49bad3"
+    },
+    {
+      "name": "gcc_impl_linux-64",
+      "version": "16.2.0",
+      "build": "h176d5d0_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "d09c1e8ae19bc03a6336516fb2b55f09d1b86bbe16242d911dbf4d23f709b5d5",
+      "md5": "15426bff4573d78ab030e6d439fc820b"
+    },
+    {
+      "name": "gcc_linux-64",
+      "version": "16.2.0",
+      "build": "h0ab548f_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "584032e84caafa6aca232cb2624d428e85b6c9c32d9b0043f9569533bbba0150",
+      "md5": "bd343ebae16dcb6e0535409d1ea2904e"
+    },
+    {
+      "name": "gfortran_impl_linux-64",
+      "version": "16.2.0",
+      "build": "hf930d89_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "0e4aec012059dfdd90ccdb8fff1ee4cbdabf75b8658c7faf01d9f9477947bbcd",
+      "md5": "ed9c9b34d0f016f7a2e5aba055855f2c"
+    },
+    {
+      "name": "gfortran_linux-64",
+      "version": "16.2.0",
+      "build": "h077a2f4_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "3790cd00587650fcef9a3d6c2f1653407dcd276c5ba39d98f3fd302a2b6d6fba",
+      "md5": "7d120cb713ec394dda515257373cbe65"
+    },
+    {
+      "name": "graphite2",
+      "version": "1.3.15",
+      "build": "h54a6638_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "7fa3b6a9c081fa3e545573152a788d061a0a0ba57df7251cc0f4f75225fc93e7",
+      "md5": "f9fe2984587fa8235a6af6004760cd18"
+    },
+    {
+      "name": "gsl",
+      "version": "2.7",
+      "build": "he838d99_0",
+      "build_number": 0,
+      "subdir": "linux-64",
+      "sha256": "132a918b676dd1f533d7c6f95e567abf7081a6ea3251c3280de35ef600e0da87",
+      "md5": "fec079ba39c9cca093bf4c00001825de"
+    },
+    {
+      "name": "gxx_impl_linux-64",
+      "version": "16.2.0",
+      "build": "h0d273dc_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "839b4701fa8eb6b315b28ac8a245310b08aec62893a64727d7cabf260467281a",
+      "md5": "d7f18a0ab325cc612bfd7842bf53756e"
+    },
+    {
+      "name": "gxx_linux-64",
+      "version": "16.2.0",
+      "build": "h38dc33c_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "2822b09c60c018b06478195c8ae44a8e7cb3adc6a97817133d87de60d93f64be",
+      "md5": "d9bbb40b0d585ed45f741da4e774aa74"
+    },
+    {
+      "name": "icu",
+      "version": "78.3",
+      "build": "py310h44b86e0_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "9f07834f0c546ab14d885ce0366285f61f44e326c0edd1fc63b8294e113ae432",
+      "md5": "72a381cbad04f24b1c2a43ef707f45b4"
+    },
+    {
+      "name": "kernel-headers_linux-64",
+      "version": "5.14.0",
+      "build": "he073ed8_3",
+      "build_number": 3,
+      "subdir": "noarch",
+      "sha256": "c4d973dd80ab10028b3e4c58c1c6d8f437bfeaf6069dafb1130dabc550e9caf4",
+      "md5": "1e453742ed8f6b4250c66be1dd6ba4fe"
+    },
+    {
+      "name": "keyutils",
+      "version": "1.6.3",
+      "build": "h7cc23a3_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "dd053c96dcb0dcfd59422aefea9d2fe937a190167f34fba7893ec1e10a7e8963",
+      "md5": "ba55d1b89fd7775e67de8291029b4059"
+    },
+    {
+      "name": "krb5",
+      "version": "1.22.2",
+      "build": "hbc21106_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "2a5c38c85e63df84c4e69ee71439841ce570d259ae3060627bb9a49a938d66f4",
+      "md5": "53318d715316929a574f83591308b1f8"
+    },
+    {
+      "name": "ld_impl_linux-64",
+      "version": "2.46.1",
+      "build": "default_hbd61a6d_102",
+      "build_number": 102,
+      "subdir": "linux-64",
+      "sha256": "27d83f1188cd19bcb7754a078b3fa7f4cfb8527f8eb2fde54dd01fc529d1adec",
+      "md5": "449500f2c089da11c40f5c21312e3e07"
+    },
+    {
+      "name": "lerc",
+      "version": "4.2.0",
+      "build": "hdb68285_0",
+      "build_number": 0,
+      "subdir": "linux-64",
+      "sha256": "bf9fdebf55d8bc99d83531cdffda00703f4dc5f93a1a956768c147362c72feda",
+      "md5": "fb9d356b1a57d6d54768be7ebd5fce09"
+    },
+    {
+      "name": "libblas",
+      "version": "3.11.0",
+      "build": "10_h4a7cf45_openblas",
+      "build_number": 10,
+      "subdir": "linux-64",
+      "sha256": "3b0600d79b16cc868421adbba03364ba59d2a3c088c79eef678f4a0b43fc7c07",
+      "md5": "e2ca3eadd889d39b4e4b6b1ecc671816"
+    },
+    {
+      "name": "libcblas",
+      "version": "3.11.0",
+      "build": "10_h0358290_openblas",
+      "build_number": 10,
+      "subdir": "linux-64",
+      "sha256": "90fd992748d501f6efe2b8310aa81f5ee4a63629450dd88e851ba4ab757f3c3a",
+      "md5": "a275bd95aa4e22c24120bf6ece6eb056"
+    },
+    {
+      "name": "libcurl",
+      "version": "8.22.0",
+      "build": "ha042cf0_0",
+      "build_number": 0,
+      "subdir": "linux-64",
+      "sha256": "483b7eb97f56fbb3a9cb7190d33012dfa0a5aaed99ede61465563cd97dd82504",
+      "md5": "e617deee7af8eb0c04f6296d12b54157"
+    },
+    {
+      "name": "libdeflate",
+      "version": "1.25",
+      "build": "hd45a770_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "82e134c8a08b1eed9a2ed8ab578b89aa1730dcde3dea8dd87645ed0637878e54",
+      "md5": "40f9b31aa9cf007789867df0decd0492"
+    },
+    {
+      "name": "libedit",
+      "version": "3.1.20250104",
+      "build": "pl5321h373387f_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "6473eb8caf2aae830f37caa93db9b26dddf7ac84b63229e8bf7fc0e5c3ab95b0",
+      "md5": "50708d3b951d0f8e2d7f2df5b5edc040"
+    },
+    {
+      "name": "libev",
+      "version": "4.33",
+      "build": "h280c20c_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "e4418f68d01a6307c4431b585c71b584f40189877364e542ee87deb777f5e85b",
+      "md5": "7bc31538d6e3fb349e897353969237ec"
+    },
+    {
+      "name": "libexpat",
+      "version": "2.8.1",
+      "build": "hecca717_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "16feffd9ddbbe5b718515d38ee376c685ba95491cd901244e24671d20b952a77",
+      "md5": "b24d3c612f71e7aa74158d92106318b2"
+    },
+    {
+      "name": "libffi",
+      "version": "3.7.0",
+      "build": "h81df57d_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "c8c7583ef063bc3c430f1d48298e5ad24f796a35c22ed5b14183325825a61106",
+      "md5": "6525a0b06aa4fd390795f0740636a9dd"
+    },
+    {
+      "name": "libfreetype",
+      "version": "2.14.3",
+      "build": "ha770c72_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "fb12ecb46c30d18d928c0e8fc346ab13b5f6fc8a9cacae4f2f4bb188782586f5",
+      "md5": "f8054e759d0ddddaf34a5c8fedc900a1"
+    },
+    {
+      "name": "libfreetype6",
+      "version": "2.14.3",
+      "build": "h5e6c136_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "ec607dd5445dd17ff6bf8b7fe6832e5504c226dd91d3aaea7ba83569808b0ce4",
+      "md5": "b72a266a9317036fd0464cb98b027cd0"
+    },
+    {
+      "name": "libgcc",
+      "version": "16.2.0",
+      "build": "ha9f2e26_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "24090e675d34403b4ee1cd4372d8f6c0937da7ecfd66a19a57cac2ed0f4ea793",
+      "md5": "cba14d01083fc62ffd32c24d7d390633"
+    },
+    {
+      "name": "libgcc-devel_linux-64",
+      "version": "16.2.0",
+      "build": "he3ce08f_104",
+      "build_number": 104,
+      "subdir": "noarch",
+      "sha256": "5365adce4b7564ba3773d037d84070d68ec1269d4b35f3ab92536ee1087a99a5",
+      "md5": "f2cf63d33e7be7f7722479fb30d9e332"
+    },
+    {
+      "name": "libgcc-ng",
+      "version": "16.2.0",
+      "build": "h69a702a_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "d8e66c14e23f2b3c70410cff5979d9d357e6edfb990b28d8e630852f4d395629",
+      "md5": "b3e52878163a841f6fb951989cc0b217"
+    },
+    {
+      "name": "libgfortran",
+      "version": "16.2.0",
+      "build": "h69a702a_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "7653be4d88a4d74676c38dd892914d027dcecc0c65c406be772d31cb641f8cfd",
+      "md5": "5e92b8413fd1c8f8f3006f4661b12def"
+    },
+    {
+      "name": "libgfortran5",
+      "version": "16.2.0",
+      "build": "h6b99dfc_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "a5510cbcea3b9e9ab24b336429de997fa727af1dba323031500a962a20e38600",
+      "md5": "c22348a769bb072b6184eb6f7f05e4f2"
+    },
+    {
+      "name": "libglib",
+      "version": "2.88.3",
+      "build": "he503a2a_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "f57bf3954dbba8b27ec68540e84f8b2c2375ffa5702f89ca9741e17329fc3953",
+      "md5": "d216efacca3f34f2b13ddd1632f53833"
+    },
+    {
+      "name": "libgomp",
+      "version": "16.2.0",
+      "build": "he0feb66_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "0fe5cb8e0752241ab55e11656ed1b9726248b522d23b929fe7c95b83eb55b9bb",
+      "md5": "89d2c1231f47bd818f5d624b9411459d"
+    },
+    {
+      "name": "libharfbuzz",
+      "version": "14.4.0",
+      "build": "h23af247_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "979b14ba13054aab9e90363809aac470a58b7c37203c330216327356a98c8f60",
+      "md5": "c44470b6bfa6a582cb4dd42cbda3401e"
+    },
+    {
+      "name": "libiconv",
+      "version": "1.18",
+      "build": "h0cb94f2_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "f943117edb9cd4d9c61cc972eee5a34291dc55ea7a6e9e38da104995841cbcb6",
+      "md5": "f92233bf33e24a25668bb2119e2c51f9"
+    },
+    {
+      "name": "libjpeg-turbo",
+      "version": "3.2.0",
+      "build": "hb03c661_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "bba8538e6538ed58a8479b332337b96986561f975d06cfa2039a016c2d246ee4",
+      "md5": "898d1c9793eaa52efc4727bd84d2e39a"
+    },
+    {
+      "name": "liblapack",
+      "version": "3.11.0",
+      "build": "10_h47877c9_openblas",
+      "build_number": 10,
+      "subdir": "linux-64",
+      "sha256": "166da1ef513efd2f9ea9e132246766306e5d1a18b4e83b8b8425b5adffb6345e",
+      "md5": "7b918d4958f359c889c662aa361cf992"
+    },
+    {
+      "name": "liblzma",
+      "version": "5.8.3",
+      "build": "hb03c661_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "9787df8c22a59c9a70d3e5a10db9ad663485e75e9ccc3f09bd092cb7b95e0dab",
+      "md5": "1390b7c5ac0b1d8e447bc5efa6d3c8c2"
+    },
+    {
+      "name": "libnghttp2",
+      "version": "1.68.1",
+      "build": "h74cf4be_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "11a2f54a6f391e25738bce0023e6ef499600147bbcf21c1fa69d2e251b03cc6a",
+      "md5": "75d211f04ac87506f1f43420712a69fe"
+    },
+    {
+      "name": "libopenblas",
+      "version": "0.3.34",
+      "build": "pthreads_hcf972fe_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "b2846ca0b00cc08d248589d289ba891856d4b42da4a3c823be6b2d660bd80a83",
+      "md5": "25994250f54292352a82eb05ab4499ba"
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.58",
+      "build": "h922cc85_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "c19eefb87d70d9b4b0629fa48414a155a47a1be4f04583ae71ed8c5a9a32fdcb",
+      "md5": "fcf71c8d979148873f6f8ad4cfc73d86"
+    },
+    {
+      "name": "libpsl",
+      "version": "0.23.1",
+      "build": "hd9e3e90_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "09e8effdc89bc5d021349318d32b85594f5b8d8e3ab8f90a85b81f8fe695a566",
+      "md5": "77be60417aa572afcb48cbe0f967401d"
+    },
+    {
+      "name": "libsanitizer",
+      "version": "16.2.0",
+      "build": "h3048135_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "d08ce38542e0b7782572dbed7eac9d648aad8fd951a82346d93a5d5a78e50232",
+      "md5": "fbc8b8b630d4dfa30a7a0b673367cf37"
+    },
+    {
+      "name": "libssh2",
+      "version": "1.11.1",
+      "build": "h6154650_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "7e463000fa1cba3f3a6597b776f6ab301d425a96e3bc20d0d9d76a3b9f237aa3",
+      "md5": "5c526561e1d2a2e071941174eae84557"
+    },
+    {
+      "name": "libstdcxx",
+      "version": "16.2.0",
+      "build": "h934c35e_4",
+      "build_number": 4,
+      "subdir": "linux-64",
+      "sha256": "40b792b0186c1e8859280a1f6f19a54fc50a11b32724fc7b637009c1a9bd302b",
+      "md5": "2f2ef0d96de5bdd8c1270ff22fdf9352"
+    },
+    {
+      "name": "libstdcxx-devel_linux-64",
+      "version": "16.2.0",
+      "build": "h86e191b_104",
+      "build_number": 104,
+      "subdir": "noarch",
+      "sha256": "435877f29650022730300859dec5c0dee162d10536e1b6fd01cf93ca33a71fde",
+      "md5": "83cdebeadbdacc2692cb4797d188c77a"
+    },
+    {
+      "name": "libtiff",
+      "version": "4.7.2",
+      "build": "hcc2c06a_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "10e125da82ca93e09191e66e5a94d566b2cf8d4024e2a0db3a9114297447e0d9",
+      "md5": "0907d876f460ebc941ae590338b6102f"
+    },
+    {
+      "name": "libuuid",
+      "version": "2.42.3",
+      "build": "hcfc3c73_0",
+      "build_number": 0,
+      "subdir": "linux-64",
+      "sha256": "aa58bbba56644ffd062a4a9b358782c5eb7560ccead2ab8f7c5c6ede0a7d33a6",
+      "md5": "74a0a409d9f4561265d36b789d3f398a"
+    },
+    {
+      "name": "libwebp-base",
+      "version": "1.6.0",
+      "build": "hd42ef1d_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "8415001414f488c85b72b9d8cc2071dfb3981a47bc3c8eb56ef91a57d12eae7f",
+      "md5": "9332b53d0ea93c5d39e33be03a0c611a"
+    },
+    {
+      "name": "libxcb",
+      "version": "1.17.0",
+      "build": "hb83e432_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "7b49e6fd2a584b7f072943e6adf4149677af5121246975278804782d37752837",
+      "md5": "61f0ffba9161cbb3a77722869b21e4bb"
+    },
+    {
+      "name": "libzlib",
+      "version": "1.3.2",
+      "build": "h25fd6f3_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "eb8a0db0aa570124f7d2a93d7c7f596e3390df5e047818d873baad32985fc736",
+      "md5": "0de0122d9570a8ab637c6b73db268389"
+    },
+    {
+      "name": "make",
+      "version": "4.4.1",
+      "build": "hb03c661_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "4c65d2769847778a6d84db6984ac81bcec6f8958d349f1fe57ae040ccc56a801",
+      "md5": "b4a198dc40024de2a59c1343e4ae4144"
+    },
+    {
+      "name": "ncurses",
+      "version": "6.6",
+      "build": "hdb14827_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "5d46557214ed184381dafe835b7c94a474a1c3b307a08a250b1ea4779b44ffb3",
+      "md5": "ee6c0cd80a60961a1f48aa3e0b91f986"
+    },
+    {
+      "name": "openssl",
+      "version": "3.6.4",
+      "build": "h781a0a9_0",
+      "build_number": 0,
+      "subdir": "linux-64",
+      "sha256": "4747b2d6a8336f52343bceb8a1ebf41a9e6e665b9d2e3f989972de53a310599e",
+      "md5": "16e3034a330cc625f2c685edec60cf4e"
+    },
+    {
+      "name": "pango",
+      "version": "1.58.2",
+      "build": "h7bb47b9_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "47c3d25a0bdb0ae50627f9ef2a10345fabfabe0e6620cbcff04e589a644542d3",
+      "md5": "0b889b1c6b472d215d6332c6b195589c"
+    },
+    {
+      "name": "pcre2",
+      "version": "10.47",
+      "build": "h8b3dc9c_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "9ebb10a4eb3be51ae67d85c679f5a7a50cb040ed25c783e6331a225ea09991d4",
+      "md5": "06f6113cf1ff4a54b65f87ead132a5f1"
+    },
+    {
+      "name": "pixman",
+      "version": "0.46.4",
+      "build": "h54a6638_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "829d8288764282de5a9f7b9169acb75cc7dc0b6c3fe2535cfe87dea3436bbc5d",
+      "md5": "0ee5bb30034b081a1386c1e2c98ab0a7"
+    },
+    {
+      "name": "pkg-config",
+      "version": "0.29.2",
+      "build": "h1114479_1012",
+      "build_number": 1012,
+      "subdir": "linux-64",
+      "sha256": "018493538ea43c93801e45b56e376c03503b188c2441cd35007ad78c4ccae0d6",
+      "md5": "9ee8e6ea3965b70b4ceb1e25429c5ca2"
+    },
+    {
+      "name": "pthread-stubs",
+      "version": "0.4",
+      "build": "h7cc23a3_1004",
+      "build_number": 1004,
+      "subdir": "linux-64",
+      "sha256": "4a44fd00ea73b79ca2c89b0727b9ccf61c506ead71e67a9abfa4c590042b5a4a",
+      "md5": "bb66b610707b811e3c65181a6431e7a8"
+    },
+    {
+      "name": "r-base",
+      "version": "4.6.1",
+      "build": "h502d0c9_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "6d1c9e5aae715c3c862a5b1fd5af6c4427f35685684af96381d11bb589b22b6a",
+      "md5": "c0255d8a26429d6cf7d564db0afbdf1a"
+    },
+    {
+      "name": "readline",
+      "version": "8.3",
+      "build": "hd6e31c0_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "01b3fe073a66e321970d09e04b388708f8cbdca5cdfbfcb7c9eeb470ad10383d",
+      "md5": "69c01c781e7c8190bbdaf79e3848c5ca"
+    },
+    {
+      "name": "sed",
+      "version": "4.10",
+      "build": "h19d0853_0",
+      "build_number": 0,
+      "subdir": "linux-64",
+      "sha256": "b013d2085ce4ac01daec7b30472e9f3b6c2d69eb3a3a85a6cee3e01a3cb4f61a",
+      "md5": "e4a1ff2e59a5d9b38be71d15c93cf1bd"
+    },
+    {
+      "name": "sysroot_linux-64",
+      "version": "2.34",
+      "build": "h087de78_3",
+      "build_number": 3,
+      "subdir": "noarch",
+      "sha256": "08c50c314b331730eeb8f87c39a45e5426a5463e078392ab283e2552d753443e",
+      "md5": "b04e3a97151611d6a35c8c068b2a03a2"
+    },
+    {
+      "name": "tk",
+      "version": "8.6.13",
+      "build": "noxft_h1df4ec4_4",
+      "build_number": 104,
+      "subdir": "linux-64",
+      "sha256": "a1a241d172c1ccab067ba245206dd048bc3c2d1b84504b53c9468e99adfc16a1",
+      "md5": "676a2f9b1c4fcf57b70aa5c65f6c60d0"
+    },
+    {
+      "name": "tktable",
+      "version": "2.10",
+      "build": "h0eb2ad0_10",
+      "build_number": 10,
+      "subdir": "linux-64",
+      "sha256": "445c9c9aa9e971ad56cd383ab5a77010e653762a8d50f3bac90d9690a51fd8c4",
+      "md5": "3bd7325e332921cb68efb89eefde8ce8"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026c",
+      "build": "h151e31d_0",
+      "build_number": 0,
+      "subdir": "noarch",
+      "sha256": "b928c30ddcb0e3f544c6eade8352737e6e610e263276b90232db6a578ef899d8",
+      "md5": "fcb489df604d100968b737f2cb6076c6"
+    },
+    {
+      "name": "xorg-libice",
+      "version": "1.1.2",
+      "build": "h280c20c_0",
+      "build_number": 0,
+      "subdir": "linux-64",
+      "sha256": "49b532d1df875c6749d9078b56a76f3f5db49a5abe0ca620b593ed474ef0ebf1",
+      "md5": "85c9442aec283b4e464fa9ecc484a2f3"
+    },
+    {
+      "name": "xorg-libsm",
+      "version": "1.2.6",
+      "build": "h0d788c3_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "ef907caee0665cf3b0f775602cc50e388e3bade8ce22ecade0873ff26604b2fd",
+      "md5": "aa7459ed9ad086ba11dda843d764b33d"
+    },
+    {
+      "name": "xorg-libx11",
+      "version": "1.8.13",
+      "build": "he1eb515_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "68053eebfa9f0d91666786c8fb5839d989aa9b869add92cb8815228bb2d7302c",
+      "md5": "8c282bbe4808a3cc80a5c98e9aec1cfc"
+    },
+    {
+      "name": "xorg-libxau",
+      "version": "1.0.12",
+      "build": "hb03c661_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "cbf891f6cc1a859347680af1c8562bc6b033bf182a2a3bb536016932be3206de",
+      "md5": "f06ef439c280a5f90b8bf62355008dbc"
+    },
+    {
+      "name": "xorg-libxdmcp",
+      "version": "1.1.5",
+      "build": "hb03c661_2",
+      "build_number": 2,
+      "subdir": "linux-64",
+      "sha256": "c50a16c05ccd7fe7dd6d6cfb539f4e9a491d50f9ed7a5c902fec638f7d0d27be",
+      "md5": "2e66c929f3d879708335b6ea4557c838"
+    },
+    {
+      "name": "xorg-libxext",
+      "version": "1.3.7",
+      "build": "h7cc23a3_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "aa9bbe8b278aacc194e280ff5037f9f9a1f2c5b33ed97de8e7f01cfbe90dda43",
+      "md5": "e5b6b28536b81b3f4cb20db4668a4642"
+    },
+    {
+      "name": "xorg-libxrender",
+      "version": "0.9.12",
+      "build": "hb03c661_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "6901f91d398811e4ec89d7e20a69abac02a7bfebfaf073338b7ea3d1a99685b7",
+      "md5": "e470d224a7a5be1b1d021bded7abb536"
+    },
+    {
+      "name": "xorg-libxt",
+      "version": "1.3.1",
+      "build": "h7cc23a3_1",
+      "build_number": 1,
+      "subdir": "linux-64",
+      "sha256": "dff31677674be86f98ee929a796edf2cf7c78bf38610b122a63af9af752d5bf7",
+      "md5": "2121765de9c261e2a95ab9fc6efabefb"
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.2",
+      "build": "h25fd6f3_3",
+      "build_number": 3,
+      "subdir": "linux-64",
+      "sha256": "16080a1c7724f7d25727cdc23c7658e0cec2db52448c1dc0c33467ee2c6e1c62",
+      "md5": "6acb86426229f96f93e5468d1df3a5e8"
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.7",
+      "build": "hb78ec9c_7",
+      "build_number": 7,
+      "subdir": "linux-64",
+      "sha256": "47d682b9f6d6ec9eb1a6e6c3e75ea6273e899e78fb7fc59f81d39745009fbc60",
+      "md5": "aa459086047c0e5e27023ab19f8cb86a"
+    }
+  ],
+  "native_scope": "ELF resolution and file identity, not clean OS restoration or scientific equivalence",
+  "receipt_date": "2026-10-23",
+  "current_turn_installs": 0
+}
