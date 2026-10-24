@@ -1,0 +1,563 @@
+schema_version: "1.0.0"
+protocol_version: "route-b2-sap-1.0.0"
+frozen_on: "2026-08-17"
+contains_results: false
+
+global:
+  random_seed: 20260817
+  biological_unit_required: true
+  technical_replicates: collapse_before_inference
+  fail_on_sample_ledger_mismatch: true
+  fail_on_rank_deficient_design: true
+  impute_expression_or_metadata: false
+  cross_study_batch_correction: false
+  primary_fdr_method: BH
+  primary_fdr_threshold: 0.05
+  confidence_level: 0.95
+  primary_rnaseq_method: edgeR_QL
+  rnaseq_sensitivity_methods:
+    - DESeq2
+    - limma_voom
+  primary_microarray_method: limma
+  gene_set_primary_methods:
+    - camera
+    - roast
+  gene_set_sensitivity_method: fgseaMultilevel
+  ortholog_primary: ensembl_high_confidence_one_to_one
+  cross_species_primary_scale: pathway
+  permitted_gene_set_size:
+    minimum_mapped_genes: 10
+    maximum_mapped_genes: 500
+  candidate_limit_main_text: 3
+  candidate_display_rule:
+    all_gate_passing_candidates_reported_in_supplement: true
+    if_more_than_main_text_limit_rank_by: [evidence_grade, multiverse_selection_frequency, leave_one_unit_stability]
+    selection_must_not_use_preferred_biological_story: true
+  direction_codes:
+    concordant: 1
+    opposed: -1
+
+control_matching:
+  required_keys:
+    - accession
+    - cell_line_or_tissue
+    - experiment_or_batch
+    - vehicle
+    - exposure_duration
+  never_borrow_controls_across_accessions: true
+  stop_if_required_key_unresolved: true
+
+datasets:
+  GSE16710:
+    role: phenotype_anchor_spasticity_enriched_cross_disease
+    organism: Rattus_norvegicus
+    assay: affymetrix_microarray
+    biological_unit: animal_array
+    expected_n: 27
+    group_levels:
+      injury: [Sham, Spi]
+      time_day: [21, 60]
+    expected_group_n:
+      Sham_21: 6
+      Sham_60: 5
+      Spi_21: 8
+      Spi_60: 8
+    model: "~ injury * time_day"
+    reference_levels:
+      injury: Sham
+      time_day: 21
+    contrasts:
+      spasticity_progression_interaction:
+        priority: primary
+        expression: "(Spi_60 - Spi_21) - (Sham_60 - Sham_21)"
+        coefficient: "injurySpi:time_day60"
+        multiplicity_family: "GSE16710_interaction_locked_programs"
+      injury_at_day21:
+        priority: supportive
+        expression: "Spi_21 - Sham_21"
+      injury_at_day60:
+        priority: supportive
+        expression: "Spi_60 - Sham_60"
+      progression_within_spi:
+        priority: diagnostic
+        expression: "Spi_60 - Spi_21"
+      time_within_sham:
+        priority: diagnostic
+        expression: "Sham_60 - Sham_21"
+    required_sensitivities:
+      - current_probe_annotation
+      - original_platform_annotation
+      - leave_one_animal_out
+      - robust_empirical_bayes
+    label_permutation:
+      method: Freedman_Lane_residual
+      preserve: [time_day]
+      draws: 10000
+
+  GSE128623:
+    role: poststroke_cervical_spinal_timecourse
+    organism: Mus_musculus
+    assay: bulk_RNAseq
+    biological_unit: animal_library
+    expected_n: 30
+    raw_processing:
+      primary_aligner: Rsubread_2.26.0_Subjunc
+      primary_counter: featureCounts_2.26.0_exon_to_gene_id
+      genome_assembly: GRCm39
+      genome_accession: GCF_000001635.27
+      annotation_source: NCBI_RefSeq
+      annotation_fasta_md5: c0b0c4c3f54d2b480efe68a18bf7e42b
+      annotation_gtf_md5: 3577fe95ea5c4d68212ef7ad55d6c5fb
+      strandedness_same_dominant_mode_min_fraction: 0.80
+      strandedness_median_dominant_over_unstranded_min: 0.80
+      strandedness_median_minor_over_dominant_max: 0.20
+      published_table_role: diagnostic_sensitivity_only
+    levels:
+      timepoint: [control, D4, D7, D14, D28, D42]
+    expected_n_per_level: 5
+    model: "~ 0 + timepoint"
+    contrasts:
+      chronic_combined:
+        priority: primary
+        expression: "0.5*D28 + 0.5*D42 - control"
+        multiplicity_family: "GSE128623_S1_programs_chronic"
+      D28_vs_control:
+        priority: coprimary_component
+        expression: "D28 - control"
+      D42_vs_control:
+        priority: coprimary_component
+        expression: "D42 - control"
+      acute_combined:
+        priority: stage_negative_control
+        expression: "0.5*D4 + 0.5*D7 - control"
+        multiplicity_family: "GSE128623_stage_controls"
+      D4_vs_control:
+        priority: stage_negative_control_component
+        expression: "D4 - control"
+      D7_vs_control:
+        priority: stage_negative_control_component
+        expression: "D7 - control"
+      D14_vs_control:
+        priority: transitional
+        expression: "D14 - control"
+    s2_rule:
+      source_candidates: S1
+      combined_chronic_fdr_max: 0.05
+      combined_chronic_ci_excludes_zero: true
+      component_sign_agreement: [D28_vs_control, D42_vs_control]
+      acute_only_support_is_failure: true
+    required_sensitivities:
+      - edgeR_QL
+      - DESeq2
+      - limma_voom
+      - leave_D28_out
+      - leave_D42_out
+      - leave_one_animal_out
+
+  GSE277064:
+    role: heldout_celltype_time_localization
+    organism: Mus_musculus
+    assay: RiboTag_RNAseq
+    biological_unit: animal_library
+    expected_n_total: 63
+    natural_course:
+      stratify_models_by: cell_type
+      cell_types: [V2a, astrocyte, microglia]
+      timepoints: [control, D3, D7, D14, D28]
+      expected_n_per_celltype_timepoint: 3
+      model: "~ 0 + timepoint"
+      contrasts:
+        chronic_combined:
+          priority: primary_heldout
+          expression: "0.5*D14 + 0.5*D28 - control"
+        D14_vs_control:
+          priority: component
+          expression: "D14 - control"
+        D28_vs_control:
+          priority: component
+          expression: "D28 - control"
+        early_combined:
+          priority: stage_negative_control
+          expression: "0.5*D3 + 0.5*D7 - control"
+        D3_vs_control:
+          priority: stage_negative_control_component
+          expression: "D3 - control"
+        D7_vs_control:
+          priority: stage_negative_control_component
+          expression: "D7 - control"
+      multiplicity_family: "GSE277064_S2_program_x_celltype_x_chronic_contrast"
+    rotarod_boundary_domain:
+      include_in_S_or_E_gates: false
+      cell_types: [V2a, astrocyte]
+      poststroke_day: 14
+      times_after_training_hour: [2, 4, 8]
+      comparator: D14_untrained
+      require_metadata_compatibility: true
+      stratify_models_by: cell_type
+    s3_rule:
+      source_candidates: S2
+      minimum_supporting_cell_types: 1
+      chronic_combined_fdr_max: 0.05
+      chronic_combined_ci_excludes_zero: true
+      D14_D28_must_not_have_opposite_signs: true
+    prohibited_pooling:
+      - cell_types
+      - natural_course_with_rotarod
+
+  GSE289929:
+    role: primary_whole_formula_perturbation_PC12
+    organism: Rattus_norvegicus
+    assay: bulk_RNAseq
+    biological_unit: independent_culture_library
+    canonical_subset:
+      cell_line: PC12
+      formula_code: JGW03
+      herb_ratio: "1:1"
+      solvent: water
+      extraction: co_extracted_CEM
+      exposure_duration_hour: 24
+      accession_locked_controls: true
+      gsm_sets:
+        vehicle: [GSM8801731, GSM8801732, GSM8801733]
+        dose_100_ug_ml: [GSM8801734, GSM8801737, GSM8801740]
+        dose_20_ug_ml: [GSM8801735, GSM8801738, GSM8801741]
+        dose_4_ug_ml: [GSM8801736, GSM8801739, GSM8801742]
+      dose_ug_ml: [0, 4, 20, 100]
+      ordinal_dose_score:
+        vehicle: 0
+        dose_4_ug_ml: 1
+        dose_20_ug_ml: 2
+        dose_100_ug_ml: 3
+    models:
+      categorical_high_vs_vehicle: "~ 0 + dose_group"
+      ordered_trend: "~ ordered_dose"
+    add_batch_only_if_verified_and_estimable: true
+    contrasts:
+      high_vs_vehicle:
+        priority: primary
+        expression: "dose_100_ug_ml - vehicle"
+        multiplicity_family: "GSE289929_S2S3_programs_high"
+      ordered_dose_trend:
+        priority: primary
+        variable: ordinal_dose_score
+        multiplicity_family: "GSE289929_S2S3_programs_trend"
+    dose_sensitivities:
+      - "log10(dose_ug_ml + 1)"
+      - low_RIN_excluded_if_objectively_flagged
+      - ethanol_extract_separate
+    expected_polarity_default: oppose_locked_disease_direction
+    adaptive_reinforcement:
+      allowed_only_if_predeclared_before_drug_unmasking: true
+      requires_external_justification: true
+    j2_rule:
+      source_candidates: [S2, S3]
+      high_and_trend_fdr_max: 0.05
+      high_and_trend_ci_exclude_zero: true
+      high_and_trend_direction_coherent: true
+
+  GSE227494:
+    role: secondary_C2C12_context_not_external_replication
+    organism: Mus_musculus
+    assay: bulk_RNAseq
+    biological_unit: independent_culture_library
+    canonical_subset:
+      cell_line: C2C12
+      herb_ratio: "1:1"
+      solvent: water
+      extraction: co_extracted_CEM
+      gsm_sets:
+        vehicle: [GSM7101313, GSM7101314, GSM7101315]
+        jgt_all_doses: [GSM7101316, GSM7101317, GSM7101318, GSM7101319, GSM7101320, GSM7101321, GSM7101322, GSM7101323, GSM7101324]
+      dose_assignment_source: frozen_GEO_sample_ledger
+      stop_if_dose_assignment_unresolved: true
+    controls_must_match: [accession, cell_line, batch, vehicle, exposure_duration]
+    models:
+      categorical_high_vs_vehicle: "~ 0 + dose_group"
+      ordered_trend: "~ ordered_dose"
+    contrasts:
+      high_vs_vehicle:
+        expression: "highest_verified_dose - vehicle"
+      ordered_dose_trend:
+        variable: ordinal_dose_score_from_frozen_ledger
+    include_in_E_gate: false
+
+  GSE299063:
+    role: HepG2_off_tissue_context_negative_control
+    organism: Homo_sapiens
+    assay: bulk_RNAseq
+    biological_unit: independent_culture_library
+    canonical_batch_A_subset:
+      cell_line: HepG2
+      formula_code: JGW03
+      herb_ratio: "1:1"
+      solvent: water
+      extraction: co_extracted_CEM
+      gsm_sets:
+        matched_vehicle: [GSM9032224, GSM9032226, GSM9032228]
+        jgt_all_doses: [GSM9032099, GSM9032100, GSM9032101, GSM9032105, GSM9032106, GSM9032107, GSM9032111, GSM9032112, GSM9032113]
+      dose_assignment_source: frozen_GEO_sample_ledger
+      stop_if_batch_or_dose_assignment_unresolved: true
+    controls_must_match: [accession, cell_line, experiment_or_batch, vehicle, exposure_duration]
+    models:
+      categorical_high_vs_vehicle: "~ 0 + dose_group"
+      ordered_trend: "~ ordered_dose"
+    contrasts:
+      high_vs_vehicle:
+        expression: "highest_verified_dose - matched_vehicle"
+      ordered_dose_trend:
+        variable: ordinal_dose_score_from_frozen_ledger
+    interpretation: ubiquitous_stress_or_off_tissue_context_only
+    include_in_E_gate: false
+
+  GSE205906:
+    role: independent_injured_spinal_pharmacologic_bridge
+    organism: Rattus_norvegicus
+    assay: bulk_RNAseq_raw_realignment_required
+    biological_unit: animal_library
+    gsm_sets:
+      sham: [GSM6235292, GSM6235293, GSM6235294]
+      SNI: [GSM6235295, GSM6235296, GSM6235297]
+      PLM: [GSM6235298, GSM6235299, GSM6235300]
+    raw_processing:
+      primary_aligner: Rsubread_2.26.0_Subjunc
+      primary_counter: featureCounts_2.26.0_exon_to_gene_id
+      sensitivity_quantifiers: [STAR_featureCounts_if_available, Salmon_if_available]
+      genome_assembly: mRatBN7.2
+      genome_accession: GCF_015227675.2
+      annotation_source: NCBI_RefSeq
+      annotation_fasta_md5: 15c0e1d4fc8400a9f54f1bff3670b3aa
+      annotation_gtf_md5: 48507560022727dca86e2225c60cff2b
+      strandedness_same_dominant_mode_min_fraction: 0.80
+      strandedness_median_dominant_over_unstranded_min: 0.80
+      strandedness_median_minor_over_dominant_max: 0.20
+      fail_if_annotation_not_pinned_before_execution: true
+      competitive_species_screen: [Rattus_norvegicus, Homo_sapiens]
+      species_screen_fragments_per_library: 500000
+      species_screen_minimum_rat_unique_mapping_rate: 0.60
+      species_screen_minimum_rat_minus_human_rate: 0.10
+      species_screen_minimum_rat_to_human_rate_ratio: 1.10
+      species_screen_minimum_cohort_median_rate_difference: 0.20
+      stop_if_human_mapping_not_clearly_lower_than_rat: true
+      repository_processed_matrix_for_final_inference: false
+    model: "~ 0 + group"
+    contrasts:
+      local_disease:
+        priority: diagnostic_required
+        expression: "SNI - sham"
+        multiplicity_family: "GSE205906_E1_programs_local_disease"
+      intervention:
+        priority: primary_heldout
+        expression: "PLM - SNI"
+        multiplicity_family: "GSE205906_E1_programs_intervention"
+    e2_rule:
+      source_candidates: E1
+      local_disease_must_not_contradict_locked_direction: true
+      intervention_must_oppose_locked_and_local_disease_directions: true
+      intervention_fdr_max: 0.05
+      intervention_ci_excludes_zero: true
+      required_sensitivities:
+        - leave_one_animal_out
+        - STAR_vs_Salmon
+
+  GSE85871:
+    role: same_platform_empirical_compound_specificity
+    cell_line: MCF7
+    biological_unit: independent_culture_profile
+    target_compounds:
+      - paeoniflorin
+      - liquiritin
+      - glycyrrhizic_acid
+    target_compounds_excluded_from_null: true
+    matched_vehicle_required_per_signature: true
+    stop_compound_if_reference_unrecoverable: true
+    signature_strength:
+      definition: "sqrt(mean(moderated_t_gene^2)) over common tested genes"
+    empirical_null:
+      primary_matching: nearest_by_signature_strength
+      primary_nearest_k: 20
+      sensitivity_nearest_k: [10, 30]
+      pvalue_tail: one_sided_more_directionally_coherent
+      plus_one_correction: true
+    bootstrap:
+      draws: 2000
+      resample_units: [biological_profiles, genes]
+      confidence_level: 0.95
+      report: [empirical_percentile, empirical_p, bootstrap_rank, top_5_percent_stability, top_10_percent_stability]
+    multiplicity_family: "GSE85871_E2_program_x_three_target_compounds"
+    e3_rule:
+      empirical_BH_q_max: 0.05
+      minimum_bootstrap_top10_frequency: 0.80
+      minimum_target_compounds_supporting: 1
+
+gate_logic:
+  S1:
+    all:
+      - GSE16710.spasticity_progression_interaction_BH_q_le_0.05
+      - interaction_95CI_excludes_zero
+      - sign_stable_current_vs_original_annotation
+      - not_single_animal_driven
+  S2:
+    all:
+      - S1
+      - GSE128623.chronic_combined_BH_q_le_0.05
+      - GSE128623.chronic_combined_95CI_excludes_zero
+      - GSE128623.D28_D42_sign_agreement_with_S1
+      - not_acute_only
+  S3:
+    all:
+      - S2
+      - GSE277064.at_least_one_celltype_chronic_support
+  J1:
+    all:
+      - candidate_in_S2_or_S3
+      - GSE289929.high_vs_vehicle_expected_polarity
+      - GSE289929.high_vs_vehicle_BH_q_le_0.05
+      - GSE289929.high_vs_vehicle_95CI_excludes_zero
+  J2:
+    all:
+      - J1
+      - GSE289929.ordered_dose_expected_polarity
+      - GSE289929.ordered_dose_BH_q_le_0.05
+      - GSE289929.ordered_dose_95CI_excludes_zero
+  J3:
+    all:
+      - J2
+      - interpretable_C2C12_HepG2_context_discrimination
+      - not_stronger_ubiquitous_HepG2_stress
+  J4:
+    all:
+      - J2_or_J3
+      - stable_across_admissible_preparation_and_ratio_specifications
+  E1:
+    all:
+      - S2_or_S3
+      - J2
+  E2:
+    all:
+      - E1
+      - GSE205906_independent_injured_spinal_support
+  E3:
+    all:
+      - E2
+      - GSE85871_empirical_specificity
+  E4:
+    all:
+      - E3
+      - identity_matched_measured_in_vivo_exposure
+      - direct_biochemical_or_functional_assay
+
+multiplicity_families:
+  principle: sequential_hierarchical_locked_candidates_only
+  threshold: 0.05
+  method: BH
+  families:
+    - GSE16710_interaction_locked_programs
+    - GSE16710_interaction_PROGENy
+    - GSE16710_interaction_DoRothEA
+    - GSE128623_S1_programs_chronic
+    - GSE128623_stage_controls
+    - GSE277064_S2_program_x_celltype_x_chronic_contrast
+    - GSE289929_S2S3_programs_high
+    - GSE289929_S2S3_programs_trend
+    - GSE205906_E1_programs_local_disease
+    - GSE205906_E1_programs_intervention
+    - GSE85871_E2_program_x_three_target_compounds
+
+negative_controls_and_nulls:
+  acute_stage:
+    - GSE128623_D4_D7
+    - GSE277064_D3_D7
+  off_tissue: GSE299063_HepG2_JGW03
+  empirical_compounds: GSE85871_non_target_compounds_strength_matched
+  matched_random_gene_sets:
+    draws: 10000
+    match_on: [gene_set_size, mean_expression]
+  sample_label_permutations:
+    draws: 10000
+    preserve_design_strata_and_batch: true
+    exhaustive_when_fewer_valid_permutations: true
+  random_direction_vectors: true
+  empirical_p_plus_one_correction: true
+
+multiverse:
+  primary_specification_cannot_be_replaced: true
+  factors:
+    GSE16710_annotation: [current_version_locked, original_GPL1355]
+    rnaseq_method: [edgeR_QL, DESeq2, limma_voom]
+    gene_set_method: [camera_roast, fgseaMultilevel]
+    ortholog_transfer: [one_to_one, pathway_only]
+    GSE128623_chronic: [combined_D28_D42, both_components_required]
+    GSE277064_chronic: [combined_D14_D28, individual_D14_D28]
+    GSE289929_dose: [ordinal_0_1_2_3, log10_dose_plus_1]
+    low_RIN: [all_technically_valid, exclude_objectively_flagged]
+    GSE205906_quantification: [Subjunc_featureCounts_primary, STAR_featureCounts_if_available, Salmon_if_available]
+    GSE85871_nearest_k: [10, 20, 30]
+  retain_candidate_if:
+    minimum_valid_specification_pass_frequency: 0.80
+    minimum_required_direction_frequency: 0.90
+    unavailable_method_specs_are_not_imputed: true
+  report:
+    - selection_frequency
+    - sign_frequency
+    - median_effect_and_rank
+    - 95_percent_range
+    - Kendall_tau
+    - top_k_Jaccard
+    - specification_curve
+
+leave_out_analyses:
+  leave_one_study_out:
+    datasets: [GSE16710, GSE128623, GSE277064, GSE289929, GSE205906, GSE85871]
+    do_not_assign_alternate_grade_when_gate_unidentifiable: true
+    unidentifiable_label: "not_identifiable_without_source"
+  leave_one_species_out: [rat, mouse, human_cell_line]
+  leave_one_timepoint_out:
+    GSE16710: [day21, day60]
+    GSE128623: [D28, D42]
+    GSE277064: [D14, D28]
+  leave_one_animal_out:
+    required_for: [GSE16710, GSE128623, GSE277064, GSE205906]
+
+stop_rules:
+  - id: STOP_METADATA
+    when: biological_unit_control_group_or_duplicate_identity_unresolved
+    action: remove_affected_contrast_without_imputation
+  - id: STOP_GSE205906_REFERENCE
+    when: rat_reference_or_species_identity_unresolved
+    action: prohibit_GSE205906_inference_and_E2
+  - id: STOP_NO_S2
+    when: no_program_passes_S2
+    action: stop_drug_mechanism_narrative
+  - id: STOP_NO_J2
+    when: no_program_passes_J2
+    action: stop_whole_formula_responsive_claim_and_E2_testing
+  - id: STOP_NO_E2
+    when: no_program_passes_E2
+    action: select_zero_targets_and_redirect_to_negative_or_resource_report
+  - id: STOP_NO_SPECIFICITY
+    when: GSE85871_empirical_null_not_exceeded
+    action: prohibit_E3_and_compound_specificity_claim
+  - id: STOP_NO_EXPOSURE_OR_DIRECT_ASSAY
+    when: measured_identity_matched_exposure_or_direct_assay_absent
+    action: prohibit_E4_and_delete_docking_MD
+  - id: STOP_GSE298414_DOSE_CONFLICT
+    when: absolute_dose_metadata_conflict_unresolved
+    action: exclude_from_absolute_dose_inference_and_all_gates
+  - id: STOP_UNCALIBRATED_VIRTUAL_PERTURBATION
+    when: no_context_matched_real_perturbation_or_no_simple_baseline_superiority
+    action: delete_virtual_perturbation_from_paper
+  - id: STOP_UNTRIGGERED_SPATIAL
+    when: no_E2_cortical_anatomical_hypothesis_with_replicate_slides
+    action: delete_spatial_analysis
+  - id: STOP_ZERO_RESULT
+    when: zero_candidates_pass_complete_rules
+    action: report_zero_without_threshold_or_direction_changes
+
+forbidden_inferences:
+  - SGD_treats_or_alleviates_poststroke_spasticity
+  - PSS_specific_molecular_signature
+  - confirmed_or_validated_mechanism
+  - causal_target
+  - transcriptomic_reversal_equals_efficacy
+  - cell_spot_probe_gene_or_frame_as_biological_n
+  - docking_or_MD_confirms_binding

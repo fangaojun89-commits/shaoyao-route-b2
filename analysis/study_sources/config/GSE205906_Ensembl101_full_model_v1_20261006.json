@@ -1,0 +1,348 @@
+{
+  "schema": "GSE205906_ENS101_FULL_MODEL_CONFIG/v1",
+  "dataset_id": "GSE205906",
+  "model_version": "GSE205906_ENS101_CHECKED_CORE_V1_20261006",
+  "status": "NEEDS_REVIEW_INDEPENDENT_REFERENCES_AND_CHECKED_CONSUMER_NOT_IMPLEMENTED",
+  "reference": {
+    "assembly": "Rnor_6.0",
+    "annotation": "Ensembl101",
+    "expected_gene_rows": 32883,
+    "primary_strand_setting": 0,
+    "count_unit": "gene_fragments"
+  },
+  "design": {
+    "biological_unit": "independent_rat_library",
+    "expected_n": 9,
+    "sample_ids_in_order": [
+      "GSM6235292",
+      "GSM6235293",
+      "GSM6235294",
+      "GSM6235295",
+      "GSM6235296",
+      "GSM6235297",
+      "GSM6235298",
+      "GSM6235299",
+      "GSM6235300"
+    ],
+    "groups_in_order": [
+      "sham",
+      "sham",
+      "sham",
+      "SNI",
+      "SNI",
+      "SNI",
+      "PLM",
+      "PLM",
+      "PLM"
+    ],
+    "group_levels": [
+      "sham",
+      "SNI",
+      "PLM"
+    ],
+    "expected_group_n": {
+      "sham": 3,
+      "SNI": 3,
+      "PLM": 3
+    },
+    "formula": "~ 0 + group",
+    "expected_rank": 3,
+    "coefficient_order": [
+      "sham",
+      "SNI",
+      "PLM"
+    ],
+    "contrasts": {
+      "local_disease": {
+        "expression": "SNI - sham",
+        "vector": [
+          -1,
+          1,
+          0
+        ]
+      },
+      "intervention": {
+        "expression": "PLM - SNI",
+        "vector": [
+          0,
+          -1,
+          1
+        ]
+      }
+    }
+  },
+  "analysis": {
+    "random_seed": 20260817,
+    "random_seed_single_source": "this_versioned_v2_r4_config",
+    "orthology_authority": "NCBI_Datasets_REST_v18.35.0_snapshot_2026-08-18_strict_one_to_one",
+    "orthology_single_source_role": "orthology_single_source",
+    "embedded_gene_set_object_orthology_must_not_be_used": true,
+    "primary_method": "edgeR_QL_robust",
+    "edgeR": {
+      "filter": "filterByExpr_complete_design_AND_CPM_ge_1_in_at_least_3_animals",
+      "normalization": "TMM",
+      "dispersion": "estimateDisp_robust_TRUE",
+      "fit": "glmQLFit_robust_TRUE",
+      "test": "glmQLFTest",
+      "se_method": "gene_specific_NB_expected_information_times_posterior_QL_dispersion",
+      "ci_distribution": "t_with_edgeR_moderated_total_df"
+    },
+    "sensitivity_methods": [
+      "limma_voom_robust_eBayes",
+      "DESeq2_Wald"
+    ],
+    "DESeq2": {
+      "requested_fit_type_before_fit": "parametric",
+      "allowed_actual_fit_types_after_DESeq": [
+        "parametric",
+        "local"
+      ],
+      "automatic_local_substitution_message_token": "a local regression fit was automatically substituted",
+      "manual_gene_wise_fallback_allowed": false,
+      "fit_failure_actual_type_policy": "NO_ACTUAL_FIT_TYPE_ON_FAILURE",
+      "capture_actual_fit_type_after_DESeq": true,
+      "capture_fallback_messages": true,
+      "independent_filtering": false,
+      "cooks_cutoff": false
+    },
+    "minimum_cpm": 1,
+    "minimum_samples_at_cpm": 3,
+    "minimum_retained_genes_production": 1000,
+    "program_size_min": 10,
+    "program_size_max": 500,
+    "camera_inter_gene_correlation": 0.01,
+    "mroast_rotations": 9999,
+    "fgsea_eps": 0,
+    "multiplicity": "BH_within_collection_and_contrast",
+    "program_domains": {
+      "PROGENy": {
+        "source_program_n": 14,
+        "eligible_tested_program_n": 14,
+        "exact_program_ids": [
+          "Androgen",
+          "EGFR",
+          "Estrogen",
+          "Hypoxia",
+          "JAK-STAT",
+          "MAPK",
+          "NFkB",
+          "PI3K",
+          "p53",
+          "TGFb",
+          "TNFa",
+          "Trail",
+          "VEGF",
+          "WNT"
+        ],
+        "confidence_domain": "NOT_APPLICABLE"
+      },
+      "DoRothEA_AB": {
+        "frozen_source_program_upper_bound": 117,
+        "eligible_tested_program_n": 101,
+        "confidence_domain": "A,B"
+      }
+    },
+    "loao": {
+      "scope": "ACTIVITY_FULL_PIPELINE_REFIT",
+      "recompute_per_omission": [
+        "filterByExpr",
+        "CPM_filter",
+        "TMM",
+        "voom",
+        "symbol_aggregation",
+        "10_to_500_mapping_eligibility",
+        "decoupleR_ULM",
+        "limma_contrast_fit"
+      ],
+      "minimum_estimable_omissions_per_program_contrast": 7,
+      "fixed_preprocessing_deletion_may_be_called_LOAO": false
+    },
+    "independent_numeric_revalidation": {
+      "required": true,
+      "methods": [
+        "limma_voom_robust_eBayes",
+        "DESeq2_Wald_sensitivity"
+      ],
+      "scope": "COMPLETE_RETAINED_GENE_BY_EXACT_CONTRAST_FAMILY",
+      "recompute_from_captured_integer_counts": true,
+      "recompute_filter_and_TMM": true,
+      "recompute_model_fit_and_contrasts": true,
+      "recompute_BH_within_method_and_contrast": true,
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 1e-08,
+      "na_pattern_must_be_exact": true,
+      "tolerance_may_not_be_tuned_after_results": true,
+      "DESeq2_fit_provenance_must_be_recomputed": true
+    }
+  },
+  "software": {
+    "R": "4.6.1",
+    "edgeR": "4.10.1",
+    "limma": "3.68.4",
+    "DESeq2": "1.52.0",
+    "fgsea": "1.38.0",
+    "decoupleR": "2.17.0",
+    "data.table": "1.18.4",
+    "yaml": "2.3.12",
+    "jsonlite": "2.0.0",
+    "digest": "0.6.39",
+    "openssl": "2.4.2",
+    "PowerShell": "7.6.5"
+  },
+  "gate": {
+    "upstream_gate": "E1",
+    "required_upstream_eligible_n": 0,
+    "machine_status": "E2_NOT_IDENTIFIABLE_NO_E1_INPUT",
+    "analysis_role": "EXPLORATORY_INJURED_SPINAL_CONTEXT_ONLY",
+    "candidate_gate_eligible": false,
+    "can_generate_or_upgrade_candidate": false,
+    "formal_sequential_inference": false
+  },
+  "synthetic_contract": {
+    "required_temp_root_outside_entire_project": true,
+    "minimum_retained_genes": 20,
+    "mroast_rotations": 19,
+    "authority_key_pin_must_be_supplied_explicitly": true,
+    "lease_wait_seconds": 20,
+    "signed_final_ack_wait_seconds": 900,
+    "source_authorization_lease_output_finalization_keys_must_be_distinct": true,
+    "private_keys_must_be_ephemeral_and_outside_project": true,
+    "program_domains": {
+      "PROGENy": {
+        "source_program_n": 2,
+        "eligible_tested_program_n": 2,
+        "exact_program_ids": [
+          "PROG_A",
+          "PROG_B"
+        ]
+      },
+      "DoRothEA_AB": {
+        "frozen_source_program_upper_bound": 2,
+        "eligible_tested_program_n": 2,
+        "confidence_domain": "A,B"
+      }
+    },
+    "minimum_estimable_omissions_per_program_contrast": 7
+  },
+  "input_snapshot": {
+    "assembly": "Rnor_6.0",
+    "annotation_source": "Ensembl101",
+    "expected_gene_n_before_filter": 32883,
+    "raw_annotation_columns": [
+      "gene_id",
+      "gene_name",
+      "gene_biotype"
+    ],
+    "computational_annotation_columns": [
+      "GeneID",
+      "gene",
+      "gene_biotype"
+    ],
+    "deterministic_annotation_projection": "gene_id_to_GeneID_gene_name_to_gene",
+    "source_attributes_preserved": true,
+    "count_unit": "gene_fragments",
+    "selected_primary_strand_mode": 0,
+    "strand_decision": "UNSTRANDED_CONDITIONAL_ON_ACTUAL_FROZEN_QC",
+    "minimum_nonblank_symbol_coverage": 0.8,
+    "missing_symbol_policy": "ORIGINAL_GENE_ID_FALLBACK_AFTER_ORIGINAL_80_PERCENT_NONBLANK_RULE",
+    "source_gene_rows_removed": 0,
+    "duplicate_symbol_gene_rows_collapsed": false,
+    "historical_producer_species_reference_receipts_reusable": false
+  },
+  "source_dependencies": {
+    "baseline_config": {
+      "bytes": 40558,
+      "sha256": "d8304d8713593f98d80119dc2f0d5d3d39f6b7eb096a3ccee0bc7b13cab9f16c"
+    },
+    "model": {
+      "bytes": 72490,
+      "sha256": "b8b274667dcb68e5c8a729e10f4df46d9e596371be4ee6a8a99efc7be1286cd2"
+    },
+    "helpers": {
+      "bytes": 175131,
+      "sha256": "407bbf2acda7db749f33a4f679564e5cddd0c758f1d0ad9f45e870b2c25432c3"
+    },
+    "annotation_adapter": {
+      "bytes": 9943,
+      "sha256": "9f223ec6163a4ac6aca5e85edccac9594f2c5a631889c76bd81f6d560f187470"
+    },
+    "prefit": {
+      "bytes": 18762,
+      "sha256": "b394a9e301db4e17a3c0495ada7071337198e8aae15eccf82d87cfa7b32f9bc3"
+    },
+    "mapping": {
+      "bytes": 18639,
+      "sha256": "fc3ec2b20608cb13b358337f0fc439c51876d8ecc75f285f21e80a11edd6ee48"
+    },
+    "program_contract": {
+      "bytes": 12746,
+      "sha256": "bd86c229834a35317a701bfd53f727943d5238a44b99a94a549e3be8b5ba3adc"
+    }
+  },
+  "successor_changes": {
+    "baseline_statistical_subtrees_exact": [
+      "design",
+      "analysis",
+      "software",
+      "gate",
+      "synthetic_contract"
+    ],
+    "replaced_domains": [
+      "input_snapshot",
+      "reference",
+      "source_and_input_provenance",
+      "namespace"
+    ],
+    "excluded_historical_entrypoint_contracts": [
+      "governance",
+      "external_runtime_authority",
+      "qa_trust_root",
+      "authority",
+      "execution_contract",
+      "required_output_payloads"
+    ],
+    "historical_eligible_counts_are_not_current": true,
+    "current_eligible_counts_origin": "CURRENT_PREFIT_MAPPING_PROGRAM_CONTRACT_BOTH_ACTIVITY_FAMILIES",
+    "legacy_independent_rat_library_and_animals_strings_are_computational_labels_not_proof": true
+  },
+  "input_provenance": {
+    "status": "REQUIRES_ACTUAL_HELD_CALLER_BINDING_NOT_ESTABLISHED_HERE",
+    "accepted_counts_file_pin": null,
+    "raw_annotation_file_pin": null,
+    "metadata_file_pin": null,
+    "fixed_gene_manifest_pin": null,
+    "reference_FASTA_pin": null,
+    "reference_GTF_pin": null,
+    "reference_index_pins": null,
+    "fixed_nine_technical_acceptance_pin": null,
+    "actual_species_and_strand_pins": null,
+    "gene_resources_file_pin": null,
+    "orthology_file_pin": null,
+    "animals_pooling_batch_dose_resolved": false,
+    "observation_unit": "NINE_DEPOSITED_LIBRARIES_CONDITIONAL_INDEPENDENCE",
+    "old_omitted_animal_column_is_library_identifier_alias": true
+  },
+  "runtime_binding": {
+    "expected_source_route": "EXISTING_LINUX_R_4_6_1_ROUTE_B2_PUBLIC_ANALYSIS_NOT_HISAT2_CONDA",
+    "original_runtime_receipt_reusable_without_fresh_verification": false,
+    "actual_runtime_file_tree_pin": null,
+    "actual_session_and_backend_pin": null,
+    "threads": 1,
+    "backend": "BiocParallel_SerialParam",
+    "RNG_kind": [
+      "Mersenne-Twister",
+      "Inversion",
+      "Rejection"
+    ],
+    "current_binary_package_library_identity_authenticated_here": false
+  },
+  "integration": {
+    "independent_gene_reference_successor_implemented": false,
+    "independent_program_reference_successor_implemented": false,
+    "checked_consumer_successor_implemented": false,
+    "production_caller_implemented": false,
+    "model_dispatched": false,
+    "production_go": false,
+    "new_model_authorized_by_this_config": false
+  }
+}

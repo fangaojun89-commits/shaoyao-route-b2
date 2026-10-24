@@ -1,0 +1,45 @@
+schema_version: 1
+study_class: exploratory_prioritization
+
+false_discovery_rate:
+  primary_gene_set_q: 0.05
+  gene_level_support_q: 0.05
+  exploratory_annotation_q: 0.10
+  sensitivity_q: 0.05
+  note: thresholds_do_not_convert_exploratory_evidence_into_confirmation
+
+expression_filtering:
+  min_cpm: 1
+  min_samples: determined_by_smallest_prespecified_group
+  apply_before_model_fit: true
+
+stability:
+  leave_one_unit_out_direction_fraction: 0.80
+  require_no_single_unit_drives_effect: true
+  report_full_distribution: true
+
+dose_response:
+  require_within_accession_vehicle: true
+  require_within_batch_vehicle: true
+  primary_labels_when_verified: numeric_dose
+  fallback_when_metadata_conflict: ordinal_low_mid_high
+  prohibit_cross_accession_control_borrowing: true
+
+candidate_gate:
+  require_s1_spasticity_anchor: true
+  require_s2_poststroke_chronic_recurrence: true
+  s3_celltime_localization_is_upgrade_not_substitute: true
+  require_j2_formula_modulation_in_pc12: true
+  c2c12_or_hepg2_can_substitute_for_pc12: false
+  require_e2_injured_spinal_intervention_convergence: true
+  hep_g2_alone_is_sufficient: false
+  force_nonzero_candidate_count: false
+  maximum_reported_as_mechanistic_target: 0
+
+cross_species:
+  gene_claim_requires_one_to_one_ortholog: true
+  pathway_first: true
+
+replication:
+  cells_spots_reads_frames_are_biological_n: false
+  related_accessions_count_as_independent_replications: false

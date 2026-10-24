@@ -1,6 +1,6 @@
 # Shaoyao Route B2: reproducibility components
 
-Version 0.3.0 adds the **original experimental-spasticity anchor analysis source** to the accepted-table reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves the pinned bytes on Windows checkouts; earlier tags remain in history.
+Version 0.4.0 adds **original scientific sources for GSE128623, GSE277064, JGW03 and GSE205906** to the experimental-spasticity anchor, accepted-table reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves the pinned bytes on Windows checkouts; earlier tags remain in history.
 
 ## What is available
 
@@ -12,6 +12,8 @@ Version 0.3.0 adds the **original experimental-spasticity anchor analysis source
 - `pipeline/ledger.py`: export and verification of that dated metadata selection. See the [ledger guide](data/ledger/README.md) for later analyses and interpretation limits.
 - `analysis/GSE16710/`: seven unchanged original R sources, frozen sample/QC metadata, resource/input inventories, dependency lock and the retained S1 gate. See the [anchor reconstruction guide](analysis/GSE16710/README.md) for dependency order, external inputs and the later companion sources still outside this release.
 - `pipeline/anchor.py`: read-only source/metadata and enumerated external-input verification; never executes R or reruns a model.
+- `analysis/study_sources/`: 38 unchanged R sources, five original configurations, 99 submitted-unit metadata rows and explicit GSE205906 source-role identities. See the [branch guide](analysis/study_sources/README.md) for dependency order, historical entry points and remaining reconstruction requirements.
+- `pipeline/sources.py`: read-only release/source identity and embedded source-role verification.
 
 The derived tables are family-level aggregate outputs. The ledger adds public submitted-array/library identifiers and qualified analysis membership. Neither contains individual-level clinical records, raw sequencing data or third-party gene-set memberships.
 
@@ -41,7 +43,7 @@ The command computes descriptive groups from already accepted tables. It does no
 
 ## Scope of this release
 
-The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.3.0. Other branch sources and later anchor companions still require public selection and provenance review. Whole-study cold restoration is not established by this release. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions. The anchor metadata preserves original curation language without independently establishing animal lineage or pre-outcome chronology.
+The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.4.0. Acquisition and full conditional-reference controllers, later anchor companions and the GSE205906 matched-quantification extension still require public selection and provenance review. Whole-study cold restoration is not established by this release. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions. The anchor metadata preserves original curation language without independently establishing animal lineage or pre-outcome chronology.
 
 ## Licences and attribution
 

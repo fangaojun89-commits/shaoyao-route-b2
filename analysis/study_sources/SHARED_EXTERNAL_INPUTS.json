@@ -1,0 +1,35 @@
+{
+  "scope": "Three shared inputs only; other branch-specific scientific objects remain external",
+  "files": [
+    {
+      "path": "metadata/geo_series_metadata_long.tsv",
+      "bytes": 2445206,
+      "sha256": "2d7a4277bfc282ea20a7683ba93ed5561c2c2628905581c42ed7e41a1d2a2065",
+      "included": false,
+      "used_by": [
+        "GSE277064",
+        "JGW03"
+      ]
+    },
+    {
+      "path": "metadata/datasets.tsv",
+      "bytes": 10981,
+      "sha256": "5a450674a5019f79f309a665e9e9e39bf292be42771512a6aeadb5bbccaa4ca4",
+      "included": false,
+      "used_by": [
+        "GSE277064",
+        "JGW03"
+      ]
+    },
+    {
+      "path": "data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds",
+      "bytes": 1506178,
+      "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51",
+      "included": false,
+      "used_by": [
+        "GSE277064",
+        "JGW03"
+      ]
+    }
+  ]
+}

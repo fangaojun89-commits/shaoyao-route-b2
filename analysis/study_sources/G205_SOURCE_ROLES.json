@@ -1,0 +1,126 @@
+{
+  "producer": "gse205906_ensembl101_checked_model_RAM_worker_v4_20261006.R",
+  "roles": [
+    {
+      "role": "stage_machine",
+      "bytes": 15674,
+      "sha256": "37bacea977472600ae9879d7e43448f953c5a0ddd93f0967e7586f8a1a5d3d49",
+      "path": "code/R/gse205906_checked_execution_v1.R"
+    },
+    {
+      "role": "core",
+      "bytes": 17175,
+      "sha256": "ac070364dca4369f9a9cb196550a8c6f3daced3114184f1572d5274ec03261e6",
+      "path": "code/R/gse205906_ensembl101_checked_core_v1_20261006.R"
+    },
+    {
+      "role": "gene_reference",
+      "bytes": 13197,
+      "sha256": "4c6593f0ed6cdd6838699f8d844dbd7aa321baca990b2dac79abe9ee7c1f76d1",
+      "path": "code/R/gse205906_ensembl101_gene_reference_v1_20261006.R"
+    },
+    {
+      "role": "program_reference",
+      "bytes": 9509,
+      "sha256": "917c2ff7ec82615288c4a957a76beb7f67b040ebb4bc6d2c8e3169cb97f856ed",
+      "path": "code/R/gse205906_ensembl101_program_reference_v1_20261006.R"
+    },
+    {
+      "role": "old_core",
+      "bytes": 9530,
+      "sha256": "44754554efed7a51b0b2ec1bb68cb7310ac22367f1222edc7cf2d1a91cc90b28",
+      "path": "code/R/gse205906_bound_scientific_core_v2.R"
+    },
+    {
+      "role": "model",
+      "bytes": 72490,
+      "sha256": "b8b274667dcb68e5c8a729e10f4df46d9e596371be4ee6a8a99efc7be1286cd2",
+      "path": "code/R/analyze_gse205906_bulk_model_v2_r4.R"
+    },
+    {
+      "role": "helpers",
+      "bytes": 175131,
+      "sha256": "407bbf2acda7db749f33a4f679564e5cddd0c758f1d0ad9f45e870b2c25432c3",
+      "path": "code/R/gse205906_bulk_model_v2_r4_lib.R"
+    },
+    {
+      "role": "binding",
+      "bytes": 15697,
+      "sha256": "2aaa386df70c0031933c244eafa895d63c5dbd7a7be77277cfd4a57aceba538d",
+      "path": "code/R/gse205906_program_binding_v1.R"
+    },
+    {
+      "role": "annotation_adapter",
+      "bytes": 9943,
+      "sha256": "9f223ec6163a4ac6aca5e85edccac9594f2c5a631889c76bd81f6d560f187470",
+      "path": "code/R/gse205906_ensembl101_annotation_adapter_v1_20261006.R"
+    },
+    {
+      "role": "prefit",
+      "bytes": 18762,
+      "sha256": "b394a9e301db4e17a3c0495ada7071337198e8aae15eccf82d87cfa7b32f9bc3",
+      "path": "code/R/gse205906_ensembl101_effect_independent_prefit_v1_20261006.R"
+    },
+    {
+      "role": "config_adapter",
+      "bytes": 7852,
+      "sha256": "29ffe9705e675058c006d808305349275979efb58eeab2ea4236e5eb82fd339a",
+      "path": "code/R/gse205906_ensembl101_full_model_config_v1_20261006.R"
+    },
+    {
+      "role": "program_contract",
+      "bytes": 12746,
+      "sha256": "bd86c229834a35317a701bfd53f727943d5238a44b99a94a549e3be8b5ba3adc",
+      "path": "code/R/gse205906_ensembl101_program_contract_v2_20261006.R"
+    },
+    {
+      "role": "old_gene_reference",
+      "bytes": 9590,
+      "sha256": "4188175759fc7db35b18269bf54e92be0b217517226a676ed4f444aaabf8968f",
+      "path": "code/R/gse205906_in_memory_gene_validator_v1.R"
+    },
+    {
+      "role": "validator",
+      "bytes": 104432,
+      "sha256": "c63296157a833611ef92b17f1cbb6b27ab3c23c1028cab79fd706aaab564225d",
+      "path": "code/R/validate_gse205906_bulk_model_v2_r4.R"
+    },
+    {
+      "role": "old_program_reference",
+      "bytes": 25221,
+      "sha256": "4e0f3cd999b327e06de1388f8fe92472a1af20bf62e9d71d7cea24ed3b44d493",
+      "path": "code/R/gse205906_bound_program_validator_v2.R"
+    },
+    {
+      "role": "consumer",
+      "bytes": 13213,
+      "sha256": "faedb8d48c90f7c96790aadd43ba51339236ed04340e61b52a358592e6fc6872",
+      "path": "code/R/gse205906_ensembl101_checked_consumer_v1_20261006.R"
+    },
+    {
+      "role": "loader",
+      "bytes": 10884,
+      "sha256": "45f21c67674b5cd2b424e9c145662910361baee1019cbc68d366a9aab1fcc4ba",
+      "path": "code/R/gse205906_ensembl101_input_loader_v2_20261006.R"
+    },
+    {
+      "role": "mapping",
+      "bytes": 18639,
+      "sha256": "fc3ec2b20608cb13b358337f0fc439c51876d8ecc75f285f21e80a11edd6ee48",
+      "path": "code/R/gse205906_ensembl101_mapping_v2_20261006.R"
+    },
+    {
+      "role": "resource_validator",
+      "bytes": 13034,
+      "sha256": "e93aae6769a1173bb7842f213152f56695f5b7b5621b71106c54181496f994ae",
+      "path": "code/R/gse205906_resource_object_validation_v1.R"
+    },
+    {
+      "role": "metadata_parser",
+      "bytes": 10769,
+      "sha256": "1f0549994bb9aef084c8278fceb336f3bf436abcb589fe4c1755add018dbd61b",
+      "path": "code/R/gse205906_ensembl101_nofit_RAM_worker_v2_20261006.R"
+    }
+  ],
+  "scope": "Twenty exact scientific source roles required by the worker, not native parent/runtime or all raw-data acquisition dependencies"
+}
