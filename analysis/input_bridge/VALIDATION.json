@@ -1,0 +1,129 @@
+{
+  "status": "PASS_PORTABLE_INPUT_PREPARATION_VALIDATION",
+  "date_utc": "2026-10-24",
+  "scope": "All eleven accepted files; six unfitted preparations; original source readers; full frozen GTF field comparison",
+  "input_reader_checks": {
+    "status": "PASS_ORIGINAL_INPUT_READERS_WITHOUT_FITTING",
+    "branches": {
+      "G128_raw": {
+        "genes": 41079,
+        "libraries": 30,
+        "original_analyzer_validator_readers_agree": true,
+        "exact_29_column_subset": true,
+        "omitted_sample": "GSM3681230",
+        "design_rank": 6,
+        "symbols_missing": 0
+      },
+      "G128_adapter": {
+        "genes": 41079,
+        "libraries": 30,
+        "original_analyzer_validator_readers_agree": true,
+        "exact_29_column_subset": true,
+        "omitted_sample": "GSM3681230",
+        "design_rank": 6,
+        "symbols_missing": 0
+      },
+      "G205_HISAT2_s0": {
+        "genes": 32883,
+        "libraries": 9,
+        "counts_unchanged": true,
+        "sample_order_unchanged": true,
+        "complete_annotation_join": true,
+        "source": "Original input loader; fixed IDs recovered from the hash-authenticated complete matrix, not a recreated historical run manifest",
+        "role": "ORIGINAL"
+      },
+      "G205_STAR_s0": {
+        "genes": 32883,
+        "libraries": 9,
+        "counts_unchanged": true,
+        "sample_order_unchanged": true,
+        "complete_annotation_join": true,
+        "source": "Original input loader; fixed IDs recovered from the hash-authenticated complete matrix, not a recreated historical run manifest",
+        "role": "MATCHED_PRIMARY"
+      },
+      "G205_STAR_s1": {
+        "genes": 32883,
+        "libraries": 9,
+        "counts_unchanged": true,
+        "sample_order_unchanged": true,
+        "complete_annotation_join": true,
+        "source": "Original input loader; fixed IDs recovered from the hash-authenticated complete matrix, not a recreated historical run manifest",
+        "role": "STRAND_DIAGNOSTIC"
+      },
+      "G205_STAR_s2": {
+        "genes": 32883,
+        "libraries": 9,
+        "counts_unchanged": true,
+        "sample_order_unchanged": true,
+        "complete_annotation_join": true,
+        "source": "Original input loader; fixed IDs recovered from the hash-authenticated complete matrix, not a recreated historical run manifest",
+        "role": "STRAND_DIAGNOSTIC"
+      }
+    },
+    "annotation_qa": {
+      "all_gene_fields_match_original_parser": true,
+      "genes": 32883,
+      "noncomment_records": 761902,
+      "fields": 14,
+      "bounded_chunks_with_genes": 77
+    },
+    "R_version": "R version 4.6.1 (2026-06-24 ucrt)",
+    "platform": "x86_64-w64-mingw32",
+    "package_versions": {
+      "data.table": "1.18.4",
+      "openssl": "2.4.2",
+      "jsonlite": "2.0.0",
+      "digest": "0.6.39"
+    },
+    "scientific_model_runs": 0,
+    "random_draws": 0,
+    "original_files_modified": false,
+    "historical_manifest_recreated": false,
+    "biological_independence_authenticated": false,
+    "complete_analysis_runtime_validated": false
+  },
+  "prepared_outputs": {
+    "prepared/G128_adapter_inputs.rds": {
+      "bytes": 6084177,
+      "sha256": "3329528c07d49b953b22758c545a84d9d75abf975fdb9be13a42dab9ec3ae66d"
+    },
+    "prepared/G128_raw_inputs.rds": {
+      "bytes": 6084037,
+      "sha256": "e26854859f6dcd4c5549257619409fa1985498608bc1c0cbfd0fbd92d109b906"
+    },
+    "prepared/G205_HISAT2_s0_inputs.rds": {
+      "bytes": 1883691,
+      "sha256": "e8dad4011176f2368cb6406e34777e7f7ba1abdf793e8d82d52212e091abd583"
+    },
+    "prepared/G205_STAR_s0_inputs.rds": {
+      "bytes": 1889731,
+      "sha256": "5579d3d6e289c1443c9cb89754fe3c170b9ac553b628b3e47169e466079d64dc"
+    },
+    "prepared/G205_STAR_s1_inputs.rds": {
+      "bytes": 1858258,
+      "sha256": "4fbcc9fc81d8dcff3370820cba4582b60e622355b22fa7f5c8a76acbbc4d6dbc"
+    },
+    "prepared/G205_STAR_s2_inputs.rds": {
+      "bytes": 1858037,
+      "sha256": "4d8ef1c749231481f123686fae67cf27e36bd7cff84ec5322cbb0e2ff3619df4"
+    }
+  },
+  "GTF_extraction": {
+    "plain_GTF": {
+      "bytes": 280052998,
+      "sha256": "84fcb6692d62e4d8c75617461ae5f471fe89e10b6982c82f349393b1a80045df"
+    },
+    "gene_records": 32883,
+    "noncomment_records": 761902,
+    "attribute_table": {
+      "bytes": 7487502,
+      "sha256": "1e4bf0ca424a80b2123fb169b69ad4ad9b16825f3c66000893a44905bf4bfbc8"
+    },
+    "rule": "All original gene attributes and source record order preserved"
+  },
+  "existing_output_refused": true,
+  "wrong_GTF_refused_before_output_creation": true,
+  "prepared_RDS_readback": "All six objects compared against original-reader in-memory inputs",
+  "output_bytes": 99724961,
+  "runtime_note": "Existing Windows R 4.6.1 and listed packages; locale startup warnings retained privately. No clean Linux restoration or model fitting performed."
+}

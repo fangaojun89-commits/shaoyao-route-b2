@@ -1,6 +1,6 @@
 {
-  "version": "0.9.0",
-  "scope": "ACCEPTED_COUNT_INPUTS_AND_SELECTED_RECONSTRUCTION_COMPONENTS_NOT_WHOLE_STUDY_RESTORE",
+  "version": "0.10.0",
+  "scope": "ORIGINAL_READER_INPUT_PREPARATION_AND_SELECTED_RECONSTRUCTION_COMPONENTS_NOT_WHOLE_STUDY_RESTORE",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "models_run": 0,
@@ -610,8 +610,8 @@
       "sha256": "83f75ff24bdeacbb6f7fa241ed5ba785aca616f2212abf464d0650a758c90ab7"
     },
     "analysis/runtime_bindings/README.md": {
-      "bytes": 3793,
-      "sha256": "5fac4482f3a1011025750d843cbcb89af03aa287a39ca047e480a575b9c3d938"
+      "bytes": 3979,
+      "sha256": "8277506597aa4c48c3b98df9f3619055075aee5d32dd0417bb47645abedfcc87"
     },
     "analysis/study_sources/code/R/analyze_gse128623_exact30_linux_model_v2.R": {
       "bytes": 43165,
@@ -798,8 +798,8 @@
       "sha256": "7d139225c30d6d8e3f6ff82d80af10c446164732d2b9ce50e2886fa7ad5de758"
     },
     "analysis/study_sources/README.md": {
-      "bytes": 6504,
-      "sha256": "e400b40217e1a2d266a24161bc630fadc765878ab99bc9c6d7c4851d950e3f64"
+      "bytes": 6748,
+      "sha256": "96fd154d22f2c2bedc7c5fe9583139e052aefdfe16bc307a478436f378457305"
     },
     "analysis/study_sources/SHARED_EXTERNAL_INPUTS.json": {
       "bytes": 922,
@@ -970,8 +970,8 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 8943,
-      "sha256": "6ceb50b54d407ec8379198c53a4302a487da89f60ceee600f5bab288ef619a4f"
+      "bytes": 9456,
+      "sha256": "1e8b2a42d82516cd5153e334557516a879463a3e5389f1d1faf63cf821d5e02c"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2396,
@@ -1032,6 +1032,26 @@
     "pipeline/count_inputs.py": {
       "bytes": 2730,
       "sha256": "9722816f9abf0727dddaf32c7006d831c7fc962dc13ebc4c341455764082c0ea"
+    },
+    "analysis/input_bridge/CONTRACT.json": {
+      "bytes": 2019,
+      "sha256": "f823e5fd0d47fe6bc1ba15c1eba91062a78707a17fc979706fe6cbc31ac89c84"
+    },
+    "analysis/input_bridge/README.md": {
+      "bytes": 5259,
+      "sha256": "a2be59b8e496f4aa28f84262ce895991b0d6f26bce6354a55bc3b45f81e47c27"
+    },
+    "analysis/input_bridge/VALIDATION.json": {
+      "bytes": 4976,
+      "sha256": "cc8a6225381d70baa2afdd30dd0568a308e600b2104d59509e24360bd3bf9d57"
+    },
+    "analysis/input_bridge/prepare.R": {
+      "bytes": 10217,
+      "sha256": "2b900275a27fa1923aadbf2c763a9fc9950e5b8886b0c67e5cbd2f911e4ba120"
+    },
+    "pipeline/prepare_count_inputs.py": {
+      "bytes": 6972,
+      "sha256": "24b4e2bf88a62cd1da220b65a7fbbb296c6fcad4ddb1596a6bda860af4959254"
     }
   }
 }

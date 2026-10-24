@@ -1,0 +1,50 @@
+{
+  "scope": "Original input reader preparation only; no model fitting or historical checkpoint recreation",
+  "GTF_url": "https://ftp.ensembl.org/pub/release-101/gtf/rattus_norvegicus/Rattus_norvegicus.Rnor_6.0.101.gtf.gz",
+  "GTF_gzip": {
+    "bytes": 11791561,
+    "sha256": "3cd2e189d33ea2098fc42af686db2da5030728729d987919520ffcaa03e2852d"
+  },
+  "GTF_plain": {
+    "bytes": 280052998,
+    "sha256": "84fcb6692d62e4d8c75617461ae5f471fe89e10b6982c82f349393b1a80045df"
+  },
+  "sources": [
+    {
+      "role": "g128_loader",
+      "path": "analysis/study_sources/code/R/gse128623_model_kernel_loader_candidate_v1_20261007.R",
+      "bytes": 6822,
+      "sha256": "7da5e5abdd028e3a5d237a8eb01763b5244f65252267ef6f1417cefef8988014"
+    },
+    {
+      "role": "g128_analyzer",
+      "path": "analysis/study_sources/code/R/analyze_gse128623_exact30_linux_model_v2.R",
+      "bytes": 43165,
+      "sha256": "e251c6ae9bb70cd944ebb1d781895878ee80963946f6e8ad94a52a83713add50"
+    },
+    {
+      "role": "g128_validator",
+      "path": "analysis/study_sources/code/R/validate_gse128623_exact30_linux_model_v2.R",
+      "bytes": 41328,
+      "sha256": "87b7f3c26b088d352724fb7f5546fc31e8bec56c0c45e3aa490716240d17d08a"
+    },
+    {
+      "role": "g205_metadata",
+      "path": "analysis/study_sources/code/R/gse205906_ensembl101_nofit_RAM_worker_v2_20261006.R",
+      "bytes": 10769,
+      "sha256": "1f0549994bb9aef084c8278fceb336f3bf436abcb589fe4c1755add018dbd61b"
+    },
+    {
+      "role": "g205_loader",
+      "path": "analysis/study_sources/code/R/gse205906_ensembl101_input_loader_v2_20261006.R",
+      "bytes": 10884,
+      "sha256": "45f21c67674b5cd2b424e9c145662910361baee1019cbc68d366a9aab1fcc4ba"
+    },
+    {
+      "role": "g205_prefit",
+      "path": "analysis/study_sources/code/R/gse205906_ensembl101_effect_independent_prefit_v1_20261006.R",
+      "bytes": 18762,
+      "sha256": "b394a9e301db4e17a3c0495ada7071337198e8aae15eccf82d87cfa7b32f9bc3"
+    }
+  ]
+}
