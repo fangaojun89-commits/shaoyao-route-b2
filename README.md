@@ -1,9 +1,10 @@
 # Shaoyao Route B2: reproducibility components
 
-Version 0.8.0 adds **the actual frozen JGW03 count, sample, annotation and allocation inputs for 36 libraries**, together with accepted saved-summary lineage records, to the scientific branch kernels, conditional-reference sources, experimental-spasticity anchor, technical input/core-environment inventories, reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves pinned bytes on Windows checkouts; two explicitly identified historical-source path derivatives have separate original/public hashes. Earlier tags remain in history.
+Version 0.9.0 adds accepted GSE128623 and GSE205906 complete count matrices and associated metadata. The repository also provides frozen JGW03 inputs for 36 libraries, selected scientific analysis sources, conditional-reference sources, the experimental-spasticity anchor, input and environment inventories, reporting code, and a dated data ledger for this secondary transcriptomic study. These components support inspection and reuse; the complete raw-to-model pipeline has not yet been restored. `.gitattributes` preserves pinned bytes on Windows checkouts. Two explicitly identified historical-source path derivatives have separate original/public hashes. Earlier tags remain in history.
 
 ## What is available
 
+- `data/count_inputs/`: eleven accepted G128/G205 count and metadata files in reversible gzip form; [content and placement guide](data/count_inputs/README.md). `pipeline/count_inputs.py` verifies and restores their exact original bytes without model execution.
 - `pipeline/report.py`: original Python reporting code, standard library only.
 - `data/derived/`: accepted GSE128623 (448 families) and JGW03 (123 families) aggregate reference tables.
 - `expected/`: three fixed descriptive outputs for comparison.

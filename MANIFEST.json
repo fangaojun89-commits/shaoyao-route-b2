@@ -1,6 +1,6 @@
 {
-  "version": "0.8.0",
-  "scope": "SELECTED_SCIENTIFIC_INPUTS_SOURCE_BINDINGS_AND_SAVED_OUTPUT_LINEAGE_NOT_WHOLE_STUDY_RESTORE",
+  "version": "0.9.0",
+  "scope": "ACCEPTED_COUNT_INPUTS_AND_SELECTED_RECONSTRUCTION_COMPONENTS_NOT_WHOLE_STUDY_RESTORE",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "models_run": 0,
@@ -970,12 +970,68 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 8717,
-      "sha256": "197f265737833708d473374a3f74d8f112fcf47b325cd5092cc06ba027aa879d"
+      "bytes": 8943,
+      "sha256": "6ceb50b54d407ec8379198c53a4302a487da89f60ceee600f5bab288ef619a4f"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2396,
       "sha256": "95ed636181f0335c0aa2e79f59f6cca9b5b9b9e709e029a84a9969ec3355f85e"
+    },
+    "data/count_inputs/GSE128623/adapter/complete29_sensitivity/counts/complete29_selected.tsv.gz": {
+      "bytes": 1248126,
+      "sha256": "915fef4cac7affb8de4e534b126966c7922b7980efda58f0f7518808059f3a7b"
+    },
+    "data/count_inputs/GSE128623/adapter/primary_all30/counts/all30_selected.tsv.gz": {
+      "bytes": 1275005,
+      "sha256": "e790eb4e51d78030ec56a969c4672df2ba59fcbcf9b3f2ffd3f1592a04b2709a"
+    },
+    "data/count_inputs/GSE128623/annotation/feature_annotation_from_existing_counts.tsv.gz": {
+      "bytes": 3732870,
+      "sha256": "8fef53abab7d39aa75ab5bcc52fa941812cabe06c5c2d30ec9ccfafccdd0d674"
+    },
+    "data/count_inputs/GSE128623/ledger/sample_identity_design_ledger.tsv.gz": {
+      "bytes": 507,
+      "sha256": "bc9f19848dc1302e3f498304819b379f0b4a4489115572e46093c795f809de1b"
+    },
+    "data/count_inputs/GSE128623/raw/complete29_sensitivity/counts/complete29_selected.tsv.gz": {
+      "bytes": 1247790,
+      "sha256": "b2c02d3fe30cb94c429aa6baeeaa313efb79d04ce866a37173daac243346419a"
+    },
+    "data/count_inputs/GSE128623/raw/primary_all30/counts/all30_selected.tsv.gz": {
+      "bytes": 1274609,
+      "sha256": "eaab7b980ed9519dea0f8ce72244fd060459f8bb91eeb420527c72a45ea246cc"
+    },
+    "data/count_inputs/GSE205906/HISAT2/matrix/GSE205906_fixed9_gene_fragments_s0.tsv.gz": {
+      "bytes": 377341,
+      "sha256": "0bb00a39d53b3a53def5a3d956f7a6380550033add75ccc054de1e2e9509c9ad"
+    },
+    "data/count_inputs/GSE205906/HISAT2/overlay/NINE_LIBRARY_ANALYSIS_PREPARATION_OVERLAY_154.tsv.gz": {
+      "bytes": 2104,
+      "sha256": "8947179995e9290f322fd3567275b662a96c5c98b8edf7cb6ac981c44de32fa7"
+    },
+    "data/count_inputs/GSE205906/STAR/strand0/GSE205906_STAR_fixed9_gene_fragments_s0.tsv.gz": {
+      "bytes": 382208,
+      "sha256": "2d21845ddaed5c1770887b440393a8e1e9708015fdefa706ebfbc88fe054e200"
+    },
+    "data/count_inputs/GSE205906/STAR/strand1/GSE205906_STAR_fixed9_gene_fragments_s1.tsv.gz": {
+      "bytes": 354766,
+      "sha256": "ac427e0d3674eb1e92930be4770d5eca2117c8fb81ef6af41df3ed337931ea70"
+    },
+    "data/count_inputs/GSE205906/STAR/strand2/GSE205906_STAR_fixed9_gene_fragments_s2.tsv.gz": {
+      "bytes": 354790,
+      "sha256": "be07891e8b37e85cfabf5ef976b699ccf47ffbaafcac8d03a0bca0e90e2cead4"
+    },
+    "data/count_inputs/PROVENANCE.json": {
+      "bytes": 19347,
+      "sha256": "c6410abae03cb150f38828a57d05d403b4ae1cec43378d61f26d750670b0a2a8"
+    },
+    "data/count_inputs/README.md": {
+      "bytes": 2403,
+      "sha256": "f63d3a53ca56d118a1c36b2441cde4fb38a960ca7064203b1bb2a7fb034aa102"
+    },
+    "pipeline/count_inputs.py": {
+      "bytes": 2730,
+      "sha256": "9722816f9abf0727dddaf32c7006d831c7fc962dc13ebc4c341455764082c0ea"
     }
   }
 }
