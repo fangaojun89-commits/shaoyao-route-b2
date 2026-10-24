@@ -1,0 +1,83 @@
+{
+  "scope": "Original G128 scientific entry; synthetic test is separate from formal Linux execution",
+  "sources": [
+    {
+      "role": "analyzer",
+      "path": "analysis/study_sources/code/R/analyze_gse128623_exact30_linux_model_v2.R",
+      "identity": {
+        "bytes": 43165,
+        "sha256": "e251c6ae9bb70cd944ebb1d781895878ee80963946f6e8ad94a52a83713add50"
+      }
+    },
+    {
+      "role": "validator",
+      "path": "analysis/study_sources/code/R/validate_gse128623_exact30_linux_model_v2.R",
+      "identity": {
+        "bytes": 41328,
+        "sha256": "87b7f3c26b088d352724fb7f5546fc31e8bec56c0c45e3aa490716240d17d08a"
+      }
+    },
+    {
+      "role": "loader",
+      "path": "analysis/study_sources/code/R/gse128623_model_kernel_loader_candidate_v1_20261007.R",
+      "identity": {
+        "bytes": 6822,
+        "sha256": "7da5e5abdd028e3a5d237a8eb01763b5244f65252267ef6f1417cefef8988014"
+      }
+    },
+    {
+      "role": "member_guard",
+      "path": "analysis/study_sources/code/R/gse128623_model_member_guard_candidate_v2_20261010.R",
+      "identity": {
+        "bytes": 6827,
+        "sha256": "eb4158c7849dac19e5e046b3b74e9dcf2724a1fb6929e791d20138bc15b2cf0e"
+      }
+    },
+    {
+      "role": "comparison_guard",
+      "path": "analysis/study_sources/code/R/gse128623_branch_comparison_guard_candidate_v2_20261010.R",
+      "identity": {
+        "bytes": 4559,
+        "sha256": "85633c1cd627744106087fd901142ee45a085cc51492be59906c73b07f46433c"
+      }
+    },
+    {
+      "role": "comparison_helper",
+      "path": "analysis/study_sources/code/R/gse128623_nonmutating_validator_comparison_20261013.R",
+      "identity": {
+        "bytes": 2127,
+        "sha256": "a84f8f660d5bf2e3633732eb7f88a3fd992172990eff942edd6a2080a2d48205"
+      }
+    },
+    {
+      "role": "driver",
+      "path": "analysis/study_sources/code/R/gse128623_model_execution_driver_candidate_v4_20261010.R",
+      "identity": {
+        "bytes": 13656,
+        "sha256": "b4151ad1c11b07d54d805eb8f94fe336250fba529f619127d90114e5e8cf4181"
+      }
+    },
+    {
+      "role": "driver_factory",
+      "path": "analysis/study_sources/code/R/gse128623_copy_isolated_model_driver_20261013.R",
+      "identity": {
+        "bytes": 3935,
+        "sha256": "a856c2e75bc1d100991d01900a17948ab51cf1a8eca5ded41cd54e2b4a43872c"
+      }
+    }
+  ],
+  "frozen_resource": {
+    "bytes": 1506178,
+    "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51"
+  },
+  "R": "4.6.1",
+  "rotation_count": 9999,
+  "minimum_members": 10,
+  "enrichment_seed": 20260819,
+  "RNG": [
+    "Mersenne-Twister",
+    "Inversion",
+    "Rejection"
+  ],
+  "real_data_rerun_for_release": false
+}

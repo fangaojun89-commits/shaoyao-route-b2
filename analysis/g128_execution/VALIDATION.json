@@ -1,0 +1,360 @@
+{
+  "date": "2026-10-24",
+  "status": "PASS_SCOPED_G128_PORTABLE_ENTRY_VALIDATION",
+  "synthetic": {
+    "status": "PASS_FULL_SYNTHETIC_MODEL_AND_INDEPENDENT_RECONSTRUCTION",
+    "synthetic_genes": 360,
+    "deliberately_zero_genes": 10,
+    "synthetic_programs": 5,
+    "branches": [
+      30,
+      29
+    ],
+    "contrasts_per_branch": 7,
+    "analyzer_output_files": 33,
+    "validation_report": {
+      "candidate_id": "GSE128623_exact30_linux_model_v2",
+      "status": "PASS_INDEPENDENT_RECONSTRUCTION",
+      "primary_edge_key_count": 2450,
+      "complete29_edge_key_count": 2450,
+      "primary_retained_feature_count": 350,
+      "complete29_retained_feature_count": 350,
+      "edgeR_ci_status": "NOT_AVAILABLE_FROM_STANDARD_EDGER_QLF_OUTPUT",
+      "batch_adjustment_performed": false,
+      "combat_performed": false,
+      "formal_sequential_inference": false,
+      "candidate_generation_allowed": false,
+      "s2_status": "NOT_IDENTIFIABLE_NO_S1_INPUT"
+    },
+    "branch_comparison": "PASS_BRANCH_COMPARISON_CONTENT_ONLY",
+    "real_scientific_inputs_read": false,
+    "synthetic_inputs_unchanged": true,
+    "real_data_model_runs": 0,
+    "original_linux_driver_executed": false,
+    "scope": "Full original statistical kernels on synthetic fixture with copy-isolated validator; not a real-data reproduction",
+    "mode": "synthetic",
+    "rotation_count": 9999,
+    "minimum_members": 10,
+    "seed": 20260819,
+    "system": "Windows",
+    "whole_study_restoration_verified": false
+  },
+  "isolated_run_started_utc": "2026-10-24T13:22:21.878557+00:00",
+  "isolated_run_finished_utc": "2026-10-24T13:30:32.681187+00:00",
+  "same_environment_model_outputs_equal_between_two_runs": true,
+  "model_output_files": {
+    "model_output/ANALYZER_COMPLETE.tsv": {
+      "bytes": 667,
+      "sha256": "47a676b80c548a27945de2ff71572da6011ebaa953586fe4448692dbe2456c8f"
+    },
+    "model_output/VALIDATION_REPORT.tsv": {
+      "bytes": 444,
+      "sha256": "cdf2e971d1a0ba91217b9b1803cd3447b5349e270f69a3ba7341e1d83e7a35f2"
+    },
+    "model_output/comparison/all30_vs_complete29_gene.tsv.gz": {
+      "bytes": 69110,
+      "sha256": "c31a88a1a4d6c6ee4703122577465e1d53f8ae0c98bd1389f8d594d1014005d4"
+    },
+    "model_output/comparison/all30_vs_complete29_summary.tsv": {
+      "bytes": 378,
+      "sha256": "05fe8706832e7e9c3e681582a4533ba71091fe51786b02d10a3e2a4a75ddacc5"
+    },
+    "model_output/complete29_sensitivity/diagnostics/dispersion_BCV_QL.tsv.gz": {
+      "bytes": 13201,
+      "sha256": "f2f8981e3686777f6540e2433a8723d53583cc5b65c4eaaa8f77f24cdf5f8284"
+    },
+    "model_output/complete29_sensitivity/diagnostics/library_sizes_TMM.tsv": {
+      "bytes": 2324,
+      "sha256": "d1b1fb126d66201a0f5f827679e3e55d0afbe4f9a2cf678822665b2b68388421"
+    },
+    "model_output/complete29_sensitivity/diagnostics/MDS_coordinates.tsv": {
+      "bytes": 2015,
+      "sha256": "d035979ad8889ccec5a9e50003e2951470a92961216500112da8c63bf4deed45"
+    },
+    "model_output/complete29_sensitivity/diagnostics/mean_variance.tsv.gz": {
+      "bytes": 7015,
+      "sha256": "495347347a6938e4c444305c827ab46da654c2b4a6a87d7c847c511da49170f6"
+    },
+    "model_output/complete29_sensitivity/diagnostics/prefilter_summary.tsv": {
+      "bytes": 150,
+      "sha256": "44a5fbce0f9532b23276c3b9b1c57c4b3f50eaaaceaa1f8815ab6b198120458d"
+    },
+    "model_output/complete29_sensitivity/diagnostics/sample_influence.tsv": {
+      "bytes": 1667,
+      "sha256": "72edcec68023444ab6b854175933eba66bde3a307794d95dd8ddc753b21a013b"
+    },
+    "model_output/complete29_sensitivity/gene_level/DESeq2_Wald_sensitivity.tsv.gz": {
+      "bytes": 152480,
+      "sha256": "ade85bd9b859e8608f54623c82ad132bfc4432820388aba4829f1c9eecb251a6"
+    },
+    "model_output/complete29_sensitivity/gene_level/edgeR_primary.tsv.gz": {
+      "bytes": 125306,
+      "sha256": "184c99fb1d8b4f179d06a6ede8f46f916a64dd61b299e5ce988c1f7d496b0a7a"
+    },
+    "model_output/complete29_sensitivity/gene_level/limma_voom_sensitivity.tsv.gz": {
+      "bytes": 154705,
+      "sha256": "15f1021e7a3f874e2238dc9906cf7d80f349fa9cbb799af5311f9a0640456cef"
+    },
+    "model_output/complete29_sensitivity/loao/gene_chronic_true_refit.tsv.gz": {
+      "bytes": 456420,
+      "sha256": "844afa22146871d1b4675689fca8d02b62fea825354cf3b5f0e5eed26086a703"
+    },
+    "model_output/complete29_sensitivity/loao/program_chronic_true_refit.tsv.gz": {
+      "bytes": 8996,
+      "sha256": "ea2ab061ac98a78e09f2f40d677b244bf08b79a57983d83a0eea4504628d15f2"
+    },
+    "model_output/complete29_sensitivity/programs/activity_all_contrasts.tsv.gz": {
+      "bytes": 2261,
+      "sha256": "f6cb82752cf386b61ecd44289519d146b771d52464b53e92e409fc1b49de3330"
+    },
+    "model_output/complete29_sensitivity/programs/camera.tsv.gz": {
+      "bytes": 862,
+      "sha256": "eaeef86295569d2d247ba4f6c8e4c793de8e7b918f6f8da8b4ff62816d7330d5"
+    },
+    "model_output/complete29_sensitivity/programs/fgsea_chronic.tsv.gz": {
+      "bytes": 805,
+      "sha256": "3fc5d5bcbf2c7adaf4faed02b9cd275db86483079eb752d10c3c01298a97736a"
+    },
+    "model_output/complete29_sensitivity/programs/mroast_chronic.tsv.gz": {
+      "bytes": 457,
+      "sha256": "ecf7c6073a882b52fdd9b0b918a2ae99709cac1b36038bb95f462574f0819632"
+    },
+    "model_output/primary_all30/diagnostics/dispersion_BCV_QL.tsv.gz": {
+      "bytes": 13189,
+      "sha256": "428556dbce8b7c063290bb6231411c527079b30156070a295c29dbc45f5bb02b"
+    },
+    "model_output/primary_all30/diagnostics/library_sizes_TMM.tsv": {
+      "bytes": 2405,
+      "sha256": "50c637fa5d073fd332d67f66adf17f3c2a5235564f5fa0f86ca6f32450501b68"
+    },
+    "model_output/primary_all30/diagnostics/MDS_coordinates.tsv": {
+      "bytes": 2082,
+      "sha256": "6c69533bffe68c531acac23c17e641ee1bfb429fb15b0224f6687f843b559380"
+    },
+    "model_output/primary_all30/diagnostics/mean_variance.tsv.gz": {
+      "bytes": 6989,
+      "sha256": "cd15fd57bc369e459bfc7332185dd9bcadae34fb5dd459c96ce083cccc003478"
+    },
+    "model_output/primary_all30/diagnostics/prefilter_summary.tsv": {
+      "bytes": 150,
+      "sha256": "ac72fda41f84945cdb7d8ff3ae475feca9a75340ac5a6aceb18d1d11a9776c91"
+    },
+    "model_output/primary_all30/diagnostics/sample_influence.tsv": {
+      "bytes": 1719,
+      "sha256": "19993d23500d4fe349d2ede37b5d4e6e300d9f815f1f86faab8385a50b1f8f22"
+    },
+    "model_output/primary_all30/gene_level/DESeq2_Wald_sensitivity.tsv.gz": {
+      "bytes": 152577,
+      "sha256": "65cbc6a80e95ff0929a6ebae78b04b448aa83d6a7f2e24eb3c6db59df2ec11b3"
+    },
+    "model_output/primary_all30/gene_level/edgeR_primary.tsv.gz": {
+      "bytes": 125379,
+      "sha256": "19e6ec57b3002ffa49b10c98b8a4db244862160a24b6567ce69ee1a814d25304"
+    },
+    "model_output/primary_all30/gene_level/limma_voom_sensitivity.tsv.gz": {
+      "bytes": 155013,
+      "sha256": "09c9da353d64b7c4687f72deb5ed7f55d4d49dc98e2620c65b3bac73d0995e61"
+    },
+    "model_output/primary_all30/loao/gene_chronic_true_refit.tsv.gz": {
+      "bytes": 472981,
+      "sha256": "1b1bfab56ff62fb4d5451deb536122bb5e7d8bd2de1b2b7f1097fa1963c6ecef"
+    },
+    "model_output/primary_all30/loao/program_chronic_true_refit.tsv.gz": {
+      "bytes": 9288,
+      "sha256": "26a99d1bea19e97381c42e55787ebb977b3988ab22c40988e0ed5475a513929f"
+    },
+    "model_output/primary_all30/programs/activity_all_contrasts.tsv.gz": {
+      "bytes": 2176,
+      "sha256": "0685b6be76e5050774dd8301769aa55d884b2d5120096b6bc0f9e6e80caf257d"
+    },
+    "model_output/primary_all30/programs/camera.tsv.gz": {
+      "bytes": 843,
+      "sha256": "2746e0a38306bc5b6bb0475261199f900d8ff752df420614b5ae742ee0490632"
+    },
+    "model_output/primary_all30/programs/fgsea_chronic.tsv.gz": {
+      "bytes": 807,
+      "sha256": "0c8f4d6e08865fc318c1898416a4b8481d5e71b1c02524b21738a400074e0bc7"
+    },
+    "model_output/primary_all30/programs/mroast_chronic.tsv.gz": {
+      "bytes": 456,
+      "sha256": "cd8db2a7cfcd4daaaf87b94c51faa235aec925e271aa55acab8f2e50e541aca3"
+    }
+  },
+  "synthetic_effect_direction_sanity": {
+    "primary_all30": {
+      "injected_up_median_logFC": 0.891790179897976,
+      "injected_down_median_logFC": -0.838887093932341,
+      "expected_direction_check": true
+    },
+    "complete29_sensitivity": {
+      "injected_up_median_logFC": 0.891789444708797,
+      "injected_down_median_logFC": -0.838886719169359,
+      "expected_direction_check": true
+    }
+  },
+  "negative_content_checks": {
+    "status": "PASS_FOUR_ORIGINAL_REJECTIONS_NO_MODEL_RERUN",
+    "altered_source": "GSE128623_KERNEL_LOADER:SOURCE_SHA256",
+    "sample_order": "COUNT_COLUMNS_NOT_EXACT_LEDGER_ORDER",
+    "conflicting_membership_weight": "GSE128623_MODEL_MEMBER_GUARD:WEIGHT_CONFLICT",
+    "altered_comparison_effect": "BRANCH_COMPARISON_UNVERIFIED",
+    "original_outputs_modified": false,
+    "real_data_inputs_read": false
+  },
+  "negative_CLI_checks": {
+    "status": "PASS_FOUR_CLI_BOUNDARIES",
+    "cases": [
+      {
+        "case": "existing_output",
+        "nonzero_exit": true,
+        "expected_reason_detected": true,
+        "output_not_created": "preexisting directory preserved"
+      },
+      {
+        "case": "synthetic_rejects_real_resource",
+        "nonzero_exit": true,
+        "expected_reason_detected": true,
+        "output_not_created": true
+      },
+      {
+        "case": "windows_formal_run",
+        "nonzero_exit": true,
+        "expected_reason_detected": true,
+        "output_not_created": true
+      },
+      {
+        "case": "wrong_resource",
+        "nonzero_exit": true,
+        "expected_reason_detected": true,
+        "output_not_created": true
+      }
+    ],
+    "R_processes_started": 0
+  },
+  "real_input_checks_without_fitting": {
+    "raw": {
+      "result": {
+        "status": "PASS_ORIGINAL_MODEL_INPUT_RUNTIME_CHECK_NO_FITS",
+        "genes": 41079,
+        "libraries": 30,
+        "pre_expression_filter_programs": 3211,
+        "scientific_model_runs": 0,
+        "driver_factory_constructed": true,
+        "linux_execution_validated": false,
+        "mode": "check",
+        "rotation_count": 9999,
+        "minimum_members": 10,
+        "seed": 20260819,
+        "system": "Windows",
+        "whole_study_restoration_verified": false
+      },
+      "receipt_identity": {
+        "bytes": 3890,
+        "sha256": "a57fcb5bb161fd4220f4edc2a6132d7a8ec38c923bef6f217fc045a41623da76"
+      },
+      "input_files_unchanged": true
+    },
+    "adapter": {
+      "result": {
+        "status": "PASS_ORIGINAL_MODEL_INPUT_RUNTIME_CHECK_NO_FITS",
+        "genes": 41079,
+        "libraries": 30,
+        "pre_expression_filter_programs": 3211,
+        "scientific_model_runs": 0,
+        "driver_factory_constructed": true,
+        "linux_execution_validated": false,
+        "mode": "check",
+        "rotation_count": 9999,
+        "minimum_members": 10,
+        "seed": 20260819,
+        "system": "Windows",
+        "whole_study_restoration_verified": false
+      },
+      "receipt_identity": {
+        "bytes": 3902,
+        "sha256": "d10a1b299a2bfcc373b7d7b1464046991a37359efdee330f665a91051514542d"
+      },
+      "input_files_unchanged": true
+    }
+  },
+  "loaded_package_versions": {
+    "methods": "4.6.1",
+    "graphics": "4.6.1",
+    "generics": "0.1.4",
+    "fgsea": "1.38.0",
+    "SparseArray": "1.12.2",
+    "DESeq2": "1.52.0",
+    "lattice": "0.22.9",
+    "magrittr": "2.0.5",
+    "grid": "4.6.1",
+    "RColorBrewer": "1.1.3",
+    "grDevices": "4.6.1",
+    "R.oo": "1.27.1",
+    "jsonlite": "2.0.0",
+    "Matrix": "1.7.5",
+    "R.utils": "2.13.0",
+    "limma": "3.68.4",
+    "scales": "1.4.0",
+    "codetools": "0.2.20",
+    "abind": "1.4.8",
+    "cli": "3.6.6",
+    "rlang": "1.3.0",
+    "XVector": "0.52.0",
+    "R.methodsS3": "1.8.2",
+    "Biobase": "2.72.0",
+    "cowplot": "1.2.0",
+    "splines": "4.6.1",
+    "utils": "4.6.1",
+    "DelayedArray": "0.38.2",
+    "yaml": "2.3.12",
+    "stats": "4.6.1",
+    "S4Arrays": "1.12.0",
+    "tools": "4.6.1",
+    "base": "4.6.1",
+    "parallel": "4.6.1",
+    "BiocParallel": "1.46.0",
+    "dplyr": "1.2.1",
+    "ggplot2": "4.0.3",
+    "locfit": "1.5.9.12",
+    "fastmatch": "1.1.8",
+    "SummarizedExperiment": "1.42.0",
+    "BiocGenerics": "0.58.1",
+    "vctrs": "0.7.3",
+    "R6": "2.6.1",
+    "matrixStats": "1.5.0",
+    "stats4": "4.6.1",
+    "lifecycle": "1.0.5",
+    "Seqinfo": "1.2.0",
+    "S4Vectors": "0.50.1",
+    "edgeR": "4.10.1",
+    "IRanges": "2.46.0",
+    "pkgconfig": "2.0.3",
+    "pillar": "1.11.1",
+    "gtable": "0.3.6",
+    "data.table": "1.18.4",
+    "glue": "1.8.1",
+    "Rcpp": "1.1.2",
+    "statmod": "1.5.2",
+    "tibble": "3.3.1",
+    "GenomicRanges": "1.64.0",
+    "tidyselect": "1.2.1",
+    "MatrixGenerics": "1.24.0",
+    "farver": "2.1.2",
+    "datasets": "4.6.1",
+    "compiler": "4.6.1",
+    "S7": "0.2.2",
+    "askpass": "1.2.1",
+    "openssl": "2.4.2"
+  },
+  "isolated_runtime_code_equal_to_release": true,
+  "real_data_model_runs": 0,
+  "original_scientific_sources_changed": false,
+  "known_limitations": [
+    "Existing Windows R library reused; no clean installation.",
+    "Formal Linux driver constructed but not executed; full statistical kernels tested separately on synthetic data.",
+    "Historical native custody and full-study orchestration are not recreated.",
+    "Conditional label references are not rerun by this entry.",
+    "No independent phenotype-linked PSS holdout established."
+  ],
+  "development_note": "A no-fit check initially failed during base-namespace path logging. Wrapper logging was corrected and both real-input checks passed; scientific sources were unchanged."
+}

@@ -1,9 +1,8 @@
 {
-  "version": "0.11.0",
-  "scope": "ORIGINAL_RESOURCE_RECONSTRUCTION_AND_INPUT_PREPARATION_NOT_WHOLE_STUDY_RESTORE",
+  "version": "0.12.0",
+  "scope": "ORIGINAL_G128_ENTRY_WITH_SYNTHETIC_VALIDATION_NOT_WHOLE_STUDY_RESTORE",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
-  "models_run": 0,
   "files": {
     ".gitattributes": {
       "bytes": 8,
@@ -970,8 +969,8 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 9921,
-      "sha256": "cde4e71625422e642d80cb6767a0d32d4f969e849d5fcf62e775cb215aa08ea5"
+      "bytes": 10554,
+      "sha256": "4f18a0b6d4fffe93bf1b541547593ef6342126192a59180100ce061f8daeebb7"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2396,
@@ -1080,6 +1079,36 @@
     "pipeline/build_resources.py": {
       "bytes": 6608,
       "sha256": "2d5fab41a31b9cc5bfc702b59c438a2ea72662170be03ce2d142ab516cbbcd10"
+    },
+    "pipeline/g128_model.py": {
+      "bytes": 7257,
+      "sha256": "217588b1cd516ce245111876fff17c95459ae918b021378926a658c829c1c28e"
+    },
+    "analysis/g128_execution/CONTRACT.json": {
+      "bytes": 2762,
+      "sha256": "984654096dd1a2305964b353095fc7a18e4b5955bbdd69171fa6a491330caa65"
+    },
+    "analysis/g128_execution/entry.R": {
+      "bytes": 4732,
+      "sha256": "81042ef573133cff8bc84ba15638965386e6a8463a7e383ce81739c5b8dd9352"
+    },
+    "analysis/g128_execution/synthetic.R": {
+      "bytes": 4940,
+      "sha256": "38332952d0953058716fd16afb322b908c1fbfa8bbdbacd1a106f06130024099"
+    },
+    "analysis/g128_execution/negative_checks.R": {
+      "bytes": 3714,
+      "sha256": "2ca0b7d4d95e0b2be6cec6a4ed38042e8656595ac094bad56d3ef408dbe48054"
+    },
+    "analysis/g128_execution/README.md": {
+      "bytes": 6862,
+      "sha256": "85affb3df4c9f437fd9826e0106dd334e906c32e280df2922f3c612f8efa70f4"
+    },
+    "analysis/g128_execution/VALIDATION.json": {
+      "bytes": 13913,
+      "sha256": "97ba10a5ee4e1f0dc378596c9d3db8ba9570ce0275cddba7a89f5a2f3f8f1cc2"
     }
-  }
+  },
+  "real_data_models_run": 0,
+  "synthetic_full_kernel_sequences_tested": 2
 }
