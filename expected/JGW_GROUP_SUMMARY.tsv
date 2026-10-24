@@ -1,0 +1,7 @@
+accession	space	family_n	feature_family_records	conditional_P_unavailable_n	null_unavailable_feature_draws	reference_N	nonidentity_N
+GSE227494	four_group_MC	29	113785	109	104022	10001	10000
+GSE227494	high_companion_exact	11	48049	9	48	20	19
+GSE289929	four_group_MC	31	108723	138	77853	10001	10000
+GSE289929	high_companion_exact	12	46117	3	25	20	19
+GSE299063	four_group_MC	29	118137	216	62699	10001	10000
+GSE299063	high_companion_exact	11	49912	5	28	20	19
