@@ -36,6 +36,13 @@ def catalog():
         p = Path(row['path'])
         if p.is_absolute() or '..' in p.parts:
             raise ValueError('Invalid relative input path')
+        if 'derived_from' in row:
+            derivation = row['derived_from']
+            sources = [r for r in inputs['records'] if r['path'] == derivation['path']]
+            if len(sources) != 1 or derivation['operation'] != 'gzip_decompress':
+                raise ValueError('Invalid reference derivation')
+            if not sources[0]['url'] or sources[0]['sha256'] != derivation['sha256']:
+                raise ValueError('Reference source identity mismatch')
     for row in rows:
         if row['filename'] != row['package'] + '_' + row['version'] + '.tar.gz':
             raise ValueError('Invalid source filename')
@@ -85,7 +92,8 @@ def main():
     if args.command == 'inspect':
         result = {'status': 'CATALOG_CONSISTENCY_PASS', 'input_records': 71,
                   'FASTQ_files': sum(r['use'] == 'raw_counting_input' for r in inputs['records']),
-                  'reference_files_without_recovered_URL': sum(r['url'] is None for r in inputs['records']),
+                  'reference_files_without_access_or_derivation': sum(r['url'] is None and 'derived_from' not in r for r in inputs['records']),
+                  'reference_gzip_derivations': sum('derived_from' in r for r in inputs['records']),
                   'G205_core_packages': 70, 'local_input_bytes_checked': False,
                   'whole_study_restore_proven': False}
     else:

@@ -1,6 +1,6 @@
 # Shaoyao Route B2: reproducibility components
 
-Version 0.6.0 adds **71 technical input records and the exact 70-package GSE205906 Linux core environment** to the original scientific branch kernels, conditional-reference sources, experimental-spasticity anchor, accepted-table reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves pinned bytes on Windows checkouts; two explicitly identified historical-source path derivatives have separate original/public hashes. Earlier tags remain in history.
+Version 0.7.0 adds **retained GSE205906 runtime source bindings, four original source files and recovered reference acquisition paths** to the scientific branch kernels, conditional-reference sources, experimental-spasticity anchor, technical input/core-environment inventories, accepted-table reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves pinned bytes on Windows checkouts; two explicitly identified historical-source path derivatives have separate original/public hashes. Earlier tags remain in history.
 
 ## What is available
 
@@ -19,6 +19,8 @@ Version 0.6.0 adds **71 technical input records and the exact 70-package GSE2059
 - `data/acquisition/`: 19 historical GEO files, 30 GSE128623 FASTQ identities, 18 GSE205906 FASTQ identities and four matching Rnor6/Ensembl101 reference assets. [Input placement and remaining access gaps](data/acquisition/README.md).
 - `environment/G205_core/`: exact package acquisition identities, accepted installed versions/runtime inventory, serial build order, and a path-parameterized library checker. [Environment restoration sequence and validation scope](environment/G205_core/README.md).
 - `pipeline/acquisition.py`: inspect these catalogs, check user-supplied input/package bytes, or emit a source-verified installation plan. No automatic download, installation or scientific computation.
+- `analysis/runtime_bindings/`: 114 file pins from 12 retained GSE205906 records, including 18 occurrences resolved to public source/configuration files; four additional original R sources and separately labelled source assertions. [Runtime names and interpretation](analysis/runtime_bindings/README.md).
+- `pipeline/bindings.py`: verify these source bindings or copy exact public source/configuration files into a fresh historical namespace layout without executing them.
 
 The derived tables are family-level aggregate outputs. The ledger adds public submitted-array/library identifiers and qualified analysis membership. Neither contains individual-level clinical records, raw sequencing data or third-party gene-set memberships.
 
@@ -48,7 +50,7 @@ The command computes descriptive groups from already accepted tables. It does no
 
 ## Scope of this release
 
-The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.6.0. The source and acquisition inventories supply many previously absent identities, producers and readers, but complete acquisition, dynamic execution manifests, environment provisioning and portable orchestration remain unfinished. Four accepted reference assets still lack recovered original URLs in this selection. The 70-package core installation passed previously on an existing Linux runtime; this release checked the retained archives but did not execute a new Linux restoration. Whole-study cold restoration is not established. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions. The anchor metadata preserves original curation language without independently establishing animal lineage or pre-outcome chronology.
+The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.7.0. The source and acquisition inventories supply many previously absent identities, producers and readers, but complete acquisition, dynamic execution manifests, environment provisioning and portable orchestration remain unfinished. The four GSE205906 reference assets now have recovered official acquisition or gzip-derivation paths; the exact GTF bytes were revalidated in memory, while the FASTA is supported by the retained full-file receipt. The 70-package core installation passed previously on an existing Linux runtime; no new Linux restoration was executed for this release. Whole-study cold restoration is not established. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions. The anchor metadata preserves original curation language without independently establishing animal lineage or pre-outcome chronology.
 
 ## Licences and attribution
 

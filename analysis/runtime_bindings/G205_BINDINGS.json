@@ -1,0 +1,1314 @@
+{
+  "scope": "Selected retained G205 runtime file bindings and separately labelled source assertions",
+  "source_archive_sha256": "89f65a8ceb6c720797da9fb553293627d3b40283938f81132610017a7b143109",
+  "new_unchanged_sources": [
+    {
+      "original_path": "code/R/finish_unsigned_observed_bridge_20261015.R",
+      "public_path": "analysis/runtime_bindings/code/R/finish_unsigned_observed_bridge_20261015.R",
+      "bytes": 12468,
+      "sha256": "d384bdf52d4e46339fadf83b13eb84776443bc55f6502fbb49ad50beb71ca647",
+      "transformation": "NONE"
+    },
+    {
+      "original_path": "code/R/gse205906_label_reference_20261014.R",
+      "public_path": "analysis/runtime_bindings/code/R/gse205906_label_reference_20261014.R",
+      "bytes": 22047,
+      "sha256": "79be85feee0ab70f22d80bf48ddb287e27548a66134adeb4a27a9626694ff064",
+      "transformation": "NONE"
+    },
+    {
+      "original_path": "code/R/gse205906_program_baselines_20261014.R",
+      "public_path": "analysis/runtime_bindings/code/R/gse205906_program_baselines_20261014.R",
+      "bytes": 29478,
+      "sha256": "27c66bcb303715088f1f46cc5ec0668af6026001def9a05eea68bdd3fa3a7389",
+      "transformation": "NONE"
+    },
+    {
+      "original_path": "code/R/independent_gse205906_canonical_lineage_v2_20261015.R",
+      "public_path": "analysis/runtime_bindings/code/R/independent_gse205906_canonical_lineage_v2_20261015.R",
+      "bytes": 24979,
+      "sha256": "c47843708854c45d9fcfbc2fcf6ecfc5d8bc586a2ace3469eddf62469216c356",
+      "transformation": "NONE"
+    }
+  ],
+  "receipt_provenance": [
+    {
+      "source_id": "original_reference/PREPARED.json",
+      "bytes": 1989,
+      "sha256": "6e645e7c466bf9b5845e608b7f20a5c7fba3924183fbf4b243a0c48137e6dd1f",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "original_reference/ENUMERATION_COMPLETE.json",
+      "bytes": 2466,
+      "sha256": "3dafd55e27f2649b12d509baf2acb5317c36d764990697fb0733ee83eda5ad44",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "canonical_reference/PREPARED.json",
+      "bytes": 2367,
+      "sha256": "0631f763b0decbd3d5345770185ba6b45b09fb399a9cd45ba4840b21ba2391b4",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "canonical_reference/ENUMERATION_COMPLETE.json",
+      "bytes": 2530,
+      "sha256": "3ae21310e0f06d23aa8b1163c8acc423551a62385a17fcb17bbfd108a8ad1015",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "bytes": 5042,
+      "sha256": "cfa93874cf7a9d4e1f756115cd8c412b47917ff808bcf6a4bbfee2be73d8761c",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "gene_method_reference/PREPARED.json",
+      "bytes": 2970,
+      "sha256": "03dfcb765bddcc81a63290f7c835c1ada4fd20b397e90c962d9211877deddcec",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "gene_method_reference/ENUMERATION_COMPLETE.json",
+      "bytes": 2522,
+      "sha256": "4b3b7a16b73085d353dfd6dd7fe24928d719d23a608a7d091d0dc9d642fbce7f",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "unsigned_reference/PREPARED.json",
+      "bytes": 3816,
+      "sha256": "5c86eab531ecb9e8755e58461b56b4424f97e6edbc2c666757f982af35ad6d2d",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "bytes": 3755,
+      "sha256": "591439fffc147ef32154e2309b61e1401dc9e78cd8a8afc722dd4daf40236155",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "program_baseline/INPUT_MANIFEST.tsv",
+      "bytes": 3937,
+      "sha256": "89a8b3e9b007a86434b9115d66ff44dc6d88a053948dddd5e020b31fdfeb302a",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "program_baseline/RECOVERY_COMPLETE.json",
+      "bytes": 2942,
+      "sha256": "d98e815bde1f5ef157e5761d523e3766795cac7af069a69b5299f7dc342ca408",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    },
+    {
+      "source_id": "program_baseline/BASELINE_COMPLETE.json",
+      "bytes": 5118,
+      "sha256": "9d19ac0cc742df4fe5c8e03c96a882800239f88c7e6d1b198c418f8ae3aaee5e",
+      "projection": "Only file roles/namespaces/identities; no error text or scientific arrays"
+    }
+  ],
+  "runtime_file_pins": [
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/PREPARED.json",
+      "field": "/input_manifest",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/INPUT_MANIFEST.tsv",
+      "bytes": 2949,
+      "sha256": "15e8abc9a623212627c25d1c1d550a2017407368f466f7b786f0f00c01a71360",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/PREPARED.json",
+      "field": "/derived",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/derived_inputs.rds",
+      "bytes": 1051134,
+      "sha256": "275296fa4850d05f1c13b35f9757f27859609ab2aca2379c17d6c7524dd43f0c",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/PREPARED.json",
+      "field": "/observed",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/OBSERVED.tsv",
+      "bytes": 4242657,
+      "sha256": "f4efdf4223e45b3dc20ef542dc259322149139271cb5222378dccda40197b9af",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/PREPARED.json",
+      "field": "/worker",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/worker.R",
+      "bytes": 22047,
+      "sha256": "79be85feee0ab70f22d80bf48ddb287e27548a66134adeb4a27a9626694ff064",
+      "public_matches": [
+        "analysis/runtime_bindings/code/R/gse205906_label_reference_20261014.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/PREPARED.json",
+      "field": "/definition",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/definition.md",
+      "bytes": 6563,
+      "sha256": "6e0ed64f8f8e0608b4a484eb9a6b5815cc1d408e7305ee9175edeb5a63d5a5a1",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/PREPARED.json",
+      "field": "/observed_checkpoint",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/allocations/allocation_0001.rds",
+      "bytes": 925087,
+      "sha256": "a56eae5eb17d563188238ab150e7111aaa7f83f7f7e95e499557448522250a61",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/ENUMERATION_COMPLETE.json",
+      "field": "/preparation",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/PREPARED.json",
+      "bytes": 1989,
+      "sha256": "6e645e7c466bf9b5845e608b7f20a5c7fba3924183fbf4b243a0c48137e6dd1f",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/features",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/FEATURE_EMPIRICAL_REFERENCE.tsv",
+      "bytes": 6857069,
+      "sha256": "b252c3c5fe9d8be2464564c004de338974e4de2e54087431e119d96655652d6e",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/allocation_families",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/ALLOCATION_FAMILY_DIAGNOSTICS.tsv",
+      "bytes": 5209064,
+      "sha256": "1bd75e2952d21dd321a4a9dff77885d3c177cd7d1ef7e6e83a53a55b40dd1982",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/family_summary",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/FAMILY_REFERENCE_SUMMARY.tsv",
+      "bytes": 5147,
+      "sha256": "698814eeb710abbe78f5bd5e8449fdd368af63469721a947b9a0c1a2758ae9a3",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/label_swaps",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/LABEL_SWAP_NUMERICAL_CHECK.tsv",
+      "bytes": 79259,
+      "sha256": "6f06aa5ea009be67d6fa08b98be6826fb0cfce77ca403ad40200dbccaece8187",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/allocation_manifest",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/ALLOCATION_MANIFEST.tsv",
+      "bytes": 192352,
+      "sha256": "20eab7838ff4368f6b03ef81c1d043483da9bc7be5fcb1a572062f01a8a62ea2",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "original_reference",
+      "source_record": "original_reference/ENUMERATION_COMPLETE.json",
+      "field": "/summary_source",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/summary_v2.R",
+      "bytes": 10920,
+      "sha256": "b76bd6a9b7293976fe30328e7f8da578ff3a2647ff9e224c64c765b6f16bdffe",
+      "public_matches": [
+        "analysis/reference_sources/code/R/summarize_gse205906_label_reference_20261014.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/PREPARED.json",
+      "field": "/input_manifest",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/INPUT_MANIFEST.tsv",
+      "bytes": 4415,
+      "sha256": "9a15b86d099e69beab206abeecd74db1c2d1ee102f4f495b6c172b35d8e33eab",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/PREPARED.json",
+      "field": "/derived",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/derived_inputs.rds",
+      "bytes": 1051522,
+      "sha256": "7a4405a6c046cdf0ca6ba9b2b2692e0c79d6ae92e6b90eb279a1aa46cd41662f",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/PREPARED.json",
+      "field": "/observed",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/OBSERVED.tsv",
+      "bytes": 4242657,
+      "sha256": "f4efdf4223e45b3dc20ef542dc259322149139271cb5222378dccda40197b9af",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/PREPARED.json",
+      "field": "/worker",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/worker.R",
+      "bytes": 18166,
+      "sha256": "18eaab06d0bb980dae3373279c83d0e4e32f94dbee346ef4e2cc120e11ba3965",
+      "public_matches": [
+        "analysis/reference_sources/code/R/gse205906_canonical_label_reference_20261015.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/PREPARED.json",
+      "field": "/definition",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/definition.md",
+      "bytes": 5421,
+      "sha256": "fae38f4c84b2d76223cca1f8426eb5307ff86685dc71cb3d76e3e1ec96baa625",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/PREPARED.json",
+      "field": "/observed_checkpoint",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/allocations/allocation_0001.rds",
+      "bytes": 925991,
+      "sha256": "3c16da48bfc316d4e193ea55d89f2bf2954690264bb3d48a13a1a2e3422ad4ad",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/PREPARED.json",
+      "field": "/original_preparation",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/PREPARED.json",
+      "bytes": 1989,
+      "sha256": "6e645e7c466bf9b5845e608b7f20a5c7fba3924183fbf4b243a0c48137e6dd1f",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/ENUMERATION_COMPLETE.json",
+      "field": "/preparation",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/PREPARED.json",
+      "bytes": 2367,
+      "sha256": "0631f763b0decbd3d5345770185ba6b45b09fb399a9cd45ba4840b21ba2391b4",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/features",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/FEATURE_EMPIRICAL_REFERENCE.tsv",
+      "bytes": 6857405,
+      "sha256": "b03eaa25c519f9d43200ba935221209f2d82b4a6474e2f3cbec8058b05a14f43",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/allocation_families",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/ALLOCATION_FAMILY_DIAGNOSTICS.tsv",
+      "bytes": 5209031,
+      "sha256": "de0a938f312752c4e55567221cd9181485260a9e923026b7b13f8b2eef1126d3",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/family_summary",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/FAMILY_REFERENCE_SUMMARY.tsv",
+      "bytes": 5147,
+      "sha256": "698814eeb710abbe78f5bd5e8449fdd368af63469721a947b9a0c1a2758ae9a3",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/label_swaps",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/LABEL_SWAP_NUMERICAL_CHECK.tsv",
+      "bytes": 79199,
+      "sha256": "789ad9dd94cd46b397ae5747f560aeb6cd221742c12d4574cb712951f03eeb3c",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/allocation_manifest",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/ALLOCATION_MANIFEST.tsv",
+      "bytes": 193695,
+      "sha256": "ea70373e2b704c0d3f86aca4f236ea7cec7e0e9d81aaa583a4301071a0c0a662",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/ENUMERATION_COMPLETE.json",
+      "field": "/summary_source",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/summary.R",
+      "bytes": 10920,
+      "sha256": "b76bd6a9b7293976fe30328e7f8da578ff3a2647ff9e224c64c765b6f16bdffe",
+      "public_matches": [
+        "analysis/reference_sources/code/R/summarize_gse205906_label_reference_20261014.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/checker",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/lineage_checker_v2.R",
+      "bytes": 24979,
+      "sha256": "c47843708854c45d9fcfbc2fcf6ecfc5d8bc586a2ace3469eddf62469216c356",
+      "public_matches": [
+        "analysis/runtime_bindings/code/R/independent_gse205906_canonical_lineage_v2_20261015.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/old_completion",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/ENUMERATION_COMPLETE.json",
+      "bytes": 2466,
+      "sha256": "3dafd55e27f2649b12d509baf2acb5317c36d764990697fb0733ee83eda5ad44",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/new_completion",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/ENUMERATION_COMPLETE.json",
+      "bytes": 2530,
+      "sha256": "3ae21310e0f06d23aa8b1163c8acc423551a62385a17fcb17bbfd108a8ad1015",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/old_preparation",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/PREPARED.json",
+      "bytes": 1989,
+      "sha256": "6e645e7c466bf9b5845e608b7f20a5c7fba3924183fbf4b243a0c48137e6dd1f",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/new_preparation",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/PREPARED.json",
+      "bytes": 2367,
+      "sha256": "0631f763b0decbd3d5345770185ba6b45b09fb399a9cd45ba4840b21ba2391b4",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/old_worker",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/worker.R",
+      "bytes": 22047,
+      "sha256": "79be85feee0ab70f22d80bf48ddb287e27548a66134adeb4a27a9626694ff064",
+      "public_matches": [
+        "analysis/runtime_bindings/code/R/gse205906_label_reference_20261014.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/new_worker",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/worker.R",
+      "bytes": 18166,
+      "sha256": "18eaab06d0bb980dae3373279c83d0e4e32f94dbee346ef4e2cc120e11ba3965",
+      "public_matches": [
+        "analysis/reference_sources/code/R/gse205906_canonical_label_reference_20261015.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/old_definition",
+      "asset_namespace": "route_b2_gse205906_label_reference_20261014r02/definition.md",
+      "bytes": 6563,
+      "sha256": "6e0ed64f8f8e0608b4a484eb9a6b5815cc1d408e7305ee9175edeb5a63d5a5a1",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/new_definition",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/definition.md",
+      "bytes": 5421,
+      "sha256": "fae38f4c84b2d76223cca1f8426eb5307ff86685dc71cb3d76e3e1ec96baa625",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/outputs/repair_impact",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/independent_lineage_r02/INDEPENDENT_REPAIR_IMPACT.tsv",
+      "bytes": 526365,
+      "sha256": "54689fd36ceaffeec8659edf4eab7185e04a18ffccb875eeb0b60e86bfd00899",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/outputs/BH_transitions",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/independent_lineage_r02/INDEPENDENT_BH_TRANSITIONS.tsv",
+      "bytes": 80179,
+      "sha256": "2d56acb8b058f800cceb44bd8204b071b5f0d4febdd16eff6d0b4aa579759fe7",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "canonical_reference",
+      "source_record": "canonical_reference/INDEPENDENT_CANONICAL_LINEAGE_CHECK.json",
+      "field": "/outputs/repair_impact_summary",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/independent_lineage_r02/INDEPENDENT_REPAIR_IMPACT_SUMMARY.tsv",
+      "bytes": 909,
+      "sha256": "b90c610749c25a581d6bd09f2b702b56005a3f33dc5f3efad288c09368c48d65",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/PREPARED.json",
+      "field": "/derived",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/inputs/state.rds",
+      "bytes": 474181,
+      "sha256": "6583cac852d756d38b312f482d683c417274ea5976d0ee698ccb655a42a0a2d3",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/PREPARED.json",
+      "field": "/observed",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/OBSERVED.tsv",
+      "bytes": 8151175,
+      "sha256": "867ac0ee097a185d744ee234354e54d2c5cec3a360b72af2928af8c0e7051baa",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/PREPARED.json",
+      "field": "/observed_checkpoint",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/allocations/allocation_0001.rds",
+      "bytes": 1672189,
+      "sha256": "d54422bf0dfda5887bf964f119a92ad77e66b8aaa76eb034b9873f06085eebd9",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/PREPARED.json",
+      "field": "/worker",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/worker.R",
+      "bytes": 22326,
+      "sha256": "b6e27215b2865ed0624afe6220f237f640c05c87ae30f0b38a7721f3257301ab",
+      "public_matches": [
+        "analysis/reference_sources/code/R/gse205906_gene_method_label_reference_20261015.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/PREPARED.json",
+      "field": "/definition",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/definition.md",
+      "bytes": 7416,
+      "sha256": "c1d6da6d2f6b4dd214e88fef46aa407cc994071a3f760683b352bb223b26f897",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/PREPARED.json",
+      "field": "/input_manifest",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/INPUT_MANIFEST.tsv",
+      "bytes": 2946,
+      "sha256": "cf67a7a5c014d4f1e4ec20e154259c2dfcf6aa1f73b8281f3ea091d630a2cda5",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/ENUMERATION_COMPLETE.json",
+      "field": "/preparation",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/PREPARED.json",
+      "bytes": 2970,
+      "sha256": "03dfcb765bddcc81a63290f7c835c1ada4fd20b397e90c962d9211877deddcec",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/features",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/FEATURE_EMPIRICAL_REFERENCE.tsv",
+      "bytes": 12878187,
+      "sha256": "8b3a7fb8c65fdb4f2d455c757618eeef393fefe66c0d6c55d22384f35dac8131",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/allocation_families",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/ALLOCATION_FAMILY_DIAGNOSTICS.tsv",
+      "bytes": 2183663,
+      "sha256": "17a89e6e5c7a429116f48507f42ad6a79f0b4d71d89511eb17e638d0a8ea9b1b",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/family_summary",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/FAMILY_REFERENCE_SUMMARY.tsv",
+      "bytes": 2419,
+      "sha256": "5c255fd3cab72850a1a6f9747e1ffefd2d0dec577678bf55bf9b19d576a750f4",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/label_swaps",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/LABEL_SWAP_NUMERICAL_CHECK.tsv",
+      "bytes": 47444,
+      "sha256": "ed56c72926c225ec1ba85886d80e9aef98b545edd0c67f1a18d97fa18f840934",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/ENUMERATION_COMPLETE.json",
+      "field": "/outputs/allocation_manifest",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/ALLOCATION_MANIFEST.tsv",
+      "bytes": 197856,
+      "sha256": "c29e5879461fc6971eea7f0a46de0326a5ff605eefdc7ab8f972564dda42c1a6",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "gene_method_reference",
+      "source_record": "gene_method_reference/ENUMERATION_COMPLETE.json",
+      "field": "/summary_source",
+      "asset_namespace": "route_b2_gse205906_gene_method_label_reference_20261015r01/summary.R",
+      "bytes": 10920,
+      "sha256": "b76bd6a9b7293976fe30328e7f8da578ff3a2647ff9e224c64c765b6f16bdffe",
+      "public_matches": [
+        "analysis/reference_sources/code/R/summarize_gse205906_label_reference_20261014.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/derived",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/inputs/state.rds",
+      "bytes": 740774,
+      "sha256": "afe159fbcc698b1b1f9ac8962fa587d261d45155abafe42a93a74090ae1d12bd",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/observed",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/OBSERVED.tsv",
+      "bytes": 844819,
+      "sha256": "2da6ef2d494f01f223d68f9662165817d51a483e3796f61e85ddeb4f504ef6ca",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/observed_checkpoint",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/allocations/allocation_0001.rds",
+      "bytes": 1661943,
+      "sha256": "942a102b24f0602b4974d8004b6a4e76ee9c940696450be6a59c678b7910478d",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/worker",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/worker.R",
+      "bytes": 46817,
+      "sha256": "1eb606c6fea739521e786863d5def7d184d3741bb647168a58671af5bfa4a540",
+      "public_matches": [
+        "analysis/reference_sources/code/R/gse205906_unsigned_method_label_reference_v2_20261015.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/definition",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/definition.md",
+      "bytes": 12994,
+      "sha256": "5af50b1cf337744a6cbb08e331f1457c274f87c789ed75a3ae4a3119d5721215",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/input_manifest",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/INPUT_MANIFEST.tsv",
+      "bytes": 3755,
+      "sha256": "591439fffc147ef32154e2309b61e1401dc9e78cd8a8afc722dd4daf40236155",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/native_bridge",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/OBSERVED_COMPATIBILITY.tsv",
+      "bytes": 1856,
+      "sha256": "f3581aaa94de65c0c41b7c72acbe56bd7b4d196a0da2746650308c6731e6711a",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/runtime",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/RUNTIME_BEFORE.json",
+      "bytes": 1766,
+      "sha256": "d2ae1f6ea9196c5bbbd0840b474b447aaa110601df44346036755bb85845c9ae",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/metadata_finisher",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/finish_observed_bridge.R",
+      "bytes": 12468,
+      "sha256": "d384bdf52d4e46339fadf83b13eb84776443bc55f6502fbb49ad50beb71ca647",
+      "public_matches": [
+        "analysis/runtime_bindings/code/R/finish_unsigned_observed_bridge_20261015.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/metadata_closure_manifest",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/OBSERVED_METADATA_CLOSURE_MANIFEST.tsv",
+      "bytes": 2134,
+      "sha256": "96f86d693bd2d6ae11453f98927bf5b239f821c8ee32e404c2e29f3d13a5ed04",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/PREPARED.json",
+      "field": "/metadata_closure_receipt",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/OBSERVED_BRIDGE_TRANSPORT_RECOVERY.json",
+      "bytes": 3548,
+      "sha256": "adc427c1c96723fb7df36ff49bc36c31ee7bace9a2e6b0e8b923a3bb1dbb4b82",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "canonical_prepared",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/PREPARED.json",
+      "bytes": 2367,
+      "sha256": "0631f763b0decbd3d5345770185ba6b45b09fb399a9cd45ba4840b21ba2391b4",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "canonical_state",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/derived_inputs.rds",
+      "bytes": 1051522,
+      "sha256": "7a4405a6c046cdf0ca6ba9b2b2692e0c79d6ae92e6b90eb279a1aa46cd41662f",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "canonical_completion",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/ENUMERATION_COMPLETE.json",
+      "bytes": 2530,
+      "sha256": "3ae21310e0f06d23aa8b1163c8acc423551a62385a17fcb17bbfd108a8ad1015",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "canonical_filter_proof",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/FILTER_INVARIANCE.tsv",
+      "bytes": 25819,
+      "sha256": "3928df36c9bac3c3bfc1ec01618eb755ebd77b8ca997bfab9a587ffc86cbf863",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "canonical_input_manifest",
+      "asset_namespace": "route_b2_gse205906_canonical_label_reference_20261015r01/INPUT_MANIFEST.tsv",
+      "bytes": 4415,
+      "sha256": "9a15b86d099e69beab206abeecd74db1c2d1ee102f4f495b6c172b35d8e33eab",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "native_completion",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/COMPLETED",
+      "bytes": 2137,
+      "sha256": "25c11e9824b72a45d6dc0e6625439ab73e2e19f8b0eeb524c41955c06b1d697e",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "native_manifest",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/file_manifest.json",
+      "bytes": 14520,
+      "sha256": "428c0f9827b068673b7ecddad2e7fef3cecde09d10c3c35927fc8eb99d9743e7",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "native_mroast",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/unsigned_mroast.tsv",
+      "bytes": 935377,
+      "sha256": "85e92b4bc52dd273903bfc2add70e4d1357e98003935785b1245aae56eac139f",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "native_fgsea",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/unsigned_fgsea.tsv",
+      "bytes": 1440721,
+      "sha256": "8687d7f135a4c8464b0cffea2975cc908913b7b093780a211e115b3f417dd2a7",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "model_source",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/model_source.R",
+      "bytes": 72490,
+      "sha256": "b8b274667dcb68e5c8a729e10f4df46d9e596371be4ee6a8a99efc7be1286cd2",
+      "public_matches": [
+        "analysis/study_sources/code/R/analyze_gse205906_bulk_model_v2_r4.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "config",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/config.json",
+      "bytes": 10612,
+      "sha256": "ee6e22592b06ecdb31707234e97dc55b7b66cbad8dd11c364187af0624ece980",
+      "public_matches": [
+        "analysis/study_sources/config/GSE205906_Ensembl101_full_model_v1_20261006.json"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "canonical_source",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/canonical_source.R",
+      "bytes": 18166,
+      "sha256": "18eaab06d0bb980dae3373279c83d0e4e32f94dbee346ef4e2cc120e11ba3965",
+      "public_matches": [
+        "analysis/reference_sources/code/R/gse205906_canonical_label_reference_20261015.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "worker",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/worker.R",
+      "bytes": 46817,
+      "sha256": "1eb606c6fea739521e786863d5def7d184d3741bb647168a58671af5bfa4a540",
+      "public_matches": [
+        "analysis/reference_sources/code/R/gse205906_unsigned_method_label_reference_v2_20261015.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "definition",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/definition.md",
+      "bytes": 12994,
+      "sha256": "5af50b1cf337744a6cbb08e331f1457c274f87c789ed75a3ae4a3119d5721215",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "synthetic_tests",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/SYNTHETIC_TESTS.json",
+      "bytes": 3517,
+      "sha256": "16d346a011704106d9a47ac30792c153bc33127a01272f3e4cdc0a4b03aa6d1c",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "summary_source",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/summary.R",
+      "bytes": 10920,
+      "sha256": "b76bd6a9b7293976fe30328e7f8da578ff3a2647ff9e224c64c765b6f16bdffe",
+      "public_matches": [
+        "analysis/reference_sources/code/R/summarize_gse205906_label_reference_20261014.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "resources",
+      "asset_namespace": "route_b2_public_analysis/public-input-stage-v1/data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds",
+      "bytes": 1506178,
+      "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "orthology",
+      "asset_namespace": "route_b2_public_analysis/public-input-stage-v1/data/processed/gene_sets/ncbi_human_mouse_rat_one_to_one.tsv",
+      "bytes": 1922349,
+      "sha256": "e9dd0c9268e0044f615085e27292cbf977f5a648003ba90054cf3d01225cf998",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "annotation",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/gene_edger.tsv",
+      "bytes": 10645410,
+      "sha256": "cfa5351c98db9352957da89a505b5bc7556db661238c80b4a0e7753e3768c979",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "unsigned_reference",
+      "source_record": "unsigned_reference/INPUT_MANIFEST.tsv",
+      "field": "runtime",
+      "asset_namespace": "route_b2_gse205906_unsigned_method_label_reference_20261015r01/RUNTIME_BEFORE.json",
+      "bytes": 1766,
+      "sha256": "d2ae1f6ea9196c5bbbd0840b474b447aaa110601df44346036755bb85845c9ae",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "matrix",
+      "asset_namespace": "GSE205906_full_read_counts_fasp_v18e_20261005/formal/output/GSE205906_fixed9_gene_fragments_s0.tsv",
+      "bytes": 1475133,
+      "sha256": "e98296fdf308dbaa82325a3ca6b0b041c6f2569e98be75a45757141b0a1f77a2",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "GTF",
+      "asset_namespace": "GSE205906_full_read_reconstruction_156_20261003/references/derived/Rattus_norvegicus.Rnor_6.0.101.gtf",
+      "bytes": 280052998,
+      "sha256": "84fcb6692d62e4d8c75617461ae5f471fe89e10b6982c82f349393b1a80045df",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "overlay",
+      "asset_namespace": "GSE205906_full_read_counts_fasp_v18e_20261005/formal/derived/NINE_LIBRARY_ANALYSIS_PREPARATION_OVERLAY_154.tsv",
+      "bytes": 10054,
+      "sha256": "b0df6fa1354a83237bcfcd8bf8c323517deecd0e5680da8202489c4464936444",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "manifest",
+      "asset_namespace": "GSE205906_full_read_counts_fasp_v18e_20261005/formal/provenance/run_manifest.json",
+      "bytes": 893848,
+      "sha256": "751e43b3aba8c2245981dc0041fec273c455c6390e85ef7ec4514e56118bf3b0",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "PROGENy",
+      "asset_namespace": "route_b2_public_analysis/public-input-stage-v1/data/processed/gene_sets/progeny_human_top500.tsv",
+      "bytes": 609987,
+      "sha256": "b78892ec4d56212b08eb33ea80551fcb018e89b3c698e3d804008537c96bbdb9",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "DoRothEA_AB",
+      "asset_namespace": "route_b2_public_analysis/public-input-stage-v1/data/processed/gene_sets/dorothea_rat_AB_one_to_one.tsv",
+      "bytes": 687990,
+      "sha256": "e709ea4a9e0a1517cb00082bfbf6e8c4408d786694b6864f31ec3f57b458ecb8",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "orthology",
+      "asset_namespace": "route_b2_public_analysis/public-input-stage-v1/data/processed/gene_sets/ncbi_human_mouse_rat_one_to_one.tsv",
+      "bytes": 1922349,
+      "sha256": "e9dd0c9268e0044f615085e27292cbf977f5a648003ba90054cf3d01225cf998",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "frozen_resource_RDS",
+      "asset_namespace": "route_b2_public_analysis/public-input-stage-v1/data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds",
+      "bytes": 1506178,
+      "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "gene_set_manifest",
+      "asset_namespace": "route_b2_public_analysis/public-input-stage-v1/metadata/gene_set_manifest.tsv",
+      "bytes": 32072,
+      "sha256": "b3a9089a6e136c5271cf6ac3999d10304dc2316fafd10f5c170d9f43084bbce1",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "gene_edger.tsv",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/gene_edger.tsv",
+      "bytes": 10645410,
+      "sha256": "cfa5351c98db9352957da89a505b5bc7556db661238c80b4a0e7753e3768c979",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "activity_results.tsv",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/activity_results.tsv",
+      "bytes": 54260,
+      "sha256": "eb389e1340e6a32f8ed034bc0c2ce16d74d9ba1f1ee55b911a33004eda6348ba",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "mapping_coverage.tsv",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/mapping_coverage.tsv",
+      "bytes": 747085,
+      "sha256": "c753e9aa33c0fdc79e965435b35f1f84b06b07e5d76074806f11d1fda9552963",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "design_out.tsv",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/design_out.tsv",
+      "bytes": 915,
+      "sha256": "cf5a0356d243ae93eafa885d2c46d65fb00938ea3f5717a35656ae677ec5f3a4",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "contrast_out.tsv",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/contrast_out.tsv",
+      "bytes": 366,
+      "sha256": "c8607244bdc34cfb7289188ba0b0d050f5cfa88ee85e776afdd49c7f1fbb936d",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "filter_out.tsv",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/filter_out.tsv",
+      "bytes": 473,
+      "sha256": "cbe8db26cb7959a1a1fa8bb06f56ccbc2281e2fff17688ca1c14898224be3ee8",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "annotation_metrics.tsv",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/annotation_metrics.tsv",
+      "bytes": 481,
+      "sha256": "c29fd241940937b466a7bd9e234728e7dd068eb5201aba0523d115bf54a3ff92",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "gate.tsv",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/gate.tsv",
+      "bytes": 328,
+      "sha256": "392a4f77fa4e90106debf20b6518943bb05f093b24318bca37420eb3bfe12050",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "model_manifest",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/file_manifest.json",
+      "bytes": 14520,
+      "sha256": "428c0f9827b068673b7ecddad2e7fef3cecde09d10c3c35927fc8eb99d9743e7",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "model_complete",
+      "asset_namespace": "GSE205906_Ensembl101_checked_model_v5_20261006/COMPLETED",
+      "bytes": 2137,
+      "sha256": "25c11e9824b72a45d6dc0e6625439ab73e2e19f8b0eeb524c41955c06b1d697e",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "worker",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/worker.R",
+      "bytes": 29478,
+      "sha256": "27c66bcb303715088f1f46cc5ec0668af6026001def9a05eea68bdd3fa3a7389",
+      "public_matches": [
+        "analysis/runtime_bindings/code/R/gse205906_program_baselines_20261014.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/INPUT_MANIFEST.tsv",
+      "field": "definition",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/definition.md",
+      "bytes": 5927,
+      "sha256": "f319bf338350fcab5c0f3c3a8200990bf2e0376404c3a04d246c89c1d1f01ca1",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/RECOVERY_COMPLETE.json",
+      "field": "/input_manifest",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/INPUT_MANIFEST.tsv",
+      "bytes": 3937,
+      "sha256": "89a8b3e9b007a86434b9115d66ff44dc6d88a053948dddd5e020b31fdfeb302a",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/RECOVERY_COMPLETE.json",
+      "field": "/products/restored_scores.rds",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/restored_scores.rds",
+      "bytes": 9774,
+      "sha256": "cd7cc354abc7d64227b02ba45951ddf195c3234d8cb436c6a0b3f164a8c1532b",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/RECOVERY_COMPLETE.json",
+      "field": "/products/scores.tsv",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/scores.tsv",
+      "bytes": 17312,
+      "sha256": "29c095651f42498b45be273526e0ffea23eb6b41c0b66ca97a363e3d824339ac",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/RECOVERY_COMPLETE.json",
+      "field": "/products/metadata.tsv",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/metadata.tsv",
+      "bytes": 1162,
+      "sha256": "5f69dde8c63c9a2d395af6b578e117843e899e60cf41ba94829cb321c3c130f1",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/RECOVERY_COMPLETE.json",
+      "field": "/products/retained_native.tsv",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/retained_native.tsv",
+      "bytes": 51210,
+      "sha256": "9139ebf8d2683f5e547ec8e392f57826f07f016dea3e1c62ffda5b0c63dbd778",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/RECOVERY_COMPLETE.json",
+      "field": "/products/new_mapping_coverage.tsv",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/new_mapping_coverage.tsv",
+      "bytes": 4328,
+      "sha256": "42aac66ab428fd98644811ee22d954ca847da88467ba9a6e274599ca90b45a2f",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/RECOVERY_COMPLETE.json",
+      "field": "/products/new_normalization.tsv",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/new_normalization.tsv",
+      "bytes": 1242,
+      "sha256": "64aa0645836a697fbc75bd87cb653a4330c5dd2cf4920728981164a02e96ceff",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/RECOVERY_COMPLETE.json",
+      "field": "/actual_recovery_worker",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/worker_v2.R",
+      "bytes": 31144,
+      "sha256": "68c01474c53840441977b9bba571f816ec7d2083677fbc78b112af46f3b64af1",
+      "public_matches": [
+        "analysis/reference_sources/code/R/gse205906_program_baselines_20261014_v2.R"
+      ],
+      "binding_kind": "PUBLIC_SOURCE_OR_CONFIG"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/BASELINE_COMPLETE.json",
+      "field": "/recovery",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/RECOVERY_COMPLETE.json",
+      "bytes": 2942,
+      "sha256": "d98e815bde1f5ef157e5761d523e3766795cac7af069a69b5299f7dc342ca408",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    },
+    {
+      "run": "program_baseline",
+      "source_record": "program_baseline/BASELINE_COMPLETE.json",
+      "field": "/result",
+      "asset_namespace": "route_b2_gse205906_program_baseline_20261014r01/BASELINES.tsv",
+      "bytes": 151169,
+      "sha256": "ee191aac799f84388154bdc71b5558ca3a46a776667c5d6b8bd3801dd3290feb",
+      "public_matches": [],
+      "binding_kind": "EXTERNAL_ASSET_IDENTITY"
+    }
+  ],
+  "source_assertions": [
+    {
+      "run": "canonical_reference",
+      "alias": "summary.R",
+      "sha256": "b76bd6a9b7293976fe30328e7f8da578ff3a2647ff9e224c64c765b6f16bdffe",
+      "bytes": 10920,
+      "public_matches": [
+        "analysis/reference_sources/code/R/summarize_gse205906_label_reference_20261014.R"
+      ],
+      "binding_kind": "LITERAL_SOURCE_ASSERTION_NOT_SEPARATE_RUNTIME_OBSERVATION",
+      "asserting_public_source": "analysis/reference_sources/code/R/gse205906_canonical_label_reference_20261015.R",
+      "asserting_source_sha256": "18eaab06d0bb980dae3373279c83d0e4e32f94dbee346ef4e2cc120e11ba3965"
+    },
+    {
+      "run": "canonical_reference",
+      "alias": "checker.R",
+      "sha256": "5652292228d881d5e5e225dff68475a8f16ba728eb7f8101065df84c0d854bdb",
+      "bytes": 31544,
+      "public_matches": [
+        "analysis/reference_sources/code/R/independent_gse205906_label_reference_check_v2_20261014.R"
+      ],
+      "binding_kind": "LITERAL_SOURCE_ASSERTION_NOT_SEPARATE_RUNTIME_OBSERVATION",
+      "asserting_public_source": "analysis/reference_sources/code/R/gse205906_canonical_label_reference_20261015.R",
+      "asserting_source_sha256": "18eaab06d0bb980dae3373279c83d0e4e32f94dbee346ef4e2cc120e11ba3965"
+    }
+  ],
+  "complete_dynamic_run_manifest_closure": false,
+  "scientific_model_runs": 0
+}

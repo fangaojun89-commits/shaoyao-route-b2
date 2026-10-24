@@ -880,12 +880,13 @@
       "dataset": "GSE205906",
       "role": "Ensembl101_Rnor6_reference",
       "path": "references/GSE205906/annotation_source.gtf.gz",
-      "url": null,
+      "url": "https://ftp.ensembl.org/pub/release-101/gtf/rattus_norvegicus/Rattus_norvegicus.Rnor_6.0.101.gtf.gz",
       "bytes": 11791561,
       "sha256": "3cd2e189d33ea2098fc42af686db2da5030728729d987919520ffcaa03e2852d",
       "evidence": "accepted_readonly_asset_identity",
       "use": "matched_HISAT2_STAR_reference",
-      "access_gap": "Exact original acquisition URL not recovered in the selected records; do not substitute another assembly."
+      "access_status": "SOURCE_AND_DERIVATION_RESOLVED",
+      "reference_identity_evidence": "current_TLS_GET_streamed_in_memory"
     },
     {
       "dataset": "GSE205906",
@@ -896,7 +897,13 @@
       "sha256": "84fcb6692d62e4d8c75617461ae5f471fe89e10b6982c82f349393b1a80045df",
       "evidence": "accepted_readonly_asset_identity",
       "use": "matched_HISAT2_STAR_reference",
-      "access_gap": "Exact original acquisition URL not recovered in the selected records; do not substitute another assembly."
+      "access_status": "SOURCE_AND_DERIVATION_RESOLVED",
+      "reference_identity_evidence": "current_TLS_GET_streamed_in_memory",
+      "derived_from": {
+        "path": "references/GSE205906/annotation_source.gtf.gz",
+        "operation": "gzip_decompress",
+        "sha256": "3cd2e189d33ea2098fc42af686db2da5030728729d987919520ffcaa03e2852d"
+      }
     },
     {
       "dataset": "GSE205906",
@@ -907,18 +914,25 @@
       "sha256": "5032b256ba585006cde59eac973efed79affa198c9452ed5b6607d39eb0ab733",
       "evidence": "accepted_readonly_asset_identity",
       "use": "matched_HISAT2_STAR_reference",
-      "access_gap": "Exact original acquisition URL not recovered in the selected records; do not substitute another assembly."
+      "access_status": "SOURCE_AND_DERIVATION_RESOLVED",
+      "reference_identity_evidence": "retained_complete_download_and_gzip_CRC_receipt",
+      "derived_from": {
+        "path": "references/GSE205906/Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa.gz",
+        "operation": "gzip_decompress",
+        "sha256": "cd0b85338aabf9e597c7d76e9d8752fe16dbe3960f47de3e45df6151dea3d6e0"
+      }
     },
     {
       "dataset": "GSE205906",
       "role": "Ensembl101_Rnor6_reference",
       "path": "references/GSE205906/Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa.gz",
-      "url": null,
+      "url": "https://ftp.ensembl.org/pub/release-101/fasta/rattus_norvegicus/dna/Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa.gz",
       "bytes": 831597371,
       "sha256": "cd0b85338aabf9e597c7d76e9d8752fe16dbe3960f47de3e45df6151dea3d6e0",
       "evidence": "accepted_readonly_asset_identity",
       "use": "matched_HISAT2_STAR_reference",
-      "access_gap": "Exact original acquisition URL not recovered in the selected records; do not substitute another assembly."
+      "access_status": "SOURCE_AND_DERIVATION_RESOLVED",
+      "reference_identity_evidence": "retained_complete_download_and_gzip_CRC_receipt"
     }
   ],
   "source_records": [
@@ -941,6 +955,21 @@
       "source": "config/GSE205906_V6_READONLY_ASSET_REUSE_MANIFEST_EXACT_INTEGERS_20261004.json",
       "bytes": 249012,
       "sha256": "3bf245d237755d4be053b5cc7740edc0a8dda4269b290925826180cb0f873a1d"
+    },
+    {
+      "source": "results/diagnostics/GSE205906_reference_and_count_preparation_155_20261003/RAT_GENOME_REFERENCE_156.json",
+      "bytes": 97660,
+      "sha256": "a88763a7a3061f670c743845d0eae14dfa6e25cb7dde7513355c639388938537"
+    },
+    {
+      "source": "results/diagnostics/GSE205906_reference_and_count_preparation_155_20261003/DERIVED_REFERENCE_156.json",
+      "bytes": 5263,
+      "sha256": "82bf95aacbb7253b671ea40972a6c659b4b7f2b89ba79e1ebf66ce9416cf7d63"
+    },
+    {
+      "source": "results/diagnostics/G205_REFERENCE_URL_REVALIDATION_20261024.json",
+      "bytes": 707,
+      "sha256": "2bf7dc7b2d9d15330fc093bde4532a2f9ba8df90a8a73166eeea93cb403f45e9"
     }
   ],
   "scope": "Selected technical input identities, not complete raw-to-model input closure",
@@ -953,5 +982,13 @@
     "experimental_arm",
     "unverified_biological_unit"
   ],
-  "current_online_availability_checked": false
+  "current_online_availability_checked": false,
+  "reference_URL_recovery": {
+    "GTF_current_endpoint_and_both_forms_verified": true,
+    "FASTA_original_receipt_and_both_forms_verified": true,
+    "FASTA_not_redownloaded": true,
+    "all_other_current_endpoints_rechecked": false,
+    "bulk_scientific_inputs_redownloaded": false,
+    "current_reference_bytes_read_in_memory": 11791561
+  }
 }
