@@ -1,6 +1,6 @@
 # Shaoyao Route B2: reproducibility components
 
-Version 0.7.0 adds **retained GSE205906 runtime source bindings, four original source files and recovered reference acquisition paths** to the scientific branch kernels, conditional-reference sources, experimental-spasticity anchor, technical input/core-environment inventories, accepted-table reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves pinned bytes on Windows checkouts; two explicitly identified historical-source path derivatives have separate original/public hashes. Earlier tags remain in history.
+Version 0.8.0 adds **the actual frozen JGW03 count, sample, annotation and allocation inputs for 36 libraries**, together with accepted saved-summary lineage records, to the scientific branch kernels, conditional-reference sources, experimental-spasticity anchor, technical input/core-environment inventories, reporting companion and dated data ledger for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. These are components of the study, not the complete raw-to-model pipeline. `.gitattributes` preserves pinned bytes on Windows checkouts; two explicitly identified historical-source path derivatives have separate original/public hashes. Earlier tags remain in history.
 
 ## What is available
 
@@ -21,6 +21,9 @@ Version 0.7.0 adds **retained GSE205906 runtime source bindings, four original s
 - `pipeline/acquisition.py`: inspect these catalogs, check user-supplied input/package bytes, or emit a source-verified installation plan. No automatic download, installation or scientific computation.
 - `analysis/runtime_bindings/`: 114 file pins from 12 retained GSE205906 records, including 18 occurrences resolved to public source/configuration files; four additional original R sources and separately labelled source assertions. [Runtime names and interpretation](analysis/runtime_bindings/README.md).
 - `pipeline/bindings.py`: verify these source bindings or copy exact public source/configuration files into a fresh historical namespace layout without executing them.
+- `data/jgw03_inputs/`: 12 unchanged accepted inputs across C2C12, PC12 and HepG2, including fractional RSEM expected counts and the original fixed allocation registries. [Content, placement and source terms](data/jgw03_inputs/README.md).
+- `pipeline/jgw_inputs.py` and `data/jgw03_inputs/verify_labels.R`: file/content/order checks and read-only checks of the saved label assignments; no fitting or new random draws.
+- `data/derived/SAVED_OUTPUT_LINEAGE.json`: provenance for the already public G128/JGW tables, including the rechecked 73-file G128 small-evidence chain and its retained interpretation limits.
 
 The derived tables are family-level aggregate outputs. The ledger adds public submitted-array/library identifiers and qualified analysis membership. Neither contains individual-level clinical records, raw sequencing data or third-party gene-set memberships.
 
@@ -50,7 +53,7 @@ The command computes descriptive groups from already accepted tables. It does no
 
 ## Scope of this release
 
-The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.7.0. The source and acquisition inventories supply many previously absent identities, producers and readers, but complete acquisition, dynamic execution manifests, environment provisioning and portable orchestration remain unfinished. The four GSE205906 reference assets now have recovered official acquisition or gzip-derivation paths; the exact GTF bytes were revalidated in memory, while the FASTA is supported by the retained full-file receipt. The 70-package core installation passed previously on an existing Linux runtime; no new Linux restoration was executed for this release. Whole-study cold restoration is not established. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions. The anchor metadata preserves original curation language without independently establishing animal lineage or pre-outcome chronology.
+The complete study source archive, most raw/intermediate data, manuscript, third-party gene-set resources and software dependency archives are not included in v0.8.0. Selected JGW processed input tables and allocation registries are now included, with exact matches to the accepted Linux input pins. Complete acquisition, dynamic execution manifests, environment provisioning and portable orchestration remain unfinished. The four GSE205906 reference assets have recovered official acquisition or gzip-derivation paths; the exact GTF bytes were revalidated in memory, while the FASTA is supported by the retained full-file receipt. The 70-package core installation passed previously on an existing Linux runtime; no new Linux restoration was executed for this release. Whole-study cold restoration is not established. The ledger is explicitly a 15 October metadata snapshot, not a complete log of later executions. Historical metadata wording does not independently establish animal/culture lineage or pre-outcome chronology.
 
 ## Licences and attribution
 

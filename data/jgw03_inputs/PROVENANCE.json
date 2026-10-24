@@ -1,0 +1,216 @@
+{
+  "scope": "Exact selected JGW input tables and frozen allocation registries, unchanged from the accepted Linux input pins",
+  "input_archive_sha256": "daaf1f08eee54e0b9992b9c99292036d07b4f9a222d7fe04eeb03911a920e2ea",
+  "archive_manifest_sha256": "f56a4be2f57092ad4ce3a8e2c2674c26ccabeef06808a3694b9351898d27f1aa",
+  "accepted_input_pin_manifest_sha256": "09309bda98158e1ac764b9a7e44031b617bc34d9df3b0e076ebf006eccd9d8ab",
+  "accepted_input_pin_count": 104333,
+  "files": [
+    {
+      "dataset": "GSE227494",
+      "public_path": "data/jgw03_inputs/GSE227494/locked_expected_counts.tsv.gz",
+      "bytes": 613825,
+      "sha256": "a3e19f4d59da5c8caee8da1d82695b184642af4f616da33b327346efa3b91eea",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE227494/locked_expected_counts.tsv.gz",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE227494/locked_expected_counts.tsv.gz",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE227494",
+      "public_path": "data/jgw03_inputs/GSE227494/locked_samples.tsv",
+      "bytes": 6009,
+      "sha256": "e90434b1b1dcc38e61c958d9c8c18e5708847ef1d936db58750eee01b27bc583",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE227494/locked_samples.tsv",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE227494/locked_samples.tsv",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE227494",
+      "public_path": "data/jgw03_inputs/GSE227494/gene_annotation.tsv",
+      "bytes": 1486738,
+      "sha256": "adbeed3211145e444e75ae10d3efd3ba99969912749feb5b4b4e392c8c76d075",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE227494/gene_annotation.tsv",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE227494/gene_annotation.tsv",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE227494",
+      "public_path": "data/jgw03_inputs/GSE227494/FULL_LABEL_REGISTRY.rds",
+      "bytes": 59414,
+      "sha256": "b4ae7f6033d3f102b582635dae84b9d992ecd495c85944a02f27b70ac982a3e6",
+      "source_archive_member": "input/GSE227494/FULL_LABEL_REGISTRY.rds",
+      "accepted_runtime_namespace": "intermediate/GSE227494/FULL_LABEL_REGISTRY.rds",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE289929",
+      "public_path": "data/jgw03_inputs/GSE289929/locked_expected_counts.tsv.gz",
+      "bytes": 515087,
+      "sha256": "63764607cc164ef85e845f5d1f263c0165e101e7e144e67b5c117d3cc5181efa",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE289929/locked_expected_counts.tsv.gz",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE289929/locked_expected_counts.tsv.gz",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE289929",
+      "public_path": "data/jgw03_inputs/GSE289929/locked_samples.tsv",
+      "bytes": 6660,
+      "sha256": "4a1e97a06c692c5750be6895deb66673dcce22d464def2fd7c9f42c1c7212e21",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE289929/locked_samples.tsv",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE289929/locked_samples.tsv",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE289929",
+      "public_path": "data/jgw03_inputs/GSE289929/gene_annotation.tsv",
+      "bytes": 1933217,
+      "sha256": "40b640d7c8a8faf3c4bac7aadfa86a0a7101760c564adfa371453c4e3005b531",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE289929/gene_annotation.tsv",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE289929/gene_annotation.tsv",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE289929",
+      "public_path": "data/jgw03_inputs/GSE289929/FULL_LABEL_REGISTRY.rds",
+      "bytes": 59414,
+      "sha256": "f0bf5b0937bb5eeeed9289e57fdb13f2c070080c937382aaf5419e8e54715fb8",
+      "source_archive_member": "input/GSE289929/FULL_LABEL_REGISTRY.rds",
+      "accepted_runtime_namespace": "intermediate/GSE289929/FULL_LABEL_REGISTRY.rds",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE299063",
+      "public_path": "data/jgw03_inputs/GSE299063/locked_expected_counts.tsv.gz",
+      "bytes": 725411,
+      "sha256": "e74c1bc149fd56d525f534e3ff3124e65454d4618927d0e25935229a5af2cbb9",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE299063/locked_expected_counts.tsv.gz",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE299063/locked_expected_counts.tsv.gz",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE299063",
+      "public_path": "data/jgw03_inputs/GSE299063/locked_samples.tsv",
+      "bytes": 6531,
+      "sha256": "18e414456468b3971e7ce0f9eaf2175bad0813d62892c0bc20236a4d07239bd6",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE299063/locked_samples.tsv",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE299063/locked_samples.tsv",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE299063",
+      "public_path": "data/jgw03_inputs/GSE299063/gene_annotation.tsv",
+      "bytes": 3187371,
+      "sha256": "5d912686d05bb0e61f5ac3e3b299217c5dde099f8bc01011c8cc89b24d1f541b",
+      "source_archive_member": "project/data/processed/jgw03_three_cell_lines/GSE299063/gene_annotation.tsv",
+      "accepted_runtime_namespace": "project/data/processed/jgw03_three_cell_lines/GSE299063/gene_annotation.tsv",
+      "transformation": "NONE"
+    },
+    {
+      "dataset": "GSE299063",
+      "public_path": "data/jgw03_inputs/GSE299063/FULL_LABEL_REGISTRY.rds",
+      "bytes": 59438,
+      "sha256": "d593e4aaa03c17061338745539ddc92105fe311bc9167bb521cc4640ac779b1c",
+      "source_archive_member": "input/GSE299063/FULL_LABEL_REGISTRY.rds",
+      "accepted_runtime_namespace": "intermediate/GSE299063/FULL_LABEL_REGISTRY.rds",
+      "transformation": "NONE"
+    }
+  ],
+  "datasets": [
+    {
+      "dataset": "GSE227494",
+      "GEO_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227494",
+      "submitted_libraries": 12,
+      "sample_order": [
+        "GSM7101313",
+        "GSM7101314",
+        "GSM7101315",
+        "GSM7101316",
+        "GSM7101317",
+        "GSM7101318",
+        "GSM7101319",
+        "GSM7101320",
+        "GSM7101321",
+        "GSM7101322",
+        "GSM7101323",
+        "GSM7101324"
+      ],
+      "gene_rows": 42807,
+      "noninteger_expected_count_cells": 48123,
+      "zero_count_cells": 288381,
+      "dose_groups": {
+        "vehicle": 3,
+        "high": 3,
+        "medium": 3,
+        "low": 3
+      },
+      "count_kind": "RSEM_expected_counts_not_TPM_or_CPM",
+      "annotations_align_exactly": true,
+      "biological_independence_authenticated": false
+    },
+    {
+      "dataset": "GSE289929",
+      "GEO_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289929",
+      "submitted_libraries": 12,
+      "sample_order": [
+        "GSM8801731",
+        "GSM8801732",
+        "GSM8801733",
+        "GSM8801734",
+        "GSM8801735",
+        "GSM8801736",
+        "GSM8801737",
+        "GSM8801738",
+        "GSM8801739",
+        "GSM8801740",
+        "GSM8801741",
+        "GSM8801742"
+      ],
+      "gene_rows": 32883,
+      "noninteger_expected_count_cells": 24980,
+      "zero_count_cells": 201071,
+      "dose_groups": {
+        "vehicle": 3,
+        "high": 3,
+        "medium": 3,
+        "low": 3
+      },
+      "count_kind": "RSEM_expected_counts_not_TPM_or_CPM",
+      "annotations_align_exactly": true,
+      "biological_independence_authenticated": false
+    },
+    {
+      "dataset": "GSE299063",
+      "GEO_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299063",
+      "submitted_libraries": 12,
+      "sample_order": [
+        "GSM9032099",
+        "GSM9032100",
+        "GSM9032101",
+        "GSM9032105",
+        "GSM9032106",
+        "GSM9032107",
+        "GSM9032111",
+        "GSM9032112",
+        "GSM9032113",
+        "GSM9032224",
+        "GSM9032226",
+        "GSM9032228"
+      ],
+      "gene_rows": 60675,
+      "noninteger_expected_count_cells": 64348,
+      "zero_count_cells": 467903,
+      "dose_groups": {
+        "high": 3,
+        "medium": 3,
+        "low": 3,
+        "vehicle": 3
+      },
+      "count_kind": "RSEM_expected_counts_not_TPM_or_CPM",
+      "annotations_align_exactly": true,
+      "biological_independence_authenticated": false
+    }
+  ],
+  "source_terms": "GEO source data and factual annotations retain their original rights; project curation is CC BY 4.0",
+  "GEO_policy": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "science_runs": 0,
+  "new_random_allocations": 0
+}

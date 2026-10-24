@@ -1,6 +1,6 @@
 {
-  "version": "0.7.0",
-  "scope": "SCOPED_SOURCES_RUNTIME_BINDINGS_AND_RECOVERED_REFERENCE_ACCESS_NOT_WHOLE_STUDY_RESTORE",
+  "version": "0.8.0",
+  "scope": "SELECTED_SCIENTIFIC_INPUTS_SOURCE_BINDINGS_AND_SAVED_OUTPUT_LINEAGE_NOT_WHOLE_STUDY_RESTORE",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "models_run": 0,
@@ -821,6 +821,70 @@
       "bytes": 54236,
       "sha256": "829f3ea818cd9e3b10a5f4ee6c6804ae27fd5bc980aa752be78218c21836645a"
     },
+    "data/derived/SAVED_OUTPUT_LINEAGE.json": {
+      "bytes": 20869,
+      "sha256": "fe10b44d3f4bff66fba1970505758f04aa322cf4a7cd49b09d6d544cfa6f954c"
+    },
+    "data/jgw03_inputs/GSE227494/FULL_LABEL_REGISTRY.rds": {
+      "bytes": 59414,
+      "sha256": "b4ae7f6033d3f102b582635dae84b9d992ecd495c85944a02f27b70ac982a3e6"
+    },
+    "data/jgw03_inputs/GSE227494/gene_annotation.tsv": {
+      "bytes": 1486738,
+      "sha256": "adbeed3211145e444e75ae10d3efd3ba99969912749feb5b4b4e392c8c76d075"
+    },
+    "data/jgw03_inputs/GSE227494/locked_expected_counts.tsv.gz": {
+      "bytes": 613825,
+      "sha256": "a3e19f4d59da5c8caee8da1d82695b184642af4f616da33b327346efa3b91eea"
+    },
+    "data/jgw03_inputs/GSE227494/locked_samples.tsv": {
+      "bytes": 6009,
+      "sha256": "e90434b1b1dcc38e61c958d9c8c18e5708847ef1d936db58750eee01b27bc583"
+    },
+    "data/jgw03_inputs/GSE289929/FULL_LABEL_REGISTRY.rds": {
+      "bytes": 59414,
+      "sha256": "f0bf5b0937bb5eeeed9289e57fdb13f2c070080c937382aaf5419e8e54715fb8"
+    },
+    "data/jgw03_inputs/GSE289929/gene_annotation.tsv": {
+      "bytes": 1933217,
+      "sha256": "40b640d7c8a8faf3c4bac7aadfa86a0a7101760c564adfa371453c4e3005b531"
+    },
+    "data/jgw03_inputs/GSE289929/locked_expected_counts.tsv.gz": {
+      "bytes": 515087,
+      "sha256": "63764607cc164ef85e845f5d1f263c0165e101e7e144e67b5c117d3cc5181efa"
+    },
+    "data/jgw03_inputs/GSE289929/locked_samples.tsv": {
+      "bytes": 6660,
+      "sha256": "4a1e97a06c692c5750be6895deb66673dcce22d464def2fd7c9f42c1c7212e21"
+    },
+    "data/jgw03_inputs/GSE299063/FULL_LABEL_REGISTRY.rds": {
+      "bytes": 59438,
+      "sha256": "d593e4aaa03c17061338745539ddc92105fe311bc9167bb521cc4640ac779b1c"
+    },
+    "data/jgw03_inputs/GSE299063/gene_annotation.tsv": {
+      "bytes": 3187371,
+      "sha256": "5d912686d05bb0e61f5ac3e3b299217c5dde099f8bc01011c8cc89b24d1f541b"
+    },
+    "data/jgw03_inputs/GSE299063/locked_expected_counts.tsv.gz": {
+      "bytes": 725411,
+      "sha256": "e74c1bc149fd56d525f534e3ff3124e65454d4618927d0e25935229a5af2cbb9"
+    },
+    "data/jgw03_inputs/GSE299063/locked_samples.tsv": {
+      "bytes": 6531,
+      "sha256": "18e414456468b3971e7ce0f9eaf2175bad0813d62892c0bc20236a4d07239bd6"
+    },
+    "data/jgw03_inputs/PROVENANCE.json": {
+      "bytes": 9067,
+      "sha256": "640c698ef915413930ff5cf58c5d1abfc9264907d03022334972ce8d94f6778e"
+    },
+    "data/jgw03_inputs/README.md": {
+      "bytes": 3938,
+      "sha256": "7189732fd0907bd6b079d2d68d9cb017a03855b09bc517c6b8acedf1a0893142"
+    },
+    "data/jgw03_inputs/verify_labels.R": {
+      "bytes": 1923,
+      "sha256": "a7d52d5fded98b5c9440e8e88487c945189ac52faa10a2bed5133727d233fab1"
+    },
     "data/ledger/ANALYSIS_MEMBERSHIP_20261015.tsv": {
       "bytes": 75343,
       "sha256": "52d7caf471ee96a9f3098327d6d6a349fd31b47ae12d570b67c51c993711262d"
@@ -885,6 +949,10 @@
       "bytes": 4807,
       "sha256": "4e1428ab9724413106ef5f8b27aa8d46126802d71e2c26095cc994f632bb7185"
     },
+    "pipeline/jgw_inputs.py": {
+      "bytes": 3979,
+      "sha256": "3b9abc1acde6462629c148a37e36044d61d17eff8df518012ed5884f71a865de"
+    },
     "pipeline/ledger.py": {
       "bytes": 6295,
       "sha256": "4646b56b653e0441ff694c4927e73ee71a00468533f81281bb2d75de49e2a237"
@@ -902,12 +970,12 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 8078,
-      "sha256": "eb13890db6e3d0a82c0c6817e759998270c68eb73911162baf888ea165e47634"
+      "bytes": 8717,
+      "sha256": "197f265737833708d473374a3f74d8f112fcf47b325cd5092cc06ba027aa879d"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 2019,
-      "sha256": "535ced6a2949a1fd8d765eed2d19181e707c4a8ae73faaaea6496cd8e7e2be33"
+      "bytes": 2396,
+      "sha256": "95ed636181f0335c0aa2e79f59f6cca9b5b9b9e709e029a84a9969ec3355f85e"
     }
   }
 }
