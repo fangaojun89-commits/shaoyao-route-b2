@@ -1,6 +1,6 @@
 {
-  "version": "0.10.0",
-  "scope": "ORIGINAL_READER_INPUT_PREPARATION_AND_SELECTED_RECONSTRUCTION_COMPONENTS_NOT_WHOLE_STUDY_RESTORE",
+  "version": "0.11.0",
+  "scope": "ORIGINAL_RESOURCE_RECONSTRUCTION_AND_INPUT_PREPARATION_NOT_WHOLE_STUDY_RESTORE",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "models_run": 0,
@@ -970,8 +970,8 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 9456,
-      "sha256": "1e8b2a42d82516cd5153e334557516a879463a3e5389f1d1faf63cf821d5e02c"
+      "bytes": 9921,
+      "sha256": "cde4e71625422e642d80cb6767a0d32d4f969e849d5fcf62e775cb215aa08ea5"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2396,
@@ -1038,8 +1038,8 @@
       "sha256": "f823e5fd0d47fe6bc1ba15c1eba91062a78707a17fc979706fe6cbc31ac89c84"
     },
     "analysis/input_bridge/README.md": {
-      "bytes": 5259,
-      "sha256": "a2be59b8e496f4aa28f84262ce895991b0d6f26bce6354a55bc3b45f81e47c27"
+      "bytes": 5394,
+      "sha256": "ebfeb4d7addfdcb287352067aebc2760ed7fb116123b509c9e97fbdf3f009b29"
     },
     "analysis/input_bridge/VALIDATION.json": {
       "bytes": 4976,
@@ -1052,6 +1052,34 @@
     "pipeline/prepare_count_inputs.py": {
       "bytes": 6972,
       "sha256": "24b4e2bf88a62cd1da220b65a7fbbb296c6fcad4ddb1596a6bda860af4959254"
+    },
+    "analysis/resource_build/CONTRACT.json": {
+      "bytes": 6101,
+      "sha256": "435c367849fe14fdd264854165e3d0899dcc36630c1a31d20782dc719a217c50"
+    },
+    "analysis/resource_build/README.md": {
+      "bytes": 5404,
+      "sha256": "47218f6706d7132f00a4ba4f7bf60a37cc2f6c635f6f4c013888824d32c70fbe"
+    },
+    "analysis/resource_build/VALIDATION.json": {
+      "bytes": 19955,
+      "sha256": "bdc29852875c028fbfd5c359fbcaaabd5f842537cb1c65fdc541321643456c38"
+    },
+    "analysis/resource_build/check_consumers.R": {
+      "bytes": 4376,
+      "sha256": "f4ebc2d77d4e1b7f1fc5ced3d793168a48b63ee2d7b9217cb1e133fda443985f"
+    },
+    "analysis/resource_build/original_run_r.ps1": {
+      "bytes": 910,
+      "sha256": "1bfafcbcc9deee63a5880ad912d35c1de8cad2dc7a09e8e86e64f4ace7d2bf9c"
+    },
+    "analysis/resource_build/preflight.R": {
+      "bytes": 896,
+      "sha256": "a3956eb9be3d5f18013137d05ab8b09843f2958a168741e36a9bcaadfb0a6808"
+    },
+    "pipeline/build_resources.py": {
+      "bytes": 6608,
+      "sha256": "2d5fab41a31b9cc5bfc702b59c438a2ea72662170be03ce2d142ab516cbbcd10"
     }
   }
 }

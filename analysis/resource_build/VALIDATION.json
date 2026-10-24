@@ -1,0 +1,614 @@
+{
+  "status": "PASS_ORIGINAL_RESOURCE_RECONSTRUCTION_AND_CONSUMERS",
+  "date_utc": "2026-10-24",
+  "build": {
+    "status": "PASS_ORIGINAL_RESOURCE_BUILD_EXACT_OUTPUTS",
+    "started_utc": "2026-10-24T12:59:53.915565+00:00",
+    "finished_utc": "2026-10-24T13:00:11.955996+00:00",
+    "python": "3.12.14",
+    "system": "Windows-11-10.0.26200-SP0",
+    "requested_locale": "English_United States.utf8",
+    "contract": {
+      "bytes": 6101,
+      "sha256": "435c367849fe14fdd264854165e3d0899dcc36630c1a31d20782dc719a217c50"
+    },
+    "builder": {
+      "bytes": 20839,
+      "sha256": "01b8f54303656fe063476ce272b30dd93aa668d023ecb6a6c3c947a7d908d6ea"
+    },
+    "source_inputs_unchanged": true,
+    "input_files": 8,
+    "outputs": {
+      "data/processed/gene_sets/dorothea_human_AB.tsv": {
+        "bytes": 367202,
+        "sha256": "03914edc22ab31a653e4f407e2fcba6a0746939ad5ba9ee6348ad3ec9a9113ab"
+      },
+      "data/processed/gene_sets/dorothea_mouse_AB.tsv": {
+        "bytes": 369008,
+        "sha256": "5b594286c267f9410f7e9e1228fc07575c735b7152a5b8b157c7d4a8a37e2205"
+      },
+      "data/processed/gene_sets/dorothea_rat_AB_one_to_one.tsv": {
+        "bytes": 687990,
+        "sha256": "e709ea4a9e0a1517cb00082bfbf6e8c4408d786694b6864f31ec3f57b458ecb8"
+      },
+      "data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds": {
+        "bytes": 1506178,
+        "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51"
+      },
+      "data/processed/gene_sets/matrisome_human.tsv": {
+        "bytes": 157456,
+        "sha256": "75913860744ab40616d5ac66b177a475d34d9d41ecd354d0edf550754f7d2543"
+      },
+      "data/processed/gene_sets/matrisome_mouse.tsv": {
+        "bytes": 171557,
+        "sha256": "63487ebe61057668ca729019c1636d6f3445eaec42175d0db86ccf7f1c04b800"
+      },
+      "data/processed/gene_sets/ncbi_human_mouse_rat_one_to_one.tsv": {
+        "bytes": 1922349,
+        "sha256": "e9dd0c9268e0044f615085e27292cbf977f5a648003ba90054cf3d01225cf998"
+      },
+      "data/processed/gene_sets/progeny_human_top500.tsv": {
+        "bytes": 609987,
+        "sha256": "b78892ec4d56212b08eb33ea80551fcb018e89b3c698e3d804008537c96bbdb9"
+      },
+      "data/processed/gene_sets/progeny_mouse_top500.tsv": {
+        "bytes": 615522,
+        "sha256": "97ac161e3a06b54da68fdb2479d444bc73a685f3794366975aa0c9760abaaf4f"
+      },
+      "data/processed/gene_sets/quickgo_syngo_mammalian_direct_human.gmt": {
+        "bytes": 47129,
+        "sha256": "883dca3df6a7e5fc86bad1daa770aef167fa07f754afe5a7962e2b6a276f6448"
+      },
+      "data/processed/gene_sets/quickgo_syngo_mammalian_direct_human.tsv": {
+        "bytes": 4835295,
+        "sha256": "2a40eeb2bddcf556ea5ac8d6ef6a0cb1bd71f85ac8dddb1aad8165a8d075eb3a"
+      },
+      "data/processed/gene_sets/reactome97_human_long.tsv": {
+        "bytes": 11599354,
+        "sha256": "1ea55f41f5b0a4ea51f723fb82b940f8b13fce1cab13ea6825b91d207c72fdc0"
+      },
+      "data/processed/gene_sets/reactome97_human.gmt": {
+        "bytes": 1012030,
+        "sha256": "e1210356685d231100f419cabb4f4fb8bf76e525e0bf282939f1bf8c91f9fc80"
+      }
+    },
+    "scientific_model_fits": 0,
+    "resource_consumer_validation": {
+      "bytes": 12519,
+      "sha256": "977c638c0e4e4bacd7022ba755289955a6d174cb9fb122e7ed23503e6ba4d4ea"
+    },
+    "new_environment_installation": false,
+    "whole_study_restoration_verified": false
+  },
+  "environment": {
+    "status": "PASS_EXISTING_BUILD_DEPENDENCY_VERSIONS",
+    "R_version": "R version 4.6.1 (2026-06-24 ucrt)",
+    "packages": {
+      "data.table": "1.18.4",
+      "AnnotationDbi": "1.74.0",
+      "org.Hs.eg.db": "3.23.1",
+      "org.Mm.eg.db": "3.23.0",
+      "org.Rn.eg.db": "3.23.0",
+      "jsonlite": "2.0.0",
+      "progeny": "1.34.0",
+      "dorothea": "1.23.0",
+      "digest": "0.6.39",
+      "openssl": "2.4.2"
+    },
+    "locale": "LC_COLLATE=English_United States.utf8;LC_CTYPE=English_United States.utf8;LC_MONETARY=English_United States.utf8;LC_NUMERIC=C;LC_TIME=English_United States.utf8",
+    "encoding": {
+      "MBCS": true,
+      "UTF-8": true,
+      "Latin-1": false,
+      "codepage": 65001,
+      "system.codepage": 65001
+    }
+  },
+  "consumer_checks": {
+    "status": "PASS_ORIGINAL_RESOURCE_CONSUMERS_WITHOUT_MODELS",
+    "G128_analyzer_validator_members_agree": true,
+    "G128_member_inventory": [
+      {
+        "collection": "Reactome",
+        "member_rows": 125122,
+        "programs": 2825
+      },
+      {
+        "collection": "SynGO_assignedBy_proxy_sensitivity",
+        "member_rows": 5304,
+        "programs": 249
+      },
+      {
+        "collection": "PROGENy",
+        "member_rows": 7000,
+        "programs": 14
+      },
+      {
+        "collection": "DoRothEA_AB",
+        "member_rows": 6319,
+        "programs": 123
+      }
+    ],
+    "G205_all_ten_table_export_validation": {
+      "status": "PASS_FROZEN_RESOURCE_CONTENT_EXPORT_AGREEMENT_ONLY",
+      "tables": {
+        "reactome": {
+          "rows": 139207,
+          "columns": [
+            "collection",
+            "release",
+            "term_id",
+            "term_name",
+            "tax_id",
+            "organism",
+            "gene_symbol"
+          ],
+          "classes": {
+            "collection": "character",
+            "release": "character",
+            "term_id": "character",
+            "term_name": "character",
+            "tax_id": "integer",
+            "organism": "character",
+            "gene_symbol": "character"
+          },
+          "factor_levels": {},
+          "missing_by_column": {
+            "collection": 0,
+            "release": 0,
+            "term_id": 0,
+            "term_name": 0,
+            "tax_id": 0,
+            "organism": 0,
+            "gene_symbol": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 2836,
+          "numeric_max_relative_export_difference": 0,
+          "original_rows_removed": 0
+        },
+        "progeny_human": {
+          "rows": 7000,
+          "columns": [
+            "collection",
+            "release",
+            "pathway",
+            "tax_id",
+            "organism",
+            "gene_symbol",
+            "weight",
+            "p.value",
+            "rank_within_pathway"
+          ],
+          "classes": {
+            "collection": "character",
+            "release": "character",
+            "pathway": "factor",
+            "tax_id": "integer",
+            "organism": "character",
+            "gene_symbol": "factor",
+            "weight": "numeric",
+            "p.value": "numeric",
+            "rank_within_pathway": "integer"
+          },
+          "factor_levels": {
+            "pathway": {
+              "n_levels": 14,
+              "n_observed": 14,
+              "n_unused": 0,
+              "levels_sha256": "04a4c495e4c5fe955f85d06fa8a97eb409cec01823d01ec95cbc627ab976e261",
+              "levels_if_at_most_20": [
+                "Androgen",
+                "EGFR",
+                "Estrogen",
+                "Hypoxia",
+                "JAK-STAT",
+                "MAPK",
+                "NFkB",
+                "p53",
+                "PI3K",
+                "TGFb",
+                "TNFa",
+                "Trail",
+                "VEGF",
+                "WNT"
+              ]
+            },
+            "gene_symbol": {
+              "n_levels": 22479,
+              "n_observed": 5782,
+              "n_unused": 16697,
+              "levels_sha256": "2ffd99a47d759d84f638cde6202e13da06929a6743a232595ce284f1e4071b2a",
+              "levels_if_at_most_20": {}
+            }
+          },
+          "missing_by_column": {
+            "collection": 0,
+            "release": 0,
+            "pathway": 0,
+            "tax_id": 0,
+            "organism": 0,
+            "gene_symbol": 0,
+            "weight": 0,
+            "p.value": 0,
+            "rank_within_pathway": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 14,
+          "numeric_max_relative_export_difference": 5.09710136667549e-15,
+          "original_rows_removed": 0
+        },
+        "progeny_mouse": {
+          "rows": 7000,
+          "columns": [
+            "collection",
+            "release",
+            "pathway",
+            "tax_id",
+            "organism",
+            "gene_symbol",
+            "weight",
+            "p.value",
+            "rank_within_pathway"
+          ],
+          "classes": {
+            "collection": "character",
+            "release": "character",
+            "pathway": "factor",
+            "tax_id": "integer",
+            "organism": "character",
+            "gene_symbol": "factor",
+            "weight": "numeric",
+            "p.value": "numeric",
+            "rank_within_pathway": "integer"
+          },
+          "factor_levels": {
+            "pathway": {
+              "n_levels": 14,
+              "n_observed": 14,
+              "n_unused": 0,
+              "levels_sha256": "04a4c495e4c5fe955f85d06fa8a97eb409cec01823d01ec95cbc627ab976e261",
+              "levels_if_at_most_20": [
+                "Androgen",
+                "EGFR",
+                "Estrogen",
+                "Hypoxia",
+                "JAK-STAT",
+                "MAPK",
+                "NFkB",
+                "p53",
+                "PI3K",
+                "TGFb",
+                "TNFa",
+                "Trail",
+                "VEGF",
+                "WNT"
+              ]
+            },
+            "gene_symbol": {
+              "n_levels": 17426,
+              "n_observed": 5647,
+              "n_unused": 11779,
+              "levels_sha256": "9e1bca8beb0998f62103bf85f86e1135513da553061c7ed2ff10811b294eb4d0",
+              "levels_if_at_most_20": {}
+            }
+          },
+          "missing_by_column": {
+            "collection": 0,
+            "release": 0,
+            "pathway": 0,
+            "tax_id": 0,
+            "organism": 0,
+            "gene_symbol": 0,
+            "weight": 0,
+            "p.value": 0,
+            "rank_within_pathway": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 14,
+          "numeric_max_relative_export_difference": 5.09710136667549e-15,
+          "original_rows_removed": 0
+        },
+        "dorothea_human": {
+          "rows": 6408,
+          "columns": [
+            "collection",
+            "release",
+            "confidence",
+            "tax_id",
+            "organism",
+            "tf",
+            "target",
+            "mor",
+            "mapping"
+          ],
+          "classes": {
+            "collection": "character",
+            "release": "character",
+            "confidence": "character",
+            "tax_id": "integer",
+            "organism": "character",
+            "tf": "character",
+            "target": "character",
+            "mor": "numeric",
+            "mapping": "character"
+          },
+          "factor_levels": {},
+          "missing_by_column": {
+            "collection": 0,
+            "release": 0,
+            "confidence": 0,
+            "tax_id": 0,
+            "organism": 0,
+            "tf": 0,
+            "target": 0,
+            "mor": 0,
+            "mapping": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 118,
+          "numeric_max_relative_export_difference": 0,
+          "original_rows_removed": 0
+        },
+        "dorothea_mouse": {
+          "rows": 6319,
+          "columns": [
+            "collection",
+            "release",
+            "confidence",
+            "tax_id",
+            "organism",
+            "tf",
+            "target",
+            "mor",
+            "mapping"
+          ],
+          "classes": {
+            "collection": "character",
+            "release": "character",
+            "confidence": "character",
+            "tax_id": "integer",
+            "organism": "character",
+            "tf": "character",
+            "target": "character",
+            "mor": "numeric",
+            "mapping": "character"
+          },
+          "factor_levels": {},
+          "missing_by_column": {
+            "collection": 0,
+            "release": 0,
+            "confidence": 0,
+            "tax_id": 0,
+            "organism": 0,
+            "tf": 0,
+            "target": 0,
+            "mor": 0,
+            "mapping": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 123,
+          "numeric_max_relative_export_difference": 0,
+          "original_rows_removed": 0
+        },
+        "dorothea_rat": {
+          "rows": 5969,
+          "columns": [
+            "collection",
+            "release",
+            "confidence",
+            "tax_id",
+            "organism",
+            "tf",
+            "target",
+            "mor",
+            "mapping"
+          ],
+          "classes": {
+            "collection": "character",
+            "release": "character",
+            "confidence": "character",
+            "tax_id": "integer",
+            "organism": "character",
+            "tf": "character",
+            "target": "character",
+            "mor": "numeric",
+            "mapping": "character"
+          },
+          "factor_levels": {},
+          "missing_by_column": {
+            "collection": 0,
+            "release": 0,
+            "confidence": 0,
+            "tax_id": 0,
+            "organism": 0,
+            "tf": 0,
+            "target": 0,
+            "mor": 0,
+            "mapping": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 117,
+          "numeric_max_relative_export_difference": 0,
+          "original_rows_removed": 0
+        },
+        "syngo_sensitivity": {
+          "rows": 5317,
+          "columns": [
+            "term_id",
+            "term_name",
+            "gene_symbol"
+          ],
+          "classes": {
+            "term_id": "character",
+            "term_name": "character",
+            "gene_symbol": "character"
+          },
+          "factor_levels": {},
+          "missing_by_column": {
+            "term_id": 0,
+            "term_name": 0,
+            "gene_symbol": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 249,
+          "numeric_max_relative_export_difference": 0,
+          "original_rows_removed": 0
+        },
+        "matrisome_human": {
+          "rows": 1027,
+          "columns": [
+            "collection",
+            "release",
+            "tax_id",
+            "organism",
+            "division",
+            "category",
+            "source_gene_symbol",
+            "gene_symbol",
+            "symbol_mapping"
+          ],
+          "classes": {
+            "collection": "character",
+            "release": "character",
+            "tax_id": "integer",
+            "organism": "character",
+            "division": "character",
+            "category": "character",
+            "source_gene_symbol": "character",
+            "gene_symbol": "character",
+            "symbol_mapping": "character"
+          },
+          "factor_levels": {},
+          "missing_by_column": {
+            "collection": 0,
+            "release": 0,
+            "tax_id": 0,
+            "organism": 0,
+            "division": 0,
+            "category": 0,
+            "source_gene_symbol": 0,
+            "gene_symbol": 0,
+            "symbol_mapping": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 6,
+          "numeric_max_relative_export_difference": 0,
+          "original_rows_removed": 0
+        },
+        "matrisome_mouse": {
+          "rows": 1110,
+          "columns": [
+            "collection",
+            "release",
+            "tax_id",
+            "organism",
+            "division",
+            "category",
+            "source_gene_symbol",
+            "gene_symbol",
+            "symbol_mapping"
+          ],
+          "classes": {
+            "collection": "character",
+            "release": "character",
+            "tax_id": "integer",
+            "organism": "character",
+            "division": "character",
+            "category": "character",
+            "source_gene_symbol": "character",
+            "gene_symbol": "character",
+            "symbol_mapping": "character"
+          },
+          "factor_levels": {},
+          "missing_by_column": {
+            "collection": 0,
+            "release": 0,
+            "tax_id": 0,
+            "organism": 0,
+            "division": 0,
+            "category": 0,
+            "source_gene_symbol": 0,
+            "gene_symbol": 0,
+            "symbol_mapping": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 6,
+          "numeric_max_relative_export_difference": 0,
+          "original_rows_removed": 0
+        },
+        "ortholog_one_to_one": {
+          "rows": 33687,
+          "columns": [
+            "group_id",
+            "group_method",
+            "human_tax_id",
+            "human_entrez",
+            "human_symbol",
+            "other_tax_id",
+            "other_entrez",
+            "other_symbol"
+          ],
+          "classes": {
+            "group_id": "character",
+            "group_method": "character",
+            "human_tax_id": "integer",
+            "human_entrez": "character",
+            "human_symbol": "character",
+            "other_tax_id": "integer",
+            "other_entrez": "character",
+            "other_symbol": "character"
+          },
+          "factor_levels": {},
+          "missing_by_column": {
+            "group_id": 0,
+            "group_method": 0,
+            "human_tax_id": 0,
+            "human_entrez": 0,
+            "human_symbol": 0,
+            "other_tax_id": 0,
+            "other_entrez": 0,
+            "other_symbol": 0
+          },
+          "duplicate_rows": 0,
+          "duplicate_keys": 0,
+          "unique_programs_or_species": 2,
+          "numeric_max_relative_export_difference": 0,
+          "original_rows_removed": 0
+        }
+      },
+      "production_go": false,
+      "independent_audit": false,
+      "relative_tolerance": 1e-10,
+      "absolute_tolerance": 0,
+      "selected_or_count_filtered_programs": "NOT_COMPUTED"
+    },
+    "G205_label_adapter_validation": "PASS_FROZEN_RESOURCE_CONTENT_EXPORT_AGREEMENT_ONLY",
+    "resource_object_unchanged": true,
+    "counts_read": false,
+    "model_fits": 0,
+    "interpretation": "Full frozen resource domain before expression filtering; not eligible tested programs or independent biological validation"
+  },
+  "existing_output_refused": true,
+  "wrong_source_refused_before_output_creation": true,
+  "initial_inherited_locale_test": {
+    "locale": "C",
+    "exact_TSV_files": 10,
+    "nonmatching_files": [
+      "gene_set_resources_frozen_2026-08-18.rds",
+      "reactome97_human.gmt",
+      "quickgo_syngo_mammalian_direct_human.gmt"
+    ],
+    "resolution": "Use the explicit UTF-8 locale from the original launcher; original builder and scientific results unchanged; initial workspace preserved"
+  },
+  "scope": "Resource reconstruction in an existing pinned Windows environment. No clean environment installation, count filtering, model fitting or biological validation."
+}
