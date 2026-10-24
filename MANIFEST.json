@@ -1,13 +1,29 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scope": "ACCEPTED_TABLE_REPORTING_COMPONENT_ONLY",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "models_run": 0,
   "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
     ".gitignore": {
       "bytes": 27,
       "sha256": "a42e849c42c76ef6733fd839545ee66947763d6db05f3b065105f6e0a65d89d9"
+    },
+    "LICENSE": {
+      "bytes": 1094,
+      "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
+    },
+    "README.md": {
+      "bytes": 3745,
+      "sha256": "39a522da576737b179a74f521945d00a8ef2efb4c69e3a38468f16d41bba2f9b"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1482,
+      "sha256": "172f6f7b5ccfd989d84ff2a17d56f31376140fb9faee26ccd84d671ab9475a8f"
     },
     "data/derived/G128_FAMILY_SUMMARY.tsv": {
       "bytes": 63236,
@@ -29,21 +45,9 @@
       "bytes": 624,
       "sha256": "e9b253ca002c0549d7991ca3ba3528bb5c2ae05bfd3927f15173b5d89e47455e"
     },
-    "LICENSE": {
-      "bytes": 1094,
-      "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
-    },
     "pipeline/report.py": {
       "bytes": 5108,
       "sha256": "d45ada12869a6d93d75b8225d1bddb1a05208c37f1ffecd1bc74cbde495eb47a"
-    },
-    "README.md": {
-      "bytes": 3632,
-      "sha256": "22732f740faab8cdebcf95a9d0040b00bd331ea2dcf4ad2c5c72fca90433c8ae"
-    },
-    "THIRD_PARTY_NOTICES.md": {
-      "bytes": 1482,
-      "sha256": "172f6f7b5ccfd989d84ff2a17d56f31376140fb9faee26ccd84d671ab9475a8f"
     }
   }
 }

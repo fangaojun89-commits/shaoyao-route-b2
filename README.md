@@ -1,6 +1,6 @@
 # Shaoyao Route B2: reproducibility components
 
-Version 0.1.0 publishes the **accepted-table reporting companion** for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. It is a bounded, executable component, not the complete raw-to-model study pipeline.
+Version 0.1.1 publishes the **accepted-table reporting companion** for a secondary transcriptomic study of Shaoyao–Gancao-related preparations and post-stroke spasticity. It is a bounded, executable component, not the complete raw-to-model study pipeline. This version adds `.gitattributes` to preserve the pinned bytes on Windows checkouts; v0.1.0 remains in history.
 
 ## What is available
 
@@ -29,7 +29,7 @@ The command computes descriptive groups from already accepted tables. It does no
 
 ## Scope of this release
 
-The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.1.0. Additional source modules require separate selection and provenance review. Whole-study cold restoration is not established by this release.
+The complete study source archive, raw/intermediate data, manuscript, third-party resources and software dependency archives are not included in v0.1.1. Additional source modules require separate selection and provenance review. Whole-study cold restoration is not established by this release.
 
 ## Licences and attribution
 
