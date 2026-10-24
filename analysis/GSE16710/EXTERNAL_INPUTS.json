@@ -1,0 +1,82 @@
+{
+  "scope": "Exact retained anchor inputs; reference build source files additionally listed in metadata/gene_set_manifest.tsv",
+  "files": [
+    {
+      "relative_path": "data/raw/GSE16710/GSE16710_RAW.tar",
+      "bytes": 67573760,
+      "sha256": "a866cc6565ea27d0a5af72b8ef8cdf8abb664b03ab7fca2059a4895907cd261a",
+      "stage": "raw_preprocessing",
+      "included": false
+    },
+    {
+      "relative_path": "data/raw/GSE16710/GSE16710_series_matrix.txt.gz",
+      "bytes": 1955501,
+      "sha256": "363cb83fe874b366856d70ecea1d3e9ea0005e5d61efdbcede0af0e08b707e89",
+      "stage": "raw_preprocessing",
+      "included": false
+    },
+    {
+      "relative_path": "data/raw/GSE16710/GPL1355.annot.gz",
+      "bytes": 5714896,
+      "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+      "stage": "raw_preprocessing",
+      "included": false
+    },
+    {
+      "relative_path": "data/processed/GSE16710/rma_probe_expression.rds",
+      "bytes": 5426768,
+      "sha256": "ae1fda4eb565d7ea66016212826e743f3a6b97955006d8597d9d17e634f27ccd",
+      "stage": "model_input",
+      "included": false
+    },
+    {
+      "relative_path": "data/processed/GSE16710/rma_gene_expression_current_bioconductor.rds",
+      "bytes": 2687836,
+      "sha256": "5b7ca9151b3f3d7128313f3d702551ff19d0d5f6aea76d339476bcc4530d1455",
+      "stage": "model_input",
+      "included": false
+    },
+    {
+      "relative_path": "data/processed/GSE16710/rma_gene_expression_original_GPL1355_2016.rds",
+      "bytes": 2775344,
+      "sha256": "44b1abc799e175fa59e6aeb2be0da55fec8b82f90523f6eabea3a00e78a683b3",
+      "stage": "model_input",
+      "included": false
+    },
+    {
+      "relative_path": "data/processed/GSE16710/sample_ledger_verified.tsv",
+      "bytes": 12455,
+      "sha256": "0c6d0b6727c21fa14d856454db68173b6ab9c117dcea2ab89eca3d8200d61af1",
+      "stage": "model_input",
+      "included": false
+    },
+    {
+      "relative_path": "data/processed/GSE16710/probe_annotation_current_bioconductor.tsv",
+      "bytes": 1475146,
+      "sha256": "b6d68279e3383050dd0c7cdbb4e5146916526ee056b0024104e010a5083e7f5d",
+      "stage": "model_input",
+      "included": false
+    },
+    {
+      "relative_path": "data/processed/GSE16710/probe_annotation_original_GPL1355_2016.tsv",
+      "bytes": 1262216,
+      "sha256": "e5fa6f4a88f3ba4ecf7192d82b816de10b0b822c77f3327b07e2f3e53e0e7429",
+      "stage": "model_input",
+      "included": false
+    },
+    {
+      "relative_path": "data/processed/GSE16710/gene_representative_probe_current_bioconductor.tsv",
+      "bytes": 1237235,
+      "sha256": "18757bf1ce3cf1eff647996e132bfa179c5a959f584855b77eac2ada35312ff7",
+      "stage": "model_input",
+      "included": false
+    },
+    {
+      "relative_path": "data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds",
+      "bytes": 1506178,
+      "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51",
+      "stage": "model_input",
+      "included": false
+    }
+  ]
+}

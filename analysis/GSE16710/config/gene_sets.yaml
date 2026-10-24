@@ -1,0 +1,94 @@
+schema_version: 2
+freeze_status: frozen_before_outcome_inference
+frozen_on: 2026-08-18
+
+primary_collections:
+  reactome:
+    role: curated_pathways
+    source: Reactome
+    release: 97
+    organism: Homo sapiens
+    files:
+      long: data/processed/gene_sets/reactome97_human_long.tsv
+      gmt: data/processed/gene_sets/reactome97_human.gmt
+  progeny:
+    role: pathway_activity_footprints
+    source: Bioconductor_PROGENy_offline_package_data
+    release: 1.34.0
+    footprint_size_per_pathway: 500
+    organisms: [Homo sapiens, Mus musculus]
+    files:
+      human: data/processed/gene_sets/progeny_human_top500.tsv
+      mouse: data/processed/gene_sets/progeny_mouse_top500.tsv
+  dorothea:
+    role: transcription_factor_regulons
+    source: Bioconductor_DoRothEA_offline_package_data
+    release: 1.23.0
+    confidence_levels: [A, B]
+    rat_derivation: strict_one_to_one_mapping_from_human
+    files:
+      human: data/processed/gene_sets/dorothea_human_AB.tsv
+      mouse: data/processed/gene_sets/dorothea_mouse_AB.tsv
+      rat: data/processed/gene_sets/dorothea_rat_AB_one_to_one.tsv
+
+sensitivity_collections:
+  quickgo_syngo_direct:
+    role: synaptic_direct_annotation_sensitivity_only
+    source: EMBL_EBI_QuickGO
+    source_filter: assignedBy_SynGO
+    release: QuickGO_snapshot_2026-08-17
+    records_in_complete_export: 26133
+    mammalian_species: [9606, 10090, 10116]
+    mapping: strict_one_to_one_to_human_for_mouse_and_rat
+    candidate_gate_eligible: false
+    limitation: not_equivalent_to_SynGO_portal_release_1_3_bulk
+    files:
+      long: data/processed/gene_sets/quickgo_syngo_mammalian_direct_human.tsv
+      gmt: data/processed/gene_sets/quickgo_syngo_mammalian_direct_human.gmt
+
+secondary_collections:
+  matrisome:
+    role: passive_tissue_and_ecm_branch_only
+    source: Matrisome_Portal_official_masterlists
+    release: rev_2014_portal_snapshot_2026-08-18
+    source_counts:
+      human: 1027
+      mouse: 1110
+    identifier_rule: dedicated_Gene_Symbol_column_with_unique_alias_updates_only
+    files:
+      human: data/processed/gene_sets/matrisome_human.tsv
+      mouse: data/processed/gene_sets/matrisome_mouse.tsv
+
+testing:
+  primary_method: camera
+  sensitivity_methods: [roast, fgsea]
+  min_genes_after_mapping: 10
+  max_genes_after_mapping: 500
+  multiple_testing_scope: within_collection_and_prespecified_contrast
+
+cross_species:
+  gene_level_mapping: NCBI_Datasets_REST_gene_group_strict_one_to_one
+  api_version: 18.35.0
+  snapshot_date: 2026-08-18
+  source_counts:
+    human_official_reports: 20598
+    human_parseable_gene_records: 20596
+    mouse_official_reports: 26313
+    mouse_parseable_gene_records: 26313
+    rat_official_reports: 23246
+    rat_parseable_gene_records: 23245
+  empty_api_gene_reports_excluded:
+    human: 2
+    mouse: 0
+    rat: 1
+  primary_transfer_object: pathway_or_regulon_effect
+  retain_mapping_table: true
+  mapping_file: data/processed/gene_sets/ncbi_human_mouse_rat_one_to_one.tsv
+
+prohibited:
+  - unrestricted_gene_ontology_fishing_as_primary_evidence
+  - pooling_expression_matrices_across_species_or_studies
+  - selecting_only_pathways_that_support_the_preferred_story
+  - treating_QuickGO_assignedBy_SynGO_as_the_SynGO_portal_bulk_release
+  - using_one_to_many_orthologs_for_gene_level_cross_species_confirmation
+

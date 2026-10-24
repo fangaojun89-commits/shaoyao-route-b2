@@ -1,0 +1,129 @@
+{
+  "source_archive_sha256": "89f65a8ceb6c720797da9fb553293627d3b40283938f81132610017a7b143109",
+  "selection_date": "2026-10-24",
+  "source_files": [
+    {
+      "public_path": "code/R/preprocess_qc_GSE16710.R",
+      "origin": "sealed_source_r02",
+      "source_path": "code/R/preprocess_qc_GSE16710.R",
+      "source_sha256": "aa6d51ef0dddd3079f4eaf3632485678b84a36d1170d514decf300ee53e82f17",
+      "public_sha256": "aa6d51ef0dddd3079f4eaf3632485678b84a36d1170d514decf300ee53e82f17",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "code/R/freeze_gene_sets.R",
+      "origin": "sealed_source_r02",
+      "source_path": "code/R/freeze_gene_sets.R",
+      "source_sha256": "01b8f54303656fe063476ce272b30dd93aa668d023ecb6a6c3c947a7d908d6ea",
+      "public_sha256": "01b8f54303656fe063476ce272b30dd93aa668d023ecb6a6c3c947a7d908d6ea",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "code/R/analyze_GSE16710_spasticity_anchor.R",
+      "origin": "sealed_source_r02",
+      "source_path": "code/R/analyze_GSE16710_spasticity_anchor.R",
+      "source_sha256": "37a0b7e1dd250b618ef1b507b6bd72a4ae0bb47193ac2271953a6f4bb026feaf",
+      "public_sha256": "37a0b7e1dd250b618ef1b507b6bd72a4ae0bb47193ac2271953a6f4bb026feaf",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "code/R/analyze_GSE16710_QuickGO_SynGO_sensitivity.R",
+      "origin": "sealed_source_r02",
+      "source_path": "code/R/analyze_GSE16710_QuickGO_SynGO_sensitivity.R",
+      "source_sha256": "1d9bc5522649f18cfd2b95f4ecfa121951c1d97e88278e730c21cd2f6a213ace",
+      "public_sha256": "1d9bc5522649f18cfd2b95f4ecfa121951c1d97e88278e730c21cd2f6a213ace",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "code/R/analyze_GSE16710_matched_random_gene_set_null.R",
+      "origin": "sealed_source_r02",
+      "source_path": "code/R/analyze_GSE16710_matched_random_gene_set_null.R",
+      "source_sha256": "453d5f442fe4e728a47feccd8f822be1713506f54ecbb4c99a612318bac4e455",
+      "public_sha256": "453d5f442fe4e728a47feccd8f822be1713506f54ecbb4c99a612318bac4e455",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "code/R/summarize_GSE16710_precision.R",
+      "origin": "sealed_source_r02",
+      "source_path": "code/R/summarize_GSE16710_precision.R",
+      "source_sha256": "0ab8134ff015fb68056e15abdec998bb91ae9e2fcd6c9a8167412ac47e759742",
+      "public_sha256": "0ab8134ff015fb68056e15abdec998bb91ae9e2fcd6c9a8167412ac47e759742",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "code/R/validate_GSE16710_outputs.R",
+      "origin": "sealed_source_r02",
+      "source_path": "code/R/validate_GSE16710_outputs.R",
+      "source_sha256": "c89c0738a6c1062ebc9f509c54e7371ad5f0ce248bffcc0614f9031e07afacd0",
+      "public_sha256": "c89c0738a6c1062ebc9f509c54e7371ad5f0ce248bffcc0614f9031e07afacd0",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "renv.lock",
+      "origin": "sealed_source_r02",
+      "source_path": "renv.lock",
+      "source_sha256": "184dca11877ecfe94b92112a0d62acda986be6587f580d926f793bf6f2bba452",
+      "public_sha256": "184dca11877ecfe94b92112a0d62acda986be6587f580d926f793bf6f2bba452",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "config/gene_sets.yaml",
+      "origin": "sealed_source_r02",
+      "source_path": "config/gene_sets.yaml",
+      "source_sha256": "831e36c44ac02ab73ad48b023557da2e4def674a87cfabbafc468603bf4fb6f2",
+      "public_sha256": "831e36c44ac02ab73ad48b023557da2e4def674a87cfabbafc468603bf4fb6f2",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "data/processed/GSE16710/qc_inclusion_decision.tsv",
+      "origin": "retained_project_file",
+      "source_path": "data/processed/GSE16710/qc_inclusion_decision.tsv",
+      "source_sha256": "816cdd2ec20f92b48410d7ce1ce516b30e6b7db27e7a51254ae7e4b65f9fad49",
+      "public_sha256": "816cdd2ec20f92b48410d7ce1ce516b30e6b7db27e7a51254ae7e4b65f9fad49",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "data/processed/GSE16710/source_file_manifest.tsv",
+      "origin": "retained_project_file",
+      "source_path": "data/processed/GSE16710/source_file_manifest.tsv",
+      "source_sha256": "064e090576b3d600166e9b6b9ea9a0a6b50bb23300a8b730199939bc7f01fa42",
+      "public_sha256": "064e090576b3d600166e9b6b9ea9a0a6b50bb23300a8b730199939bc7f01fa42",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "data/processed/GSE16710/preprocessing_package_versions.tsv",
+      "origin": "retained_project_file",
+      "source_path": "data/processed/GSE16710/preprocessing_package_versions.tsv",
+      "source_sha256": "14b7206f6046bb704f1d228723a7c9431bba84b591b4ce302f9b7fc322d337fd",
+      "public_sha256": "14b7206f6046bb704f1d228723a7c9431bba84b591b4ce302f9b7fc322d337fd",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "metadata/gene_set_manifest.tsv",
+      "origin": "retained_project_file",
+      "source_path": "metadata/gene_set_manifest.tsv",
+      "source_sha256": "b3a9089a6e136c5271cf6ac3999d10304dc2316fafd10f5c170d9f43084bbce1",
+      "public_sha256": "b3a9089a6e136c5271cf6ac3999d10304dc2316fafd10f5c170d9f43084bbce1",
+      "transformation": "NONE"
+    },
+    {
+      "public_path": "metadata/samples.tsv",
+      "origin": "retained_project_file",
+      "source_path": "metadata/samples.tsv",
+      "source_sha256": "367894147ee329498e6491c9397d1fe146ca8be35b696110964c1365da3bdf66",
+      "public_sha256": "d8b9762643984b7db71014099004a441be98cd4a7c456d20e2a0ddc47d8cfe4a",
+      "transformation": "SELECT dataset_id=GSE16710; preserve all columns, cells and row order; serialize TSV LF"
+    },
+    {
+      "public_path": "expected/S1_GATE.tsv",
+      "origin": "retained_project_file",
+      "source_path": "results/GSE16710/program_level/S1_GATE.tsv",
+      "source_sha256": "377ef7e45769d7f842134506e409d69d2f955d760269baf0abba67e156553c40",
+      "public_sha256": "377ef7e45769d7f842134506e409d69d2f955d760269baf0abba67e156553c40",
+      "transformation": "NONE"
+    }
+  ],
+  "scientific_model_runs_during_publication": 0,
+  "external_hashes": "Current retained files freshly read; not new raw-download authentication",
+  "scope": "Original anchor source snapshot, not complete-study cold restoration"
+}
