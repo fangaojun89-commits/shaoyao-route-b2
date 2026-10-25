@@ -1,6 +1,6 @@
 {
-  "version": "0.27.0",
-  "scope": "GSE205906_MATCHED_SOURCE_GUIDE_AND_METADATA_PREPARATION_ADDED",
+  "version": "0.27.1",
+  "scope": "GSE205906_MATCHED_SOURCE_GUIDE_COUNT_RECOVERY_CLARIFIED",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -1957,8 +1957,8 @@
       "sha256": "045716518eb7034d5c6d3fcfe13fcffc01d44515f588141c2af87b38a7064f64"
     },
     "README.md": {
-      "bytes": 19137,
-      "sha256": "3fa8db2c5fccd458da64569872376d4445f422484bc05a85b7dc8545dee30ae7"
+      "bytes": 19431,
+      "sha256": "b2de916a7a2b042fc0d07d5ed9a318e6ed3fb938cd1b5295c1b89650c577d5de"
     },
     "supplement/constituent_extension/Route_B2_GSE298414_single_herb_gene_summary_20261025.tsv": {
       "bytes": 11480,
@@ -2057,8 +2057,8 @@
       "sha256": "6fe31b37a834a0cb2fda708398ebafe18f6cc1b0aa9edeab3814b7bc4f945442"
     },
     "analysis/g205_matched_sources/README.md": {
-      "bytes": 9337,
-      "sha256": "4571f6b4b59f05925f8c98150ceafc13fc11d7ecc4068c7a63b2590a1f26fed8"
+      "bytes": 10716,
+      "sha256": "5d74efb4f4afb4cf7acb0ec9980c140a24a46981198ba791ca76607590fc2775"
     },
     "analysis/g205_matched_sources/code/python/prepare_gse205906_matched_quantifier_inputs_20261015.py": {
       "bytes": 9031,

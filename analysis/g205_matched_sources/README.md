@@ -34,7 +34,22 @@ Replace the source path using its `public_path` in the provenance map. The seven
 
 ## Inputs and reconstruction scope
 
-The source selection does not bundle the raw FASTQs, genome index, native fitted objects, all original process receipts or the complete STAR matrix. Previously distributed [count inputs](../../data/count_inputs/README.md), [acquisition records](../../data/acquisition/README.md), [resource build](../resource_build/README.md) and [runtime bindings](../runtime_bindings/README.md) provide related reconstruction components. Check their stated scope and actual file identities before reuse.
+The complete nine-library HISAT2 strand-0 count matrix and all three complete STAR strand matrices are already available in the previously published [count-input package](../../data/count_inputs/README.md). Each has 32,883 gene rows and the same nine-library order; STAR strand 0 remains the primary counting specification. No new alignment or counting is needed to recover these accepted inputs. The three strand matrices are technical alternatives from the same libraries, not three independent datasets.
+
+From the repository root, restore the exact original bytes into a new directory:
+
+```sh
+python -I -B pipeline/count_inputs.py materialize --output recovered-inputs
+```
+
+The command restores all eleven published count-package files, including both datasets; it neither fits models nor changes accepted results. `data/count_inputs/PROVENANCE.json` records each original size and SHA-256, compressed identity and relative destination. The four GSE205906 matrix paths beneath `recovered-inputs` are:
+
+- `GSE205906_full_read_counts_fasp_v18e_20261005/formal/output/GSE205906_fixed9_gene_fragments_s0.tsv`
+- `GSE205906_matched_STAR_Ensembl101_20261015r01/matrix_01/GSE205906_STAR_fixed9_gene_fragments_s0.tsv`
+- `GSE205906_matched_STAR_Ensembl101_20261015r01/matrix_01/GSE205906_STAR_fixed9_gene_fragments_s1.tsv`
+- `GSE205906_matched_STAR_Ensembl101_20261015r01/matrix_01/GSE205906_STAR_fixed9_gene_fragments_s2.tsv`
+
+Raw FASTQs, the genome index, native fitted objects and all original process receipts are not bundled by this source guide. [Acquisition records](../../data/acquisition/README.md), [resource build](../resource_build/README.md) and [runtime bindings](../runtime_bindings/README.md) provide further reconstruction components. Count restoration alone does not create a portable execution adapter or restore the complete native scientific environment.
 
 Historical absolute paths and receipt checks remain intact. Copying these sources into an arbitrary directory is insufficient to run the historical workflow. A future portable execution adapter would need explicit input, output and environment mappings and separate validation; this release supplies no such adapter and does not establish whole-study cold restoration. It makes the scientific implementation and its dependency relationships easier to inspect while preserving the completed calculations.
 
