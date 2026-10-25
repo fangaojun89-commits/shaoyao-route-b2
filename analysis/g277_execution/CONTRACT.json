@@ -1,0 +1,100 @@
+{
+  "schema": "g277-scientific-entry-v1",
+  "sources": [
+    {
+      "public_path": "analysis/study_sources/code/R/analyze_GSE277064.R",
+      "runtime_path": "code/R/analyze_GSE277064.R",
+      "identity": {
+        "bytes": 50439,
+        "sha256": "b2e15651802d3d95fbe065bab3c4f964a31d2869482fcbf024fe789de521e06a"
+      },
+      "origin": "unchanged previously published scientific source"
+    },
+    {
+      "public_path": "analysis/study_sources/code/R/refresh_GSE277064_fgsea.R",
+      "runtime_path": "code/R/refresh_GSE277064_fgsea.R",
+      "identity": {
+        "bytes": 6077,
+        "sha256": "5f34d90e0b8b61b28e2a9e0e953b40924751b35f4b367e00c8caee37a01942d5"
+      },
+      "origin": "unchanged previously published scientific source"
+    },
+    {
+      "public_path": "analysis/g277_execution/sources/summarize_GSE277064_exploratory.R",
+      "runtime_path": "code/R/summarize_GSE277064_exploratory.R",
+      "identity": {
+        "bytes": 13005,
+        "sha256": "90878169e4e7228b328b2c41f541e5aa71edeaafeb3ebb7311e5db7ea2cce7a0"
+      },
+      "origin": "current retained local source; separately pinned from historical run source"
+    },
+    {
+      "public_path": "analysis/study_sources/code/R/plot_GSE277064_programs.R",
+      "runtime_path": "code/R/plot_GSE277064_programs.R",
+      "identity": {
+        "bytes": 6998,
+        "sha256": "24c40b89caf770a00f2130c9c9eea06f8f288e2b36b60f78d87d9a5dff42bb8a"
+      },
+      "origin": "unchanged previously published scientific source"
+    },
+    {
+      "public_path": "analysis/g277_execution/sources/validate_GSE277064_outputs.R",
+      "runtime_path": "code/R/validate_GSE277064_outputs.R",
+      "identity": {
+        "bytes": 9206,
+        "sha256": "426a5d0e93058ec2f129fc5a02c9de77fcbafe704582bd495d4b67e3ffcb9d41"
+      },
+      "origin": "current retained local source; separately pinned from historical run source"
+    },
+    {
+      "public_path": "analysis/g277_execution/sources/GSE277064_manuscript_ready_methods_results.md",
+      "runtime_path": "code/templates/GSE277064_manuscript_ready_methods_results.md",
+      "identity": {
+        "bytes": 8243,
+        "sha256": "eca80d1fd6628ea610851db5e80a585e42e8cf3dc077f2052c740ae8e5924dfa"
+      },
+      "origin": "unchanged local source bytes"
+    },
+    {
+      "public_path": "analysis/g277_execution/sources/gse277064_reporting_core_v1.py",
+      "runtime_path": "code/python/gse277064_reporting_core_v1.py",
+      "identity": {
+        "bytes": 8882,
+        "sha256": "0483da78be4a91c722f822506a16be7a4ad87055c051f6eb7729069bd7810823"
+      },
+      "origin": "unchanged local source bytes"
+    }
+  ],
+  "sequence": [
+    "code/R/analyze_GSE277064.R",
+    "code/R/refresh_GSE277064_fgsea.R",
+    "code/R/summarize_GSE277064_exploratory.R",
+    "code/R/plot_GSE277064_programs.R",
+    "code/R/validate_GSE277064_outputs.R"
+  ],
+  "R": "4.6.1",
+  "packages": {
+    "data.table": "1.18.4",
+    "edgeR": "4.10.1",
+    "limma": "3.68.4",
+    "AnnotationDbi": "1.74.0",
+    "org.Mm.eg.db": "3.23.0",
+    "yaml": "2.3.12",
+    "decoupleR": "2.17.0",
+    "fgsea": "1.38.0",
+    "ggplot2": "4.0.3",
+    "jsonlite": "2.0.0",
+    "digest": "0.6.39"
+  },
+  "resource_path": "data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds",
+  "resource_identity": {
+    "bytes": 1506178,
+    "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51"
+  },
+  "seed": 20260817,
+  "roast_rotations": 9999,
+  "primary_fgsea": "TRUE",
+  "historical_summary_sha256": "029000d701ecee1b37487d2d567d7463bf99ddfff6f0f08c3986a5af8db080fd",
+  "historical_validator_sha256": "e58b0fcfa2272c4d157c20a9715707275cc352743ca62822e6346016e865650a",
+  "note": "The summary and validator here are retained local successors, not byte-identical historical producers. The summary copies an explicit frozen historical narrative template. That template contains superseded gene-CI wording; reader-facing output omits ql_se/ci_low/ci_high via the original approved codec. Historical model output is segregated from the current reporting view. No results are automatically adopted."
+}

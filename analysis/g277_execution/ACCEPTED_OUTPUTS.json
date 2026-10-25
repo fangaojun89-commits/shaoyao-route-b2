@@ -1,0 +1,1619 @@
+{
+  "scope": "accepted historical G277 output bytes; reporting exclusions apply",
+  "files": {
+    "analysis_summary.md": {
+      "bytes": 5488,
+      "sha256": "19c2a1f9c99d4a2c49e140efc482c9ded41248ef5675bac03281fb6642566017"
+    },
+    "audit/analysis_audit_summary.tsv": {
+      "bytes": 449,
+      "sha256": "3f5bd6598734e3b00b9377975e94c67f4682b710a4eb67e5baccd552d7c06200"
+    },
+    "audit/ensembl_to_mouse_annotation.tsv": {
+      "bytes": 4079234,
+      "sha256": "bc08fcfd64fb250517981f5029a043510a2b463ff4796e88d3ed08ecee624c87"
+    },
+    "audit/natural_course_group_counts.tsv": {
+      "bytes": 223,
+      "sha256": "6c7899681be90d1c349dd8cef114f35ae84cfc4e759739c7842359057b8998a8"
+    },
+    "audit/rotarod_trained_group_counts.tsv": {
+      "bytes": 99,
+      "sha256": "420f1ed4b803f2003df7c6bc5ab9f5a60c0a9346cb07a56ef672066cc5bee439"
+    },
+    "audit/run_manifest.tsv": {
+      "bytes": 1773,
+      "sha256": "86ab73c7ce754850867d04759c2d368062064e53ae7c97305165065461485464"
+    },
+    "audit/sample_count_column_GSM_mapping.tsv": {
+      "bytes": 9114,
+      "sha256": "f0b82ce1106119fe9ad563e2156ec9323d9ee7bbfe764d782d1b7382be842e93"
+    },
+    "boundary_rotarod/diagnostics/astrocyte_contrast_matrix.tsv": {
+      "bytes": 127,
+      "sha256": "28ae8eba26f45115f997f008da9e356c0f996ec4e230524282127cdc6fba175a"
+    },
+    "boundary_rotarod/diagnostics/astrocyte_design_matrix.tsv": {
+      "bytes": 271,
+      "sha256": "62e3c8801ac00f908b006590e302aee90f937cd35ccebf5be460294665214110"
+    },
+    "boundary_rotarod/diagnostics/astrocyte_model_summary.tsv": {
+      "bytes": 412,
+      "sha256": "6bc541881573976b3b69722a24c85b313e4ac907f322e4a28a70424594f3838f"
+    },
+    "boundary_rotarod/diagnostics/astrocyte_PCA_coordinates.tsv": {
+      "bytes": 808,
+      "sha256": "b6eb8325aed3328d989dd3fa912069dd4156829b7c1716bbdf68e6a8951014e1"
+    },
+    "boundary_rotarod/diagnostics/astrocyte_sample_correlations.tsv": {
+      "bytes": 2662,
+      "sha256": "5a7ae694a65377e06488e14722d12a852a7e59ff6d990b44e39eaa0d5b84ee0e"
+    },
+    "boundary_rotarod/diagnostics/astrocyte_sample_QC.tsv": {
+      "bytes": 3365,
+      "sha256": "eab0924d4db19f260db514c39fa61394aa5770c9c3b7262c32dc788ee5836e39"
+    },
+    "boundary_rotarod/diagnostics/v2a_contrast_matrix.tsv": {
+      "bytes": 127,
+      "sha256": "28ae8eba26f45115f997f008da9e356c0f996ec4e230524282127cdc6fba175a"
+    },
+    "boundary_rotarod/diagnostics/v2a_design_matrix.tsv": {
+      "bytes": 247,
+      "sha256": "5d98b993104d7f05e3b562f199a2df1d45736bf60365ee7e556f5defb215546e"
+    },
+    "boundary_rotarod/diagnostics/v2a_model_summary.tsv": {
+      "bytes": 406,
+      "sha256": "9fdbde6576a8ce31048686f253cba4c227ca67b9836df7dc68841160b8c3ffb0"
+    },
+    "boundary_rotarod/diagnostics/v2a_PCA_coordinates.tsv": {
+      "bytes": 788,
+      "sha256": "f1c88596defc4d8093adb5ef3c35e3adf746b324fc4b6f1aeb02f69d04b7671e"
+    },
+    "boundary_rotarod/diagnostics/v2a_sample_correlations.tsv": {
+      "bytes": 2626,
+      "sha256": "60542b8dc46c9d095d47f8b316bbadc7cba4833e8dba55166536295e821f4219"
+    },
+    "boundary_rotarod/diagnostics/v2a_sample_QC.tsv": {
+      "bytes": 3222,
+      "sha256": "0e30390ddbe7a0e21756112a18336ed0f56f79969d12aa4f6821adcdc280d666"
+    },
+    "boundary_rotarod/figures/astrocyte_BCV.pdf": {
+      "bytes": 769260,
+      "sha256": "b84bd8a7d4edb87fd476eea99cba0fa713ab64aa60fa40efbbd7497dd31c1b83"
+    },
+    "boundary_rotarod/figures/astrocyte_library_size.png": {
+      "bytes": 15340,
+      "sha256": "0b9c3542d92b3b947564b1e8284719832ae6564b8417cc401d7bc991185cbb93"
+    },
+    "boundary_rotarod/figures/astrocyte_PCA.png": {
+      "bytes": 28159,
+      "sha256": "d2ea874bcc1c95e85c498e1d268832fba0479f913909ff9a2178c3e210f40020"
+    },
+    "boundary_rotarod/figures/astrocyte_QL_dispersion.pdf": {
+      "bytes": 1539917,
+      "sha256": "1c406c11395a70b28d4c42dc01f12afb5a85cb54fdeff917346a8c4c5f0920b6"
+    },
+    "boundary_rotarod/figures/astrocyte_sample_correlation.pdf": {
+      "bytes": 5645,
+      "sha256": "cdadca783605cf0cc694486837da10a2c50bff18c33c8a7812034e617a34842f"
+    },
+    "boundary_rotarod/figures/v2a_BCV.pdf": {
+      "bytes": 798801,
+      "sha256": "162a5380459f0fd37072f317c46d548a02d023b7ad290d816a2f096f6003a954"
+    },
+    "boundary_rotarod/figures/v2a_library_size.png": {
+      "bytes": 14806,
+      "sha256": "4ff74f77a9f2cefbfebe9708f86b2828cb1995264c15d3297ab375f765bf8067"
+    },
+    "boundary_rotarod/figures/v2a_PCA.png": {
+      "bytes": 29036,
+      "sha256": "c439f570650f46f5feb3cc63eb694e29b979079aafd10cab399e34af54eabaeb"
+    },
+    "boundary_rotarod/figures/v2a_QL_dispersion.pdf": {
+      "bytes": 1593315,
+      "sha256": "d35064c298379dab7416c66f1ab53429ef9d105249b9b6e48659b965c1174664"
+    },
+    "boundary_rotarod/figures/v2a_sample_correlation.pdf": {
+      "bytes": 5582,
+      "sha256": "802fd5760aefb198a044c366490fc22613506b4020e4fba083c4d0cd5f72cec6"
+    },
+    "boundary_rotarod/gene_level/astrocyte/H2_vs_D14_untrained.tsv.gz": {
+      "bytes": 1687911,
+      "sha256": "332e7c6999ef45725abd17431fb4d86c37470cd3464a17f5c4fadbb651699ac3"
+    },
+    "boundary_rotarod/gene_level/astrocyte/H4_vs_D14_untrained.tsv.gz": {
+      "bytes": 1684412,
+      "sha256": "a39a9a840bead2ea94d162ee1936d910948440d63cf5d9519f66fa64cdd3fc9c"
+    },
+    "boundary_rotarod/gene_level/astrocyte/H8_vs_D14_untrained.tsv.gz": {
+      "bytes": 1682966,
+      "sha256": "3180f361b1a582678c9e6be2726fe3da9dde1980c8a4609ab11ba860cfc8430b"
+    },
+    "boundary_rotarod/gene_level/astrocyte_contrast_summary.tsv": {
+      "bytes": 356,
+      "sha256": "108d583d9250991abf2a59693eef761b5a2d85fb3e50a63091ebfde8018f5a71"
+    },
+    "boundary_rotarod/gene_level/v2a/H2_vs_D14_untrained.tsv.gz": {
+      "bytes": 1735481,
+      "sha256": "95a1f9a9b387ef349dba937a1d80fdd5e427195d7dd8b28aaa6a4f403ac51a8e"
+    },
+    "boundary_rotarod/gene_level/v2a/H4_vs_D14_untrained.tsv.gz": {
+      "bytes": 1728169,
+      "sha256": "f21e40bd324208aca60d3f1cea4c556cc2d1179976e8459912f46160a9742858"
+    },
+    "boundary_rotarod/gene_level/v2a/H8_vs_D14_untrained.tsv.gz": {
+      "bytes": 1729455,
+      "sha256": "7f1f15ba434137d857d6301977d22452b08c92f618c4952da87b1f3d6786a5f6"
+    },
+    "boundary_rotarod/gene_level/v2a_contrast_summary.tsv": {
+      "bytes": 338,
+      "sha256": "f4ca7706edf90cdea870bc7a52144b0621ac54c08d2325f74fc45282293b2cd8"
+    },
+    "boundary_rotarod/objects/astrocyte_analysis.rds": {
+      "bytes": 5773024,
+      "sha256": "bad704e3ffb7e45ad3ac1adf1975dbc0c346eaaf5a4cd8588ff6bd97570c3538"
+    },
+    "boundary_rotarod/objects/v2a_analysis.rds": {
+      "bytes": 6114732,
+      "sha256": "f217a70897f3ac7b5a6a05edcd8dc5062fbd11543f4629d5bc4648c9125649db"
+    },
+    "boundary_rotarod/programs/all_celltypes_activity_contrasts.tsv.gz": {
+      "bytes": 636501,
+      "sha256": "0e5906cfdf762327d165154717246145d1e34e01a703a8d95aa121d89e571947"
+    },
+    "boundary_rotarod/programs/astrocyte_activity_contrasts.tsv.gz": {
+      "bytes": 319943,
+      "sha256": "c6f712ca673d21cc0b7d60f158f9200dfb6796658ff03fbf1c170e04546dc246"
+    },
+    "boundary_rotarod/programs/astrocyte_DoRothEA_mapping_coverage.tsv": {
+      "bytes": 1816,
+      "sha256": "a7e0cb09c51ee6ef6c6cc7eda502a34326f988bda063f7e69394840006146c69"
+    },
+    "boundary_rotarod/programs/astrocyte_PROGENy_mapping_coverage.tsv": {
+      "bytes": 250,
+      "sha256": "4ed8b54e20359a962f6749424894dd95b6b6b4ebc324596973a02a0a0f2a8a6e"
+    },
+    "boundary_rotarod/programs/astrocyte_Reactome_camera.tsv.gz": {
+      "bytes": 178102,
+      "sha256": "2ea88ae24abab22ca6e3499543c984bd96421840902b48937c69fb0fe581349e"
+    },
+    "boundary_rotarod/programs/astrocyte_Reactome_fgseaMultilevel.tsv.gz": {
+      "bytes": 131,
+      "sha256": "cc167d4179ab28d340a33254866b0f803cb09dddf60aada205f689f6bbd5646a"
+    },
+    "boundary_rotarod/programs/astrocyte_Reactome_mapping_coverage.tsv": {
+      "bytes": 193647,
+      "sha256": "0f906c57ef348682879161d3d4b5bd2137173972524ab0d254b809dc74bb638e"
+    },
+    "boundary_rotarod/programs/astrocyte_Reactome_mroast.tsv.gz": {
+      "bytes": 126,
+      "sha256": "9ff3e084ecd16a8e9a23179f5071e48244d00d308276fc2a4e99ca90b5bc4014"
+    },
+    "boundary_rotarod/programs/boundary_activity_result_counts.tsv": {
+      "bytes": 1703,
+      "sha256": "173ff5d30c30d737a1897914a5caa69c2620d14d793c177aa2aa4daaad8335a4"
+    },
+    "boundary_rotarod/programs/v2a_activity_contrasts.tsv.gz": {
+      "bytes": 317088,
+      "sha256": "4574077b7a192f2b7218d56015867b7ce909821bb9144c0fe9af7c997a96e531"
+    },
+    "boundary_rotarod/programs/v2a_DoRothEA_mapping_coverage.tsv": {
+      "bytes": 1811,
+      "sha256": "e447d0342586a541eea5930cfeec2e1e3adf163bdfa3de8257c261a16112eb03"
+    },
+    "boundary_rotarod/programs/v2a_PROGENy_mapping_coverage.tsv": {
+      "bytes": 250,
+      "sha256": "7fb40308d2a8e392ae45bbcb176c8657dbdc7a1bd786860aaa3170e92660f949"
+    },
+    "boundary_rotarod/programs/v2a_Reactome_camera.tsv.gz": {
+      "bytes": 166883,
+      "sha256": "1a81fc1d50562b9ae33fbeeed47143f3ae3350f296f91835ef899929f3a7647a"
+    },
+    "boundary_rotarod/programs/v2a_Reactome_fgseaMultilevel.tsv.gz": {
+      "bytes": 131,
+      "sha256": "cc167d4179ab28d340a33254866b0f803cb09dddf60aada205f689f6bbd5646a"
+    },
+    "boundary_rotarod/programs/v2a_Reactome_mapping_coverage.tsv": {
+      "bytes": 193645,
+      "sha256": "808be929182653cacdcbe773483a97167335295ceef58ecf195779e4d620ba88"
+    },
+    "boundary_rotarod/programs/v2a_Reactome_mroast.tsv.gz": {
+      "bytes": 126,
+      "sha256": "9ff3e084ecd16a8e9a23179f5071e48244d00d308276fc2a4e99ca90b5bc4014"
+    },
+    "diagnostics/all_celltypes_model_summary.tsv": {
+      "bytes": 650,
+      "sha256": "6be6358eeb22a2935b20cf9f018bdc5cf4baefa1b2d937b904ddc1f3852ba9c1"
+    },
+    "diagnostics/all_celltypes_sample_QC.tsv": {
+      "bytes": 11437,
+      "sha256": "7ceeaeabd714c726c311d7901b67e220eafb3e17f83cc2a19001debff92b9de7"
+    },
+    "diagnostics/analysis.log": {
+      "bytes": 60933,
+      "sha256": "9dfe2f8dc4dd55818c245ec487463ea076ba31e07169928eecf63b3f1b66f4ce"
+    },
+    "diagnostics/astrocyte_contrast_matrix.tsv": {
+      "bytes": 204,
+      "sha256": "97520318f8ae814cfacc8b2a40af13aa96c1943774ae6e5fdba84cd04621ed59"
+    },
+    "diagnostics/astrocyte_design_matrix.tsv": {
+      "bytes": 360,
+      "sha256": "da377b5766a65c00986abefee8d9b330cdf723908d896c604c83eb9049fbdc9b"
+    },
+    "diagnostics/astrocyte_model_summary.tsv": {
+      "bytes": 411,
+      "sha256": "996adda890db999cd5d09598ef67d686edb9dda8a6f511a38de0ed6d06c01501"
+    },
+    "diagnostics/astrocyte_PCA_coordinates.tsv": {
+      "bytes": 984,
+      "sha256": "3abf636378de48f583e7770c26f7b37520ee0bd9a14d6f63a5f5b14e57291a21"
+    },
+    "diagnostics/astrocyte_sample_correlations.tsv": {
+      "bytes": 4147,
+      "sha256": "76df1b7ae8828f83c60648ed48e6d2d0cfe68462161ec71f6c2fc10f3f908f3f"
+    },
+    "diagnostics/astrocyte_sample_QC.tsv": {
+      "bytes": 4046,
+      "sha256": "531ec0b15f433c4c8ccbe8745c63e2751900c7aae54574ce59b8c8e9a6203617"
+    },
+    "diagnostics/fgsea_deterministic_tie_audit.tsv": {
+      "bytes": 208,
+      "sha256": "957deb47eb566521e7e46569839247aac1c26f8406e3aa89c9468e4e8ead7e8b"
+    },
+    "diagnostics/fgsea_refresh_sessionInfo.txt": {
+      "bytes": 1458,
+      "sha256": "6173245f93593e5f219c0572320c5b4ad6d579436123f596465a9a949c7332f6"
+    },
+    "diagnostics/microglia_contrast_matrix.tsv": {
+      "bytes": 204,
+      "sha256": "97520318f8ae814cfacc8b2a40af13aa96c1943774ae6e5fdba84cd04621ed59"
+    },
+    "diagnostics/microglia_design_matrix.tsv": {
+      "bytes": 345,
+      "sha256": "140bb3f19b3683a73a98097faf88d61424b73b4419167b88d26ecff58f7a3729"
+    },
+    "diagnostics/microglia_model_summary.tsv": {
+      "bytes": 410,
+      "sha256": "ce4cdd1af41ee253e29f08888624907a8027607160c42ee264cf8921861d288e"
+    },
+    "diagnostics/microglia_PCA_coordinates.tsv": {
+      "bytes": 967,
+      "sha256": "a210956a0cfe039e4f442f6181ccfd5eb4bb44430386036a9961f93423296b89"
+    },
+    "diagnostics/microglia_sample_correlations.tsv": {
+      "bytes": 4109,
+      "sha256": "54ea5e981508ba60a7534bb84ce36e516a4ed4a5646345a7daaafc72123f2b3b"
+    },
+    "diagnostics/microglia_sample_QC.tsv": {
+      "bytes": 4017,
+      "sha256": "37488405f57554c7b1a6b4213c8e780cd18469abfd5758c5df4570bf1a1b319b"
+    },
+    "diagnostics/output_validation.tsv": {
+      "bytes": 2900,
+      "sha256": "fc30281982ad07698659c4ae6b2eba33ec0f64ede85bd04f989705bbb7d63edd"
+    },
+    "diagnostics/sessionInfo.txt": {
+      "bytes": 2228,
+      "sha256": "456773a6e82e3862bd9ead3e1c40c9ab44456fa5f5b7bff86acc86fb088548b1"
+    },
+    "diagnostics/v2a_contrast_matrix.tsv": {
+      "bytes": 204,
+      "sha256": "97520318f8ae814cfacc8b2a40af13aa96c1943774ae6e5fdba84cd04621ed59"
+    },
+    "diagnostics/v2a_design_matrix.tsv": {
+      "bytes": 330,
+      "sha256": "ed48c333c20c6d696002c307aa39229712225497ddeff6cf74e864ddecfc4041"
+    },
+    "diagnostics/v2a_model_summary.tsv": {
+      "bytes": 403,
+      "sha256": "0215505b807ef0846598f7e7334bd8862c32a64f861abac9dd665d655b957d1b"
+    },
+    "diagnostics/v2a_PCA_coordinates.tsv": {
+      "bytes": 950,
+      "sha256": "f6d7857242ecc40361c53d26bf5f213d0d146770591c1aebbcc1cee102a48a96"
+    },
+    "diagnostics/v2a_sample_correlations.tsv": {
+      "bytes": 4083,
+      "sha256": "eb819467a8fff4edee9dcb0da155f8285ef6ffb775149eb830cc8366fc70f4f0"
+    },
+    "diagnostics/v2a_sample_QC.tsv": {
+      "bytes": 3922,
+      "sha256": "09e698f3242dc030b018054720ecf077b89c3ac2c1d8b90463d0ce3b3888569b"
+    },
+    "diagnostics/warning_adjudication.tsv": {
+      "bytes": 792,
+      "sha256": "a206bf3cc4e92aba83147be8ff62b429803e1c1948a4c622928b6544a1a0ce71"
+    },
+    "exploratory_result_synopsis_not_S3.md": {
+      "bytes": 3289,
+      "sha256": "81d854257066528ca692b0a9ac32dd8246078ef38f0c44a2e80bd56d2cd5bbbb"
+    },
+    "figures/astrocyte_BCV.pdf": {
+      "bytes": 767293,
+      "sha256": "10e608f3cf4bd20a67da83fbe7e71a27341f498b9ff2635bc40b326e9c541442"
+    },
+    "figures/astrocyte_library_size.png": {
+      "bytes": 14633,
+      "sha256": "81318df34d89e8e442ddbad3b652f8ef2df8a24e8f815192c8526454f6dc30f7"
+    },
+    "figures/astrocyte_PCA.png": {
+      "bytes": 32414,
+      "sha256": "def10454c3dd0371dc1566fa85cc8760a7a1ac7f4948d0b14259c545d31d03f7"
+    },
+    "figures/astrocyte_QL_dispersion.pdf": {
+      "bytes": 1536462,
+      "sha256": "14412e79cf1d726502e081b000fdb4beb72546079b76615769b4226229e28fef"
+    },
+    "figures/astrocyte_sample_correlation.pdf": {
+      "bytes": 6308,
+      "sha256": "5c8d079788d366a00554cd0480f52de4d68082737added65d22925d61b9c65bb"
+    },
+    "figures/microglia_BCV.pdf": {
+      "bytes": 803912,
+      "sha256": "7437fba36b6829e2384ed257cdd2e0a174f453c837764757ee70db4217bcb4ac"
+    },
+    "figures/microglia_library_size.png": {
+      "bytes": 14217,
+      "sha256": "374785f8f8f3f2e306947e974a184d523f77f481736f3aad1fa445ed429f4fbd"
+    },
+    "figures/microglia_PCA.png": {
+      "bytes": 32877,
+      "sha256": "c8dccdb583a2c0d9271ce7c28a9613b7650276f70e247044a5d1a5b5bcafcefe"
+    },
+    "figures/microglia_QL_dispersion.pdf": {
+      "bytes": 1611596,
+      "sha256": "4dd835054709fcb1a7ff8d399b9d65f78f0d13aea386891151197d7baaa19987"
+    },
+    "figures/microglia_sample_correlation.pdf": {
+      "bytes": 6169,
+      "sha256": "96dff5fa716daeb9a5a8b0593128d9591f1728d53bced2cb3ac4e8334a09cdf6"
+    },
+    "figures/programs/exploratory_consensus_counts_not_S3.pdf": {
+      "bytes": 26884,
+      "sha256": "36b26dcc7591b09002429e0e94773fe38cd4e89510001fcc9fc4570eca56a8d2"
+    },
+    "figures/programs/exploratory_consensus_counts_not_S3.png": {
+      "bytes": 34250,
+      "sha256": "6e8e0dd90180594e389d4bc08b31b78609c93aeb5e534be3f7f3ba408bdfbf26"
+    },
+    "figures/programs/PROGENy_chronic_by_celltype_not_S3.pdf": {
+      "bytes": 29404,
+      "sha256": "f0fc45e7df4b562e8711d55f7b6d3c879f71b88b8af83411e67770c69bbf8fb4"
+    },
+    "figures/programs/PROGENy_chronic_by_celltype_not_S3.png": {
+      "bytes": 46191,
+      "sha256": "bce8c972415cfbe16dd5d488f3c805b7eb1822f5efcaf6af3513eb9f3c39edc6"
+    },
+    "figures/programs/PROGENy_natural_timecourse_not_S3.pdf": {
+      "bytes": 33537,
+      "sha256": "6053919218c4cf47074ce1279798712d6284433c862ea070d9c23d06237b7d43"
+    },
+    "figures/programs/PROGENy_natural_timecourse_not_S3.png": {
+      "bytes": 64611,
+      "sha256": "feef6eeb1914dd44c3f2f15886ed1cef6a12478d731bab3f44433191a9794d14"
+    },
+    "figures/programs/PROGENy_rotarod_boundary_only.pdf": {
+      "bytes": 31945,
+      "sha256": "662ae75e1828bbd1565deac034acf942f4768ed61114860290814127c95f8da8"
+    },
+    "figures/programs/PROGENy_rotarod_boundary_only.png": {
+      "bytes": 48917,
+      "sha256": "440489e56a44b9e8aafbfc93f67043b6538f1b4d7750f3f040e2ae5e17e635e5"
+    },
+    "figures/v2a_BCV.pdf": {
+      "bytes": 860315,
+      "sha256": "7865d74e61b0d735909201209e94cd0a2424c190f2e694ba410a2daa23bdfbac"
+    },
+    "figures/v2a_library_size.png": {
+      "bytes": 13509,
+      "sha256": "006e5366be61ed699745f7e81059d27b1fdc8e5d4ad225d0434975cc021e66b1"
+    },
+    "figures/v2a_PCA.png": {
+      "bytes": 36619,
+      "sha256": "51a289dc18aaad9706fdb0b251a0521d4e29cec975ec4803de508a99f5a706ff"
+    },
+    "figures/v2a_QL_dispersion.pdf": {
+      "bytes": 1722300,
+      "sha256": "ba573ca8b9480f50d769c1b18f2750dec51db27f94f94e34e357381085c8b7b0"
+    },
+    "figures/v2a_sample_correlation.pdf": {
+      "bytes": 6287,
+      "sha256": "a4cdeb9d1e3faeb10d5f0eeac144466355cb73b2a43b571ba3543d886112b138"
+    },
+    "gene_level/all_celltypes_contrast_summary.tsv": {
+      "bytes": 1487,
+      "sha256": "ec76adc558c475670661538d9059c965fad7b0e3700aaa2c3aa217a53beb9df8"
+    },
+    "gene_level/astrocyte/chronic_combined.tsv.gz": {
+      "bytes": 1674413,
+      "sha256": "858428523d745fa9c7b4540b6214084a2fb0981476ab900c7668be17a96013e8"
+    },
+    "gene_level/astrocyte/D14_vs_control.tsv.gz": {
+      "bytes": 1671805,
+      "sha256": "0b1562aa54f7ea0a887632f056dc9acb45e20c4ac15bb6a1978e33db64e3cfd1"
+    },
+    "gene_level/astrocyte/D28_vs_control.tsv.gz": {
+      "bytes": 1674373,
+      "sha256": "3b9e57a6086d6bffaa1d2a6fad22a8959c8915e003f3092007bd435ca0ed8029"
+    },
+    "gene_level/astrocyte/D3_vs_control.tsv.gz": {
+      "bytes": 1673596,
+      "sha256": "6f379354fe93099eb65542ed50d393dbcb021b39c4e2611d431e85719274ceeb"
+    },
+    "gene_level/astrocyte/D7_vs_control.tsv.gz": {
+      "bytes": 1669667,
+      "sha256": "9c5fd2904f793d04616cd11e1f6474fb9dee4af2b543358453743cb2dd8935d5"
+    },
+    "gene_level/astrocyte/early_combined.tsv.gz": {
+      "bytes": 1674258,
+      "sha256": "49fd0458db90e924e3c2d59be835c8c6d81d2cbd2962ff592d609362bd415061"
+    },
+    "gene_level/astrocyte_contrast_summary.tsv": {
+      "bytes": 570,
+      "sha256": "4bb8cb9a697b48321841f7e64def44e01521def58c55476a647c67d06a9b9334"
+    },
+    "gene_level/microglia/chronic_combined.tsv.gz": {
+      "bytes": 1762258,
+      "sha256": "4851e5b71a07d4bd15ebeb9174a6cdda916e7969235f0ad6edb35335675b25ba"
+    },
+    "gene_level/microglia/D14_vs_control.tsv.gz": {
+      "bytes": 1762063,
+      "sha256": "f20c64b2ed1918d9b88b8eadee21d5a4971ca75a46e58dba293156b24fbe022d"
+    },
+    "gene_level/microglia/D28_vs_control.tsv.gz": {
+      "bytes": 1764071,
+      "sha256": "e8a6a527717a32fc8e5453eefae10d7dba35168b83e9cb86c74db7e58ce55a40"
+    },
+    "gene_level/microglia/D3_vs_control.tsv.gz": {
+      "bytes": 1771116,
+      "sha256": "4a31ecb21d450fe8c81beb251a55dc9d02796ef286663a340258c5d333cbe7a1"
+    },
+    "gene_level/microglia/D7_vs_control.tsv.gz": {
+      "bytes": 1764247,
+      "sha256": "38bb2e43dcc7c9bbedeeff88668992c43659c9d8601ab0b9e95ee432a3a3f3e9"
+    },
+    "gene_level/microglia/early_combined.tsv.gz": {
+      "bytes": 1771948,
+      "sha256": "7d6c9ff2e004b0666891e94d6524d66b0489af9bd65452df3de57cf9b3b90258"
+    },
+    "gene_level/microglia_contrast_summary.tsv": {
+      "bytes": 574,
+      "sha256": "daa6b353cb21294b4afda30ff0d0566d2f9dbae8b01898cd9ceff66f3f754746"
+    },
+    "gene_level/v2a/chronic_combined.tsv.gz": {
+      "bytes": 1866812,
+      "sha256": "270a9f1113a4028d2122295f487ba35ae30dbab0267faaa5c5585c4b6e920cba"
+    },
+    "gene_level/v2a/D14_vs_control.tsv.gz": {
+      "bytes": 1862152,
+      "sha256": "142ff92b571fcd2d881798bc43d09ec531105ae89842e5be7931e150f7b9a023"
+    },
+    "gene_level/v2a/D28_vs_control.tsv.gz": {
+      "bytes": 1861705,
+      "sha256": "514bd9829c374ccea743b6fa3656349f975ecff375e3555dc9bdbea6d1bdf86a"
+    },
+    "gene_level/v2a/D3_vs_control.tsv.gz": {
+      "bytes": 1852632,
+      "sha256": "d6f350b00f119da84a2f16801fcf1d4a21e6fe78cd584dc3c1f5ab745e6074be"
+    },
+    "gene_level/v2a/D7_vs_control.tsv.gz": {
+      "bytes": 1852622,
+      "sha256": "4db642ca718b3e5afd47027b9afe4dee64100bdd276675938445693d89097a8c"
+    },
+    "gene_level/v2a/early_combined.tsv.gz": {
+      "bytes": 1853840,
+      "sha256": "98f17c9f58bd111950b893f94d2784d1b72bc512bc36e00e2b8b95c871a377e5"
+    },
+    "gene_level/v2a_contrast_summary.tsv": {
+      "bytes": 533,
+      "sha256": "152f9b1c1c1ae105e0603ef828547fd9533ffead0a412892092e823607cfba2f"
+    },
+    "manuscript_ready_methods_results.md": {
+      "bytes": 8243,
+      "sha256": "eca80d1fd6628ea610851db5e80a585e42e8cf3dc077f2052c740ae8e5924dfa"
+    },
+    "objects/astrocyte_analysis.rds": {
+      "bytes": 7244240,
+      "sha256": "b2db45969442f35fdd21cbb742063098274be58abd2a7c359b8001dbc739dca3"
+    },
+    "objects/microglia_analysis.rds": {
+      "bytes": 7506492,
+      "sha256": "d53f351c7cb46ae70bd0c2ec31ba59f1b73925dec2d19b62a7632c948452ac3e"
+    },
+    "objects/v2a_analysis.rds": {
+      "bytes": 8469276,
+      "sha256": "7b2ac5fe1c53aaabe249ad48ac7171208b6506b4db51451a40da215295523f4f"
+    },
+    "programs/all_celltypes_activity_contrasts.tsv.gz": {
+      "bytes": 2073400,
+      "sha256": "c1a330ec3b0d993d27130cd3e3a71eb1810351e0aa39dfa7d9dcb498f1b15e72"
+    },
+    "programs/all_celltypes_chronic_activity_LOSO.tsv.gz": {
+      "bytes": 191326,
+      "sha256": "832d2fc248845d03f6902366eeba5006a115c26e7b6768014e9d0a93936ec97c"
+    },
+    "programs/all_celltypes_Reactome_camera.tsv.gz": {
+      "bytes": 1178669,
+      "sha256": "18c2952182ec3aa5a5c98145fede0c5f301845ec38b5a9585478974ec9724824"
+    },
+    "programs/all_celltypes_Reactome_fgseaMultilevel.tsv.gz": {
+      "bytes": 504824,
+      "sha256": "749179e9ac53d267d77eb8bd937f8e43498dcb3e22be7525af49abab71f7d9ba"
+    },
+    "programs/all_celltypes_Reactome_mroast.tsv.gz": {
+      "bytes": 231957,
+      "sha256": "92835da17ad185fbdff81a49b306cecccbc9a4e4771b33b181ea263f5c0b5d2d"
+    },
+    "programs/astrocyte_activity_contrasts.tsv.gz": {
+      "bytes": 632834,
+      "sha256": "a698981e7838f8b13b5e88cb7875df5eeb06268cd5b55868788bab40a04be538"
+    },
+    "programs/astrocyte_chronic_activity_LOSO.tsv.gz": {
+      "bytes": 63648,
+      "sha256": "82d9cf9b0f148c6afffb51eba1cf1606919704ce887c819e881084f89391b3e1"
+    },
+    "programs/astrocyte_DoRothEA_mapping_coverage.tsv": {
+      "bytes": 1815,
+      "sha256": "42b8e899190221b078381001543308d0664d8dce1f96e1622f770bc4426cd5c9"
+    },
+    "programs/astrocyte_PROGENy_mapping_coverage.tsv": {
+      "bytes": 250,
+      "sha256": "044f55c64eb8c8b97674565b929071a68af244cb7811210a42569d354953b58b"
+    },
+    "programs/astrocyte_Reactome_camera.tsv.gz": {
+      "bytes": 335431,
+      "sha256": "3c2060423c5f9a51fb60085e3490db824ec792e567a8d7dd0a0b134b2d936ffb"
+    },
+    "programs/astrocyte_Reactome_fgseaMultilevel.tsv.gz": {
+      "bytes": 150923,
+      "sha256": "ca6b9d5de30b4582b743bf0357470817be718e4a82e6608ec312dff8c1d2b5f1"
+    },
+    "programs/astrocyte_Reactome_mapping_coverage.tsv": {
+      "bytes": 193650,
+      "sha256": "99bec3510af508ebaa5b2e10d115e58c8966e2d2fa39c9c2c89833f2a0ee07dc"
+    },
+    "programs/astrocyte_Reactome_mroast.tsv.gz": {
+      "bytes": 67774,
+      "sha256": "f1a63d8d20d286115cf9842be94fe381dc34df22f80c8d01992b0a0f6f3d566e"
+    },
+    "programs/chronic_internal_consistency_not_S3.tsv.gz": {
+      "bytes": 712288,
+      "sha256": "57c19eaf9590a3f0fa0f5f472afbeceebed83771c7b4fe74d4b056b338adf65d"
+    },
+    "programs/exploratory_activity_consistency_not_S3.tsv.gz": {
+      "bytes": 48293,
+      "sha256": "5667a675777764b31a56e4795d0d39c06ca9c3bb29bee745ddd9397985b587e3"
+    },
+    "programs/exploratory_chronic_vs_early_activity_not_S3.tsv.gz": {
+      "bytes": 471603,
+      "sha256": "60a98ecdb80f990cd8cf812958172029bdd96adaa87e9e69f2358446d3cd2c22"
+    },
+    "programs/exploratory_consensus_counts_not_S3.tsv": {
+      "bytes": 715,
+      "sha256": "b83952c4aae40a4da0b6bf5a55ae5229ce326ae0f19919ac7a6eae8dcec35747"
+    },
+    "programs/exploratory_Reactome_multimethod_consensus_not_S3.tsv.gz": {
+      "bytes": 1176034,
+      "sha256": "fce6f7faf2e6b46735c1a53a411aa4947a60af07ca120706ee72a5c1e1a44f81"
+    },
+    "programs/exploratory_top20_activity_per_collection_celltype_not_S3.tsv": {
+      "bytes": 34765,
+      "sha256": "8bd4ecf118cedd28115c72af40278f88e1c57462de4f6048f4bd483cd1870ddd"
+    },
+    "programs/exploratory_top20_Reactome_per_celltype_not_S3.tsv": {
+      "bytes": 44437,
+      "sha256": "6e78e3312e48136de58f9da4c7c6cbebca5044ae30830ce51cdc1f17b0104709"
+    },
+    "programs/microglia_activity_contrasts.tsv.gz": {
+      "bytes": 661226,
+      "sha256": "6c3f0be968f021ce588cb6bd09d4dc0bd45bb34d77bd81ca7fa39cd5f0d4e2fe"
+    },
+    "programs/microglia_chronic_activity_LOSO.tsv.gz": {
+      "bytes": 65477,
+      "sha256": "fa51a123827c9b5652b0947a630cd97d42e5406c6e9139b12c3939de9f4c34d6"
+    },
+    "programs/microglia_DoRothEA_mapping_coverage.tsv": {
+      "bytes": 1825,
+      "sha256": "4b8c63132a2e4f29572da459bc36ec0d41bc62d32f2152b7cb63fab88e36240a"
+    },
+    "programs/microglia_PROGENy_mapping_coverage.tsv": {
+      "bytes": 250,
+      "sha256": "6663ce3435937c978fdf6a7a01b63c28e62266d00ae2b5da68f51c7638c17d6d"
+    },
+    "programs/microglia_Reactome_camera.tsv.gz": {
+      "bytes": 348337,
+      "sha256": "613ad2dc75b771ff5248639a0fa3d6e719124a2d981526a1ca75cb8e68d9cb64"
+    },
+    "programs/microglia_Reactome_fgseaMultilevel.tsv.gz": {
+      "bytes": 152412,
+      "sha256": "5e34107a75bcdd4abf49e5749c09cbbed6d31dc258565de999a4125f6c3a2cf1"
+    },
+    "programs/microglia_Reactome_mapping_coverage.tsv": {
+      "bytes": 193633,
+      "sha256": "244431b352bd039bd77ec3ce37689ed225f0fb5cfd1e3f3b38e92ffb3d4c03fb"
+    },
+    "programs/microglia_Reactome_mroast.tsv.gz": {
+      "bytes": 65600,
+      "sha256": "6cff2dcaf397d7a2bacb01a6fd54c071a5ee613be923488c68d31ec1d31d9fee"
+    },
+    "programs/program_result_counts.tsv": {
+      "bytes": 418,
+      "sha256": "4e11f9ec908612e0bd1332566c0955a929c2461cacd6a46cf7cf691b3b5f594f"
+    },
+    "programs/S3_GATE.tsv": {
+      "bytes": 449,
+      "sha256": "af8606d38e21356ac2786842282ef76e8861bacddbbd330decd7469fbe9780f0"
+    },
+    "programs/v2a_activity_contrasts.tsv.gz": {
+      "bytes": 643406,
+      "sha256": "b10fe04aa9db09fe99a05bb947070079b509ad4dc6c51b5014fef0912c9de8e2"
+    },
+    "programs/v2a_chronic_activity_LOSO.tsv.gz": {
+      "bytes": 63507,
+      "sha256": "b68d551267c8794163d92e234f325632ef651bbd5339cd673950cc6dd00dd5d9"
+    },
+    "programs/v2a_DoRothEA_mapping_coverage.tsv": {
+      "bytes": 1816,
+      "sha256": "5f3a621a9fb6a7602ae86bbe7af4a7927ebea5c8423c25f03683a6d00aab1a12"
+    },
+    "programs/v2a_PROGENy_mapping_coverage.tsv": {
+      "bytes": 250,
+      "sha256": "03283f6e1de12d2fa1da5d872d9f20e2b3373e8da3ddbcc7d215ef6a316431b2"
+    },
+    "programs/v2a_Reactome_camera.tsv.gz": {
+      "bytes": 340227,
+      "sha256": "a7f0a6b1a46ea02cf7b971b7a1a9813e56cac4408cff02efdcf853a88af83a4c"
+    },
+    "programs/v2a_Reactome_fgseaMultilevel.tsv.gz": {
+      "bytes": 156764,
+      "sha256": "b95df3117ab5dffc4b1f5c9a677c26f84f83578b8d28484f17bab7a65ffb52fd"
+    },
+    "programs/v2a_Reactome_mapping_coverage.tsv": {
+      "bytes": 193624,
+      "sha256": "655ee4999c018d3fdc7fa945269400838e5e942dce2f2adebacbf5ef5cf6ce97"
+    },
+    "programs/v2a_Reactome_mroast.tsv.gz": {
+      "bytes": 57241,
+      "sha256": "088117e55534dc42abbfb5e0617128714fabc25af9e78c98535205c0b9a15653"
+    }
+  },
+  "projections": [
+    {
+      "binding": {
+        "source_path": "results/GSE277064/boundary_rotarod/gene_level/astrocyte/H2_vs_D14_untrained.tsv.gz",
+        "source_sha256": "332e7c6999ef45725abd17431fb4d86c37470cd3464a17f5c4fadbb651699ac3",
+        "rows": 13875,
+        "source_cell_stream_sha256": "3d28546465614d1995a92664a42196cb79b1742bf2caf114f4f55a3343a73329",
+        "retained_cell_stream_sha256": "0b9f65507c661d91f1b9bb86ecbac67ebc5eb90fccedf0861ebe0acbf38d9866",
+        "labels": {
+          "contrast": "H2_vs_D14_untrained",
+          "cell_type": "astrocyte",
+          "domain": "rotarod_boundary"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S16_GSE277064_rotarod_and_validation.xlsx",
+        "worksheet": "13_H2_vs_D14_untrained",
+        "worksheet_member": "xl/worksheets/sheet14.xml"
+      },
+      "source_identity": {
+        "bytes": 1687911,
+        "sha256": "332e7c6999ef45725abd17431fb4d86c37470cd3464a17f5c4fadbb651699ac3"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1687911,
+          "sha256": "332e7c6999ef45725abd17431fb4d86c37470cd3464a17f5c4fadbb651699ac3"
+        },
+        "view": {
+          "bytes": 3596455,
+          "sha256": "5b52ffe5aff04cf51d662a5745a7e6a9e38bc73a323ff1c4413526bd9d4a56a0"
+        },
+        "quarantine": {
+          "bytes": 3691117,
+          "sha256": "b468539a347496694f9062ff05f96f90d4c39388fb926e7c058b6f9cb1545bb7"
+        },
+        "schema": {
+          "bytes": 3526,
+          "sha256": "767bc24dbb7c540bbd3c1c25678f1fdc0b26b70c46cba3bdae02dea6cae252f3"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/boundary_rotarod/gene_level/astrocyte/H4_vs_D14_untrained.tsv.gz",
+        "source_sha256": "a39a9a840bead2ea94d162ee1936d910948440d63cf5d9519f66fa64cdd3fc9c",
+        "rows": 13875,
+        "source_cell_stream_sha256": "e727a8875d52183233c3622487fb5138d667c225732e0ea491865b9d4c4b5271",
+        "retained_cell_stream_sha256": "88afbc0429d1a5073f1551bec1150f666d00c6c0594f4d17831ed87aa62f5def",
+        "labels": {
+          "contrast": "H4_vs_D14_untrained",
+          "cell_type": "astrocyte",
+          "domain": "rotarod_boundary"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S16_GSE277064_rotarod_and_validation.xlsx",
+        "worksheet": "14_H4_vs_D14_untrained",
+        "worksheet_member": "xl/worksheets/sheet15.xml"
+      },
+      "source_identity": {
+        "bytes": 1684412,
+        "sha256": "a39a9a840bead2ea94d162ee1936d910948440d63cf5d9519f66fa64cdd3fc9c"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1684412,
+          "sha256": "a39a9a840bead2ea94d162ee1936d910948440d63cf5d9519f66fa64cdd3fc9c"
+        },
+        "view": {
+          "bytes": 3592454,
+          "sha256": "0f714fa0bee91828b963555484f20cf83a76b0580af2dd6b16f9c2f0c4efe7e3"
+        },
+        "quarantine": {
+          "bytes": 3692338,
+          "sha256": "e8cba83e816e1866f69bfb0c8422c4a205a0aeb21b5bd906cda50dbdfb9ba53b"
+        },
+        "schema": {
+          "bytes": 3526,
+          "sha256": "7f6321eb4e0021bcc4376f6ef1fcea996147001b17578ee7ad26abd67cdd7067"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/boundary_rotarod/gene_level/astrocyte/H8_vs_D14_untrained.tsv.gz",
+        "source_sha256": "3180f361b1a582678c9e6be2726fe3da9dde1980c8a4609ab11ba860cfc8430b",
+        "rows": 13875,
+        "source_cell_stream_sha256": "6dd751c9f54e8801e5f122dfa318c1ee321380fcb1ff849ac72cd908d7f1bf83",
+        "retained_cell_stream_sha256": "2603a68e9a9b9ccf215a0b9bb4fbaa70f02cd024d4b38b5034c66f74d04b1eff",
+        "labels": {
+          "contrast": "H8_vs_D14_untrained",
+          "cell_type": "astrocyte",
+          "domain": "rotarod_boundary"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S16_GSE277064_rotarod_and_validation.xlsx",
+        "worksheet": "15_H8_vs_D14_untrained",
+        "worksheet_member": "xl/worksheets/sheet16.xml"
+      },
+      "source_identity": {
+        "bytes": 1682966,
+        "sha256": "3180f361b1a582678c9e6be2726fe3da9dde1980c8a4609ab11ba860cfc8430b"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1682966,
+          "sha256": "3180f361b1a582678c9e6be2726fe3da9dde1980c8a4609ab11ba860cfc8430b"
+        },
+        "view": {
+          "bytes": 3591215,
+          "sha256": "83959f9e3824f38dc54ff22603f4b78c3c3a8816e6615c1b4b2d66753829ddbb"
+        },
+        "quarantine": {
+          "bytes": 3691538,
+          "sha256": "d3ee603e00173909d0f129089ccff53753fd9da5010bf492d477564f7f0f030b"
+        },
+        "schema": {
+          "bytes": 3526,
+          "sha256": "cdf6b9ba1b3edb9667ccc9e14bfbe36fd2514700b9bab3187c0fe4787377ae8b"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/boundary_rotarod/gene_level/v2a/H2_vs_D14_untrained.tsv.gz",
+        "source_sha256": "95a1f9a9b387ef349dba937a1d80fdd5e427195d7dd8b28aaa6a4f403ac51a8e",
+        "rows": 14323,
+        "source_cell_stream_sha256": "73a31856e4f20ff6525093ab3db5173ab4bd1e0c58893f84a4f9c9a32813920f",
+        "retained_cell_stream_sha256": "8ec1768e9eb58d43d635932a3457027d19da6754a5d15ab72f17b0d8eb57d3b4",
+        "labels": {
+          "contrast": "H2_vs_D14_untrained",
+          "cell_type": "v2a",
+          "domain": "rotarod_boundary"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S16_GSE277064_rotarod_and_validation.xlsx",
+        "worksheet": "17_H2_vs_D14_untrained",
+        "worksheet_member": "xl/worksheets/sheet18.xml"
+      },
+      "source_identity": {
+        "bytes": 1735481,
+        "sha256": "95a1f9a9b387ef349dba937a1d80fdd5e427195d7dd8b28aaa6a4f403ac51a8e"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1735481,
+          "sha256": "95a1f9a9b387ef349dba937a1d80fdd5e427195d7dd8b28aaa6a4f403ac51a8e"
+        },
+        "view": {
+          "bytes": 3618991,
+          "sha256": "ddeb51fe5573af924a6dbe3ebd1933b26df638238e553fa0b54886fa2bb739bf"
+        },
+        "quarantine": {
+          "bytes": 3725288,
+          "sha256": "14f22ff21ce80dfa1421640b740952a22a12998af57e229e2847ab5e09a31685"
+        },
+        "schema": {
+          "bytes": 3514,
+          "sha256": "ab8cd09ab0b7177969ab02b36759703807b3ab1dc5dac077b25b4649aab12038"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/boundary_rotarod/gene_level/v2a/H4_vs_D14_untrained.tsv.gz",
+        "source_sha256": "f21e40bd324208aca60d3f1cea4c556cc2d1179976e8459912f46160a9742858",
+        "rows": 14323,
+        "source_cell_stream_sha256": "78582563f4db3d849f583f29ff5584eb1971d5468a5580c9eb57176f6eb51888",
+        "retained_cell_stream_sha256": "0b83a54b14bfdb9546eacfd69de4d9ed857b8eb9578509bf131853cc3fa5be37",
+        "labels": {
+          "contrast": "H4_vs_D14_untrained",
+          "cell_type": "v2a",
+          "domain": "rotarod_boundary"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S16_GSE277064_rotarod_and_validation.xlsx",
+        "worksheet": "18_H4_vs_D14_untrained",
+        "worksheet_member": "xl/worksheets/sheet19.xml"
+      },
+      "source_identity": {
+        "bytes": 1728169,
+        "sha256": "f21e40bd324208aca60d3f1cea4c556cc2d1179976e8459912f46160a9742858"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1728169,
+          "sha256": "f21e40bd324208aca60d3f1cea4c556cc2d1179976e8459912f46160a9742858"
+        },
+        "view": {
+          "bytes": 3609502,
+          "sha256": "91eed4f869e4463895c4d60ace7b12bcbe1c489307b021a262b329f53ed12e02"
+        },
+        "quarantine": {
+          "bytes": 3726689,
+          "sha256": "28fba445049b077dc7fa6bb95dab4a3568806fa009319567dfb160a615fd1c11"
+        },
+        "schema": {
+          "bytes": 3514,
+          "sha256": "a0dd9b998cfb316c272e28b3ea5ed36dc6b9f60c0341e5f4085b3e5e56299fe3"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/boundary_rotarod/gene_level/v2a/H8_vs_D14_untrained.tsv.gz",
+        "source_sha256": "7f1f15ba434137d857d6301977d22452b08c92f618c4952da87b1f3d6786a5f6",
+        "rows": 14323,
+        "source_cell_stream_sha256": "db59f388625754ec09986babc8793f25a6c888f956ed12d3e6a3fa707ee60e46",
+        "retained_cell_stream_sha256": "8d68fcd527f18f90a0a2ecfe9c8041cd404029855052c2a57f60732c36c698ed",
+        "labels": {
+          "contrast": "H8_vs_D14_untrained",
+          "cell_type": "v2a",
+          "domain": "rotarod_boundary"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S16_GSE277064_rotarod_and_validation.xlsx",
+        "worksheet": "19_H8_vs_D14_untrained",
+        "worksheet_member": "xl/worksheets/sheet20.xml"
+      },
+      "source_identity": {
+        "bytes": 1729455,
+        "sha256": "7f1f15ba434137d857d6301977d22452b08c92f618c4952da87b1f3d6786a5f6"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1729455,
+          "sha256": "7f1f15ba434137d857d6301977d22452b08c92f618c4952da87b1f3d6786a5f6"
+        },
+        "view": {
+          "bytes": 3610391,
+          "sha256": "eb2b6e160347cb6494fcc8aa5b591060ba5ca4e9e04f955388ccf9fd129e2107"
+        },
+        "quarantine": {
+          "bytes": 3727711,
+          "sha256": "ce877c43a1649cc81cacb97d7869477e037ce84dbc3482900291fc0c8ef3bc71"
+        },
+        "schema": {
+          "bytes": 3514,
+          "sha256": "9cd87515a0f80bd15642ff23dd5773f0da6147f4a4169944f6314007b47c0055"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/astrocyte/D14_vs_control.tsv.gz",
+        "source_sha256": "0b1562aa54f7ea0a887632f056dc9acb45e20c4ac15bb6a1978e33db64e3cfd1",
+        "rows": 13842,
+        "source_cell_stream_sha256": "78612ed74cc53845f24d61fa1933d2db5283f3b76eb5f606624c17fbacf724af",
+        "retained_cell_stream_sha256": "f8b82afce2c47a3822131b089dd8d2c52479274912a973801b4cae7c967ddbb2",
+        "labels": {
+          "contrast": "D14_vs_control",
+          "cell_type": "astrocyte",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "03_D14_vs_control",
+        "worksheet_member": "xl/worksheets/sheet4.xml"
+      },
+      "source_identity": {
+        "bytes": 1671805,
+        "sha256": "0b1562aa54f7ea0a887632f056dc9acb45e20c4ac15bb6a1978e33db64e3cfd1"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1671805,
+          "sha256": "0b1562aa54f7ea0a887632f056dc9acb45e20c4ac15bb6a1978e33db64e3cfd1"
+        },
+        "view": {
+          "bytes": 3480244,
+          "sha256": "e155848551b94a507c1e9b091aea11fc9ff3de712a645b79930636a5b6cefcda"
+        },
+        "quarantine": {
+          "bytes": 3377851,
+          "sha256": "ca5270652b791b666db0e0d1f782ac42fadadfe29139aa19f863ae7d9262cd47"
+        },
+        "schema": {
+          "bytes": 3481,
+          "sha256": "2d2a927967b2bdddcb0195dde462b701d73234c6e73fc28b693a3b9024b88c65"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/astrocyte/D28_vs_control.tsv.gz",
+        "source_sha256": "3b9e57a6086d6bffaa1d2a6fad22a8959c8915e003f3092007bd435ca0ed8029",
+        "rows": 13842,
+        "source_cell_stream_sha256": "37f2d51a8dfee16e8d34bdff11d5a41624667dd2f3b371a61707ee7a81be6253",
+        "retained_cell_stream_sha256": "ce04456cac1b447fe0efe2bccccfa624c1e0081f6f3a9928866309d022b65d19",
+        "labels": {
+          "contrast": "D28_vs_control",
+          "cell_type": "astrocyte",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "04_D28_vs_control",
+        "worksheet_member": "xl/worksheets/sheet5.xml"
+      },
+      "source_identity": {
+        "bytes": 1674373,
+        "sha256": "3b9e57a6086d6bffaa1d2a6fad22a8959c8915e003f3092007bd435ca0ed8029"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1674373,
+          "sha256": "3b9e57a6086d6bffaa1d2a6fad22a8959c8915e003f3092007bd435ca0ed8029"
+        },
+        "view": {
+          "bytes": 3482524,
+          "sha256": "8ec755534afabe083c50c6a0c681e71b26eff513b5d0517d6f6032a78fc9119c"
+        },
+        "quarantine": {
+          "bytes": 3377655,
+          "sha256": "5d081d9feb596f63249000afa688fcc0a813adfd9cb6664ae0c8bf1d9311a8c2"
+        },
+        "schema": {
+          "bytes": 3481,
+          "sha256": "c8601961ac9bd339ba1f1a8d48759f9c33dbb2a6de57d51ed140c0b375fab0af"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/astrocyte/D3_vs_control.tsv.gz",
+        "source_sha256": "6f379354fe93099eb65542ed50d393dbcb021b39c4e2611d431e85719274ceeb",
+        "rows": 13842,
+        "source_cell_stream_sha256": "8b3cb7206eb3ecca52eaea262eae13b211dff3a06989c1e82133054732248d9c",
+        "retained_cell_stream_sha256": "3b452aad6940a31fbef41a0207345971410ed03084b4e2cc09176b709c82f5c5",
+        "labels": {
+          "contrast": "D3_vs_control",
+          "cell_type": "astrocyte",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "05_D3_vs_control",
+        "worksheet_member": "xl/worksheets/sheet6.xml"
+      },
+      "source_identity": {
+        "bytes": 1673596,
+        "sha256": "6f379354fe93099eb65542ed50d393dbcb021b39c4e2611d431e85719274ceeb"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1673596,
+          "sha256": "6f379354fe93099eb65542ed50d393dbcb021b39c4e2611d431e85719274ceeb"
+        },
+        "view": {
+          "bytes": 3468846,
+          "sha256": "6c65c0032e6917750c3cc92871eec7f289aadbe5194b8ee2c076af6bcbe21169"
+        },
+        "quarantine": {
+          "bytes": 3364503,
+          "sha256": "665af313bf0a2d9f1c94c0fc586ff7206bc30dbf22990609167c61d33a0db441"
+        },
+        "schema": {
+          "bytes": 3478,
+          "sha256": "7bb97b57388fa844142472003ac3ba9ff831134c3e919cfb55a38b3b7078b4af"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/astrocyte/D7_vs_control.tsv.gz",
+        "source_sha256": "9c5fd2904f793d04616cd11e1f6474fb9dee4af2b543358453743cb2dd8935d5",
+        "rows": 13842,
+        "source_cell_stream_sha256": "24c2a0de575c282b45b623a343b27c51e96155e61fa3fc59eeb415fa07494266",
+        "retained_cell_stream_sha256": "a6ebb64ee81dc8a7e301a34883c0ad43f695c8e110b786925f752e32aa57ad7c",
+        "labels": {
+          "contrast": "D7_vs_control",
+          "cell_type": "astrocyte",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "06_D7_vs_control",
+        "worksheet_member": "xl/worksheets/sheet7.xml"
+      },
+      "source_identity": {
+        "bytes": 1669667,
+        "sha256": "9c5fd2904f793d04616cd11e1f6474fb9dee4af2b543358453743cb2dd8935d5"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1669667,
+          "sha256": "9c5fd2904f793d04616cd11e1f6474fb9dee4af2b543358453743cb2dd8935d5"
+        },
+        "view": {
+          "bytes": 3467765,
+          "sha256": "56039dbf52e244e17b2df3bfeb58ffd64d113e17802ec2d8c07d46013c5d0fbf"
+        },
+        "quarantine": {
+          "bytes": 3364099,
+          "sha256": "7ea73d537f58fb9b23aba27c5d43db0ba127d316d7f04b8c97f175828278308c"
+        },
+        "schema": {
+          "bytes": 3478,
+          "sha256": "26cee87f09dfcf8a7c71e9e7dfe5260f3cb6cb1921ae633062d0a2fc256ae9de"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/astrocyte/chronic_combined.tsv.gz",
+        "source_sha256": "858428523d745fa9c7b4540b6214084a2fb0981476ab900c7668be17a96013e8",
+        "rows": 13842,
+        "source_cell_stream_sha256": "452243705ca5b2283fa9498a9b4b58a47910c9cf3396cce4a7794b8501b6f8eb",
+        "retained_cell_stream_sha256": "3a9190e21e47da314f5cced2d59f084af49c62f90992cbb106de0baf349ac744",
+        "labels": {
+          "contrast": "chronic_combined",
+          "cell_type": "astrocyte",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "02_chronic_combined",
+        "worksheet_member": "xl/worksheets/sheet3.xml"
+      },
+      "source_identity": {
+        "bytes": 1674413,
+        "sha256": "858428523d745fa9c7b4540b6214084a2fb0981476ab900c7668be17a96013e8"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1674413,
+          "sha256": "858428523d745fa9c7b4540b6214084a2fb0981476ab900c7668be17a96013e8"
+        },
+        "view": {
+          "bytes": 3510147,
+          "sha256": "d87ee97b7d7fb1f6ebdbb8ea1c5c09b5e32097fb63d79afb3aa07e2375e95ff1"
+        },
+        "quarantine": {
+          "bytes": 3408461,
+          "sha256": "9c44e059487237601e131aa1d8de792f3408819d3595888f89c9d68a3861b238"
+        },
+        "schema": {
+          "bytes": 3487,
+          "sha256": "c27849533ecf57567d71ceb8f3d397028915ded357eca0b4d7eb955be59bb3e8"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/astrocyte/early_combined.tsv.gz",
+        "source_sha256": "49fd0458db90e924e3c2d59be835c8c6d81d2cbd2962ff592d609362bd415061",
+        "rows": 13842,
+        "source_cell_stream_sha256": "e3d8aa22b6fe4b5d009fa84ded862e8a1cee3e0ca590297f779ea128f3559119",
+        "retained_cell_stream_sha256": "f1f354bd96877f4f4b9527cb84e24e7c42fbc287d57ee2192c37a42eb061ebb4",
+        "labels": {
+          "contrast": "early_combined",
+          "cell_type": "astrocyte",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "07_early_combined",
+        "worksheet_member": "xl/worksheets/sheet8.xml"
+      },
+      "source_identity": {
+        "bytes": 1674258,
+        "sha256": "49fd0458db90e924e3c2d59be835c8c6d81d2cbd2962ff592d609362bd415061"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1674258,
+          "sha256": "49fd0458db90e924e3c2d59be835c8c6d81d2cbd2962ff592d609362bd415061"
+        },
+        "view": {
+          "bytes": 3482973,
+          "sha256": "a8b8e19f41a0276b76c4e352085628d50e6654d7bdfc02d3823f802c4dafcd58"
+        },
+        "quarantine": {
+          "bytes": 3381231,
+          "sha256": "6cf8717258706c7ff4f60e2260cb8c8d552775c4896545126bfd8d929c379067"
+        },
+        "schema": {
+          "bytes": 3481,
+          "sha256": "e0f6cceaeff9186900d8be8b5a55f4e7161f8307c017e573d66b01faca6b893d"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/microglia/D14_vs_control.tsv.gz",
+        "source_sha256": "f20c64b2ed1918d9b88b8eadee21d5a4971ca75a46e58dba293156b24fbe022d",
+        "rows": 14547,
+        "source_cell_stream_sha256": "962766e8c803a4cf36ed693558100f48e8061e9b3e91d4954d679c1bdb806405",
+        "retained_cell_stream_sha256": "cdb3451ba2321423cf8b828c60597cc4ec553e155c3729087af6697d925484b6",
+        "labels": {
+          "contrast": "D14_vs_control",
+          "cell_type": "microglia",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "10_D14_vs_control",
+        "worksheet_member": "xl/worksheets/sheet11.xml"
+      },
+      "source_identity": {
+        "bytes": 1762063,
+        "sha256": "f20c64b2ed1918d9b88b8eadee21d5a4971ca75a46e58dba293156b24fbe022d"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1762063,
+          "sha256": "f20c64b2ed1918d9b88b8eadee21d5a4971ca75a46e58dba293156b24fbe022d"
+        },
+        "view": {
+          "bytes": 3660181,
+          "sha256": "81274d62d122f822e4c1669d70285488a1a52b0e2a8f51ef601152482993a6ac"
+        },
+        "quarantine": {
+          "bytes": 3550445,
+          "sha256": "ed727c11d675caf7956c522e138e9c226340539e388c19a901c814de12285629"
+        },
+        "schema": {
+          "bytes": 3482,
+          "sha256": "04aa96482e0d91fd53e9b96f2fca0c7919596ec1f09f2580436fa543a213cdf9"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/microglia/D28_vs_control.tsv.gz",
+        "source_sha256": "e8a6a527717a32fc8e5453eefae10d7dba35168b83e9cb86c74db7e58ce55a40",
+        "rows": 14547,
+        "source_cell_stream_sha256": "0b231e521b446e2452bcb2ef4af052e7029cf025153b77622f7aa2e0ccd55d95",
+        "retained_cell_stream_sha256": "95f4145672fbdef7f728cc1ea304c5bd242c18bb2bb34cc5822e778477edf6db",
+        "labels": {
+          "contrast": "D28_vs_control",
+          "cell_type": "microglia",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "11_D28_vs_control",
+        "worksheet_member": "xl/worksheets/sheet12.xml"
+      },
+      "source_identity": {
+        "bytes": 1764071,
+        "sha256": "e8a6a527717a32fc8e5453eefae10d7dba35168b83e9cb86c74db7e58ce55a40"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1764071,
+          "sha256": "e8a6a527717a32fc8e5453eefae10d7dba35168b83e9cb86c74db7e58ce55a40"
+        },
+        "view": {
+          "bytes": 3660830,
+          "sha256": "1e87b674e36a4191b20afd0ae0049e3f6cc47a432200374dcb69a235cadc750c"
+        },
+        "quarantine": {
+          "bytes": 3551885,
+          "sha256": "18c3b7c437871de29ba347584371e3a0e8455cd5bb1260ecceb72a60b13e4df1"
+        },
+        "schema": {
+          "bytes": 3482,
+          "sha256": "c2aec8b9e0330676d936c3bbdb83e64d51f2587b5aabd4d5146a9457a570fe3e"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/microglia/D3_vs_control.tsv.gz",
+        "source_sha256": "4a31ecb21d450fe8c81beb251a55dc9d02796ef286663a340258c5d333cbe7a1",
+        "rows": 14547,
+        "source_cell_stream_sha256": "76aba9a88f4af7e2a30a6a2bfc1f1855f1dbf6b1bd9bfc2b1ae6c1f918c0fa1b",
+        "retained_cell_stream_sha256": "f2c5fc06c7453c1611f620f91cf9765b1b5b4ea827cffc19ece679b4cc999511",
+        "labels": {
+          "contrast": "D3_vs_control",
+          "cell_type": "microglia",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "12_D3_vs_control",
+        "worksheet_member": "xl/worksheets/sheet13.xml"
+      },
+      "source_identity": {
+        "bytes": 1771116,
+        "sha256": "4a31ecb21d450fe8c81beb251a55dc9d02796ef286663a340258c5d333cbe7a1"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1771116,
+          "sha256": "4a31ecb21d450fe8c81beb251a55dc9d02796ef286663a340258c5d333cbe7a1"
+        },
+        "view": {
+          "bytes": 3656534,
+          "sha256": "62c351bf3f93b3a41743b519aae7d50313d6a7e51911f86306b221f86b6f4527"
+        },
+        "quarantine": {
+          "bytes": 3534555,
+          "sha256": "3d827d377fabf2e59aee6edd8f49eb54b2bf8c7719afdf7f6e211b87cea0068a"
+        },
+        "schema": {
+          "bytes": 3479,
+          "sha256": "ba47c3934e30e1cd8207ee76f601f022f7eba7bdf97527cf5717d99aa03adc6b"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/microglia/D7_vs_control.tsv.gz",
+        "source_sha256": "38bb2e43dcc7c9bbedeeff88668992c43659c9d8601ab0b9e95ee432a3a3f3e9",
+        "rows": 14547,
+        "source_cell_stream_sha256": "5b30761a95d724a0a57164679082899ac5726aeb2a485b3306a362777c22a946",
+        "retained_cell_stream_sha256": "f6b0d9746364195e7a5d38d74f6a96ec4ed6d875b479b7d68f7c32eb8f6f9137",
+        "labels": {
+          "contrast": "D7_vs_control",
+          "cell_type": "microglia",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "13_D7_vs_control",
+        "worksheet_member": "xl/worksheets/sheet14.xml"
+      },
+      "source_identity": {
+        "bytes": 1764247,
+        "sha256": "38bb2e43dcc7c9bbedeeff88668992c43659c9d8601ab0b9e95ee432a3a3f3e9"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1764247,
+          "sha256": "38bb2e43dcc7c9bbedeeff88668992c43659c9d8601ab0b9e95ee432a3a3f3e9"
+        },
+        "view": {
+          "bytes": 3649041,
+          "sha256": "385255d9e7ab1952d6c4b9e1d2bc8c565461b51a9d3766078ca4f2892bd99449"
+        },
+        "quarantine": {
+          "bytes": 3537425,
+          "sha256": "5fdda11e8815b90d78596bf5629d89a1704c8f599d89318b763f032a6ed97a34"
+        },
+        "schema": {
+          "bytes": 3479,
+          "sha256": "c4b8d9b667d8f055d8a68e8f73fe2767eb646c8666aeccf81d5c7e6114d3d508"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/microglia/chronic_combined.tsv.gz",
+        "source_sha256": "4851e5b71a07d4bd15ebeb9174a6cdda916e7969235f0ad6edb35335675b25ba",
+        "rows": 14547,
+        "source_cell_stream_sha256": "50f96ffe9edbc107a12ccc2441d5fec98152b87f7a476a0a815fa8430761f304",
+        "retained_cell_stream_sha256": "f365de6e1085341036e85bb411b6cab8584db3f76cbe7402944d9197d9e0e07a",
+        "labels": {
+          "contrast": "chronic_combined",
+          "cell_type": "microglia",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "09_chronic_combined",
+        "worksheet_member": "xl/worksheets/sheet10.xml"
+      },
+      "source_identity": {
+        "bytes": 1762258,
+        "sha256": "4851e5b71a07d4bd15ebeb9174a6cdda916e7969235f0ad6edb35335675b25ba"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1762258,
+          "sha256": "4851e5b71a07d4bd15ebeb9174a6cdda916e7969235f0ad6edb35335675b25ba"
+        },
+        "view": {
+          "bytes": 3688913,
+          "sha256": "3610c5990286f5c6803870323524851bbd78a98763723da91714118a2aad6056"
+        },
+        "quarantine": {
+          "bytes": 3583833,
+          "sha256": "d6993963330be2168727451d269290f3274af7e51d7fdb05e6ab7bd24553321f"
+        },
+        "schema": {
+          "bytes": 3488,
+          "sha256": "9000cb20cb296a391b1042b990a241a3a71bd413872be0b09d62cd475f9b972b"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/microglia/early_combined.tsv.gz",
+        "source_sha256": "7d6c9ff2e004b0666891e94d6524d66b0489af9bd65452df3de57cf9b3b90258",
+        "rows": 14547,
+        "source_cell_stream_sha256": "4108269fa086b2bde1178760e5334cffe838e155108fdda1b64540d112d8fb1f",
+        "retained_cell_stream_sha256": "0c836ab590b90342a798272c5fac60c43b7f17e79eec0e603ed68d3a8ca38ea8",
+        "labels": {
+          "contrast": "early_combined",
+          "cell_type": "microglia",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "14_early_combined",
+        "worksheet_member": "xl/worksheets/sheet15.xml"
+      },
+      "source_identity": {
+        "bytes": 1771948,
+        "sha256": "7d6c9ff2e004b0666891e94d6524d66b0489af9bd65452df3de57cf9b3b90258"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1771948,
+          "sha256": "7d6c9ff2e004b0666891e94d6524d66b0489af9bd65452df3de57cf9b3b90258"
+        },
+        "view": {
+          "bytes": 3669909,
+          "sha256": "df160a9c727a73a85ac7b71df45a7a44470f8aa5b3360b76cdc319d1d16fb236"
+        },
+        "quarantine": {
+          "bytes": 3553343,
+          "sha256": "198093dd2acd36214a34ad04dc06bdcadffd05114db4f542bc3b3493027f5677"
+        },
+        "schema": {
+          "bytes": 3482,
+          "sha256": "dfa9bdc4e37cba22f38d8797982530c15e35f101b65a3d7b8fa2bcf87de2623a"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/v2a/D14_vs_control.tsv.gz",
+        "source_sha256": "142ff92b571fcd2d881798bc43d09ec531105ae89842e5be7931e150f7b9a023",
+        "rows": 15511,
+        "source_cell_stream_sha256": "bf6eb31690bbbee59a534b680817b4696495d7805e2e574690f10c294667027b",
+        "retained_cell_stream_sha256": "0ab483186984b7f717516c13f73b7b4251aa1651eb37a77f68065061bd256821",
+        "labels": {
+          "contrast": "D14_vs_control",
+          "cell_type": "v2a",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "17_D14_vs_control",
+        "worksheet_member": "xl/worksheets/sheet18.xml"
+      },
+      "source_identity": {
+        "bytes": 1862152,
+        "sha256": "142ff92b571fcd2d881798bc43d09ec531105ae89842e5be7931e150f7b9a023"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1862152,
+          "sha256": "142ff92b571fcd2d881798bc43d09ec531105ae89842e5be7931e150f7b9a023"
+        },
+        "view": {
+          "bytes": 3789372,
+          "sha256": "6f642d153558b801156e75dfa35c0fd5bb6524a7becd95f52a217ffd1c04f997"
+        },
+        "quarantine": {
+          "bytes": 3691643,
+          "sha256": "19cbacd6e084ef3811dff42c054edf85ff4cb4be8dfbb7feea6486f275b9b764"
+        },
+        "schema": {
+          "bytes": 3470,
+          "sha256": "9e8e86aa806057197b80b56d6689a1d17c65b7de9dce40ca5b80d0f691f11f29"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/v2a/D28_vs_control.tsv.gz",
+        "source_sha256": "514bd9829c374ccea743b6fa3656349f975ecff375e3555dc9bdbea6d1bdf86a",
+        "rows": 15511,
+        "source_cell_stream_sha256": "0d9676eda6db6ced75db3fd490c2737975e8e2dd52f3a18ed44513b6b03a07b2",
+        "retained_cell_stream_sha256": "9619d11923ede2cdea77a8facb8fe87105ee071b2d2e6843f52fadc78212ffe8",
+        "labels": {
+          "contrast": "D28_vs_control",
+          "cell_type": "v2a",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "18_D28_vs_control",
+        "worksheet_member": "xl/worksheets/sheet19.xml"
+      },
+      "source_identity": {
+        "bytes": 1861705,
+        "sha256": "514bd9829c374ccea743b6fa3656349f975ecff375e3555dc9bdbea6d1bdf86a"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1861705,
+          "sha256": "514bd9829c374ccea743b6fa3656349f975ecff375e3555dc9bdbea6d1bdf86a"
+        },
+        "view": {
+          "bytes": 3788461,
+          "sha256": "c97b39f94ceae7b1118f4d7d1231b2ba6e58122adb994734d650da90bb8d4114"
+        },
+        "quarantine": {
+          "bytes": 3692301,
+          "sha256": "9766a19971d93c0ca293a963efe345f6ea04c23a17cbbb8ca1382369e1dc9041"
+        },
+        "schema": {
+          "bytes": 3470,
+          "sha256": "9a3399542dc2e40813587a8dfa67d34362cd121a64e3f755d9457257d796f27e"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/v2a/D3_vs_control.tsv.gz",
+        "source_sha256": "d6f350b00f119da84a2f16801fcf1d4a21e6fe78cd584dc3c1f5ab745e6074be",
+        "rows": 15511,
+        "source_cell_stream_sha256": "d0a8f24cb573ee6f8da8641a63b1edaf4889793816ba63b4f468dd0963522494",
+        "retained_cell_stream_sha256": "d993582be92468c07a5a57ef89fe06bbcf78958971408948cedcad6baa377d86",
+        "labels": {
+          "contrast": "D3_vs_control",
+          "cell_type": "v2a",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "19_D3_vs_control",
+        "worksheet_member": "xl/worksheets/sheet20.xml"
+      },
+      "source_identity": {
+        "bytes": 1852632,
+        "sha256": "d6f350b00f119da84a2f16801fcf1d4a21e6fe78cd584dc3c1f5ab745e6074be"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1852632,
+          "sha256": "d6f350b00f119da84a2f16801fcf1d4a21e6fe78cd584dc3c1f5ab745e6074be"
+        },
+        "view": {
+          "bytes": 3764146,
+          "sha256": "67398ea407606b762c9212a5953b3399260548fce4c3ad12bbad22c5a6f98911"
+        },
+        "quarantine": {
+          "bytes": 3679522,
+          "sha256": "aba86cd3602ed1fbff56d783f21aa3b41788c15108ce3324e64235689523dd85"
+        },
+        "schema": {
+          "bytes": 3467,
+          "sha256": "240e7fd31f2580ff0169b39c75c7d399ef29729aace7eb87fcec6a88f438e843"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/v2a/D7_vs_control.tsv.gz",
+        "source_sha256": "4db642ca718b3e5afd47027b9afe4dee64100bdd276675938445693d89097a8c",
+        "rows": 15511,
+        "source_cell_stream_sha256": "057c089c08e468b937c35067db08788eb90b2baa600f3a4505cd392b9a51e865",
+        "retained_cell_stream_sha256": "083ed51587259cef05c0f88056c0695eb242345911dfe6c08b0d8508fa9145af",
+        "labels": {
+          "contrast": "D7_vs_control",
+          "cell_type": "v2a",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "20_D7_vs_control",
+        "worksheet_member": "xl/worksheets/sheet21.xml"
+      },
+      "source_identity": {
+        "bytes": 1852622,
+        "sha256": "4db642ca718b3e5afd47027b9afe4dee64100bdd276675938445693d89097a8c"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1852622,
+          "sha256": "4db642ca718b3e5afd47027b9afe4dee64100bdd276675938445693d89097a8c"
+        },
+        "view": {
+          "bytes": 3765644,
+          "sha256": "cb522fa25d0d475a5b50adffdd8d91080799074d901ea26a27923d00daedc933"
+        },
+        "quarantine": {
+          "bytes": 3678604,
+          "sha256": "84e2f3911345ae7e62c1df0be0ac7994e33cf49a36a90fd9a492479c696e749b"
+        },
+        "schema": {
+          "bytes": 3467,
+          "sha256": "b423c9c81845f37738d9c3f6c39fde9299dcd97bde7168c6966cf748332a036d"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/v2a/chronic_combined.tsv.gz",
+        "source_sha256": "270a9f1113a4028d2122295f487ba35ae30dbab0267faaa5c5585c4b6e920cba",
+        "rows": 15511,
+        "source_cell_stream_sha256": "504e9f02a0282fdacc5f9289fdf63a42b775e2505bbfa0eddfdeb828e29ee81a",
+        "retained_cell_stream_sha256": "1b563b43103a46e0396fdc0f8942f0259e4a9b9cd13f0e614cbe370e2876d6ae",
+        "labels": {
+          "contrast": "chronic_combined",
+          "cell_type": "v2a",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "16_chronic_combined",
+        "worksheet_member": "xl/worksheets/sheet17.xml"
+      },
+      "source_identity": {
+        "bytes": 1866812,
+        "sha256": "270a9f1113a4028d2122295f487ba35ae30dbab0267faaa5c5585c4b6e920cba"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1866812,
+          "sha256": "270a9f1113a4028d2122295f487ba35ae30dbab0267faaa5c5585c4b6e920cba"
+        },
+        "view": {
+          "bytes": 3823456,
+          "sha256": "552b61884d63a695237f92a329ff5aef28f8ada86a534724e4c7ea4b41b8a41e"
+        },
+        "quarantine": {
+          "bytes": 3726107,
+          "sha256": "681435f6eb81160a7612822d848583764891bf4d3c665f1fc2618dbe15167ee0"
+        },
+        "schema": {
+          "bytes": 3476,
+          "sha256": "e68dfa74b781549441ec8c7a4b6a5d03e225269f2ca7c40c298b8702e0914581"
+        }
+      }
+    },
+    {
+      "binding": {
+        "source_path": "results/GSE277064/gene_level/v2a/early_combined.tsv.gz",
+        "source_sha256": "98f17c9f58bd111950b893f94d2784d1b72bc512bc36e00e2b8b95c871a377e5",
+        "rows": 15511,
+        "source_cell_stream_sha256": "1809bf254b148388535184b79d91f3e7006d8272a0ff2ca850c001681cd6e608",
+        "retained_cell_stream_sha256": "3494b542f081732600a11c2cbdca013550be930e35de47313509ed6bda3a7051",
+        "labels": {
+          "contrast": "early_combined",
+          "cell_type": "v2a",
+          "domain": "natural_course"
+        },
+        "workbook": "results/publication_facing/supplement/Supplementary_Table_S14_GSE277064_gene_results.xlsx",
+        "worksheet": "21_early_combined",
+        "worksheet_member": "xl/worksheets/sheet22.xml"
+      },
+      "source_identity": {
+        "bytes": 1853840,
+        "sha256": "98f17c9f58bd111950b893f94d2784d1b72bc512bc36e00e2b8b95c871a377e5"
+      },
+      "expected_projection": {
+        "snapshot": {
+          "bytes": 1853840,
+          "sha256": "98f17c9f58bd111950b893f94d2784d1b72bc512bc36e00e2b8b95c871a377e5"
+        },
+        "view": {
+          "bytes": 3781191,
+          "sha256": "9a4d2882976ff867851e6a0d36cd9d06242f9fddc465723bd933529ce4670ec6"
+        },
+        "quarantine": {
+          "bytes": 3698037,
+          "sha256": "43caaf1688e21c437a643f0a6693b9046d9ee64b4565e22532375457e03c0cd5"
+        },
+        "schema": {
+          "bytes": 3470,
+          "sha256": "4a08b24156cc280840a07cfa0f8e198cf444ed3dc6191ad4344c7e4791304a8d"
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "version": "0.17.0",
-  "scope": "G277_SAVED_PREPROCESSING_AND_ORIGINAL_ANNOTATION_RESOURCE_CONSUMERS_NOT_NEW_FITS",
+  "version": "0.18.0",
+  "scope": "G277_EXPLICIT_PRIMARY_EXECUTION_ENTRY_AND_ACCEPTED_RESULT_REPORTING_NO_PRODUCTION_REFIT",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -969,8 +969,8 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 14457,
-      "sha256": "f89f39d95129e31c9cb247aaab2f8ffe7df7009dc3a50106813706fa207074a7"
+      "bytes": 15417,
+      "sha256": "c020fcde4531ea3993cefd6259e408f9e14e0d371507a68c77e7180439aafed9"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 3345,
@@ -1359,6 +1359,46 @@
     "pipeline/connect_g277_saved_inputs.py": {
       "bytes": 4393,
       "sha256": "736e12118ac14eb0bf7c1af43de767299f67c7199251378beee2cff2777108dc"
+    },
+    "analysis/g277_execution/ACCEPTED_OUTPUTS.json": {
+      "bytes": 66321,
+      "sha256": "dbe6795468c71cbeb100929378fe384de49a29a2e0bbeefb3cd5e5773ce18943"
+    },
+    "analysis/g277_execution/CONTRACT.json": {
+      "bytes": 4106,
+      "sha256": "2607b967c7cad9269eba32b60c9b4f69fc6656fc15831e278d4fab48bf3d5f31"
+    },
+    "analysis/g277_execution/README.md": {
+      "bytes": 6201,
+      "sha256": "7789ab67c416d2d1ed7609cc023f1d72e0af593a17ae7e3659382357d98b25bc"
+    },
+    "analysis/g277_execution/VALIDATION.json": {
+      "bytes": 3454,
+      "sha256": "b8fa205c3ef56f3aff6f980d40d76d7f5069bedcc9c2f01aa34a838b80735593"
+    },
+    "analysis/g277_execution/preflight.R": {
+      "bytes": 2187,
+      "sha256": "7f49f267cc1dbbc837f91234016ee05d49e81810457dcf1d8ddcd890912ca2bc"
+    },
+    "analysis/g277_execution/sources/GSE277064_manuscript_ready_methods_results.md": {
+      "bytes": 8243,
+      "sha256": "eca80d1fd6628ea610851db5e80a585e42e8cf3dc077f2052c740ae8e5924dfa"
+    },
+    "analysis/g277_execution/sources/gse277064_reporting_core_v1.py": {
+      "bytes": 8882,
+      "sha256": "0483da78be4a91c722f822506a16be7a4ad87055c051f6eb7729069bd7810823"
+    },
+    "analysis/g277_execution/sources/summarize_GSE277064_exploratory.R": {
+      "bytes": 13005,
+      "sha256": "90878169e4e7228b328b2c41f541e5aa71edeaafeb3ebb7311e5db7ea2cce7a0"
+    },
+    "analysis/g277_execution/sources/validate_GSE277064_outputs.R": {
+      "bytes": 9206,
+      "sha256": "426a5d0e93058ec2f129fc5a02c9de77fcbafe704582bd495d4b67e3ffcb9d41"
+    },
+    "pipeline/g277_model.py": {
+      "bytes": 12469,
+      "sha256": "26e4b5ab335a38684c517d84acff18a12877d81f9d1955b01fc2803b32fefd7e"
     }
   },
   "real_data_models_run": 0,

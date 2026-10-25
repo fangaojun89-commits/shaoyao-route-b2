@@ -1,0 +1,102 @@
+{
+  "status": "PASS_G277_ENTRY_CHECK_AND_ACCEPTED_RESULT_POSTPROCESSING",
+  "native_checks": 44,
+  "gene_families": 24,
+  "gene_contrast_rows": 347994,
+  "retained_lexical_cells": 5219910,
+  "identical_reporting_artifacts_between_two_runs": 74,
+  "accepted_projection_artifacts_identical": 72,
+  "accepted_result_files": 169,
+  "original_result_files_unchanged": true,
+  "previous_public_scientific_payloads_unchanged": true,
+  "unchanged_native_output_files": 163,
+  "native_output_changes": [
+    {
+      "path": "audit/run_manifest.tsv"
+    },
+    {
+      "path": "diagnostics/output_validation.tsv"
+    },
+    {
+      "path": "figures/programs/exploratory_consensus_counts_not_S3.pdf",
+      "equal_except_pdf_dates": false
+    },
+    {
+      "path": "figures/programs/PROGENy_chronic_by_celltype_not_S3.pdf",
+      "equal_except_pdf_dates": false
+    },
+    {
+      "path": "figures/programs/PROGENy_natural_timecourse_not_S3.pdf",
+      "equal_except_pdf_dates": false
+    },
+    {
+      "path": "figures/programs/PROGENy_rotarod_boundary_only.pdf",
+      "equal_except_pdf_dates": false
+    }
+  ],
+  "png_figures_byte_identical": 4,
+  "pdf_figures_pixel_identical_at_108dpi": 4,
+  "environment": "existing Windows R4.6.1 explicit library; Python3.12.14 standard library",
+  "full_primary_model_entry_supplied": true,
+  "full_primary_model_run_executed": false,
+  "models_scores_rotations_rerun": false,
+  "whole_study_cold_restoration": false,
+  "boundary_checks": [
+    {
+      "case": "existing_output",
+      "rejected": true,
+      "exit_code": 1,
+      "output_not_created": true
+    },
+    {
+      "case": "output_in_source_checkout",
+      "rejected": true,
+      "exit_code": 1,
+      "output_not_created": true
+    },
+    {
+      "case": "output_in_accepted_results",
+      "rejected": true,
+      "exit_code": 1,
+      "output_not_created": true
+    },
+    {
+      "case": "wrong_resource",
+      "rejected": true,
+      "exit_code": 1,
+      "output_not_created": true
+    }
+  ],
+  "tested_driver": {
+    "bytes": 12469,
+    "sha256": "26e4b5ab335a38684c517d84acff18a12877d81f9d1955b01fc2803b32fefd7e"
+  },
+  "native_preflight": {
+    "status": "PASS_NATIVE_VERSIONS_SOURCE_PARSE_AND_STAGING",
+    "R": "4.6.1",
+    "packages": {
+      "data.table": "1.18.4",
+      "edgeR": "4.10.1",
+      "limma": "3.68.4",
+      "AnnotationDbi": "1.74.0",
+      "org.Mm.eg.db": "3.23.0",
+      "yaml": "2.3.12",
+      "decoupleR": "2.17.0",
+      "fgsea": "1.38.0",
+      "ggplot2": "4.0.3",
+      "jsonlite": "2.0.0",
+      "digest": "0.6.39"
+    },
+    "source_expressions_parsed": {
+      "code/R/analyze_GSE277064.R": 155,
+      "code/R/refresh_GSE277064_fgsea.R": 26,
+      "code/R/summarize_GSE277064_exploratory.R": 78,
+      "code/R/plot_GSE277064_programs.R": 49,
+      "code/R/validate_GSE277064_outputs.R": 74
+    },
+    "cairo": true,
+    "scientific_source_evaluated": false,
+    "locale": "LC_COLLATE=en_US.UTF-8;LC_CTYPE=en_US.UTF-8;LC_MONETARY=en_US.UTF-8;LC_NUMERIC=C;LC_TIME=en_US.UTF-8"
+  },
+  "note": "Two actual runs reuse accepted scientific files and execute only three original postprocessing stages. The final driver adds output-location guards; its complete report-saved execution is the second run. The current summary/validator are separately identified local successors. Full scientific execution, alternative-method portability, Excel formatting, manuscript reconstruction and cold installation are outside this QA."
+}
