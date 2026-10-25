@@ -1,0 +1,173 @@
+{
+  "schema": "G205_MATCHED_RETAINED_SOURCE_SELECTION/1",
+  "scope": "Canonical matched counting and downstream sources, saved comparison and export reconciliation; not a portable cold restore",
+  "scientific_complete_source": {
+    "bytes": 63907,
+    "sha256": "5e987af41a15644b0d2eeb2d994cbc19fc899e19aba589ecea432844175a59f5"
+  },
+  "canonical_input_roles_verified_against_complete": 11,
+  "unchanged_sources": [
+    {
+      "source_role": "code/R/run_gse205906_matched_downstream_custody_v1_20261022.R",
+      "public_path": "analysis/reference_sources/code/R/run_gse205906_matched_downstream_custody_v1_20261022.R",
+      "bytes": 37161,
+      "sha256": "7cdafad1f838cd01ca8ae730762c059a78b2b3f515d47785fd09fe87f9e2275e",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: 1"
+    },
+    {
+      "source_role": "code/R/gse205906_matched_downstream_core_custody_v1_20261022.R",
+      "public_path": "analysis/reference_sources/code/R/gse205906_matched_downstream_core_custody_v1_20261022.R",
+      "bytes": 32156,
+      "sha256": "b7cac68a7ef3f5fc63ab727f7498b7b6d0c46b9bde18276affce3c87c4f3a71f",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: 2"
+    },
+    {
+      "source_role": "code/R/analyze_gse205906_bulk_model_v2_r4.R",
+      "public_path": "analysis/study_sources/code/R/analyze_gse205906_bulk_model_v2_r4.R",
+      "bytes": 72490,
+      "sha256": "b8b274667dcb68e5c8a729e10f4df46d9e596371be4ee6a8a99efc7be1286cd2",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: model"
+    },
+    {
+      "source_role": "code/R/gse205906_bulk_model_v2_r4_lib.R",
+      "public_path": "analysis/study_sources/code/R/gse205906_bulk_model_v2_r4_lib.R",
+      "bytes": 175131,
+      "sha256": "407bbf2acda7db749f33a4f679564e5cddd0c758f1d0ad9f45e870b2c25432c3",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: helpers"
+    },
+    {
+      "source_role": "config/GSE205906_Ensembl101_full_model_v1_20261006.json",
+      "public_path": "analysis/study_sources/config/GSE205906_Ensembl101_full_model_v1_20261006.json",
+      "bytes": 10612,
+      "sha256": "ee6e22592b06ecdb31707234e97dc55b7b66cbad8dd11c364187af0624ece980",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: config"
+    },
+    {
+      "source_role": "code/R/gse205906_ensembl101_input_loader_v2_20261006.R",
+      "public_path": "analysis/study_sources/code/R/gse205906_ensembl101_input_loader_v2_20261006.R",
+      "bytes": 10884,
+      "sha256": "45f21c67674b5cd2b424e9c145662910361baee1019cbc68d366a9aab1fcc4ba",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: loader"
+    },
+    {
+      "source_role": "code/R/gse205906_ensembl101_effect_independent_prefit_v1_20261006.R",
+      "public_path": "analysis/study_sources/code/R/gse205906_ensembl101_effect_independent_prefit_v1_20261006.R",
+      "bytes": 18762,
+      "sha256": "b394a9e301db4e17a3c0495ada7071337198e8aae15eccf82d87cfa7b32f9bc3",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: prefit"
+    },
+    {
+      "source_role": "code/R/gse205906_ensembl101_annotation_adapter_v1_20261006.R",
+      "public_path": "analysis/study_sources/code/R/gse205906_ensembl101_annotation_adapter_v1_20261006.R",
+      "bytes": 9943,
+      "sha256": "9f223ec6163a4ac6aca5e85edccac9594f2c5a631889c76bd81f6d560f187470",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: annotation"
+    },
+    {
+      "source_role": "code/R/gse205906_ensembl101_nofit_RAM_worker_v2_20261006.R",
+      "public_path": "analysis/study_sources/code/R/gse205906_ensembl101_nofit_RAM_worker_v2_20261006.R",
+      "bytes": 10769,
+      "sha256": "1f0549994bb9aef084c8278fceb336f3bf436abcb589fe4c1755add018dbd61b",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: parser"
+    },
+    {
+      "source_role": "code/R/gse205906_resource_object_validation_v1.R",
+      "public_path": "analysis/study_sources/code/R/gse205906_resource_object_validation_v1.R",
+      "bytes": 13034,
+      "sha256": "e93aae6769a1173bb7842f213152f56695f5b7b5621b71106c54181496f994ae",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: adapter"
+    },
+    {
+      "source_role": "code/R/gse205906_ensembl101_checked_model_RAM_worker_v4_20261006.R",
+      "public_path": "analysis/study_sources/code/R/gse205906_ensembl101_checked_model_RAM_worker_v4_20261006.R",
+      "bytes": 31616,
+      "sha256": "3acd88e536a7808ad750c1d5aaa8d79ff6f1c84510f1bd9e4ed5d92f68363efc",
+      "reused_existing_public_file": true,
+      "identity_evidence": "accepted scientific COMPLETE input_pins: writer"
+    },
+    {
+      "source_role": "code/python/run_gse205906_matched_STAR_20261015.py",
+      "public_path": "analysis/reference_sources/code/python/run_gse205906_matched_STAR_20261015.py",
+      "bytes": 34422,
+      "sha256": "7fe64fcfcee554e1500f60da2cd7b4a3ce8a84fcd4e46b84c3c7e14ec1fd907d",
+      "reused_existing_public_file": true,
+      "identity_evidence": "source pin in retained consumer or accepted execution report"
+    },
+    {
+      "source_role": "code/python/run_gse205906_STAR_one_remaining_library_20261022.py",
+      "public_path": "analysis/reference_sources/code/python/run_gse205906_STAR_one_remaining_library_20261022.py",
+      "bytes": 7098,
+      "sha256": "05fb686b5401ea11a3ed1c248b13cf0fe42fd0464c8ecf5946cc37031ef78685",
+      "reused_existing_public_file": true,
+      "identity_evidence": "source pin in retained consumer or accepted execution report"
+    },
+    {
+      "source_role": "code/python/verify_gse205906_saved_comparison_counts_20261022.py",
+      "public_path": "analysis/reference_sources/code/python/verify_gse205906_saved_comparison_counts_20261022.py",
+      "bytes": 4551,
+      "sha256": "90cbe2083b4fd13b0eb0e67190c0c6bfb120f9e6cf01918350fe176972973890",
+      "reused_existing_public_file": true,
+      "identity_evidence": "source pin in retained consumer or accepted execution report"
+    },
+    {
+      "source_role": "code/R/gse205906_matched_saved_comparison_20261015.R",
+      "public_path": "analysis/reference_sources/code/R/gse205906_matched_saved_comparison_20261015.R",
+      "bytes": 22737,
+      "sha256": "eacfc026812bc40d25274415544fd2a2c10ad3cf5b7b46c5b678dd290520f599",
+      "reused_existing_public_file": true,
+      "identity_evidence": "source pin in retained consumer or accepted execution report"
+    },
+    {
+      "source_role": "code/R/run_gse205906_matched_saved_comparison_custody_v2_20261022.R",
+      "public_path": "analysis/reference_sources/code/R/run_gse205906_matched_saved_comparison_custody_v2_20261022.R",
+      "bytes": 33702,
+      "sha256": "e457bf417f18c31a2a5d9ed825fcb2e975711ad06a9fe65534ba98219590f16e",
+      "reused_existing_public_file": true,
+      "identity_evidence": "retained original source; local bytes pinned by this selection"
+    },
+    {
+      "source_role": "code/R/run_gse205906_matched_saved_comparison_20261015.R",
+      "public_path": "analysis/reference_sources/code/R/run_gse205906_matched_saved_comparison_20261015.R",
+      "bytes": 32482,
+      "sha256": "62e821a18589a7f429f17d0b031d98a421a3bc075c3b5c97b86e97ec84e77595",
+      "reused_existing_public_file": true,
+      "identity_evidence": "retained original source; local bytes pinned by this selection"
+    },
+    {
+      "source_role": "code/python/prepare_gse205906_matched_quantifier_inputs_20261015.py",
+      "public_path": "analysis/g205_matched_sources/code/python/prepare_gse205906_matched_quantifier_inputs_20261015.py",
+      "bytes": 9031,
+      "sha256": "5a95fc0f1421a9eb541deaff750f02670d0f41219bc6e130edfe692ffe2d6a30",
+      "reused_existing_public_file": false,
+      "identity_evidence": "retained original source; local bytes pinned by this selection"
+    },
+    {
+      "source_role": "code/python/continue_GSE205906_STAR_remaining_serial_20261022.py",
+      "public_path": "analysis/reference_sources/code/python/continue_GSE205906_STAR_remaining_serial_20261022.py",
+      "bytes": 9515,
+      "sha256": "8c4e33bd9e7ecb3489b121540a77ab66b4f27392e2b46f5ada6bd1ea97d3c5cf",
+      "reused_existing_public_file": true,
+      "identity_evidence": "retained original source; local bytes pinned by this selection"
+    },
+    {
+      "source_role": "code/python/start_GSE205906_STAR_post_G128_prefix_v2_20261022.py",
+      "public_path": "analysis/reference_sources/code/python/start_GSE205906_STAR_post_G128_prefix_v2_20261022.py",
+      "bytes": 16624,
+      "sha256": "835552fbe28150c38bb0f022d8c22b8d99270f5beed4ba02a611d36f92b0509e",
+      "reused_existing_public_file": true,
+      "identity_evidence": "retained original source; local bytes pinned by this selection"
+    }
+  ],
+  "models_run": 0,
+  "scientific_results_modified": false
+}

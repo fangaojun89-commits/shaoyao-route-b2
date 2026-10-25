@@ -1,6 +1,6 @@
 {
-  "version": "0.26.0",
-  "scope": "GSE298414_RETAINED_CONSTITUENT_RESULTS_AND_READBACK_ADDED",
+  "version": "0.27.0",
+  "scope": "GSE205906_MATCHED_SOURCE_GUIDE_AND_METADATA_PREPARATION_ADDED",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -1957,8 +1957,8 @@
       "sha256": "045716518eb7034d5c6d3fcfe13fcffc01d44515f588141c2af87b38a7064f64"
     },
     "README.md": {
-      "bytes": 18720,
-      "sha256": "e8a8b95a6400d5f58ca8a3162e5dcf064b5a91b866a0243e047fcc95b33f7e52"
+      "bytes": 19137,
+      "sha256": "3fa8db2c5fccd458da64569872376d4445f422484bc05a85b7dc8545dee30ae7"
     },
     "supplement/constituent_extension/Route_B2_GSE298414_single_herb_gene_summary_20261025.tsv": {
       "bytes": 11480,
@@ -2051,6 +2051,18 @@
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 4852,
       "sha256": "fba5310500f5ccefdb0d9ea18184445cc426c7718dfc308d72b543fa7ea6735a"
+    },
+    "analysis/g205_matched_sources/PROVENANCE.json": {
+      "bytes": 9382,
+      "sha256": "6fe31b37a834a0cb2fda708398ebafe18f6cc1b0aa9edeab3814b7bc4f945442"
+    },
+    "analysis/g205_matched_sources/README.md": {
+      "bytes": 9337,
+      "sha256": "4571f6b4b59f05925f8c98150ceafc13fc11d7ecc4068c7a63b2590a1f26fed8"
+    },
+    "analysis/g205_matched_sources/code/python/prepare_gse205906_matched_quantifier_inputs_20261015.py": {
+      "bytes": 9031,
+      "sha256": "5a95fc0f1421a9eb541deaff750f02670d0f41219bc6e130edfe692ffe2d6a30"
     }
   },
   "real_data_models_run": 0,
