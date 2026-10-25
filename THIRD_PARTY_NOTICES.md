@@ -13,3 +13,5 @@ The selected JGW03 count/sample/annotation tables derive from the three linked p
 This release excludes article PDFs, private diagnostic errors, machine-specific custody logs, credentials and software dependency tarballs. It is not the entire study evidence archive.
 
 GSE277064 adds three unchanged source count gzip files and project-curated sample/title metadata. The associated Sato et al. article identifies the accession and is CC BY-NC-ND 4.0; see `data/g277_inputs/README.md`. No article content is redistributed, and no source-derived count is relicensed by MIT or the original-curation CC BY grant. The input command preserves fractional values and source identities.
+
+G277 saved-preprocessing projections contain project-selected numerical inputs and mapped gene annotations. Source-derived values retain upstream provenance and applicable terms. They include no fitted effect/significance table, activity score or gene-set/network membership. Local resource reconstruction requires the separately authenticated frozen resources under their terms.

@@ -1,0 +1,7 @@
+# G277 saved preprocessing input views
+
+Five field-preserving projections contain retained filtered counts, three saved filter masks, mapped annotation, TMM normalization metadata, sample metadata, designs/contrasts, and existing voom E/precision weights. They contain no QL fit, gene/program result table, activity score, omission result or third-party pathway/network membership. Selected matrices and native attributes are preserved through R serialization version 3. The source RDS files remain unchanged.
+
+The three natural-course source files match the prior readiness pins used by the accepted October15 gene-method analysis. The two trained-branch files are fingerprinted from retained objects now; selected raw count/design/annotation fields are checked directly. This does not newly authenticate historical runtime or biological independence. `PROVENANCE.json` records each original/public identity and this distinction. Six D14 comparators remain reused rather than additional independent samples.
+
+Source-derived values retain upstream provenance and applicable terms from [the G277 source input guide](../g277_inputs/README.md); the original-code MIT grant does not relicense them. No article text/images are redistributed. Use the [original consumer connection](../../analysis/g277_saved_inputs/README.md); frozen resource memberships must be rebuilt separately and are not bundled here.

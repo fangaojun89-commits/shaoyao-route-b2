@@ -1,6 +1,6 @@
 {
-  "version": "0.16.0",
-  "scope": "G277_ORIGINAL_INPUT_AND_PREFIT_DESIGN_CLOSURE_NOT_MODEL_REEXECUTION",
+  "version": "0.17.0",
+  "scope": "G277_SAVED_PREPROCESSING_AND_ORIGINAL_ANNOTATION_RESOURCE_CONSUMERS_NOT_NEW_FITS",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -969,12 +969,12 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 13795,
-      "sha256": "8054f0c534235a5ad95775478aa14e4ac15f6d1686b74d608a0fdfdd84b33769"
+      "bytes": 14457,
+      "sha256": "f89f39d95129e31c9cb247aaab2f8ffe7df7009dc3a50106813706fa207074a7"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 2964,
-      "sha256": "3cdf92681c7b7e23271b7ac170d0b8549b07aa94231396e126eddb67b68c468f"
+      "bytes": 3345,
+      "sha256": "53ec5cd040671f098bc5e9df9eddfdff8bec4d9f1ec938434812ab362419cfcd"
     },
     "data/count_inputs/GSE128623/adapter/complete29_sensitivity/counts/complete29_selected.tsv.gz": {
       "bytes": 1248126,
@@ -1319,6 +1319,46 @@
     "pipeline/prepare_g277_inputs.py": {
       "bytes": 3896,
       "sha256": "eb61d00b16a313f1d7a1270c9c8c8421a335b93a130588f0f64abed3f9e97b83"
+    },
+    "analysis/g277_saved_inputs/connect.R": {
+      "bytes": 8216,
+      "sha256": "325be8b43ab4bdcad6eaa4edf2c0a3e2ef97e2caa18e8e027362705608e7243e"
+    },
+    "analysis/g277_saved_inputs/README.md": {
+      "bytes": 2165,
+      "sha256": "f5026e431bd6ff802a0a98f8966a492243b59d63b55010955761f0c8406bc2d4"
+    },
+    "data/g277_saved_inputs/astrocyte_natural_course.rds": {
+      "bytes": 4005128,
+      "sha256": "0e5c5f502b183dfd1b1d48dd907c88a71a455b4533aaa76df339d696a2fb0260"
+    },
+    "data/g277_saved_inputs/astrocyte_rotarod_boundary.rds": {
+      "bytes": 3447190,
+      "sha256": "21f7f64fc6fae82bab8743fe62f6237e5a287d36206d7e9fb3e752358bf78570"
+    },
+    "data/g277_saved_inputs/microglia_natural_course.rds": {
+      "bytes": 4138877,
+      "sha256": "03c34c660c448ca6e69a9b6d350d7e355f5ab4be9db0faef9ad79d359677ea01"
+    },
+    "data/g277_saved_inputs/PROVENANCE.json": {
+      "bytes": 15602,
+      "sha256": "63ced1af3361705a2b0bf79147e976a96b01038c4c99c48da722aa780301fd5d"
+    },
+    "data/g277_saved_inputs/README.md": {
+      "bytes": 1402,
+      "sha256": "56bd6073f5890518a07a8218a4a7b7e52abcb239cc789e4df7a178c71902a20b"
+    },
+    "data/g277_saved_inputs/v2a_natural_course.rds": {
+      "bytes": 4428889,
+      "sha256": "920d58b86550c91e80e504c74ef0ae6d04cac8ff8b7ae56bc3f346b7cea09483"
+    },
+    "data/g277_saved_inputs/v2a_rotarod_boundary.rds": {
+      "bytes": 3545148,
+      "sha256": "62fa0a7e543447745a83d59a23dc1f10bdb6e7c60fec1c2fa33087ee019686d5"
+    },
+    "pipeline/connect_g277_saved_inputs.py": {
+      "bytes": 4393,
+      "sha256": "736e12118ac14eb0bf7c1af43de767299f67c7199251378beee2cff2777108dc"
     }
   },
   "real_data_models_run": 0,
