@@ -1,6 +1,6 @@
 {
-  "version": "0.13.0",
-  "scope": "ORIGINAL_G205_DETERMINISTIC_PREPARATION_WITHOUT_MODEL_FITS_NOT_WHOLE_STUDY_RESTORE",
+  "version": "0.14.0",
+  "scope": "ORIGINAL_JGW_THREE_CONTEXT_INPUT_ADMISSION_WITHOUT_SCORING_OR_FITS_NOT_WHOLE_STUDY_RESTORE",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -969,8 +969,8 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 11136,
-      "sha256": "8460dfddd56a3ade97cd378a5ca51f1edb998b8f2358ff3ff49b5bb464b7f110"
+      "bytes": 11881,
+      "sha256": "cc7da22cb9f04eacae369c0ac4a1e6e244c412ff663cfb4b72f010f64cd074bf"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2396,
@@ -1135,6 +1135,26 @@
     "analysis/g205_preparation/VALIDATION.json": {
       "bytes": 5438,
       "sha256": "eaedac3782e432426de6c5c50d0df86ecf94d449902f48d263ee0598c212d103"
+    },
+    "pipeline/prepare_jgw_inputs.py": {
+      "bytes": 6413,
+      "sha256": "311bbb14ab72691fc19fc2dba06b49976932f368c894720f979f551f1b3fc543"
+    },
+    "analysis/jgw_preparation/prepare.R": {
+      "bytes": 4463,
+      "sha256": "585563d298409a25966a502032e66c12937f801259f13f8596ae3494722d3cc4"
+    },
+    "analysis/jgw_preparation/README.md": {
+      "bytes": 3073,
+      "sha256": "98c45527e807de72d45b10ce9759872b5dae74930167f429111fe3e0a9e48c2c"
+    },
+    "analysis/jgw_preparation/negative_checks.R": {
+      "bytes": 1488,
+      "sha256": "d7cc8539ad58b06ca3f6eced88072d3cd83d7b56fefd97119b10be3e3c4cc4e4"
+    },
+    "analysis/jgw_preparation/VALIDATION.json": {
+      "bytes": 2457,
+      "sha256": "a1a0941880ed837cc50635404d8889a3d1d26335ba4670a2d664ae76c998ef58"
     }
   },
   "real_data_models_run": 0,

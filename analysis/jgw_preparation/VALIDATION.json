@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "scope": "Original three-context unfitted input reader; no fixed-layer construction, scoring or fitting",
+  "R": "4.6.1",
+  "digest": "0.6.39",
+  "jsonlite": "2.0.0",
+  "tested_platform": "Windows x86_64 UCRT",
+  "locale": "English_United States.utf8",
+  "datasets": {
+    "GSE289929": {
+      "count_rows": 32883,
+      "libraries": 12,
+      "fractional_count_cells": 24980,
+      "source_files": 8,
+      "reactome_terms": 2836,
+      "syngo_proxy_terms": 249,
+      "MC_assignments": 10001,
+      "high_companion_assignments": 20,
+      "exact_saved_object_content_readback": true,
+      "independent_count_metadata_readback": true
+    },
+    "GSE227494": {
+      "count_rows": 42807,
+      "libraries": 12,
+      "fractional_count_cells": 48123,
+      "source_files": 8,
+      "reactome_terms": 2836,
+      "syngo_proxy_terms": 249,
+      "MC_assignments": 10001,
+      "high_companion_assignments": 20,
+      "exact_saved_object_content_readback": true,
+      "independent_count_metadata_readback": true
+    },
+    "GSE299063": {
+      "count_rows": 60675,
+      "libraries": 12,
+      "fractional_count_cells": 64348,
+      "source_files": 8,
+      "reactome_terms": 2836,
+      "syngo_proxy_terms": 249,
+      "MC_assignments": 10001,
+      "high_companion_assignments": 20,
+      "exact_saved_object_content_readback": true,
+      "independent_count_metadata_readback": true
+    }
+  },
+  "isolated_working_directory_execution": "PASS",
+  "saved_bundles_byte_equal_across_two_runs": {
+    "GSE227494_unfitted_inputs.rds": {
+      "bytes": 1915055,
+      "sha256": "e0f043c2ce6744f0f36560c0f3bc7bfae5c632aae267012150710672ee51f5f9"
+    },
+    "GSE289929_unfitted_inputs.rds": {
+      "bytes": 1751645,
+      "sha256": "c91a7e801aa0090215afae96663a79452d6d2c9503fab48283f0a027e199e41b"
+    },
+    "GSE299063_unfitted_inputs.rds": {
+      "bytes": 2381141,
+      "sha256": "5d8861569929914a85f182303cef1cc8d85bec6bb20f97a3ebf30fa9daf783ec"
+    }
+  },
+  "original_source_and_input_preservation": true,
+  "full_saved_allocation_checks": "All three 10001-row and 20-row original registries pass the existing verifier",
+  "original_admission_rejection_checks": [
+    "substituted formula ratio",
+    "duplicate sample identifier",
+    "resource taxon mismatch"
+  ],
+  "scientific_model_runs": 0,
+  "scores_recomputed": 0,
+  "new_allocations": 0,
+  "Linux_restoration_tested": false,
+  "whole_study_restoration_established": false
+}
