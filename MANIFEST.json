@@ -1,6 +1,6 @@
 {
-  "version": "0.22.0",
-  "scope": "PORTABLE_SEVEN_TABLE_READING_PACKAGE_FROM_ACCEPTED_PUBLIC_RESULTS",
+  "version": "0.23.0",
+  "scope": "PORTABLE_PC12_SAVED_FIT_DOSE_ENCODING_COMPARISON_ADDED_TO_EXISTING_REPRODUCIBILITY_COMPONENTS",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -17,12 +17,12 @@
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
     },
     "README.md": {
-      "bytes": 17377,
-      "sha256": "4db28533c8e18f1af3456c3da664e1b4ad710698fbad15ecb9627232c3288d2a"
+      "bytes": 17641,
+      "sha256": "f3a7c77a67f48f18f693e64ad721615254982c929e5584125ec990da06332d5b"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 3345,
-      "sha256": "53ec5cd040671f098bc5e9df9eddfdff8bec4d9f1ec938434812ab362419cfcd"
+      "bytes": 3724,
+      "sha256": "26268f4d6502d3adb1c8ff3f053a740cd15b0608eed6d88cab9f731aa58e05a1"
     },
     "analysis/GSE16710/EXTERNAL_INPUTS.json": {
       "bytes": 3006,
@@ -1340,6 +1340,78 @@
       "bytes": 18171,
       "sha256": "79f2000041201f75eda22efb44338460cf4dca055a3d2b3032f4d2226f777eeb"
     },
+    "data/pc12_dose_saved/PROVENANCE.json": {
+      "bytes": 10465,
+      "sha256": "1c86beb0b9f940a410daf5bd8f897c278c338ba29aba0180ed283f36b0ae6440"
+    },
+    "data/pc12_dose_saved/README.md": {
+      "bytes": 2083,
+      "sha256": "500e8ffb92b58dcbcd4562422501deb477c1fa2b15d14bbb8fe54fb1bb5a25ff"
+    },
+    "data/pc12_dose_saved/activities/DoRothEA_logtrend.tsv": {
+      "bytes": 10348,
+      "sha256": "e682db358c2a1423a3a262798d7d0cbfd1217238b11d843a2e3205e8ae601c21"
+    },
+    "data/pc12_dose_saved/activities/DoRothEA_trend.tsv": {
+      "bytes": 10443,
+      "sha256": "b211f6382be52f8097a893bd5e94ac3cc5da71fac2ba3270bb44e58c7c283f07"
+    },
+    "data/pc12_dose_saved/activities/PROGENy_logtrend.tsv": {
+      "bytes": 1430,
+      "sha256": "59071a78bc78a63d948613f716f82a101a85da123497a66508749b4dee978635"
+    },
+    "data/pc12_dose_saved/activities/PROGENy_trend.tsv": {
+      "bytes": 1432,
+      "sha256": "fd34b09c879b28fe30e3bc6df4090ee4dc01d0a15c982b17fa6afedba3e290ba"
+    },
+    "data/pc12_dose_saved/dose_response/dose_key.tsv": {
+      "bytes": 78,
+      "sha256": "6717b89ccabf99b250aac559a1d0cb0b16ddcebcf48eeed67936b329f8519322"
+    },
+    "data/pc12_dose_saved/genes/edgeR_QL_high_vs_vehicle_all_genes.tsv.gz": {
+      "bytes": 387894,
+      "sha256": "b0fd5daeaf495b7e889756091476a352640c046406dfa847ced581a850e0f503"
+    },
+    "data/pc12_dose_saved/genes/edgeR_QL_logdose_trend_all_genes.tsv.gz": {
+      "bytes": 373740,
+      "sha256": "5f5524ea828206e8fb2d5625b8ca39258ec09d329d37e7b878353b90599c30c8"
+    },
+    "data/pc12_dose_saved/genes/edgeR_QL_ordered_trend_all_genes.tsv.gz": {
+      "bytes": 374547,
+      "sha256": "0ef02d762d58ecde89fc43c64a9fcc40a74b3918835dd6082e8ffb339b5f56f6"
+    },
+    "data/pc12_dose_saved/programs/QuickGO_SynGO_sensitivity_camera_logdose_trend.tsv": {
+      "bytes": 5376,
+      "sha256": "6d3bdd124be74f74da907170c5890fc81fbb8cafda0bde033aaaf8f9ffd5a5ee"
+    },
+    "data/pc12_dose_saved/programs/QuickGO_SynGO_sensitivity_camera_ordered_trend.tsv": {
+      "bytes": 5377,
+      "sha256": "1bba524f2c06f43b33de1f5bea2408a8656cc257f85164feaa0986150371aa33"
+    },
+    "data/pc12_dose_saved/programs/QuickGO_SynGO_sensitivity_score_logtrend.tsv": {
+      "bytes": 8808,
+      "sha256": "20e0969be8e50ffcbf14c226a19af9f26ccb13a7c0736bf66e94e952f3e874a6"
+    },
+    "data/pc12_dose_saved/programs/QuickGO_SynGO_sensitivity_score_trend.tsv": {
+      "bytes": 8858,
+      "sha256": "fb0ae72b41b2650c6b8a2eaa22fb9b0984b1b081f3158bdf2707571ed449c1c8"
+    },
+    "data/pc12_dose_saved/programs/Reactome97_camera_logdose_trend.tsv": {
+      "bytes": 78284,
+      "sha256": "5d85f00344840492e6188b07a842848fff11a4393874faec2d4eb731a61e4564"
+    },
+    "data/pc12_dose_saved/programs/Reactome97_camera_ordered_trend.tsv": {
+      "bytes": 78271,
+      "sha256": "cc9174a59f2c49deff2daf60a130bd0db6d4bcb252e3b1e164d3c562315374de"
+    },
+    "data/pc12_dose_saved/programs/Reactome97_score_logtrend.tsv": {
+      "bytes": 152161,
+      "sha256": "7e26111d3647185c18392dddad952b81d834ac28bf492136675fcd2eb60c44f3"
+    },
+    "data/pc12_dose_saved/programs/Reactome97_score_trend.tsv": {
+      "bytes": 153252,
+      "sha256": "009d35c8cb8d7af4082d40308b352ed0eb0ddde47dbfa5c4ac8f9e0569fb268b"
+    },
     "environment/G205_core/ACCEPTED_ENVIRONMENT.json": {
       "bytes": 33817,
       "sha256": "508aeb91c3cc0d0d25e2b410c7e3dbd2d8b9d05815438f59de9b444c07be54e1"
@@ -1419,6 +1491,10 @@
     "pipeline/ledger.py": {
       "bytes": 6295,
       "sha256": "4646b56b653e0441ff694c4927e73ee71a00468533f81281bb2d75de49e2a237"
+    },
+    "pipeline/pc12_dose_comparison.py": {
+      "bytes": 7882,
+      "sha256": "e79fc2a0b8a280e03a69b28371341ddd9c631837d2f3c376a88c07eeecdcc9bc"
     },
     "pipeline/prepare_count_inputs.py": {
       "bytes": 6972,
@@ -1527,6 +1603,22 @@
     "supplement/late_results/tables/A7_G205_matched_alignment.tsv": {
       "bytes": 6766,
       "sha256": "f1d5f0a2b0dc019eba368016b8883877eaf91096359403b931ff92020e2c05d6"
+    },
+    "supplement/pc12_dose/README.md": {
+      "bytes": 6652,
+      "sha256": "90280c5050531b3b2d3e7f2316df88804241ef69c251c63584171aeb8da7bbd4"
+    },
+    "supplement/pc12_dose/RUN.md": {
+      "bytes": 2297,
+      "sha256": "2ff5dd3caaf25e3813197754e66aa8e4f2abbbea5c27530a780376468514e491"
+    },
+    "supplement/pc12_dose/Route_B2_PC12_dose_encoding_comparison_20261025.tsv": {
+      "bytes": 1283,
+      "sha256": "eac88b3bc4d18bac7bd9fe024a06b60aeb0f7206e0e355d9effe131af4da2975"
+    },
+    "supplement/pc12_dose/VALIDATION.json": {
+      "bytes": 1636,
+      "sha256": "d8a6df856dc50273f4462afa6e9e92ec1b3c63c82ac17751342305253d618edf"
     }
   },
   "real_data_models_run": 0,

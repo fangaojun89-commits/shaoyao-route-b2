@@ -1,0 +1,264 @@
+{
+  "scope": "GSE289929 PC12 saved-fit dose encoding comparison",
+  "source_accession": "GSE289929",
+  "source_geo": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289929",
+  "unsupported_approximate_gene_intervals_included": false,
+  "gene_set_memberships_included": false,
+  "tables": [
+    {
+      "path": "dose_response/dose_key.tsv",
+      "rows": 4,
+      "columns": [
+        "dose_group",
+        "ordered_dose",
+        "dose_ug_ml"
+      ],
+      "bytes": 78,
+      "sha256": "6717b89ccabf99b250aac559a1d0cb0b16ddcebcf48eeed67936b329f8519322",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/dose_response/dose_key.tsv",
+      "source_sha256": "13f3a0d1a4dab5d040d60246d701d02723d69b338f7ff7dd1687755604d9f37e",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "genes/edgeR_QL_ordered_trend_all_genes.tsv.gz",
+      "rows": 13325,
+      "columns": [
+        "raw_gene_id",
+        "logFC",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 374547,
+      "sha256": "0ef02d762d58ecde89fc43c64a9fcc40a74b3918835dd6082e8ffb339b5f56f6",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/genes/edgeR_QL_ordered_trend_all_genes.tsv.gz",
+      "source_sha256": "c1cfdcbb63129896bcdc32726337d43a6f427741e8219015fb3b36f14c7a5ae7",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "genes/edgeR_QL_logdose_trend_all_genes.tsv.gz",
+      "rows": 13325,
+      "columns": [
+        "raw_gene_id",
+        "logFC",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 373740,
+      "sha256": "5f5524ea828206e8fb2d5625b8ca39258ec09d329d37e7b878353b90599c30c8",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/genes/edgeR_QL_logdose_trend_all_genes.tsv.gz",
+      "source_sha256": "0fe24382dcf58732f94df5f5c1da95333fdb92b275d08b0dcebd5edbc5d7b135",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "programs/Reactome97_score_trend.tsv",
+      "rows": 1455,
+      "columns": [
+        "feature",
+        "effect",
+        "CI_low",
+        "CI_high",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 153252,
+      "sha256": "009d35c8cb8d7af4082d40308b352ed0eb0ddde47dbfa5c4ac8f9e0569fb268b",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/programs/Reactome97_score_trend.tsv",
+      "source_sha256": "e01430724475fd082b700e0dd210d3fc146259ca297b1488e4bfd4c3d78fd0c4",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "programs/Reactome97_score_logtrend.tsv",
+      "rows": 1455,
+      "columns": [
+        "feature",
+        "effect",
+        "CI_low",
+        "CI_high",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 152161,
+      "sha256": "7e26111d3647185c18392dddad952b81d834ac28bf492136675fcd2eb60c44f3",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/programs/Reactome97_score_logtrend.tsv",
+      "source_sha256": "839a8ddce58a267fed50d1259d1ec01cf4e0a99e4dec635ebe32a95f672cfbe6",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "programs/QuickGO_SynGO_sensitivity_score_trend.tsv",
+      "rows": 68,
+      "columns": [
+        "feature",
+        "effect",
+        "CI_low",
+        "CI_high",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 8858,
+      "sha256": "fb0ae72b41b2650c6b8a2eaa22fb9b0984b1b081f3158bdf2707571ed449c1c8",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/programs/QuickGO_SynGO_sensitivity_score_trend.tsv",
+      "source_sha256": "12af648444e148b65f3f3420262137d2c381e4cf8d9a016ee065bc90faa907e8",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "programs/QuickGO_SynGO_sensitivity_score_logtrend.tsv",
+      "rows": 68,
+      "columns": [
+        "feature",
+        "effect",
+        "CI_low",
+        "CI_high",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 8808,
+      "sha256": "20e0969be8e50ffcbf14c226a19af9f26ccb13a7c0736bf66e94e952f3e874a6",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/programs/QuickGO_SynGO_sensitivity_score_logtrend.tsv",
+      "source_sha256": "10b8289360a0dd9c1da05eee241aaf2e66f7cca790075324ae9c21d50055f569",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "programs/Reactome97_camera_ordered_trend.tsv",
+      "rows": 1455,
+      "columns": [
+        "term_id",
+        "Direction",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 78271,
+      "sha256": "cc9174a59f2c49deff2daf60a130bd0db6d4bcb252e3b1e164d3c562315374de",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/programs/Reactome97_camera_ordered_trend.tsv",
+      "source_sha256": "3778a0dba2a590a343b977854627b048de1ea766d9447f8b7be3f0a85911e983",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "programs/Reactome97_camera_logdose_trend.tsv",
+      "rows": 1455,
+      "columns": [
+        "term_id",
+        "Direction",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 78284,
+      "sha256": "5d85f00344840492e6188b07a842848fff11a4393874faec2d4eb731a61e4564",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/programs/Reactome97_camera_logdose_trend.tsv",
+      "source_sha256": "a9f61da6f9cc5a05884fe61c92bd7b2f94bee8720fc0bfa18f76abaedac4cdf8",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "programs/QuickGO_SynGO_sensitivity_camera_ordered_trend.tsv",
+      "rows": 68,
+      "columns": [
+        "term_id",
+        "Direction",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 5377,
+      "sha256": "1bba524f2c06f43b33de1f5bea2408a8656cc257f85164feaa0986150371aa33",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/programs/QuickGO_SynGO_sensitivity_camera_ordered_trend.tsv",
+      "source_sha256": "b2829a9be3644ed9f85f7d9f77e6d6b17b61f2d645ef31328b78a409999acc74",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "programs/QuickGO_SynGO_sensitivity_camera_logdose_trend.tsv",
+      "rows": 68,
+      "columns": [
+        "term_id",
+        "Direction",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 5376,
+      "sha256": "6d3bdd124be74f74da907170c5890fc81fbb8cafda0bde033aaaf8f9ffd5a5ee",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/programs/QuickGO_SynGO_sensitivity_camera_logdose_trend.tsv",
+      "source_sha256": "f860e512db0e0c73d726ea5a03fe30f1d7c3bcf250f712f186fa00ab1fc2f666",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "activities/PROGENy_trend.tsv",
+      "rows": 14,
+      "columns": [
+        "feature",
+        "effect",
+        "CI_low",
+        "CI_high",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 1432,
+      "sha256": "fd34b09c879b28fe30e3bc6df4090ee4dc01d0a15c982b17fa6afedba3e290ba",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/activities/PROGENy_trend.tsv",
+      "source_sha256": "26dd9229af8e81b5fb3378ac5ccbc63b7a5c873bbcd730104b80f3ca8285b0f4",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "activities/PROGENy_logtrend.tsv",
+      "rows": 14,
+      "columns": [
+        "feature",
+        "effect",
+        "CI_low",
+        "CI_high",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 1430,
+      "sha256": "59071a78bc78a63d948613f716f82a101a85da123497a66508749b4dee978635",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/activities/PROGENy_logtrend.tsv",
+      "source_sha256": "7bbdf247f5dabcd87ea4a26cff4d93931bf35ab2f155609bfb7f1c0e4b8d0e04",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "activities/DoRothEA_trend.tsv",
+      "rows": 104,
+      "columns": [
+        "feature",
+        "effect",
+        "CI_low",
+        "CI_high",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 10443,
+      "sha256": "b211f6382be52f8097a893bd5e94ac3cc5da71fac2ba3270bb44e58c7c283f07",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/activities/DoRothEA_trend.tsv",
+      "source_sha256": "462ca6fd4a4e1bfd5b7084f509c09162f727d502095c9942104bb1dd96b751c4",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "activities/DoRothEA_logtrend.tsv",
+      "rows": 104,
+      "columns": [
+        "feature",
+        "effect",
+        "CI_low",
+        "CI_high",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 10348,
+      "sha256": "e682db358c2a1423a3a262798d7d0cbfd1217238b11d843a2e3205e8ae601c21",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/activities/DoRothEA_logtrend.tsv",
+      "source_sha256": "f981c39d3ef305577795a99191c80803b8ccc8b90befa827a04a70303057cf06",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    },
+    {
+      "path": "genes/edgeR_QL_high_vs_vehicle_all_genes.tsv.gz",
+      "rows": 13325,
+      "columns": [
+        "raw_gene_id",
+        "logFC",
+        "PValue",
+        "FDR"
+      ],
+      "bytes": 387894,
+      "sha256": "b0fd5daeaf495b7e889756091476a352640c046406dfa847ced581a850e0f503",
+      "source_relative_path": "results/jgw03_three_cell_lines/GSE289929/genes/edgeR_QL_high_vs_vehicle_all_genes.tsv.gz",
+      "source_sha256": "ad6ae4903384fd0929c906f01288b2d76fbadde571a1331ebe091a92e471252f",
+      "transformation": "column projection only; retained field strings and row order unchanged"
+    }
+  ]
+}

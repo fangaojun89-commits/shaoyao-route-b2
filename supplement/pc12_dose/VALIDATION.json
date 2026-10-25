@@ -1,0 +1,48 @@
+{
+  "scope": "saved-fit reporting reproduction; no model fitting",
+  "summary_bytes_identical": true,
+  "seven_pairs_decompressed_bytes_identical": [
+    {
+      "file": "DoRothEA_paired.tsv.gz",
+      "decompressed_sha256": "c9fe7d1ec2ada9ae2762a7e014d1cfcca4cb9524377406f7dea95162e9e9d8c0"
+    },
+    {
+      "file": "edgeR_genes_paired.tsv.gz",
+      "decompressed_sha256": "031432121881aefd05a001b6f691d247b8fb5614fc89b00fe1c311ba56fa1e8b"
+    },
+    {
+      "file": "PROGENy_paired.tsv.gz",
+      "decompressed_sha256": "81b08603cb66ca99b65396b9298c4834f9137426de44e679de02fc261704f981"
+    },
+    {
+      "file": "QuickGO_SynGO_CAMERA_paired.tsv.gz",
+      "decompressed_sha256": "a0bbb44fc7a1a8cdfcfe082118028f88ef9942d38b38243ea990c8b3f0afd8e5"
+    },
+    {
+      "file": "QuickGO_SynGO_score_paired.tsv.gz",
+      "decompressed_sha256": "3e60acce332fa3f1b29e1f1395ce4186a3e175f577301bb9a62efab7fc2c0b26"
+    },
+    {
+      "file": "Reactome_CAMERA_paired.tsv.gz",
+      "decompressed_sha256": "43447535f240580de778aac3cb2dcd2a9b1bf5a318cddddcf39bc6b8ac8b31a5"
+    },
+    {
+      "file": "Reactome_score_paired.tsv.gz",
+      "decompressed_sha256": "b51f069bf8d3bfffe3baf3c9bf4028a051f2c5298d0c78c7316e40dc39e12d86"
+    }
+  ],
+  "high_trend_coherent": {
+    "ordinal": 40,
+    "logdose": 42,
+    "shared": 40
+  },
+  "versions_tested": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "private_source_files_required_at_runtime": false,
+  "scientific_fits_run": 0,
+  "new_P_or_q_values_computed": false,
+  "unsupported_edgeR_intervals_excluded": true
+}

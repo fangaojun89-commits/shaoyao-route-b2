@@ -1,0 +1,69 @@
+term_id	Direction	PValue	FDR
+calyx of Held	Down	2.93192833307461e-06	0.000199371126649073
+cholinergic synapse	Down	0.000317977147159042	0.00540561150170371
+dopaminergic synapse	Down	0.191225195096549	0.270902359720112
+extrinsic component of synaptic vesicle membrane	Down	0.101180229931948	0.181059358825592
+GABA-ergic synapse	Down	0.0339939741485701	0.0770530080700922
+glycinergic synapse	Down	0.232949793277148	0.313381656847776
+hippocampal mossy fiber to CA3 synapse	Down	0.00406899461743349	0.0184461089323651
+modification of postsynaptic actin cytoskeleton	Down	0.182146670000669	0.270902359720112
+modulation of chemical synaptic transmission	Down	0.000496273407709588	0.0067493183448504
+neuromuscular junction	Down	0.033684435224541	0.0770530080700922
+neuronal dense core vesicle	Down	0.126615738104456	0.215246754777575
+neurotransmitter receptor localization to postsynaptic specialization membrane	Down	0.143726712312878	0.238376010665261
+parallel fiber to Purkinje cell synapse	Down	0.0116548887141283	0.0370419072371704
+photoreceptor ribbon synapse	Down	0.0110211796920639	0.0370419072371704
+postsynapse organization	Down	0.0523743915953478	0.104748783190696
+postsynapse to nucleus signaling pathway	Down	0.186712365020369	0.270902359720112
+postsynapse	Down	0.0352024261077644	0.0772182250105799
+postsynaptic actin cytoskeleton organization	Down	0.00310552063030363	0.0162442617585113
+postsynaptic actin cytoskeleton	Down	0.00337570947262375	0.0163963031527439
+postsynaptic cytosol	Down	0.0119841464590845	0.0370419072371704
+postsynaptic density membrane	Down	0.148432389879805	0.240319107424447
+postsynaptic density	Down	0.0201127038995981	0.0569859943821945
+postsynaptic density, intracellular component	Down	0.245319795688898	0.314749926544246
+postsynaptic endocytic zone	Down	0.00267038516516524	0.0162442617585113
+postsynaptic membrane	Down	0.00877200147262282	0.0350880058904913
+postsynaptic modulation of chemical synaptic transmission	Down	0.380319334477218	0.43102857907418
+postsynaptic neurotransmitter receptor internalization	Down	0.360159559648914	0.42225603545045
+postsynaptic specialization membrane	Down	0.0232617691687829	0.0608384732106631
+postsynaptic specialization	Down	0.337228291214271	0.402383271291557
+presynapse	Down	0.0468707915001074	0.0965822370305243
+presynaptic active zone cytoplasmic component	Down	0.0119573981253733	0.0370419072371704
+presynaptic active zone membrane	Down	0.000992533592581244	0.00914661496959155
+presynaptic active zone	Down	0.00203805996090976	0.0138588077341864
+presynaptic cytosol	Down	0.0217266036010151	0.059096361794761
+presynaptic endosome	Up	0.827655226283111	0.827655226283111
+presynaptic membrane	Down	1.15218972684769e-05	0.000391744507128215
+presynaptic modulation of chemical synaptic transmission	Down	0.239687137642538	0.313437026147935
+regulation of modification of postsynaptic actin cytoskeleton	Down	0.00123157107862815	0.00930520370519049
+regulation of modification of postsynaptic structure	Down	0.694047320466103	0.737425277995234
+regulation of neurotransmitter receptor localization to postsynaptic specialization membrane	Down	0.105120595361982	0.1832871919132
+regulation of postsynapse assembly	Down	0.0314198771335676	0.0763054158958071
+regulation of postsynapse organization	Down	0.283750036121996	0.357314860301773
+regulation of postsynaptic density assembly	Down	0.366994685064499	0.422976925159084
+regulation of postsynaptic membrane neurotransmitter receptor levels	Up	0.337291859759099	0.402383271291557
+regulation of postsynaptic neurotransmitter receptor internalization	Down	0.00659975341502573	0.0280489520138593
+regulation of presynapse assembly	Down	0.802880993194381	0.825812673977166
+regulation of presynaptic cytosolic calcium ion concentration	Down	0.0148061235195222	0.0437746260577177
+regulation of synapse assembly	Down	0.0313427889821545	0.0763054158958071
+regulation of synapse maturation	Down	0.15209373904106	0.240520331506793
+regulation of synapse organization	Down	0.412587053264206	0.45993310855682
+regulation of synaptic vesicle cycle	Down	0.309038478553446	0.382083937120624
+regulation of synaptic vesicle endocytosis	Down	0.188466752083394	0.270902359720112
+regulation of synaptic vesicle exocytosis	Down	0.0997634090681478	0.181059358825592
+regulation protein catabolic process at postsynapse	Down	0.81366836994809	0.825812673977166
+ribosome	Up	0.0573190857458	0.108269384186511
+Schaffer collateral - CA1 synapse	Down	0.00024743510597952	0.00540561150170371
+structural constituent of postsynaptic density	Down	0.235036242635832	0.313381656847776
+synapse	Up	0.773749244494031	0.809460748086063
+synaptic membrane adhesion	Down	0.00308658125690511	0.0162442617585113
+synaptic membrane	Down	0.0428352804105327	0.0910249708723819
+synaptic vesicle endocytosis	Down	0.000852842931048306	0.00914661496959155
+synaptic vesicle lumen acidification	Down	0.464907275534336	0.501804678354522
+synaptic vesicle membrane	Down	0.00931583115044919	0.0351931399016969
+synaptic vesicle priming	Down	0.00107607234936371	0.00914661496959155
+synaptic vesicle	Down	0.0540967329899729	0.105102224094804
+translation at postsynapse	Up	0.203471552322288	0.282368684855421
+translation at presynapse	Up	0.171810871527151	0.265525892360143
+transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential	Down	0.449981284966093	0.493527860930554

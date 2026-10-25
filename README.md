@@ -1,5 +1,7 @@
 # Shaoyao Route B2: reproducibility components
 
+Version 0.23.0 adds a [reproducible seven-family PC12 dose-encoding comparison](supplement/pc12_dose/RUN.md), using 16 projected retained-result tables. The summary and full paired tables reproduce the accepted article v36 comparison without refitting any model.
+
 Version 0.22.0 adds a [portable seven-table reading-package command](supplement/late_results/RUN.md). It reconstructs the accepted displays and standalone table bundle from public retained results, using only the Python standard library. No scientific model is rerun.
 
 The [completed late-results supplement](supplement/late_results/README.md) now exposes all seven accepted reporting tables (669 rows across overlapping families/views), including the complete 22-family GSE205906 matched-alignment comparison. Five tables are newly supplied and two reuse existing public files. No scientific analysis was rerun.
