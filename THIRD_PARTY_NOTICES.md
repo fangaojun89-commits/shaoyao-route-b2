@@ -17,3 +17,5 @@ GSE277064 adds three unchanged source count gzip files and project-curated sampl
 G277 saved-preprocessing projections contain project-selected numerical inputs and mapped gene annotations. Source-derived values retain upstream provenance and applicable terms. They include no fitted effect/significance table, activity score or gene-set/network membership. Local resource reconstruction requires the separately authenticated frozen resources under their terms.
 
 The PC12 dose-comparison extension distributes project-generated retained statistical result columns and identifiers. It excludes gene-set memberships, network edges and unsupported approximate edgeR interval fields. The original source accession and export/projection hashes are in `data/pc12_dose_saved/PROVENANCE.json`. Existing upstream licence boundaries remain unchanged.
+
+The preparation-identity extension contains original interpretive curation and links to source records. It does not redistribute full articles, chemical workbooks or private review documents. Its CC BY 4.0 grant covers the original curation only.

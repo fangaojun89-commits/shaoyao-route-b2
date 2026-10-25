@@ -1,6 +1,6 @@
 {
-  "version": "0.23.0",
-  "scope": "PORTABLE_PC12_SAVED_FIT_DOSE_ENCODING_COMPARISON_ADDED_TO_EXISTING_REPRODUCIBILITY_COMPONENTS",
+  "version": "0.24.0",
+  "scope": "CURRENT_PREPARATION_IDENTITY_AND_EXPOSURE_CURATION_ADDED_TO_REPRODUCIBILITY_COMPONENTS",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -17,12 +17,12 @@
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
     },
     "README.md": {
-      "bytes": 17641,
-      "sha256": "f3a7c77a67f48f18f693e64ad721615254982c929e5584125ec990da06332d5b"
+      "bytes": 17950,
+      "sha256": "2e6b0924f488d23c7c3bcc42505d683660c0eac50a8945f473a4e5faa63f4ffb"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 3724,
-      "sha256": "26268f4d6502d3adb1c8ff3f053a740cd15b0608eed6d88cab9f731aa58e05a1"
+      "bytes": 3972,
+      "sha256": "bc697e125e8a21133ae59d04626e437b573663feba14271d01d332fefa941084"
     },
     "analysis/GSE16710/EXTERNAL_INPUTS.json": {
       "bytes": 3006,
@@ -1411,6 +1411,18 @@
     "data/pc12_dose_saved/programs/Reactome97_score_trend.tsv": {
       "bytes": 153252,
       "sha256": "009d35c8cb8d7af4082d40308b352ed0eb0ddde47dbfa5c4ac8f9e0569fb268b"
+    },
+    "data/preparation_identity/PROVENANCE.json": {
+      "bytes": 1446,
+      "sha256": "4c47f33c328b6e73294acb616082f0a668dd0d46208881dcf20ad278aa6c1bd9"
+    },
+    "data/preparation_identity/README.md": {
+      "bytes": 2855,
+      "sha256": "429b53737989d36cd71c532c975476d05a6fcd9cb747be15614e438e4eb0f828"
+    },
+    "data/preparation_identity/preparation_interpretation.tsv": {
+      "bytes": 3715,
+      "sha256": "901a271c87328edf658034eefa8955ba7b804abc5b573df90879499bc8a4fa01"
     },
     "environment/G205_core/ACCEPTED_ENVIRONMENT.json": {
       "bytes": 33817,

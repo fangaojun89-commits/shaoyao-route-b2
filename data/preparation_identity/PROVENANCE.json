@@ -1,0 +1,34 @@
+{
+  "curation_date": "2026-10-25",
+  "kind": "original_reporting_curation",
+  "records": 6,
+  "source_record_ids_preserved": true,
+  "table_sha256": "901a271c87328edf658034eefa8955ba7b804abc5b573df90879499bc8a4fa01",
+  "basis": [
+    {
+      "id": "legacy_preparation_identity",
+      "retained_source_name": "formula_identity.tsv",
+      "sha256": "4cf61e32b9311f431ec3d5c4d8462ba1d82f8147dd97de0c58c78932ea3097e4"
+    },
+    {
+      "id": "JGW_chemistry_constraints",
+      "retained_source_name": "JGW_chemistry_exposure_constraints_20260909.json",
+      "sha256": "53af162b94a5878bafd5e3be2ec2445e779423eda2bda5bcf67a030c45df3719"
+    },
+    {
+      "id": "TJ68_PK_documentation",
+      "retained_source_name": "TJ68_human_PK_Table1_2015_quantitative_v1_README.md",
+      "sha256": "b87ff5db292f6e5fff4aca4a3017d0a090f55671dd78af2f01e05314ea7ddf66"
+    },
+    {
+      "id": "accepted_G205_reconstruction_plan",
+      "retained_source_name": "GSE205906_FULL_READ_RECONSTRUCTION_TECHNICAL_PLAN_20261003.md",
+      "sha256": "07d83057f0b12c8650f029bddbd09105871edfda5f3d0b20f442524270bb9c46"
+    }
+  ],
+  "interpretation_change": "Current reporting distinguishes nominal G205 group validity from unresolved actual exposure and qualifies JGW chemistry. Legacy inputs remain unchanged.",
+  "new_scientific_fits": 0,
+  "source_documents_redistributed": false,
+  "automatic_pipeline_enforcement": false,
+  "original_curation_license": "CC-BY-4.0"
+}

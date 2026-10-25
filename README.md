@@ -1,5 +1,7 @@
 # Shaoyao Route B2: reproducibility components
 
+Version 0.24.0 adds the [current six-preparation identity and exposure interpretation](data/preparation_identity/README.md). It distinguishes nominal GSE205906 group validity from unresolved actual exposure and qualifies JGW03 chemistry, while preserving historical source records and all accepted analyses.
+
 Version 0.23.0 adds a [reproducible seven-family PC12 dose-encoding comparison](supplement/pc12_dose/RUN.md), using 16 projected retained-result tables. The summary and full paired tables reproduce the accepted article v36 comparison without refitting any model.
 
 Version 0.22.0 adds a [portable seven-table reading-package command](supplement/late_results/RUN.md). It reconstructs the accepted displays and standalone table bundle from public retained results, using only the Python standard library. No scientific model is rerun.
