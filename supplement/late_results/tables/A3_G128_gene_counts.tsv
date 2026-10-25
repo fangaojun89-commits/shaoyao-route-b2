@@ -1,0 +1,13 @@
+cell_id	method	tested_genes	chronic_combined	D28_vs_control	D42_vs_control	reference_allocation_n
+raw_all30	edgeR	17070	1230	2773	0	10001
+raw_all30	voom	17070	1305	2923	0	10001
+raw_all30	DESeq2	17070	957	2397	0	10001
+raw_predefined29	edgeR	17268	2359	3955	0	10001
+raw_predefined29	voom	17268	2046	3697	0	10001
+raw_predefined29	DESeq2	17268	2225	4014	0	10001
+adapter_all30	edgeR	17032	1209	2803	0	10001
+adapter_all30	voom	17032	1310	2934	0	10001
+adapter_all30	DESeq2	17032	955	2400	0	10001
+adapter_predefined29	edgeR	17218	2418	3973	0	10001
+adapter_predefined29	voom	17218	2144	3731	0	10001
+adapter_predefined29	DESeq2	17218	2280	4043	0	10001

@@ -1,0 +1,5 @@
+cell_id	sampled_family_n	nonzero_empirical_q_family_n	zero_empirical_q_family_n	feature_family_discovery_events_NOT_UNIQUE_FEATURES	unavailable_feature_family_events
+raw_all30	67	19	48	12099	0
+raw_predefined29	67	27	40	21240	0
+adapter_all30	67	18	49	12136	0
+adapter_predefined29	67	27	40	21550	0

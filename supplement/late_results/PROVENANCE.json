@@ -1,0 +1,74 @@
+{
+  "scope": "ACCEPTED_AGGREGATE_TABLES_AND_READING_GUIDE_NO_NEW_ANALYSIS",
+  "tables": [
+    {
+      "table_id": "A1",
+      "public_path": "data/derived/G128_FAMILY_SUMMARY.tsv",
+      "rows": 448,
+      "bytes": 63236,
+      "sha256": "81bd5bd9fb018e714b06fcf1e7c11cd167865dccfd8e98db44c3285270cf0512",
+      "role": "previously public file reused without duplicate"
+    },
+    {
+      "table_id": "A2",
+      "public_path": "supplement/late_results/tables/A2_G128_family_overview.tsv",
+      "rows": 4,
+      "bytes": 296,
+      "sha256": "29bd5f1a5056f992b75058154956a187cb60e726f70c8154c157aca1bec3ae38",
+      "role": "unchanged accepted local aggregate"
+    },
+    {
+      "table_id": "A3",
+      "public_path": "supplement/late_results/tables/A3_G128_gene_counts.tsv",
+      "rows": 12,
+      "bytes": 642,
+      "sha256": "15d73a5498a8ee1c575a30577fad1d4d8318fdab332a19f150b22badc2e86c63",
+      "role": "unchanged accepted local aggregate"
+    },
+    {
+      "table_id": "A4",
+      "public_path": "supplement/late_results/tables/A4_G128_chronic_programs.tsv",
+      "rows": 24,
+      "bytes": 1664,
+      "sha256": "1f42c1c5d78723390cc0975ad24652fccbba6c17f614f2749579e33485861401",
+      "role": "unchanged accepted local aggregate"
+    },
+    {
+      "table_id": "A5",
+      "public_path": "supplement/late_results/tables/A5_G128_day28_reference_spaces.tsv",
+      "rows": 36,
+      "bytes": 2202,
+      "sha256": "cabd5c863b3efa06d977405cce3e8fd5d7817b167132d11ca0252b9560cc7d62",
+      "role": "unchanged accepted local aggregate"
+    },
+    {
+      "table_id": "A6",
+      "public_path": "data/derived/JGW_FAMILY_SUMMARY.tsv",
+      "rows": 123,
+      "bytes": 54236,
+      "sha256": "829f3ea818cd9e3b10a5f4ee6c6804ae27fd5bc980aa752be78218c21836645a",
+      "role": "previously public file reused without duplicate"
+    },
+    {
+      "table_id": "A7",
+      "public_path": "supplement/late_results/tables/A7_G205_matched_alignment.tsv",
+      "rows": 22,
+      "bytes": 6766,
+      "sha256": "f1d5f0a2b0dc019eba368016b8883877eaf91096359403b931ff92020e2c05d6",
+      "role": "unchanged accepted local aggregate"
+    }
+  ],
+  "source_assembly": {
+    "local_receipt_name": "LATE_SUPPLEMENT_INTEGRATION_20261025.json",
+    "local_receipt_sha256": "09969be69784f82c38d87a73bfd897c16f48c20b272b13bac889b7c3d13bd674",
+    "publicly_included": false,
+    "scope": "Local reporting integration, not independently repeated model analysis"
+  },
+  "thresholds": {
+    "GSE128623": "empirical BH q <= 0.05 within stored method/collection/contrast family",
+    "JGW03": "unadjusted conditional P thresholds; no outer BH claimed",
+    "GSE205906": "native within-family q < 0.05; HISAT2 left, STAR right; same nine libraries"
+  },
+  "models_run_for_publication": 0,
+  "original_table_bytes_preserved": true
+}

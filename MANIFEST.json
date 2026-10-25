@@ -1,6 +1,6 @@
 {
-  "version": "0.20.0",
-  "scope": "JGW_ORIGINAL_PRIMARY_ENTRY_AND_SOURCE_INPUT_CHECK_NO_SCIENTIFIC_RERUN",
+  "version": "0.21.0",
+  "scope": "COMPLETE_LATE_RESULT_AGGREGATE_TABLES_WITH_EXISTING_PUBLIC_ANALYSIS_COMPONENTS",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -17,8 +17,8 @@
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
     },
     "README.md": {
-      "bytes": 16763,
-      "sha256": "a7e83ca0c3b986135957b5bd6f9f7b24f1b1db1b3af59a236213f5df760723ce"
+      "bytes": 17108,
+      "sha256": "306f2f9272c633872a36753e26803d1212c2516fd10fc0ef46f171d392ee8432"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 3345,
@@ -1487,6 +1487,34 @@
     "protocol/historical/statistical_analysis_plan.md": {
       "bytes": 25148,
       "sha256": "c46c086cbba963436fc48cc88f77028713cb305f9e9bff327314fe6eb24e0b82"
+    },
+    "supplement/late_results/PROVENANCE.json": {
+      "bytes": 2813,
+      "sha256": "ccbcbc6fcf42d184a0a3438f5f646c7fb051e030f40392db4b17724aab5e15de"
+    },
+    "supplement/late_results/README.md": {
+      "bytes": 17457,
+      "sha256": "81998668dcfa49c193b83980ce8087f6b02745fb2c2872f39848b50f6b7e8b18"
+    },
+    "supplement/late_results/tables/A2_G128_family_overview.tsv": {
+      "bytes": 296,
+      "sha256": "29bd5f1a5056f992b75058154956a187cb60e726f70c8154c157aca1bec3ae38"
+    },
+    "supplement/late_results/tables/A3_G128_gene_counts.tsv": {
+      "bytes": 642,
+      "sha256": "15d73a5498a8ee1c575a30577fad1d4d8318fdab332a19f150b22badc2e86c63"
+    },
+    "supplement/late_results/tables/A4_G128_chronic_programs.tsv": {
+      "bytes": 1664,
+      "sha256": "1f42c1c5d78723390cc0975ad24652fccbba6c17f614f2749579e33485861401"
+    },
+    "supplement/late_results/tables/A5_G128_day28_reference_spaces.tsv": {
+      "bytes": 2202,
+      "sha256": "cabd5c863b3efa06d977405cce3e8fd5d7817b167132d11ca0252b9560cc7d62"
+    },
+    "supplement/late_results/tables/A7_G205_matched_alignment.tsv": {
+      "bytes": 6766,
+      "sha256": "f1d5f0a2b0dc019eba368016b8883877eaf91096359403b931ff92020e2c05d6"
     }
   },
   "real_data_models_run": 0,
