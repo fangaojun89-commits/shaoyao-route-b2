@@ -1,0 +1,3 @@
+sample_id	recipe	published_extraction_label	interpreted_extraction	evidence	author_confirmed_correction
+GSM9013914	JGE06	CEM	IEM	GEO treatment operation order plus article Tables 2/3 code definition	False
+GSM9013917	JGE05	IEM	CEM	GEO treatment operation order plus article Tables 2/3 code definition	False

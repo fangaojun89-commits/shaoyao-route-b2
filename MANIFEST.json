@@ -1,6 +1,6 @@
 {
-  "version": "0.24.0",
-  "scope": "CURRENT_PREPARATION_IDENTITY_AND_EXPOSURE_CURATION_ADDED_TO_REPRODUCIBILITY_COMPONENTS",
+  "version": "0.25.0",
+  "scope": "GSE298414_RETAINED_PREPARATION_RESULTS_AND_READBACK_ADDED",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -17,12 +17,12 @@
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
     },
     "README.md": {
-      "bytes": 17950,
-      "sha256": "2e6b0924f488d23c7c3bcc42505d683660c0eac50a8945f473a4e5faa63f4ffb"
+      "bytes": 18358,
+      "sha256": "580d8d550623ddfc6823c2f11ad29fa35f059db3f778eec4a0e38b0141ae142a"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 3972,
-      "sha256": "bc697e125e8a21133ae59d04626e437b573663feba14271d01d332fefa941084"
+      "bytes": 4439,
+      "sha256": "8ba363f2a608c413979dddb798bd995a215ae26a2f860f3097327d8c6f92dec7"
     },
     "analysis/GSE16710/EXTERNAL_INPUTS.json": {
       "bytes": 3006,
@@ -1631,6 +1631,218 @@
     "supplement/pc12_dose/VALIDATION.json": {
       "bytes": 1636,
       "sha256": "d8a6df856dc50273f4462afa6e9e92ec1b3c63c82ac17751342305253d618edf"
+    },
+    "analysis/preparation_extension/GSE298414_PROGRAM_AND_STRATIFIED_EXTENSION_20261025.md": {
+      "bytes": 4000,
+      "sha256": "1aeaad0c6aa4801fcb0a96f4caaf9a14b4d417293c5c7cb603bcc8d70b9b4a7d"
+    },
+    "analysis/preparation_extension/GSE298414_WITHIN_SOURCE_PREPARATION_ANALYSIS_20261025.md": {
+      "bytes": 4691,
+      "sha256": "756e8e0d4ec997b00b08bb05804ccf0b353b4245f895a747b46e7c125932c31f"
+    },
+    "analysis/preparation_extension/original/analyze_GSE298414_preparation_20261025.R": {
+      "bytes": 11501,
+      "sha256": "de11e8dedd1a47742d4271a5354a94e7659089ea2b69c95cfaa9d14559a96b99"
+    },
+    "analysis/preparation_extension/original/check_GSE298414_high_ethanol_influence_20261025.R": {
+      "bytes": 3959,
+      "sha256": "c5ecc0d9db96e6acb797d73918191d55cfb356f6f89e33913dd22ebfc1797e0a"
+    },
+    "analysis/preparation_extension/original/extend_GSE298414_preparation_programs_20261025.R": {
+      "bytes": 13038,
+      "sha256": "907ef4c76b62ba25eb9ece406273de2349b571f0f19cc71e197aadc621b67fe0"
+    },
+    "analysis/preparation_extension/original/prepare_GSE298414_existing_counts_20261025.py": {
+      "bytes": 7179,
+      "sha256": "36698743214bee95c6873ec80bd7c5bb6aaec4c2304cbce42dd71e9926a582ee"
+    },
+    "analysis/preparation_extension/original/reconcile_GSE298414_supplement_20261025.py": {
+      "bytes": 3927,
+      "sha256": "404359885ae3f2f3beaf0cdbd35bc284f5de7a42d8e9043066e905788daf0aad"
+    },
+    "analysis/preparation_extension/original/review_GSE298414_high_ethanol_influence_20261025.R": {
+      "bytes": 1674,
+      "sha256": "732b236f63c6edc11bd1e87213e46ffbf639116e8a49ec7294937e080b44ff94"
+    },
+    "analysis/preparation_extension/original/review_GSE298414_preparation_20261025.R": {
+      "bytes": 4966,
+      "sha256": "ad19e48e6b08c6695856a4c21af4efe28f990adba69737a64c7858056e484c4d"
+    },
+    "analysis/preparation_extension/original/review_GSE298414_program_extension_20261025.py": {
+      "bytes": 4994,
+      "sha256": "fd8e95c65b4cd38bc848b64c6e18b13b5baffff40e94735bd99326187982e4af"
+    },
+    "analysis/preparation_extension/README.md": {
+      "bytes": 228,
+      "sha256": "59664804e7e20d3e54d03c21a0744646d9eb540f76971e27b272c363f8c6c36a"
+    },
+    "analysis/preparation_extension/SOURCE_IDENTITIES.json": {
+      "bytes": 2322,
+      "sha256": "61342eeb573a688f6c46474f2ec992f1420e64d2e11891965eff4ce3c2e908dc"
+    },
+    "data/preparation_extension/GSE298414/full_72/contrast_summary.tsv": {
+      "bytes": 1597,
+      "sha256": "2de7c63d50d70ffaa80e3e55500e2f67cec4f74559efa9985433c49d806f548c"
+    },
+    "data/preparation_extension/GSE298414/full_72/edgeR_all_genes.tsv.gz": {
+      "bytes": 8372988,
+      "sha256": "4356549e1d3ec5ab089a2354a6e72986a124ddccf3319b323c5720ec4e5d0c87"
+    },
+    "data/preparation_extension/GSE298414/full_72/gene_filter.tsv": {
+      "bytes": 1076639,
+      "sha256": "4077808978185ed84249e85e0c51bea9790605ad2abaa0e680a8f1f94d58b352"
+    },
+    "data/preparation_extension/GSE298414/full_72/logCPM_correlation.tsv": {
+      "bytes": 93289,
+      "sha256": "780bc9b672c546ed15c5ccb4ddcbdd25fe12e84663c3609ed9267aa5c200c45b"
+    },
+    "data/preparation_extension/GSE298414/full_72/PCA_coordinates.tsv": {
+      "bytes": 7229,
+      "sha256": "e2468ef40dffd89b9f4073197fb8aa65200a5996a5a279abac1cb7d5e7c7b728"
+    },
+    "data/preparation_extension/GSE298414/full_72/PCA_variance.tsv": {
+      "bytes": 1715,
+      "sha256": "9ef2ea5e741174947101402df04a57c001e41674e406861afa2158adf2226876"
+    },
+    "data/preparation_extension/GSE298414/full_72/sample_qc.tsv": {
+      "bytes": 37968,
+      "sha256": "2a52d4f544e981346aed954ffd61634c023b0c7258bad8314a94ae26cde8905a"
+    },
+    "data/preparation_extension/GSE298414/full_72/voom_all_genes.tsv.gz": {
+      "bytes": 13031428,
+      "sha256": "2367e686c3d6449047a12b268df572cf4b32298bd50ade4f51502969c9ce3b32"
+    },
+    "data/preparation_extension/GSE298414/high_ethanol_six_library_influence/GSM9013879_affected_contrast.tsv.gz": {
+      "bytes": 956243,
+      "sha256": "640483231a34d6452ec00c6ff539436dd2ea831db99dbb5d63db6f957fa8116c"
+    },
+    "data/preparation_extension/GSE298414/high_ethanol_six_library_influence/GSM9013885_affected_contrast.tsv.gz": {
+      "bytes": 966953,
+      "sha256": "c4d6abd39ca125cc886c16b1d2f9a62a3703ef1513d1cf4aee20d5482399871d"
+    },
+    "data/preparation_extension/GSE298414/high_ethanol_six_library_influence/GSM9013891_affected_contrast.tsv.gz": {
+      "bytes": 939320,
+      "sha256": "51c7bca01698677f25966ced94663aaa9bd7213d9d77f4e7bd943cb827ed7cf7"
+    },
+    "data/preparation_extension/GSE298414/high_ethanol_six_library_influence/GSM9013906_affected_contrast.tsv.gz": {
+      "bytes": 889930,
+      "sha256": "a0bf8e74137a5d5e478188167c7ea0ddc53d87fd1b652eab9c946666f40665cd"
+    },
+    "data/preparation_extension/GSE298414/high_ethanol_six_library_influence/GSM9013912_affected_contrast.tsv.gz": {
+      "bytes": 886640,
+      "sha256": "ec8a781882bbbe9644dd5e95834b15bf5df442c7f67e839b4926b6ac7e1888d6"
+    },
+    "data/preparation_extension/GSE298414/high_ethanol_six_library_influence/GSM9013918_affected_contrast.tsv.gz": {
+      "bytes": 889725,
+      "sha256": "2ab89615cd1cce9c38e6a890e19ecf9b64f46fe2a9f38d8e958a6282670970f5"
+    },
+    "data/preparation_extension/GSE298414/high_ethanol_six_library_influence/summary.tsv": {
+      "bytes": 811,
+      "sha256": "5ca2bbf923bad68ae476a405340c2ef1cee652b213ebf9f80174df88abb95300"
+    },
+    "data/preparation_extension/GSE298414/inputs/cem_iem_contrasts_supplement_verified.tsv": {
+      "bytes": 2227,
+      "sha256": "8c332a8d8241caa487f0a255335366bf35704041a0fe7e801fb72017a139faec"
+    },
+    "data/preparation_extension/GSE298414/inputs/extraction_label_conflicts.tsv": {
+      "bytes": 309,
+      "sha256": "5740e2b0b42ecbe651b4183d49c54dfbb00ef444676c95d4f10ee6345e55c5d2"
+    },
+    "data/preparation_extension/GSE298414/inputs/sample_ledger_supplement_verified.tsv": {
+      "bytes": 65466,
+      "sha256": "94afecad7ced80f834d5885e529daee16f701a26ebf245f4180dd4df02c65333"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/camera_all_programs.tsv.gz": {
+      "bytes": 3415151,
+      "sha256": "ce9cfc4dbfaa6ae2d2926adcdb34c073bb71c36087202ed74439ddc5c29322db"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/contrast_inventory.tsv": {
+      "bytes": 1906,
+      "sha256": "d3a2bd55a15bfacce99245d7949be51e620d8ad67b9fcca7183c86bbbeea2d28"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/DoRothEA_scores.tsv": {
+      "bytes": 139846,
+      "sha256": "8d14270bbca0650e601197c92565d3abb21906cdfd5af5faa47b2c75cc8547a1"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/human_symbol_selection.tsv": {
+      "bytes": 515255,
+      "sha256": "ac4bd94e74c23dabb91bb001636f03e83267ce5776effce5fed055552c9afc34"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/new_24_edgeR_genes.tsv.gz": {
+      "bytes": 16406050,
+      "sha256": "adb9256908b21e878fc3d294e0f4f24a98a0df5812508a95ec75be17117bbc47"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/new_24_gene_summary.tsv": {
+      "bytes": 2285,
+      "sha256": "2b73de8b8463eb00a2d20409780bc80397feaa26ff24af5714cacb4bc31626b0"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/new_24_voom_genes.tsv.gz": {
+      "bytes": 25545748,
+      "sha256": "6236e5d15275be4903c2c945ffdf0d1249cd8f7f36d34ecce497532860932fc4"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/PROGENy_scores.tsv": {
+      "bytes": 18883,
+      "sha256": "9e681383f397110367bf8daba74d380f487362285fc80c5813d430e6933e42ae"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/program_family_summary.tsv": {
+      "bytes": 10399,
+      "sha256": "02b11818144d1fa8267e3ce1d971c777f58414c5719baa980dbad42b28977a5b"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/rat_symbol_selection.tsv": {
+      "bytes": 539854,
+      "sha256": "3e1d6b8ffa40403f17606aac306c5d07b5092742e89111c45d25d739fb79e062"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/sessionInfo.txt": {
+      "bytes": 1325,
+      "sha256": "47783522c5ad7d97741b06f9d9c33f63b4bf671891c3ca0c09df5c24a9d96fe7"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/signed_activity_all_programs.tsv": {
+      "bytes": 816008,
+      "sha256": "506785b6658e889fa9c9261be50f6c8a1a5f6235b62cc092de29d930809d0ab5"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/signed_activity_seven_omissions.tsv.gz": {
+      "bytes": 1792235,
+      "sha256": "8d969c57bdc1a79f3833bdf2d9ab85620c771f34d515c791a5889c030c6514c0"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/signed_program_coverage.tsv": {
+      "bytes": 3410,
+      "sha256": "1e492ac6e6286f98821fc1d4381e5ef6708ec35c306feae573d425647e28b8c1"
+    },
+    "data/preparation_extension/GSE298414/program_and_stratified_extension_01/unsigned_program_coverage.tsv": {
+      "bytes": 113366,
+      "sha256": "72d5889d6f4aa3190f3cd3f4969712472eda36f06b12c0fb518b51e343d6e0ae"
+    },
+    "data/preparation_extension/GSE298414/PROVENANCE.json": {
+      "bytes": 10229,
+      "sha256": "698a44cb9e2974a61ab89fe0a2827e257a12bd4bd91b5b753f22c10cbca11a6b"
+    },
+    "pipeline/__pycache__/anchor.cpython-313.pyc": {
+      "bytes": 7614,
+      "sha256": "dd2d3a781958709a92acd5d1146d26e013fcf7d752ef4810c1baed38e35ea572"
+    },
+    "pipeline/__pycache__/count_inputs.cpython-312.pyc": {
+      "bytes": 4746,
+      "sha256": "529a21a88d8b46b049e4ee422861c3968e73681b7c6520fe9dfc002c315c4be9"
+    },
+    "pipeline/preparation_readback.py": {
+      "bytes": 5896,
+      "sha256": "39592f12b50414d4ad1e32309f13164824f28c75d2c73abeb3ccb0e0b5299e93"
+    },
+    "supplement/preparation_extension/Route_B2_GSE298414_preparation_extension_20261025.md": {
+      "bytes": 8021,
+      "sha256": "3f8c7d7ce83cba234f43cbcd8a7777f9b4bb15914d74d2cb0ad56ab964fca7d0"
+    },
+    "supplement/preparation_extension/Route_B2_GSE298414_preparation_results_20261025.md": {
+      "bytes": 9198,
+      "sha256": "09de5e3ca41814080276fb296740f47a67d6aa55c88e67e195e76378a7ecd377"
+    },
+    "supplement/preparation_extension/Route_B2_GSE298414_program_and_stratified_results_20261025.md": {
+      "bytes": 8505,
+      "sha256": "10c7f5fada67ef3293a73a0371bf6757aa7c52aa560a29097d32f4ecc7729fa1"
+    },
+    "supplement/preparation_extension/RUN.md": {
+      "bytes": 4475,
+      "sha256": "0f502664a820c19289be1eeed9243468fc233677c226e2ff0172b0b1439e751e"
     }
   },
   "real_data_models_run": 0,

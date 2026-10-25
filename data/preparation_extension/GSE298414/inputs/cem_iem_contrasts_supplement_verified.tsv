@@ -1,0 +1,13 @@
+contrast_id	positive_group	negative_group	estimand	ratio_PR_GR	solvent	ordinal_level	status	absolute_dose_claim	gate_eligible
+JGW02_L1_minus_JGW06_L1	JGW02_L1	JGW06_L1	CEM minus IEM at the same reported ordinal level	2:1	water	1	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGW02_L2_minus_JGW06_L2	JGW02_L2	JGW06_L2	CEM minus IEM at the same reported ordinal level	2:1	water	2	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGW02_L3_minus_JGW06_L3	JGW02_L3	JGW06_L3	CEM minus IEM at the same reported ordinal level	2:1	water	3	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGW04_L1_minus_JGW08_L1	JGW04_L1	JGW08_L1	CEM minus IEM at the same reported ordinal level	1:2	water	1	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGW04_L2_minus_JGW08_L2	JGW04_L2	JGW08_L2	CEM minus IEM at the same reported ordinal level	1:2	water	2	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGW04_L3_minus_JGW08_L3	JGW04_L3	JGW08_L3	CEM minus IEM at the same reported ordinal level	1:2	water	3	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGE02_L1_minus_JGE06_L1	JGE02_L1	JGE06_L1	CEM minus IEM at the same reported ordinal level	2:1	ethanol	1	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGE02_L2_minus_JGE06_L2	JGE02_L2	JGE06_L2	CEM minus IEM at the same reported ordinal level	2:1	ethanol	2	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGE02_L3_minus_JGE06_L3	JGE02_L3	JGE06_L3	CEM minus IEM at the same reported ordinal level	2:1	ethanol	3	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGE04_L1_minus_JGE08_L1	JGE04_L1	JGE08_L1	CEM minus IEM at the same reported ordinal level	1:2	ethanol	1	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGE04_L2_minus_JGE08_L2	JGE04_L2	JGE08_L2	CEM minus IEM at the same reported ordinal level	1:2	ethanol	2	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False
+JGE04_L3_minus_JGE08_L3	JGE04_L3	JGE08_L3	CEM minus IEM at the same reported ordinal level	1:2	ethanol	3	ORDINAL_ONLY_WITH_RECORDED_LABEL_ADJUDICATION_NOT_MODELED	False	False

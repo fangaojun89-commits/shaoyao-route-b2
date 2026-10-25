@@ -1,0 +1,235 @@
+{
+  "source_accession": "GSE298414",
+  "article_doi": "10.1038/s41597-026-06759-6",
+  "files": [
+    {
+      "path": "full_72/edgeR_all_genes.tsv.gz",
+      "bytes": 8372988,
+      "sha256": "4356549e1d3ec5ab089a2354a6e72986a124ddccf3319b323c5720ec4e5d0c87",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "full_72/voom_all_genes.tsv.gz",
+      "bytes": 13031428,
+      "sha256": "2367e686c3d6449047a12b268df572cf4b32298bd50ade4f51502969c9ce3b32",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "full_72/contrast_summary.tsv",
+      "bytes": 1597,
+      "sha256": "2de7c63d50d70ffaa80e3e55500e2f67cec4f74559efa9985433c49d806f548c",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "full_72/gene_filter.tsv",
+      "bytes": 1076639,
+      "sha256": "4077808978185ed84249e85e0c51bea9790605ad2abaa0e680a8f1f94d58b352",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "full_72/sample_qc.tsv",
+      "bytes": 37968,
+      "sha256": "2a52d4f544e981346aed954ffd61634c023b0c7258bad8314a94ae26cde8905a",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "full_72/PCA_coordinates.tsv",
+      "bytes": 7229,
+      "sha256": "e2468ef40dffd89b9f4073197fb8aa65200a5996a5a279abac1cb7d5e7c7b728",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "full_72/PCA_variance.tsv",
+      "bytes": 1715,
+      "sha256": "9ef2ea5e741174947101402df04a57c001e41674e406861afa2158adf2226876",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "full_72/logCPM_correlation.tsv",
+      "bytes": 93289,
+      "sha256": "780bc9b672c546ed15c5ccb4ddcbdd25fe12e84663c3609ed9267aa5c200c45b",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/new_24_edgeR_genes.tsv.gz",
+      "bytes": 16406050,
+      "sha256": "adb9256908b21e878fc3d294e0f4f24a98a0df5812508a95ec75be17117bbc47",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/new_24_voom_genes.tsv.gz",
+      "bytes": 25545748,
+      "sha256": "6236e5d15275be4903c2c945ffdf0d1249cd8f7f36d34ecce497532860932fc4",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/new_24_gene_summary.tsv",
+      "bytes": 2285,
+      "sha256": "2b73de8b8463eb00a2d20409780bc80397feaa26ff24af5714cacb4bc31626b0",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/contrast_inventory.tsv",
+      "bytes": 1906,
+      "sha256": "d3a2bd55a15bfacce99245d7949be51e620d8ad67b9fcca7183c86bbbeea2d28",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/camera_all_programs.tsv.gz",
+      "bytes": 3415151,
+      "sha256": "ce9cfc4dbfaa6ae2d2926adcdb34c073bb71c36087202ed74439ddc5c29322db",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/signed_activity_all_programs.tsv",
+      "bytes": 816008,
+      "sha256": "506785b6658e889fa9c9261be50f6c8a1a5f6235b62cc092de29d930809d0ab5",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/signed_activity_seven_omissions.tsv.gz",
+      "bytes": 1792235,
+      "sha256": "8d969c57bdc1a79f3833bdf2d9ab85620c771f34d515c791a5889c030c6514c0",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/program_family_summary.tsv",
+      "bytes": 10399,
+      "sha256": "02b11818144d1fa8267e3ce1d971c777f58414c5719baa980dbad42b28977a5b",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/PROGENy_scores.tsv",
+      "bytes": 18883,
+      "sha256": "9e681383f397110367bf8daba74d380f487362285fc80c5813d430e6933e42ae",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/DoRothEA_scores.tsv",
+      "bytes": 139846,
+      "sha256": "8d14270bbca0650e601197c92565d3abb21906cdfd5af5faa47b2c75cc8547a1",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/human_symbol_selection.tsv",
+      "bytes": 515255,
+      "sha256": "ac4bd94e74c23dabb91bb001636f03e83267ce5776effce5fed055552c9afc34",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/rat_symbol_selection.tsv",
+      "bytes": 539854,
+      "sha256": "3e1d6b8ffa40403f17606aac306c5d07b5092742e89111c45d25d739fb79e062",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/signed_program_coverage.tsv",
+      "bytes": 3410,
+      "sha256": "1e492ac6e6286f98821fc1d4381e5ef6708ec35c306feae573d425647e28b8c1",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/unsigned_program_coverage.tsv",
+      "bytes": 113366,
+      "sha256": "72d5889d6f4aa3190f3cd3f4969712472eda36f06b12c0fb518b51e343d6e0ae",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "program_and_stratified_extension_01/sessionInfo.txt",
+      "bytes": 1325,
+      "sha256": "47783522c5ad7d97741b06f9d9c33f63b4bf671891c3ca0c09df5c24a9d96fe7",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "high_ethanol_six_library_influence/summary.tsv",
+      "bytes": 811,
+      "sha256": "5ca2bbf923bad68ae476a405340c2ef1cee652b213ebf9f80174df88abb95300",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "high_ethanol_six_library_influence/GSM9013879_affected_contrast.tsv.gz",
+      "bytes": 956243,
+      "sha256": "640483231a34d6452ec00c6ff539436dd2ea831db99dbb5d63db6f957fa8116c",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "high_ethanol_six_library_influence/GSM9013885_affected_contrast.tsv.gz",
+      "bytes": 966953,
+      "sha256": "c4d6abd39ca125cc886c16b1d2f9a62a3703ef1513d1cf4aee20d5482399871d",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "high_ethanol_six_library_influence/GSM9013891_affected_contrast.tsv.gz",
+      "bytes": 939320,
+      "sha256": "51c7bca01698677f25966ced94663aaa9bd7213d9d77f4e7bd943cb827ed7cf7",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "high_ethanol_six_library_influence/GSM9013906_affected_contrast.tsv.gz",
+      "bytes": 889930,
+      "sha256": "a0bf8e74137a5d5e478188167c7ea0ddc53d87fd1b652eab9c946666f40665cd",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "high_ethanol_six_library_influence/GSM9013912_affected_contrast.tsv.gz",
+      "bytes": 886640,
+      "sha256": "ec8a781882bbbe9644dd5e95834b15bf5df442c7f67e839b4926b6ac7e1888d6",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "high_ethanol_six_library_influence/GSM9013918_affected_contrast.tsv.gz",
+      "bytes": 889725,
+      "sha256": "2ab89615cd1cce9c38e6a890e19ecf9b64f46fe2a9f38d8e958a6282670970f5",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "inputs/sample_ledger_supplement_verified.tsv",
+      "bytes": 65466,
+      "sha256": "94afecad7ced80f834d5885e529daee16f701a26ebf245f4180dd4df02c65333",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "inputs/extraction_label_conflicts.tsv",
+      "bytes": 309,
+      "sha256": "5740e2b0b42ecbe651b4183d49c54dfbb00ef444676c95d4f10ee6345e55c5d2",
+      "source_role": "unchanged retained result or curated metadata"
+    },
+    {
+      "path": "inputs/cem_iem_contrasts_supplement_verified.tsv",
+      "bytes": 2227,
+      "sha256": "8c332a8d8241caa487f0a255335366bf35704041a0fe7e801fb72017a139faec",
+      "source_role": "unchanged retained result or curated metadata"
+    }
+  ],
+  "libraries_in_analysis": 72,
+  "source_libraries": 141,
+  "conditions": 24,
+  "contrasts": 36,
+  "gene_features": 13761,
+  "sample_level_data": "Public deposited culture libraries, not patient observations",
+  "original_source_archive": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE298nnn/GSE298414/suppl/GSE298414_RAW.tar",
+    "bytes": 82524160,
+    "sha256": "eb08eea1f78621476f946fec97ff677c937dad48d25ca7f5d01c8182e23e41cc"
+  },
+  "frozen_resource_hashes": [
+    {
+      "filename": "reactome97_human_long.tsv",
+      "sha256": "1ea55f41f5b0a4ea51f723fb82b940f8b13fce1cab13ea6825b91d207c72fdc0"
+    },
+    {
+      "filename": "quickgo_syngo_mammalian_direct_human.tsv",
+      "sha256": "2a40eeb2bddcf556ea5ac8d6ef6a0cb1bd71f85ac8dddb1aad8165a8d075eb3a"
+    },
+    {
+      "filename": "progeny_human_top500.tsv",
+      "sha256": "b78892ec4d56212b08eb33ea80551fcb018e89b3c698e3d804008537c96bbdb9"
+    },
+    {
+      "filename": "dorothea_rat_AB_one_to_one.tsv",
+      "sha256": "e709ea4a9e0a1517cb00082bfbf6e8c4408d786694b6864f31ec3f57b458ecb8"
+    }
+  ],
+  "excluded": "Full articles and supplements, third-party memberships and network edges, binary model objects, clinical records and private diagnostic errors",
+  "tested_scope": "Retained-statistics and score arithmetic readback; no scientific model refit or cold restoration claim"
+}

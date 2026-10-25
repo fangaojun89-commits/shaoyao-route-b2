@@ -1,0 +1,42 @@
+[
+  {
+    "original_project_path": "code/python/prepare_GSE298414_existing_counts_20261025.py",
+    "public_path": "analysis/preparation_extension/original/prepare_GSE298414_existing_counts_20261025.py",
+    "sha256": "36698743214bee95c6873ec80bd7c5bb6aaec4c2304cbce42dd71e9926a582ee"
+  },
+  {
+    "original_project_path": "code/python/reconcile_GSE298414_supplement_20261025.py",
+    "public_path": "analysis/preparation_extension/original/reconcile_GSE298414_supplement_20261025.py",
+    "sha256": "404359885ae3f2f3beaf0cdbd35bc284f5de7a42d8e9043066e905788daf0aad"
+  },
+  {
+    "original_project_path": "code/R/analyze_GSE298414_preparation_20261025.R",
+    "public_path": "analysis/preparation_extension/original/analyze_GSE298414_preparation_20261025.R",
+    "sha256": "de11e8dedd1a47742d4271a5354a94e7659089ea2b69c95cfaa9d14559a96b99"
+  },
+  {
+    "original_project_path": "code/R/check_GSE298414_high_ethanol_influence_20261025.R",
+    "public_path": "analysis/preparation_extension/original/check_GSE298414_high_ethanol_influence_20261025.R",
+    "sha256": "c5ecc0d9db96e6acb797d73918191d55cfb356f6f89e33913dd22ebfc1797e0a"
+  },
+  {
+    "original_project_path": "code/R/extend_GSE298414_preparation_programs_20261025.R",
+    "public_path": "analysis/preparation_extension/original/extend_GSE298414_preparation_programs_20261025.R",
+    "sha256": "907ef4c76b62ba25eb9ece406273de2349b571f0f19cc71e197aadc621b67fe0"
+  },
+  {
+    "original_project_path": "code/R/review_GSE298414_preparation_20261025.R",
+    "public_path": "analysis/preparation_extension/original/review_GSE298414_preparation_20261025.R",
+    "sha256": "ad19e48e6b08c6695856a4c21af4efe28f990adba69737a64c7858056e484c4d"
+  },
+  {
+    "original_project_path": "code/R/review_GSE298414_high_ethanol_influence_20261025.R",
+    "public_path": "analysis/preparation_extension/original/review_GSE298414_high_ethanol_influence_20261025.R",
+    "sha256": "732b236f63c6edc11bd1e87213e46ffbf639116e8a49ec7294937e080b44ff94"
+  },
+  {
+    "original_project_path": "code/python/review_GSE298414_program_extension_20261025.py",
+    "public_path": "analysis/preparation_extension/original/review_GSE298414_program_extension_20261025.py",
+    "sha256": "fd8e95c65b4cd38bc848b64c6e18b13b5baffff40e94735bd99326187982e4af"
+  }
+]

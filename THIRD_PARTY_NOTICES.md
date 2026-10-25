@@ -19,3 +19,5 @@ G277 saved-preprocessing projections contain project-selected numerical inputs a
 The PC12 dose-comparison extension distributes project-generated retained statistical result columns and identifiers. It excludes gene-set memberships, network edges and unsupported approximate edgeR interval fields. The original source accession and export/projection hashes are in `data/pc12_dose_saved/PROVENANCE.json`. Existing upstream licence boundaries remain unchanged.
 
 The preparation-identity extension contains original interpretive curation and links to source records. It does not redistribute full articles, chemical workbooks or private review documents. Its CC BY 4.0 grant covers the original curation only.
+
+GSE298414 preparation results add project-generated statistical tables, expression-QC summaries, inferred score matrices, mapped annotation identifiers and original source-label curation. No gene-set memberships, network edges, full article or supplemental workbook is redistributed. These results do not relicense the public GEO inputs or external resources. The separate source ledger preserves conflicting source labels rather than replacing original metadata.
