@@ -1,5 +1,11 @@
 # Experimental-spasticity anchor: original analysis source
 
+For the executable readback of completed results without refitting, see the
+[saved-output entry](../anchor_saved/README.md). It supplies the 30 retained
+input roles required by this directory's unchanged original output validator,
+with two disclosed fgsea column projections. This is separate from the future
+raw-to-model reconstruction described below.
+
 This directory publishes seven original R scripts, unchanged from the sealed
 23 October source archive. It covers the original GSE16710 preprocessing,
 resource construction, primary analysis and its original sensitivities,

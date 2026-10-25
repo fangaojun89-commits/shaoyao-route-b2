@@ -1,0 +1,440 @@
+{
+  "version": "0.15.0",
+  "accession": "GSE16710",
+  "validator": "analysis/GSE16710/code/R/validate_GSE16710_outputs.R",
+  "validator_identity": {
+    "bytes": 14852,
+    "sha256": "c89c0738a6c1062ebc9f509c54e7371ad5f0ce248bffcc0614f9031e07afacd0"
+  },
+  "retained_internal_manifest_identity": {
+    "bytes": 20847,
+    "sha256": "d421a58466cd115566c06f52c928a257e3a5a2fa18993f8db3baab7467fca49f"
+  },
+  "source_basis": "All 30 original inputs match the retained internal output manifest; this does not independently certify historical chronology or animal lineage.",
+  "files": [
+    {
+      "runtime_path": "data/processed/GSE16710/sample_ledger_verified.tsv",
+      "public_path": "data/anchor_saved_outputs/files/data/processed/GSE16710/sample_ledger_verified.tsv",
+      "original_identity": {
+        "bytes": 12455,
+        "sha256": "0c6d0b6727c21fa14d856454db68173b6ab9c117dcea2ab89eca3d8200d61af1"
+      },
+      "public_identity": {
+        "bytes": 12455,
+        "sha256": "0c6d0b6727c21fa14d856454db68173b6ab9c117dcea2ab89eca3d8200d61af1"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "data/processed/GSE16710/qc_inclusion_decision.tsv",
+      "public_path": "analysis/GSE16710/data/processed/GSE16710/qc_inclusion_decision.tsv",
+      "original_identity": {
+        "bytes": 2742,
+        "sha256": "816cdd2ec20f92b48410d7ce1ce516b30e6b7db27e7a51254ae7e4b65f9fad49"
+      },
+      "public_identity": {
+        "bytes": 2742,
+        "sha256": "816cdd2ec20f92b48410d7ce1ce516b30e6b7db27e7a51254ae7e4b65f9fad49"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/qc/array_qc_metrics_and_flags.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/qc/array_qc_metrics_and_flags.tsv",
+      "original_identity": {
+        "bytes": 12984,
+        "sha256": "f04cf282f76dcaf3fcdc1616458cc272e885ac165555d5fb4f6ffb809bd78c9e"
+      },
+      "public_identity": {
+        "bytes": 12984,
+        "sha256": "f04cf282f76dcaf3fcdc1616458cc272e885ac165555d5fb4f6ffb809bd78c9e"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/diagnostics/model_estimability.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/diagnostics/model_estimability.tsv",
+      "original_identity": {
+        "bytes": 153,
+        "sha256": "5ab113e3ea899c357ad281ef7b6b82872896a4e6a4e4d2ae6564eed375425816"
+      },
+      "public_identity": {
+        "bytes": 153,
+        "sha256": "5ab113e3ea899c357ad281ef7b6b82872896a4e6a4e4d2ae6564eed375425816"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/gene_level/gene_interaction_summary_counts.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/gene_level/gene_interaction_summary_counts.tsv",
+      "original_identity": {
+        "bytes": 80,
+        "sha256": "73844e55982e52fa454861c6ec3a494854a966fc4a3b184a89ae95ef7ea79b58"
+      },
+      "public_identity": {
+        "bytes": 80,
+        "sha256": "73844e55982e52fa454861c6ec3a494854a966fc4a3b184a89ae95ef7ea79b58"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/reactome_camera_primary_all_contrasts.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/reactome_camera_primary_all_contrasts.tsv",
+      "original_identity": {
+        "bytes": 903907,
+        "sha256": "6d9ab5cda9f086aa52b64bece11d857b48589701282cbbbffba795de74795b58"
+      },
+      "public_identity": {
+        "bytes": 903907,
+        "sha256": "6d9ab5cda9f086aa52b64bece11d857b48589701282cbbbffba795de74795b58"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/reactome_mroast_interaction_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/reactome_mroast_interaction_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 168902,
+        "sha256": "ceaeeefdc6f8ae1defb8486e8042e706abc578e1b76481a41ab60b40d6508ad5"
+      },
+      "public_identity": {
+        "bytes": 168902,
+        "sha256": "ceaeeefdc6f8ae1defb8486e8042e706abc578e1b76481a41ab60b40d6508ad5"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/reactome_fgsea_interaction_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/reactome_fgsea_interaction_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 332251,
+        "sha256": "be38b2efa4d20ea8b93d8e1063e77bc186c127fda0a51b0bf3b3a213cfe39c0c"
+      },
+      "public_identity": {
+        "bytes": 178046,
+        "sha256": "4ee068c4830ef1448f848c9299bb25f524315a1790d3802c100344f0627f858f"
+      },
+      "transformation": "DROP leadingEdge only; all other field strings and row order preserved; serialize TSV LF",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/S1_gate_Reactome.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/S1_gate_Reactome.tsv",
+      "original_identity": {
+        "bytes": 664791,
+        "sha256": "c21c8bf3dc21b25163c640a0c1728dc0875771fb3eeb9dcfb7b8e2a7fa150847"
+      },
+      "public_identity": {
+        "bytes": 664791,
+        "sha256": "c21c8bf3dc21b25163c640a0c1728dc0875771fb3eeb9dcfb7b8e2a7fa150847"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/S1_gate_PROGENy.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/S1_gate_PROGENy.tsv",
+      "original_identity": {
+        "bytes": 4920,
+        "sha256": "a939b67b8f0f95b8fb1019a32733d62d71be795ec50178c62ce3cc7759237ba6"
+      },
+      "public_identity": {
+        "bytes": 4920,
+        "sha256": "a939b67b8f0f95b8fb1019a32733d62d71be795ec50178c62ce3cc7759237ba6"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/S1_gate_DoRothEA.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/S1_gate_DoRothEA.tsv",
+      "original_identity": {
+        "bytes": 32498,
+        "sha256": "b08def3b340e5511b65b50e738a9f29385d5220103244549b46014d9b6a88c62"
+      },
+      "public_identity": {
+        "bytes": 32498,
+        "sha256": "b08def3b340e5511b65b50e738a9f29385d5220103244549b46014d9b6a88c62"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/S1_gate_all_collections.tsv",
+      "public_path": "analysis/GSE16710/expected/S1_GATE.tsv",
+      "original_identity": {
+        "bytes": 312957,
+        "sha256": "377ef7e45769d7f842134506e409d69d2f955d760269baf0abba67e156553c40"
+      },
+      "public_identity": {
+        "bytes": 312957,
+        "sha256": "377ef7e45769d7f842134506e409d69d2f955d760269baf0abba67e156553c40"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/S1_GATE.tsv",
+      "public_path": "analysis/GSE16710/expected/S1_GATE.tsv",
+      "original_identity": {
+        "bytes": 312957,
+        "sha256": "377ef7e45769d7f842134506e409d69d2f955d760269baf0abba67e156553c40"
+      },
+      "public_identity": {
+        "bytes": 312957,
+        "sha256": "377ef7e45769d7f842134506e409d69d2f955d760269baf0abba67e156553c40"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/diagnostics/program_Freedman_Lane_10000.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/diagnostics/program_Freedman_Lane_10000.tsv",
+      "original_identity": {
+        "bytes": 187672,
+        "sha256": "48ac88b38e754c7f253f961f5cf02b9c769b76bf3d62b7903a72e77ec469dc85"
+      },
+      "public_identity": {
+        "bytes": 187672,
+        "sha256": "48ac88b38e754c7f253f961f5cf02b9c769b76bf3d62b7903a72e77ec469dc85"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/diagnostics/program_Freedman_Lane_null_calibration.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/diagnostics/program_Freedman_Lane_null_calibration.tsv",
+      "original_identity": {
+        "bytes": 213,
+        "sha256": "07c25f2913d618b589cb5c68d9998a8c03091c8972b7cf07eae3090502737c82"
+      },
+      "public_identity": {
+        "bytes": 213,
+        "sha256": "07c25f2913d618b589cb5c68d9998a8c03091c8972b7cf07eae3090502737c82"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/reactome_camera_all27_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/reactome_camera_all27_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 212895,
+        "sha256": "237b03a03cc59d6250b550af05e7d72b791b1751e0048c87d732957d9b7586bf"
+      },
+      "public_identity": {
+        "bytes": 212895,
+        "sha256": "237b03a03cc59d6250b550af05e7d72b791b1751e0048c87d732957d9b7586bf"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/reactome_camera_original_annotation_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/reactome_camera_original_annotation_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 225824,
+        "sha256": "6d671547c5a4eb3629f3e253776e7b7446a34611a5005d8dbe3e1d66a889f04b"
+      },
+      "public_identity": {
+        "bytes": 225824,
+        "sha256": "6d671547c5a4eb3629f3e253776e7b7446a34611a5005d8dbe3e1d66a889f04b"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/progeny_all27_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/progeny_all27_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 13331,
+        "sha256": "e34fa0795f1eca6b005806f9b7e7c9d8e20c72b2a6a6493334c17fac8dc1625d"
+      },
+      "public_identity": {
+        "bytes": 13331,
+        "sha256": "e34fa0795f1eca6b005806f9b7e7c9d8e20c72b2a6a6493334c17fac8dc1625d"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/dorothea_all27_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/dorothea_all27_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 95308,
+        "sha256": "b96995aba949da122b9458ea0e49e9aeb55294b4725b4b42684c7025043734cf"
+      },
+      "public_identity": {
+        "bytes": 95308,
+        "sha256": "b96995aba949da122b9458ea0e49e9aeb55294b4725b4b42684c7025043734cf"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/progeny_original_annotation_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/progeny_original_annotation_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 13335,
+        "sha256": "576e1eccf86687218e24c7f09efac7e32b4d3114ced2d989fd024c6d7b6f9d65"
+      },
+      "public_identity": {
+        "bytes": 13335,
+        "sha256": "576e1eccf86687218e24c7f09efac7e32b4d3114ced2d989fd024c6d7b6f9d65"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/dorothea_original_annotation_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/dorothea_original_annotation_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 94344,
+        "sha256": "ffcffb3fb25ef6ef4d9b4d3f4af29cabcc0a18d0c98b9d6ececde0a102d49112"
+      },
+      "public_identity": {
+        "bytes": 94344,
+        "sha256": "ffcffb3fb25ef6ef4d9b4d3f4af29cabcc0a18d0c98b9d6ececde0a102d49112"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/diagnostics/reactome_leave_one_animal_out_long.tsv.gz",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/diagnostics/reactome_leave_one_animal_out_long.tsv.gz",
+      "original_identity": {
+        "bytes": 1275864,
+        "sha256": "3187877bdbb557cda241be914700fe324c9121fef2b25b597ef4e8bf1014e068"
+      },
+      "public_identity": {
+        "bytes": 1275864,
+        "sha256": "3187877bdbb557cda241be914700fe324c9121fef2b25b597ef4e8bf1014e068"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/diagnostics/progeny_leave_one_animal_out_long.tsv.gz",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/diagnostics/progeny_leave_one_animal_out_long.tsv.gz",
+      "original_identity": {
+        "bytes": 11296,
+        "sha256": "5c8938be5ea45ece9e72f4bc3436a770a5497ef677284cb02a8d68973f922ba9"
+      },
+      "public_identity": {
+        "bytes": 11296,
+        "sha256": "5c8938be5ea45ece9e72f4bc3436a770a5497ef677284cb02a8d68973f922ba9"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/diagnostics/dorothea_leave_one_animal_out_long.tsv.gz",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/diagnostics/dorothea_leave_one_animal_out_long.tsv.gz",
+      "original_identity": {
+        "bytes": 78355,
+        "sha256": "742e10692fc4e987808a8d3f5062b1b424e6e377b0e3580c8d02e7e40c3c890f"
+      },
+      "public_identity": {
+        "bytes": 78355,
+        "sha256": "742e10692fc4e987808a8d3f5062b1b424e6e377b0e3580c8d02e7e40c3c890f"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/diagnostics/interaction_precision_summary.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/diagnostics/interaction_precision_summary.tsv",
+      "original_identity": {
+        "bytes": 1014,
+        "sha256": "7d9b3000b77e55d040ce2a65807988f1833f5cfd51f937c65efa4e9ddcf19883"
+      },
+      "public_identity": {
+        "bytes": 1014,
+        "sha256": "7d9b3000b77e55d040ce2a65807988f1833f5cfd51f937c65efa4e9ddcf19883"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/diagnostics/quickgo_assignedBy_SynGO_sensitivity_status.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/diagnostics/quickgo_assignedBy_SynGO_sensitivity_status.tsv",
+      "original_identity": {
+        "bytes": 367,
+        "sha256": "ca8568d42b929c58545deb99ad42846d79a485cb62c8c525937aee49ea8f9948"
+      },
+      "public_identity": {
+        "bytes": 367,
+        "sha256": "ca8568d42b929c58545deb99ad42846d79a485cb62c8c525937aee49ea8f9948"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/quickgo_assignedBy_SynGO_camera_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/quickgo_assignedBy_SynGO_camera_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 10134,
+        "sha256": "e9e6a05b86e7016c1e64c015d240416b6e58a01f92ac0ce8a30431bc44c2ef9d"
+      },
+      "public_identity": {
+        "bytes": 10134,
+        "sha256": "e9e6a05b86e7016c1e64c015d240416b6e58a01f92ac0ce8a30431bc44c2ef9d"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/quickgo_assignedBy_SynGO_mroast_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/quickgo_assignedBy_SynGO_mroast_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 8857,
+        "sha256": "97347b219e6df2e0fc8d7e8a04dd9164012f6b71dd5c8f641e0b8c8df6aa9cc4"
+      },
+      "public_identity": {
+        "bytes": 8857,
+        "sha256": "97347b219e6df2e0fc8d7e8a04dd9164012f6b71dd5c8f641e0b8c8df6aa9cc4"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/quickgo_assignedBy_SynGO_fgsea_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/quickgo_assignedBy_SynGO_fgsea_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 17073,
+        "sha256": "4dc1dc5da155cf247fb4962d9cc3a6cb298a16d674ee0052ee7ba98bc5e5a989"
+      },
+      "public_identity": {
+        "bytes": 9623,
+        "sha256": "ea8624e2d47114600d51d0aaf668ee74370ec018e9991fdf2a4d5a42c4dab154"
+      },
+      "transformation": "DROP leadingEdge only; all other field strings and row order preserved; serialize TSV LF",
+      "retained_manifest_identity_matches": true
+    },
+    {
+      "runtime_path": "results/GSE16710/program_level/quickgo_assignedBy_SynGO_activity_sensitivity.tsv",
+      "public_path": "data/anchor_saved_outputs/files/results/GSE16710/program_level/quickgo_assignedBy_SynGO_activity_sensitivity.tsv",
+      "original_identity": {
+        "bytes": 15297,
+        "sha256": "d6f81ee98f2df74dee3bbf1263bc882ccaa3d1878aaae00242a36f27fc20e575"
+      },
+      "public_identity": {
+        "bytes": 15297,
+        "sha256": "d6f81ee98f2df74dee3bbf1263bc882ccaa3d1878aaae00242a36f27fc20e575"
+      },
+      "transformation": "NONE",
+      "retained_manifest_identity_matches": true
+    }
+  ],
+  "scientific_model_fits": 0,
+  "activity_scores_recomputed": 0,
+  "random_allocations_generated": 0,
+  "source_membership_files_included": false
+}

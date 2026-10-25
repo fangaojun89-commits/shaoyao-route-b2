@@ -1,0 +1,45 @@
+{
+  "status": "PASS_LOCAL_SAVED_OUTPUT_READBACK",
+  "tested_R": "4.6.1",
+  "packages": {
+    "data.table": "1.18.4",
+    "jsonlite": "2.0.0",
+    "R.utils": "2.13.0"
+  },
+  "platform": "Windows x86_64 UCRT",
+  "input_roles": 30,
+  "original_byte_roles": 28,
+  "projected_fgsea_roles": 2,
+  "original_checks": {
+    "checks_total": 51,
+    "checks_pass": 51,
+    "checks_fail": 0,
+    "overall_status": "PASS"
+  },
+  "independent_gate": {
+    "status": "PASS_SAVED_GATE_AND_OMISSION_ARITHMETIC",
+    "family_features": {
+      "Reactome": 1656,
+      "PROGENy": 14,
+      "DoRothEA": 101
+    },
+    "programs_checked": 1771,
+    "admitted": 0,
+    "omission_estimates_checked": 46046,
+    "numeric_field_comparisons": 21252,
+    "model_fits": 0,
+    "activity_scores_recomputed": 0,
+    "new_permutations": 0,
+    "scope": "Consistency of retained gate, omission estimates and stored permutation P/q joins; no model or phenotype validation"
+  },
+  "staged_and_original_inputs_preserved": true,
+  "scientific_model_runs": 0,
+  "initial_attempt": "The first attempt supplied the parent R-library directory rather than its 4.6 subdirectory and stopped before validation. The corrected explicit library passed. No package or input was changed.",
+  "Linux_cold_restoration_tested": false,
+  "scope": "Retained output verification only",
+  "isolated_checkout_and_output_directory": "PASS",
+  "deterministic_outputs_equal_across_runs": {
+    "original_51_check_table_sha256": "c3c264469d62bb2f4097960ae28f1faec5b1ff892979aa2b26fc42dc8d1ddef8",
+    "independent_gate_QA_sha256": "050137d859bfc67368a7895fdd25b59bd5fbc48bb13e5ad960e5da0a6333341f"
+  }
+}
