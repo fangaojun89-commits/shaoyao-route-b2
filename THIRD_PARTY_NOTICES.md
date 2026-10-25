@@ -11,3 +11,5 @@ The project's non-commercial academic use does not restrict the MIT grant for it
 The selected JGW03 count/sample/annotation tables derive from the three linked public GEO submissions; their source rights are not replaced by the code licence. See `data/jgw03_inputs/README.md` and the [GEO data-use disclaimer](https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html). The frozen allocation registries are project-generated computational inputs, not additional biological samples.
 
 This release excludes article PDFs, private diagnostic errors, machine-specific custody logs, credentials and software dependency tarballs. It is not the entire study evidence archive.
+
+GSE277064 adds three unchanged source count gzip files and project-curated sample/title metadata. The associated Sato et al. article identifies the accession and is CC BY-NC-ND 4.0; see `data/g277_inputs/README.md`. No article content is redistributed, and no source-derived count is relicensed by MIT or the original-curation CC BY grant. The input command preserves fractional values and source identities.

@@ -1,0 +1,105 @@
+{
+  "version": "0.16.0",
+  "accession": "GSE277064",
+  "files": [
+    {
+      "public_path": "data/g277_inputs/GSE277064_Chx10.txt.gz",
+      "runtime_path": "data/raw/GSE277064/GSE277064_Chx10.txt.gz",
+      "identity": {
+        "bytes": 1120083,
+        "sha256": "341f0cc8498db3df8ddb7440fc36d0cdd10c7089c41694410384ca95e11ce298"
+      },
+      "transformation": "NONE; original GEO gzip bytes preserved",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE277nnn/GSE277064/suppl/GSE277064_Chx10.txt.gz"
+    },
+    {
+      "public_path": "data/g277_inputs/GSE277064_Aldh1l1.txt.gz",
+      "runtime_path": "data/raw/GSE277064/GSE277064_Aldh1l1.txt.gz",
+      "identity": {
+        "bytes": 1026610,
+        "sha256": "1acb5e4ae93a84ff5dd7f6ae3167c83236c2f82a2039830871edc625183a2a1e"
+      },
+      "transformation": "NONE; original GEO gzip bytes preserved",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE277nnn/GSE277064/suppl/GSE277064_Aldh1l1.txt.gz"
+    },
+    {
+      "public_path": "data/g277_inputs/GSE277064_Cx3cr1.txt.gz",
+      "runtime_path": "data/raw/GSE277064/GSE277064_Cx3cr1.txt.gz",
+      "identity": {
+        "bytes": 734677,
+        "sha256": "79680cd5d68229ee14661604904c8971972041335329877e46fbd253b93980eb"
+      },
+      "transformation": "NONE; original GEO gzip bytes preserved",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE277nnn/GSE277064/suppl/GSE277064_Cx3cr1.txt.gz"
+    },
+    {
+      "public_path": "analysis/study_sources/metadata/samples.tsv",
+      "runtime_path": "metadata/samples.tsv",
+      "identity": {
+        "bytes": 46027,
+        "sha256": "1c56da1148f17a5d6ec6e0b11262bb7ae2b77cae67b0883a06a687283bd1a5d1"
+      },
+      "transformation": "Reused unchanged public 99-row selection; all 63 G277 rows exactly match the full original ledger"
+    },
+    {
+      "public_path": "data/g277_inputs/geo_sample_titles.tsv",
+      "runtime_path": "metadata/geo_series_metadata_long.tsv",
+      "identity": {
+        "bytes": 6978,
+        "sha256": "d58df9d74f58f07416477ddc0a85d8a92ad5bae731954827632be9f419fad728"
+      },
+      "transformation": "Select only 63 G277 Sample_title rows; preserve all fields, strings and source order; TSV LF"
+    }
+  ],
+  "source": "analysis/study_sources/code/R/analyze_GSE277064.R",
+  "source_identity": {
+    "bytes": 50439,
+    "sha256": "b2e15651802d3d95fbe065bab3c4f964a31d2869482fcbf024fe789de521e06a"
+  },
+  "original_sample_ledger_identity": {
+    "bytes": 75369,
+    "sha256": "367894147ee329498e6491c9397d1fe146ca8be35b696110964c1365da3bdf66"
+  },
+  "original_long_metadata_identity": {
+    "bytes": 2445206,
+    "sha256": "2d7a4277bfc282ea20a7683ba93ed5561c2c2628905581c42ed7e41a1d2a2065"
+  },
+  "transformations": "Only metadata title-row projection; count gzip and selected existing sample metadata are unchanged",
+  "official_catalogue": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200277064&retmode=json",
+  "official_catalogue_identity": {
+    "bytes": 4616,
+    "sha256": "fb554d74e5fad8eb523d0b501a2b7d03257f7e2f166f81235045e5c2142945aa"
+  },
+  "exact_63_GSM_and_title_matches": true,
+  "independent_python_input_summaries": {
+    "GSE277064_Chx10.txt.gz": {
+      "genes": 55416,
+      "libraries": 24,
+      "numeric_cells": 1329984,
+      "fractional_count_cells": 103142
+    },
+    "GSE277064_Aldh1l1.txt.gz": {
+      "genes": 55416,
+      "libraries": 24,
+      "numeric_cells": 1329984,
+      "fractional_count_cells": 88401
+    },
+    "GSE277064_Cx3cr1.txt.gz": {
+      "genes": 55416,
+      "libraries": 15,
+      "numeric_cells": 831240,
+      "fractional_count_cells": 55800
+    }
+  },
+  "unique_libraries": 63,
+  "scientific_model_fits": 0,
+  "normalization_or_scores_recomputed": false,
+  "source_terms": {
+    "article": "https://doi.org/10.1038/s41467-026-73518-x",
+    "article_license": "CC-BY-NC-ND-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "article_reproduced": false,
+    "count_files_unmodified": true,
+    "notice": "Source-derived counts retain upstream provenance and terms; the original-code MIT grant does not relicense these data."
+  }
+}

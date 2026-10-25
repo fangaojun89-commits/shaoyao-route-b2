@@ -1,0 +1,9 @@
+# GSE277064 source inputs
+
+The three original GEO RSEM expected-count gzip files are preserved byte-for-byte. They contain the 63 submitted libraries used in the study: 45 natural-course and 18 trained libraries. Six natural-course D14 comparators are reused in the two trained-context designs, giving 69 library uses rather than 69 independent observations. Microglia have no trained branch.
+
+`geo_sample_titles.tsv` is a 63-row field-preserving projection of the retained GEO metadata. The already public `analysis/study_sources/metadata/samples.tsv` is reused unchanged; its 63 G277 rows match the original full ledger. `PROVENANCE.json` records originals, projections, exact identities and the official 63-sample/title catalogue comparison. Source `biological_unit_id` fields are historical identifiers, not independent authentication of animal lineage.
+
+Source accession: [GSE277064](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE277064). Associated article: Sato et al., [Scg2 drives corticospinal circuit reorganization with spinal premotor interneurons and astrocytes for motor recovery after stroke in mice](https://doi.org/10.1038/s41467-026-73518-x). The article identifies this accession and carries [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). No article text, images or supplementary article files are redistributed here. The count files are unchanged; their source provenance and applicable terms remain, and the repository's MIT grant does not relicense source-derived values. This study uses them for noncommercial academic research.
+
+Run the [original input/design preparation entry](../../analysis/g277_preparation/README.md). It stops before normalization, annotation rebuilding, scoring or fitting. Fractional expected counts remain fractional. No phenotype or new biological observation is created by these checks.

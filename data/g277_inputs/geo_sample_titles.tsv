@@ -1,0 +1,64 @@
+dataset_id	sample_order	sample_id	field	field_occurrence	value	source_file
+GSE277064	1	GSM8513372	Sample_title	1	V2a, Control, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	2	GSM8513373	Sample_title	1	V2a, Control, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	3	GSM8513374	Sample_title	1	V2a, Control, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	4	GSM8513375	Sample_title	1	V2a, Day 3, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	5	GSM8513376	Sample_title	1	V2a, Day 3, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	6	GSM8513377	Sample_title	1	V2a, Day 3, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	7	GSM8513378	Sample_title	1	V2a, Day 7, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	8	GSM8513379	Sample_title	1	V2a, Day 7, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	9	GSM8513380	Sample_title	1	V2a, Day 7, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	10	GSM8513381	Sample_title	1	V2a, Day 14, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	11	GSM8513382	Sample_title	1	V2a, Day 14, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	12	GSM8513383	Sample_title	1	V2a, Day 14, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	13	GSM8513384	Sample_title	1	V2a, Day 28, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	14	GSM8513385	Sample_title	1	V2a, Day 28, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	15	GSM8513386	Sample_title	1	V2a, Day 28, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	16	GSM8513387	Sample_title	1	Astrocyte, Control, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	17	GSM8513388	Sample_title	1	Astrocyte, Control, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	18	GSM8513389	Sample_title	1	Astrocyte, Control, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	19	GSM8513390	Sample_title	1	Astrocyte, Day 3, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	20	GSM8513391	Sample_title	1	Astrocyte, Day 3, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	21	GSM8513392	Sample_title	1	Astrocyte, Day 3, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	22	GSM8513393	Sample_title	1	Astrocyte, Day 7, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	23	GSM8513394	Sample_title	1	Astrocyte, Day 7, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	24	GSM8513395	Sample_title	1	Astrocyte, Day 7, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	25	GSM8513396	Sample_title	1	Astrocyte, Day 14, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	26	GSM8513397	Sample_title	1	Astrocyte, Day 14, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	27	GSM8513398	Sample_title	1	Astrocyte, Day 14, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	28	GSM8513399	Sample_title	1	Astrocyte, Day 28, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	29	GSM8513400	Sample_title	1	Astrocyte, Day 28, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	30	GSM8513401	Sample_title	1	Astrocyte, Day 28, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	31	GSM8513402	Sample_title	1	Microglia, Control, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	32	GSM8513403	Sample_title	1	Microglia, Control, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	33	GSM8513404	Sample_title	1	Microglia, Control, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	34	GSM8513405	Sample_title	1	Microglia, Day 3, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	35	GSM8513406	Sample_title	1	Microglia, Day 3, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	36	GSM8513407	Sample_title	1	Microglia, Day 3, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	37	GSM8513408	Sample_title	1	Microglia, Day 7, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	38	GSM8513409	Sample_title	1	Microglia, Day 7, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	39	GSM8513410	Sample_title	1	Microglia, Day 7, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	40	GSM8513411	Sample_title	1	Microglia, Day 14, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	41	GSM8513412	Sample_title	1	Microglia, Day 14, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	42	GSM8513413	Sample_title	1	Microglia, Day 14, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	43	GSM8513414	Sample_title	1	Microglia, Day 28, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	44	GSM8513415	Sample_title	1	Microglia, Day 28, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	45	GSM8513416	Sample_title	1	Microglia, Day 28, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	46	GSM8513417	Sample_title	1	V2a, 2 h, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	47	GSM8513418	Sample_title	1	V2a, 2 h, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	48	GSM8513419	Sample_title	1	V2a, 2 h, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	49	GSM8513420	Sample_title	1	V2a, 4 h, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	50	GSM8513421	Sample_title	1	V2a, 4 h, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	51	GSM8513422	Sample_title	1	V2a, 4 h, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	52	GSM8513423	Sample_title	1	V2a, 8 h, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	53	GSM8513424	Sample_title	1	V2a, 8 h, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	54	GSM8513425	Sample_title	1	V2a, 8 h, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	55	GSM8513426	Sample_title	1	Astrocyte, 2 h, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	56	GSM8513427	Sample_title	1	Astrocyte, 2 h, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	57	GSM8513428	Sample_title	1	Astrocyte, 2 h, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	58	GSM8513429	Sample_title	1	Astrocyte, 4 h, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	59	GSM8513430	Sample_title	1	Astrocyte, 4 h, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	60	GSM8513431	Sample_title	1	Astrocyte, 4 h, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	61	GSM8513432	Sample_title	1	Astrocyte, 8 h, rep1	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	62	GSM8513433	Sample_title	1	Astrocyte, 8 h, rep2	data/raw/GSE277064/GSE277064_series_matrix.txt.gz
+GSE277064	63	GSM8513434	Sample_title	1	Astrocyte, 8 h, rep3	data/raw/GSE277064/GSE277064_series_matrix.txt.gz

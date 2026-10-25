@@ -1,6 +1,6 @@
 {
-  "version": "0.15.0",
-  "scope": "ORIGINAL_ANCHOR_SAVED_OUTPUT_AND_GATE_READBACK_NOT_WHOLE_STUDY_RESTORE",
+  "version": "0.16.0",
+  "scope": "G277_ORIGINAL_INPUT_AND_PREFIT_DESIGN_CLOSURE_NOT_MODEL_REEXECUTION",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -969,12 +969,12 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 13034,
-      "sha256": "694b0007a01944af13cbfd2599dc28004971f20fa6c682874912d473b84eb291"
+      "bytes": 13795,
+      "sha256": "8054f0c534235a5ad95775478aa14e4ac15f6d1686b74d608a0fdfdd84b33769"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 2554,
-      "sha256": "47e1a73534b77387f53baa60b1f5ca1df69a8b18ba8077e100323612f1a2e8be"
+      "bytes": 2964,
+      "sha256": "3cdf92681c7b7e23271b7ac170d0b8549b07aa94231396e126eddb67b68c468f"
     },
     "data/count_inputs/GSE128623/adapter/complete29_sensitivity/counts/complete29_selected.tsv.gz": {
       "bytes": 1248126,
@@ -1283,6 +1283,42 @@
     "pipeline/anchor_saved.py": {
       "bytes": 13120,
       "sha256": "84aff68cfca56b27e464a7e14a9b45dd3c42baffc66e13752516d3581d4e2681"
+    },
+    "analysis/g277_preparation/prepare.R": {
+      "bytes": 6306,
+      "sha256": "537ecbe09752bc0a6c918d05c3343b5800024a0e0261c3407c9a266e981b914b"
+    },
+    "analysis/g277_preparation/README.md": {
+      "bytes": 2107,
+      "sha256": "1fdfab4f1f37ad0fb9cc126e169c7f922a3f86243a961406d699c14f1f0929f7"
+    },
+    "data/g277_inputs/geo_sample_titles.tsv": {
+      "bytes": 6978,
+      "sha256": "d58df9d74f58f07416477ddc0a85d8a92ad5bae731954827632be9f419fad728"
+    },
+    "data/g277_inputs/GSE277064_Aldh1l1.txt.gz": {
+      "bytes": 1026610,
+      "sha256": "1acb5e4ae93a84ff5dd7f6ae3167c83236c2f82a2039830871edc625183a2a1e"
+    },
+    "data/g277_inputs/GSE277064_Chx10.txt.gz": {
+      "bytes": 1120083,
+      "sha256": "341f0cc8498db3df8ddb7440fc36d0cdd10c7089c41694410384ca95e11ce298"
+    },
+    "data/g277_inputs/GSE277064_Cx3cr1.txt.gz": {
+      "bytes": 734677,
+      "sha256": "79680cd5d68229ee14661604904c8971972041335329877e46fbd253b93980eb"
+    },
+    "data/g277_inputs/PROVENANCE.json": {
+      "bytes": 4179,
+      "sha256": "fbd9d62025e008f171eb7cd3270d2b3fb13cec7f84fcba629d6388a9a3234f80"
+    },
+    "data/g277_inputs/README.md": {
+      "bytes": 1871,
+      "sha256": "5fe4aa4a3fff1e1cffbafbb4ac0edbaa23bee027407667e941ba009ba6c9798e"
+    },
+    "pipeline/prepare_g277_inputs.py": {
+      "bytes": 3896,
+      "sha256": "eb61d00b16a313f1d7a1270c9c8c8421a335b93a130588f0f64abed3f9e97b83"
     }
   },
   "real_data_models_run": 0,
