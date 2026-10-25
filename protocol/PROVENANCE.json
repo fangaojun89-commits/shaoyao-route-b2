@@ -1,0 +1,151 @@
+{
+  "prepared_date_local": "2026-10-24",
+  "timezone": "America/Tijuana",
+  "publication_utc_may_be": "2026-10-25",
+  "scope": "RETROSPECTIVE_SELECTED_MAJOR_DECISIONS_NOT_PREREGISTRATION",
+  "unchanged_historical_copies": [
+    {
+      "path": "historical/original_research_plan.md",
+      "local_source": "../纯计算研究计划与论文大纲_2026-08-17.md",
+      "role": "Original broad research plan; includes work not executed and conditional modules.",
+      "bytes": 25201,
+      "sha256": "4325f81f664ebd6fa2b9c66664fa7f53e1e45871e6e19e915dce9f61f16dd6a7"
+    },
+    {
+      "path": "historical/protocol.md",
+      "local_source": "protocol/protocol.md",
+      "role": "Historical internal protocol; not a current execution specification.",
+      "bytes": 12560,
+      "sha256": "b3b92b8a8f5b1b3e0d950fb999c60ef5a8c94a7d3d5fc69591b3d4e5e8014213"
+    },
+    {
+      "path": "historical/statistical_analysis_plan.md",
+      "local_source": "protocol/statistical_analysis_plan.md",
+      "role": "Version-consolidated historical SAP; its prospective-lock and held-out wording is qualified by the chronology audit.",
+      "bytes": 25148,
+      "sha256": "c46c086cbba963436fc48cc88f77028713cb305f9e9bff327314fe6eb24e0b82"
+    },
+    {
+      "path": "historical/claims_and_evidence.md",
+      "local_source": "protocol/claims_and_evidence.md",
+      "role": "Historical claim ontology, including E1-E6 evidence classes; not the sequential E1-E4 gate namespace.",
+      "bytes": 16943,
+      "sha256": "b46962654cfcad0ba885dbe1ab2072ae2d2999727e6938091667d5a623331557"
+    },
+    {
+      "path": "historical/deviations.md",
+      "local_source": "protocol/deviations.md",
+      "role": "Retained early amendment log ending 29 August; not a complete October execution history.",
+      "bytes": 34515,
+      "sha256": "2342bd06bf1dd8ccb348e26f66401007c6f398c897c95a864dc5948c055ab1f5"
+    },
+    {
+      "path": "historical/chronology_audit.md",
+      "local_source": "protocol/analysis_chronology_and_registration_status.md",
+      "role": "Historical audit of the 18 August snapshot; current public availability and no-rerun decision supersede its future remediation instructions.",
+      "bytes": 16442,
+      "sha256": "6259a6d8be6fbd616dbc34bc05ba27d63689ff1f17fa4a4cd26cf6ff3633b1ee"
+    },
+    {
+      "path": "historical/chronology_events.tsv",
+      "local_source": "provenance/analysis_chronology.tsv",
+      "role": "Historical event ledger. Embedded current_sha256 values describe that audit, not necessarily current files.",
+      "bytes": 20129,
+      "sha256": "e132a14cf1a538f56c9efb69ea884c8068ce083d878be197546ed9aa288178a4"
+    },
+    {
+      "path": "historical/master_gate_summary.tsv",
+      "local_source": "results/master_gates/master_gate_summary.tsv",
+      "role": "Retained post-outcome gate adjudication. Column name prospective_rule does not establish prospective registration.",
+      "bytes": 6060,
+      "sha256": "faa4180715f0d536c992424a694d85be801bda935375f7699f759a0e346d6a47"
+    }
+  ],
+  "local_supporting_evidence": {
+    "article_v27": {
+      "local_source": "manuscript/Route_B2_scientific_article_en_20261024_condensed_v27_r01.md",
+      "bytes": 84319,
+      "sha256": "1d7834aab3ce81485f1e541e48faef769794b5ba54a7bb72dc00b24105be5faf",
+      "redistributed": false
+    },
+    "reference_successor": {
+      "local_source": "protocol/GSE205906_Rnor6_Ensembl101_SOURCE_SAP_successor_proposal_20261005.md",
+      "bytes": 13265,
+      "sha256": "5e01207369928eeb6fda43d9142a94d3db1b2a9d10e35300f93095c113e985bf",
+      "redistributed": false
+    },
+    "public_evidence_decision": {
+      "local_source": "protocol/GSE205906_PUBLIC_EVIDENCE_CONTINUATION_DECISION_20261003.md",
+      "bytes": 19125,
+      "sha256": "0b6d150f2a610d248436dcc1a1a7fd9bf7067f8696eefccbadb74615c350e02e",
+      "redistributed": false
+    },
+    "matched_alignment": {
+      "local_source": "manuscript/supplement/Route_B2_GSE205906_matched_alignment_addendum_20261022.md",
+      "bytes": 5614,
+      "sha256": "63bbada17d7fe457a88e679c877ece65c6a78bd91565e1c14840b67ea42be2f7",
+      "redistributed": false
+    },
+    "g128_reference_plan": {
+      "local_source": "protocol/GSE128623_FULL_LABEL_REFERENCE_EXECUTION_PROPOSAL_20261015.md",
+      "bytes": 16149,
+      "sha256": "15fec7caee23ac4eeb12af6a7363c5590aa14a001300a8686aa203be3b5096b4",
+      "redistributed": false
+    },
+    "jgw_linux_revision": {
+      "local_source": "protocol/JGW03_LINUX_NATIVE_COMPATIBILITY_REVISION_PROPOSAL_20261017.md",
+      "bytes": 9430,
+      "sha256": "5c06cb8e054c4b2e3a261c2250944c09939d6b6851a65043222ac2360de3aff8",
+      "redistributed": false
+    },
+    "jgw_linux_results": {
+      "local_source": "manuscript/supplement/Route_B2_JGW03_Linux_reference_results_20261023.md",
+      "bytes": 6839,
+      "sha256": "c54177406506f864a77602f557ebb03a2669db8343b9cee609bafa5530668b66",
+      "redistributed": false
+    },
+    "g277_reporting_plan": {
+      "local_source": "protocol/GSE277064_NON_V9_REPORTING_PROJECTION_PROPOSAL_20260913.md",
+      "bytes": 19080,
+      "sha256": "dab2e07336285cd19cf21958e1d49fc41eff6f27d30a5a523d0e4f8ac55dce0f",
+      "redistributed": false
+    },
+    "g277_method_plan": {
+      "local_source": "protocol/GSE277064_PRESET_GENE_METHOD_SENSITIVITY_PROPOSAL_20261013.md",
+      "bytes": 9407,
+      "sha256": "12ca8ee4220cb2ac9584f9deec351c280090848a3082e7832326ae1f69c20e92",
+      "redistributed": false
+    },
+    "phenotype_update": {
+      "local_source": "manuscript/supplement/Route_B2_independent_phenotype_evidence_update_20261024.md",
+      "bytes": 8794,
+      "sha256": "0308d51e82edcb6f4235d66c8a4d51ec1fd3ddb259b709d5b5ec1f140f79037f",
+      "redistributed": false
+    },
+    "current_quantitative_review": {
+      "local_source": "results/diagnostics/V26_CURRENT_QUANTITATIVE_REVIEW_20261024.md",
+      "bytes": 3081,
+      "sha256": "2b7e492447ac2a85b8466b46aef6219282bcdc37bb552303d6a3196892a044d3",
+      "redistributed": false
+    },
+    "current_methods_review": {
+      "local_source": "results/diagnostics/V27_METHODS_SUPPLEMENT_REVIEW_20261024.md",
+      "bytes": 4903,
+      "sha256": "8c516e20c6fc175d08174959008b35b721e3daced48fa65b8045989bfc090d01",
+      "redistributed": false
+    },
+    "public_release_verification": {
+      "local_source": "results/diagnostics/PUBLIC_G277_EXECUTION_DOWNLOAD_VERIFICATION_20261024.json",
+      "bytes": 892,
+      "sha256": "62964d9d2138824561c6d847e35678fa4274739a301dd2a8c1fcd67441313baf",
+      "redistributed": false
+    }
+  },
+  "article_docx": {
+    "bytes": 3099463,
+    "sha256": "d9acd4b2c55b33943c91f5daa5bed6b2ca2a522d3669a8955a6cb11a0aaa1934"
+  },
+  "original_files_modified": false,
+  "models_executed": false,
+  "note": "Hashes identify retained bytes; they do not authenticate historical pre-outcome timing. Local source paths are provenance references, not public download links."
+}

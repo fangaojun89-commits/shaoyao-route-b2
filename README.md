@@ -1,5 +1,7 @@
 # Shaoyao Route B2: reproducibility components
 
+Version 0.19.0 publishes the retained protocol/SAP and a [22-item retrospective original-plan/current-method crosswalk](protocol/README.md). It discloses major amendments, unfulfilled broad-plan items, candidate-gate stopping and chronology limits. This is a documentation release: no completed analysis or scientific payload is changed.
+
 Version 0.18.0 adds an explicit five-stage GSE277064 primary execution entry and a tested saved-result reporting mode. The latter reuses accepted outputs without fitting and reproduces all 24 approved gene-table projections, omitting only the three superseded uncertainty columns. Previously missing summary, validator and historical template dependencies are now supplied with distinct provenance. [Commands, current reporting rule and tested scope](analysis/g277_execution/README.md). Full production execution is available for an intentional future reproduction; it was not run for this release.
 
 Version 0.17.0 connects GSE277064 retained preprocessing to original annotation/resource/input consumers. Five saved input views preserve counts, masks, normalization metadata and existing voom inputs, without fitted results, scores or network memberships. The command reuses v0.16.0 preparation and the verified resource build. No completed fit, score, filtering or normalization is repeated. [Command and scope](analysis/g277_saved_inputs/README.md).

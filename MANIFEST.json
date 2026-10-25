@@ -1,6 +1,6 @@
 {
-  "version": "0.18.0",
-  "scope": "G277_EXPLICIT_PRIMARY_EXECUTION_ENTRY_AND_ACCEPTED_RESULT_REPORTING_NO_PRODUCTION_REFIT",
+  "version": "0.19.0",
+  "scope": "RETROSPECTIVE_PROTOCOL_AND_MAJOR_METHOD_CONCORDANCE_NO_ANALYSIS_RERUN",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -969,8 +969,8 @@
       "sha256": "0bc6c0c91d7592ecd8588a9baa8889ec394df9002a67f159ccb23e7a9335452a"
     },
     "README.md": {
-      "bytes": 15417,
-      "sha256": "c020fcde4531ea3993cefd6259e408f9e14e0d371507a68c77e7180439aafed9"
+      "bytes": 15756,
+      "sha256": "a7e853ef5865616ff9841236d8a71a602fa075bf66e44bef54c6191181e64079"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 3345,
@@ -1399,6 +1399,50 @@
     "pipeline/g277_model.py": {
       "bytes": 12469,
       "sha256": "26e4b5ab335a38684c517d84acff18a12877d81f9d1955b01fc2803b32fefd7e"
+    },
+    "protocol/CROSSWALK.tsv": {
+      "bytes": 12739,
+      "sha256": "17c71932c572dcfde5e5417e1e46cd418fa62283babe7d46fe94c93febf89a6b"
+    },
+    "protocol/PROVENANCE.json": {
+      "bytes": 6915,
+      "sha256": "926220e864a7fa8ecd3841687eeec23a37a4c0dabbbda884854db50cbb8f1a89"
+    },
+    "protocol/README.md": {
+      "bytes": 6914,
+      "sha256": "045716518eb7034d5c6d3fcfe13fcffc01d44515f588141c2af87b38a7064f64"
+    },
+    "protocol/historical/chronology_audit.md": {
+      "bytes": 16442,
+      "sha256": "6259a6d8be6fbd616dbc34bc05ba27d63689ff1f17fa4a4cd26cf6ff3633b1ee"
+    },
+    "protocol/historical/chronology_events.tsv": {
+      "bytes": 20129,
+      "sha256": "e132a14cf1a538f56c9efb69ea884c8068ce083d878be197546ed9aa288178a4"
+    },
+    "protocol/historical/claims_and_evidence.md": {
+      "bytes": 16943,
+      "sha256": "b46962654cfcad0ba885dbe1ab2072ae2d2999727e6938091667d5a623331557"
+    },
+    "protocol/historical/deviations.md": {
+      "bytes": 34515,
+      "sha256": "2342bd06bf1dd8ccb348e26f66401007c6f398c897c95a864dc5948c055ab1f5"
+    },
+    "protocol/historical/master_gate_summary.tsv": {
+      "bytes": 6060,
+      "sha256": "faa4180715f0d536c992424a694d85be801bda935375f7699f759a0e346d6a47"
+    },
+    "protocol/historical/original_research_plan.md": {
+      "bytes": 25201,
+      "sha256": "4325f81f664ebd6fa2b9c66664fa7f53e1e45871e6e19e915dce9f61f16dd6a7"
+    },
+    "protocol/historical/protocol.md": {
+      "bytes": 12560,
+      "sha256": "b3b92b8a8f5b1b3e0d950fb999c60ef5a8c94a7d3d5fc69591b3d4e5e8014213"
+    },
+    "protocol/historical/statistical_analysis_plan.md": {
+      "bytes": 25148,
+      "sha256": "c46c086cbba963436fc48cc88f77028713cb305f9e9bff327314fe6eb24e0b82"
     }
   },
   "real_data_models_run": 0,
