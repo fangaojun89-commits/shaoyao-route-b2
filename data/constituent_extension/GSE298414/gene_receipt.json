@@ -1,0 +1,10 @@
+{
+  "status": "GENE_PRIMARY_AND_PLANNED_OMISSION_COMPLETE_REVIEW_PENDING",
+  "libraries": 126,
+  "conditions": 42,
+  "new_contrasts": 60,
+  "primary_genes": 13898,
+  "planned_omission": "GSM9013891",
+  "prior_36_contrasts_rerun": false,
+  "candidate_gate_changes": 0
+}

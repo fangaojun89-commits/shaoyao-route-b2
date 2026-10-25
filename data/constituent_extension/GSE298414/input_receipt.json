@@ -1,0 +1,768 @@
+{
+  "status": "INPUTS_SELECTED",
+  "libraries": 126,
+  "conditions": 42,
+  "reused_rsem_files": 72,
+  "newly_unpacked_rsem_files": 54,
+  "new_contrasts": 60,
+  "prior_contrast_overlap": 0,
+  "source_ledger_sha256": "94afecad7ced80f834d5885e529daee16f701a26ebf245f4180dd4df02c65333",
+  "members": [
+    {
+      "sample_id": "GSM9013813",
+      "member": "GSM9013813_2-1-1.STAR.RSEM.genes.results.gz",
+      "sha256": "060d6d48ed67f164df65fdd0d91c7a599fbb553e36ffc713e81748b5606a0d4c",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013814",
+      "member": "GSM9013814_2-1-2.STAR.RSEM.genes.results.gz",
+      "sha256": "284e770143fd13c60488d4f376b3bd5110466010271cd0233371389800db0ee4",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013815",
+      "member": "GSM9013815_2-1-3.STAR.RSEM.genes.results.gz",
+      "sha256": "a1552d8bf9976edb2f4367ec9f910ce24c1aa5b8e180c336d463a0115f071097",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013816",
+      "member": "GSM9013816_2-1-4.STAR.RSEM.genes.results.gz",
+      "sha256": "7ea2e1b1b435d20bce95cfc185575c92282169627338e66df104b0783a6fc513",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013817",
+      "member": "GSM9013817_2-1-5.STAR.RSEM.genes.results.gz",
+      "sha256": "cc105b7cc0885ab2f644582cd5bb3e013f13146a366fb7b8f58ad82f5888691a",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013818",
+      "member": "GSM9013818_2-1-6.STAR.RSEM.genes.results.gz",
+      "sha256": "f84a397b85c351d6846620b9ea5b3b431f60f3eae7c0b84e226e4e146a16fcff",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013819",
+      "member": "GSM9013819_2-2-1.STAR.RSEM.genes.results.gz",
+      "sha256": "59c50428dddd86d38040766822f3361d6ecf97ea233c546414a41f7ea75c84ff",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013820",
+      "member": "GSM9013820_2-2-2.STAR.RSEM.genes.results.gz",
+      "sha256": "72b2bd0342982143f91b032e0c95cd672fb6f724fa507d238d28251b1982eec1",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013821",
+      "member": "GSM9013821_2-2-3.STAR.RSEM.genes.results.gz",
+      "sha256": "13cb7b29e00d18931e5f00f78cda686bf0fed90f7cdd394afd63271a7df8e931",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013822",
+      "member": "GSM9013822_2-2-4.STAR.RSEM.genes.results.gz",
+      "sha256": "0c0e404afa20be1e42f824b02b4ee4469b2b1d0dc835b8144ff709ee62531a18",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013823",
+      "member": "GSM9013823_2-2-5.STAR.RSEM.genes.results.gz",
+      "sha256": "aa87ef6084305d7786782dd6601071922a876b806a5cf79d1bb545b703b54932",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013824",
+      "member": "GSM9013824_2-2-6.STAR.RSEM.genes.results.gz",
+      "sha256": "3ab74ebf3ccc9e51b8db3cd220971e4f6bef388f1cfbbfc2dc6c6ce42f99fa6b",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013825",
+      "member": "GSM9013825_2-3-1.STAR.RSEM.genes.results.gz",
+      "sha256": "3f5f7fe9ae1bfeecd63808ea27e4762794d8dc6de65624554edc22ae6c2eff2b",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013826",
+      "member": "GSM9013826_2-3-2.STAR.RSEM.genes.results.gz",
+      "sha256": "dfa1d52947a7bf0d3e0dd04feeef54a1b51ceaaec6c390e1156e66b3fbfd613c",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013827",
+      "member": "GSM9013827_2-3-3.STAR.RSEM.genes.results.gz",
+      "sha256": "c058bd3a9c260a7fb732ca4c3f39cce2be98bf017b1de3426a419a9f70232b64",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013828",
+      "member": "GSM9013828_2-3-4.STAR.RSEM.genes.results.gz",
+      "sha256": "601ed0b1d8cb03b487fc0bd5a6aae7a947d0c51c66fe530859e845481f350e42",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013829",
+      "member": "GSM9013829_2-3-5.STAR.RSEM.genes.results.gz",
+      "sha256": "898b3187cd0fe10da5e6c7b9c46427b2b6a27589022fcb2c748d2e2e0267b947",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013830",
+      "member": "GSM9013830_2-3-6.STAR.RSEM.genes.results.gz",
+      "sha256": "23223fe08baafc612bd070181ebed2a468d76c7170d8c5aee2657e2b282d79ef",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013831",
+      "member": "GSM9013831_3-1-4.STAR.RSEM.genes.results.gz",
+      "sha256": "9ccf4c89c2fd110c8362082d3f41542879c0079a03332b8b5cc6791c5bb5e9c2",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013832",
+      "member": "GSM9013832_3-1-5.STAR.RSEM.genes.results.gz",
+      "sha256": "337b7a689002bcac9c201dd901f2f7e2b75f7e761364c541989f5fc00a04665d",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013833",
+      "member": "GSM9013833_3-1-6.STAR.RSEM.genes.results.gz",
+      "sha256": "acc4e3fe79c568d84caf8b7e2c774c1495df84dcab6bdd0f8d52a3749c1e35e9",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013834",
+      "member": "GSM9013834_3-2-4.STAR.RSEM.genes.results.gz",
+      "sha256": "a89b06db6ef87583fa9c2086d0148c45ba6829225498592b26bfa24b60f35cad",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013835",
+      "member": "GSM9013835_3-2-5.STAR.RSEM.genes.results.gz",
+      "sha256": "3d6e30e836fec0302531fea993debf98b95ef51e196a01aafcdb12979e0b8c7b",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013836",
+      "member": "GSM9013836_3-2-6.STAR.RSEM.genes.results.gz",
+      "sha256": "af5479e3de56cb30946dc1694852328e5fd54367a58d5489b225ae528a4cc397",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013837",
+      "member": "GSM9013837_3-3-4.STAR.RSEM.genes.results.gz",
+      "sha256": "4350ba5b2244ca63082b8a4db5bb0a1c395c0960f3a56a33c2b6bb6ba9c6533e",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013838",
+      "member": "GSM9013838_3-3-5.STAR.RSEM.genes.results.gz",
+      "sha256": "709b9a5cf7770fd33d70a1e1536f9033bf0b1d903276b0c86ba7ab7c4f913b4f",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013839",
+      "member": "GSM9013839_3-3-6.STAR.RSEM.genes.results.gz",
+      "sha256": "0ce58f19fa1ca9f9e4ea2dda302e5d18b371908c9d191515a9da538d8fc86d39",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013840",
+      "member": "GSM9013840_4-1-1.STAR.RSEM.genes.results.gz",
+      "sha256": "ab2818ffe7871442dcd59225ceb20b10f7352f0aeaf6945fbf63a17aed85c89f",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013841",
+      "member": "GSM9013841_4-1-2.STAR.RSEM.genes.results.gz",
+      "sha256": "9b8f35e58c5791398f6bcb3599ff9a71ff7da122db6046c17670e0389200833c",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013842",
+      "member": "GSM9013842_4-1-3.STAR.RSEM.genes.results.gz",
+      "sha256": "711129c8e83622f4ca5f4155f8013bf29a62a5c187b14ae4a7bfde4ec979b364",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013843",
+      "member": "GSM9013843_4-1-4.STAR.RSEM.genes.results.gz",
+      "sha256": "bd80166ac3e8ab7a748b0a15be8534f9ebf64cd117dc1de819a8e3bf5c8e678b",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013844",
+      "member": "GSM9013844_4-1-5.STAR.RSEM.genes.results.gz",
+      "sha256": "f316ed35bcb34574698fa64f706d68dff24997e7f0bd1d6fc9c761958f719aba",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013845",
+      "member": "GSM9013845_4-1-6.STAR.RSEM.genes.results.gz",
+      "sha256": "4c196ccc4b8934df2db627decceb938ee12db75322ab02b714732cc18264ab6d",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013846",
+      "member": "GSM9013846_4-2-1.STAR.RSEM.genes.results.gz",
+      "sha256": "4b7b1671cf08ad827596082821598d577ea353202129d55782edf83e44835f65",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013847",
+      "member": "GSM9013847_4-2-2.STAR.RSEM.genes.results.gz",
+      "sha256": "c4342654bab5adf507584eeb350ef49615bb9e9fe4c85925fccbed3fa4e50bee",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013848",
+      "member": "GSM9013848_4-2-3.STAR.RSEM.genes.results.gz",
+      "sha256": "eb7087f370f82f71668c3553de3fc31d446649b789744cc5ddf3b619046a7935",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013849",
+      "member": "GSM9013849_4-2-4.STAR.RSEM.genes.results.gz",
+      "sha256": "5714ddd8a034e69478484a07729caa38bc3b864e4aad31efa2a0352ea30593d5",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013850",
+      "member": "GSM9013850_4-2-5.STAR.RSEM.genes.results.gz",
+      "sha256": "ef1996a04bf9c57722c79267ab88c71ea88ed0c57b07adaec6a0d2930e67a61a",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013851",
+      "member": "GSM9013851_4-2-6.STAR.RSEM.genes.results.gz",
+      "sha256": "4f552aeae14cbf061629485282e764bc2987d270526dc66d45dc4815b09c494f",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013852",
+      "member": "GSM9013852_4-3-1.STAR.RSEM.genes.results.gz",
+      "sha256": "09d476a907cabb4f8fa6fa0056b068b31d2882c9257ba9dbee37b0c62b412f15",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013853",
+      "member": "GSM9013853_4-3-2.STAR.RSEM.genes.results.gz",
+      "sha256": "0a031899b093b9765596db54cfbbdac5264254db5ddaa886825d1dcc80c687b5",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013854",
+      "member": "GSM9013854_4-3-3.STAR.RSEM.genes.results.gz",
+      "sha256": "467569a1d356b8d96cf30922fce2364b13cdd6ade045e9d04ab22dc3d6652797",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013855",
+      "member": "GSM9013855_4-3-4.STAR.RSEM.genes.results.gz",
+      "sha256": "0a333c867ad8a33dbdf6c518e8bee04f5b5a67d4dc1100dbd993e2c4440a51a8",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013856",
+      "member": "GSM9013856_4-3-5.STAR.RSEM.genes.results.gz",
+      "sha256": "f83c7b1b92efb9ceef21852ecf5860b327f273cb8c93d287e12248d0eadc56d5",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013857",
+      "member": "GSM9013857_4-3-6.STAR.RSEM.genes.results.gz",
+      "sha256": "786bfb3e7fc4caf6f55f72cc873c558db78c87b10f3f94e43bd1170db87459cc",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013858",
+      "member": "GSM9013858_5-1-1.STAR.RSEM.genes.results.gz",
+      "sha256": "c4fa2c12ff5653ecc8807a1d95baa4d95c53dc677fc3116ad0bbe3f9f7ba40e5",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013859",
+      "member": "GSM9013859_5-1-2.STAR.RSEM.genes.results.gz",
+      "sha256": "7c9a41883c29a9340608646d62dc874f35a098f42e37be6cefc219b096950c8a",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013860",
+      "member": "GSM9013860_5-1-3.STAR.RSEM.genes.results.gz",
+      "sha256": "5fbbb53c226c5600bf1fa48c81c8aea1b9abcf64049715e18c4a72b2bc9f05b8",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013861",
+      "member": "GSM9013861_5-1-4.STAR.RSEM.genes.results.gz",
+      "sha256": "99dbb78cbeb834cc5eb8df9d4e05c92af68a7665c2e752d1d72f25af41b1364f",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013862",
+      "member": "GSM9013862_5-1-5.STAR.RSEM.genes.results.gz",
+      "sha256": "58c681e3bbec0d30bbc60fd6b2020cc0360aa7c2f95263e92bbd2d8429edcd26",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013863",
+      "member": "GSM9013863_5-1-6.STAR.RSEM.genes.results.gz",
+      "sha256": "19dc0a94e17af6f966182812c83a359d24264fb1accbac372fa5e67f5523b93c",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013864",
+      "member": "GSM9013864_5-2-1.STAR.RSEM.genes.results.gz",
+      "sha256": "ecb8fec3589485ce4c5db79de496fc34a1ba4a8f19712dc1ed95c3af449320f0",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013865",
+      "member": "GSM9013865_5-2-2.STAR.RSEM.genes.results.gz",
+      "sha256": "f788253bad3311e00a153c3e44f228f3442d4a9c0793db74e33b06ea8b391d66",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013866",
+      "member": "GSM9013866_5-2-3.STAR.RSEM.genes.results.gz",
+      "sha256": "d9e3f2c72db90111274e2b53a06873ed6b987be300fbbfa6fb14d1ef2a59533c",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013867",
+      "member": "GSM9013867_5-2-4.STAR.RSEM.genes.results.gz",
+      "sha256": "1411c8e4633bf4ee88239a6f3963bfc09668bfbf15720a2d1b05b2c634ca75b5",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013868",
+      "member": "GSM9013868_5-2-5.STAR.RSEM.genes.results.gz",
+      "sha256": "e77521bb9e55cf8fbbb6bac0c1ec007785ea92ededfbd8d935934604d2ca4b40",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013869",
+      "member": "GSM9013869_5-2-6.STAR.RSEM.genes.results.gz",
+      "sha256": "c46b19b2fba77287973fd265b2d9378c57965b7fe31a530cd118be518b1ddc33",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013870",
+      "member": "GSM9013870_5-3-1.STAR.RSEM.genes.results.gz",
+      "sha256": "1e1a13f254231f88b49be0fc7b44216ee55645c5e45057789cf6a330e89da60a",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013871",
+      "member": "GSM9013871_5-3-2.STAR.RSEM.genes.results.gz",
+      "sha256": "8b88f8117f5609edd9f4b3970d37ab7279d967dcc7cc2c5991cfc590d412d92e",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013872",
+      "member": "GSM9013872_5-3-3.STAR.RSEM.genes.results.gz",
+      "sha256": "f6292a28ff59d9cfe56f11739e591aa3528d87937f224607cb65da93b4637aa5",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013873",
+      "member": "GSM9013873_5-3-4.STAR.RSEM.genes.results.gz",
+      "sha256": "2999979e92088c37aa1c7e0ea62c03d272628ffecc48ad2c937fd7c63d46f3d3",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013874",
+      "member": "GSM9013874_5-3-5.STAR.RSEM.genes.results.gz",
+      "sha256": "17e155324ff731f72ffc84381cc585264960a56214eb11ccf46340434dcfd48a",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013875",
+      "member": "GSM9013875_5-3-6.STAR.RSEM.genes.results.gz",
+      "sha256": "1e17386f1ee53de58a524da15ee4f4dcc10dedc4ecf702857fe24fd09c6e5cac",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013876",
+      "member": "GSM9013876_6-1-1.STAR.RSEM.genes.results.gz",
+      "sha256": "86e988cf4b934a01221ddcabe02ceb0f032bc8c8ffe4f4934fb9c1388df6f705",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013877",
+      "member": "GSM9013877_6-1-2.STAR.RSEM.genes.results.gz",
+      "sha256": "0f275d01a7e47f7609a55155d04bf0931aaa90cc7731e84be9b2292d22c708a3",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013878",
+      "member": "GSM9013878_6-1-3.STAR.RSEM.genes.results.gz",
+      "sha256": "a4b7de6f438455a1f3bbd98bbe6380e553926774628f51639e779fc4f02cf72c",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013879",
+      "member": "GSM9013879_6-1-4.STAR.RSEM.genes.results.gz",
+      "sha256": "f5d73f7814bdf95f8bdf5edc9f454d1b23a866fc4fc09452cd390fc4ed51e600",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013880",
+      "member": "GSM9013880_6-1-5.STAR.RSEM.genes.results.gz",
+      "sha256": "84ac3052812faa3f44352c367dd19e983287760059650eeeecdbc9395be1c714",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013881",
+      "member": "GSM9013881_6-1-6.STAR.RSEM.genes.results.gz",
+      "sha256": "4dfb7337687f5df7ab47c45eafff48397189d75a4b29f25c77544176affa657f",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013882",
+      "member": "GSM9013882_6-2-1.STAR.RSEM.genes.results.gz",
+      "sha256": "68a8b6fff8bf7457060b3d257078ef86f9717879e5f66afec5c69e763b40750a",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013883",
+      "member": "GSM9013883_6-2-2.STAR.RSEM.genes.results.gz",
+      "sha256": "9105925b91599cea8719bf20fbe11b010be4dc05d3023ee55a1085b27ea5d918",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013884",
+      "member": "GSM9013884_6-2-3.STAR.RSEM.genes.results.gz",
+      "sha256": "931bd6ce126788fb973ad7050256c5a4f9b3d7cb27fc479500e58569d90e8224",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013885",
+      "member": "GSM9013885_6-2-4.STAR.RSEM.genes.results.gz",
+      "sha256": "0498fd9a639f42430179fad8729a95852ee82db13382e210012aeb470bdefc2d",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013886",
+      "member": "GSM9013886_6-2-5.STAR.RSEM.genes.results.gz",
+      "sha256": "449eb047ae2d2374d45b936ebfceb8b80f33d2ceb8a9fd0743d32cfea7534d06",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013887",
+      "member": "GSM9013887_6-2-6.STAR.RSEM.genes.results.gz",
+      "sha256": "c14ebf25b10cc12cee1120920f5c7bb4e7d0365800cf233ce7af375411d80bf5",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013888",
+      "member": "GSM9013888_6-3-1.STAR.RSEM.genes.results.gz",
+      "sha256": "33c05c41a51e9369ddf016d944e23c763e22f5f42000ac86796da4d688fe8c36",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013889",
+      "member": "GSM9013889_6-3-2.STAR.RSEM.genes.results.gz",
+      "sha256": "650c16bf763dab46b0a34d066980e9b698c6a9f95f739dc70fcb0aaa65f269ea",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013890",
+      "member": "GSM9013890_6-3-3.STAR.RSEM.genes.results.gz",
+      "sha256": "fc7fdabf201a861d7542c0d038fb5f7e62f1ead3f3e0cae14a5ffe97db63095e",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013891",
+      "member": "GSM9013891_6-3-4.STAR.RSEM.genes.results.gz",
+      "sha256": "b36d1a717c2251f0ca53b1b9fd07808a893d61a7590ec97825fe82aa43e5805c",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013892",
+      "member": "GSM9013892_6-3-5.STAR.RSEM.genes.results.gz",
+      "sha256": "0d5bf62764ae6a5c2a6c2b16d1575bcd26203ce20e71c0714e27757d0a5dfeac",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013893",
+      "member": "GSM9013893_6-3-6.STAR.RSEM.genes.results.gz",
+      "sha256": "9d23a6da720b49cbbcdea07d87ccf3020f52f3f7bd23f77796c7942d7f4f7e7b",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013894",
+      "member": "GSM9013894_7-1-4.STAR.RSEM.genes.results.gz",
+      "sha256": "9c5b4838e2b9d849317448f727f16177dc3c36e81be6cd07f195f0a2f493657e",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013895",
+      "member": "GSM9013895_7-1-5.STAR.RSEM.genes.results.gz",
+      "sha256": "41623217f1a9cab233be330f70cb6db04a51f793e4d0697fc38acbddba77ae13",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013896",
+      "member": "GSM9013896_7-1-6.STAR.RSEM.genes.results.gz",
+      "sha256": "32079de5a3e994bb3acabae66acdbf1a59a0399eb4e9d3bcd062c1fa71581302",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013897",
+      "member": "GSM9013897_7-2-4.STAR.RSEM.genes.results.gz",
+      "sha256": "0cd23ff5cd496400f02582445a536d86b7d1090c2b0692c4e5f817f04d17c52a",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013898",
+      "member": "GSM9013898_7-2-5.STAR.RSEM.genes.results.gz",
+      "sha256": "8612543bb08edd61bd8bd842b949cf5accdcbbbdd5181ec2ac08f0753ddc0ede",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013899",
+      "member": "GSM9013899_7-2-6.STAR.RSEM.genes.results.gz",
+      "sha256": "4f900b3100116467b05d37a760bc72232c9d5bd28a566d1b56442ca9e67b2e6a",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013900",
+      "member": "GSM9013900_7-3-4.STAR.RSEM.genes.results.gz",
+      "sha256": "6d10ec6eac83a0057faaf1fb2bad2b12f9904d478caff4e65f8b1c405e1b6bbb",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013901",
+      "member": "GSM9013901_7-3-5.STAR.RSEM.genes.results.gz",
+      "sha256": "3c636972444d70b987d1448c26eacd8357aff632210b804bc4708aa335670b08",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013902",
+      "member": "GSM9013902_7-3-6.STAR.RSEM.genes.results.gz",
+      "sha256": "b98f11c8418cd9acc9331d1dcfd24b7b9ce06a3a76ff73a51cdac7e2513593da",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013903",
+      "member": "GSM9013903_8-1-1.STAR.RSEM.genes.results.gz",
+      "sha256": "34849da769eecec1ae50ecff202e19a9b124a9cdf0217958114514934eef474b",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013904",
+      "member": "GSM9013904_8-1-2.STAR.RSEM.genes.results.gz",
+      "sha256": "084277d2d8ea5969fb0564f865211b68fffe1785ff10b34af092f97cfbd1f2cf",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013905",
+      "member": "GSM9013905_8-1-3.STAR.RSEM.genes.results.gz",
+      "sha256": "514541e28ccc8b889bd1cabdaa58ee4f773d3fbb3513fef6bd1e0372365a2aae",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013906",
+      "member": "GSM9013906_8-1-4.STAR.RSEM.genes.results.gz",
+      "sha256": "559f2d80704dec181d3acf523959ada1ec6888b36d4dd57a910aa80de983836f",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013907",
+      "member": "GSM9013907_8-1-5.STAR.RSEM.genes.results.gz",
+      "sha256": "8358996b234047b6ce380bc2cba1ba2c41f5a982576782374323634adb888611",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013908",
+      "member": "GSM9013908_8-1-6.STAR.RSEM.genes.results.gz",
+      "sha256": "6063212177aa1d4c0c7a899d1b886a68d43a240749a1f64a7e72a622dbe4df4b",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013909",
+      "member": "GSM9013909_8-2-1.STAR.RSEM.genes.results.gz",
+      "sha256": "86a82ebf14ef179dc806cc7daa1cd06833f3627ba2c7b4932dc3cabd3d78e2c0",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013910",
+      "member": "GSM9013910_8-2-2.STAR.RSEM.genes.results.gz",
+      "sha256": "7cae860ad6762271fed23db0ee6b11088901859e208a5aab35e46522b3dd1e8a",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013911",
+      "member": "GSM9013911_8-2-3.STAR.RSEM.genes.results.gz",
+      "sha256": "a9f47875cadc5501e894dbf016c137455812cad5beb48af178764e75298d9dcd",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013912",
+      "member": "GSM9013912_8-2-4.STAR.RSEM.genes.results.gz",
+      "sha256": "808f89a862699377162c8799761e1124ceb3684b62ac55447b9c60c33b40080e",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013913",
+      "member": "GSM9013913_8-2-5.STAR.RSEM.genes.results.gz",
+      "sha256": "cd9d43c4ae1721aa38571d1dbb93ee5f7451e9db84745a36f8205d3f2b296ed2",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013914",
+      "member": "GSM9013914_8-2-6.STAR.RSEM.genes.results.gz",
+      "sha256": "10a73692f880f9eebd6cf9beab6dc9585f92693fa94ef9b315471bc8eae89dd0",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013915",
+      "member": "GSM9013915_8-3-1.STAR.RSEM.genes.results.gz",
+      "sha256": "9965449286201fee76852b032b8a93d5974f257651a2450e9b699a9dc59a6204",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013916",
+      "member": "GSM9013916_8-3-2.STAR.RSEM.genes.results.gz",
+      "sha256": "32d4b31c09b1e1df4bb22a306158c04bcb4313b957d7b4b6c518a1c24d355a72",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013917",
+      "member": "GSM9013917_8-3-3.STAR.RSEM.genes.results.gz",
+      "sha256": "676f5e14c89e9469d272f19a10cafd554828abadda5a8dd126c42176c5ab4655",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013918",
+      "member": "GSM9013918_8-3-4.STAR.RSEM.genes.results.gz",
+      "sha256": "e868c0d88a30e0a2998a58f79c2029947ea54592d96bfbff5a535fc6742ae0c5",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013919",
+      "member": "GSM9013919_8-3-5.STAR.RSEM.genes.results.gz",
+      "sha256": "b4c6c4f241b01cb533f6d43035c01208ea40a951ff4fb2d7e331f6ef446bb836",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013920",
+      "member": "GSM9013920_8-3-6.STAR.RSEM.genes.results.gz",
+      "sha256": "a0869ca64261d0a16a4834ed071ebdcb12b377ffc3369274435bb9e503bde3b2",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013921",
+      "member": "GSM9013921_9-1-1.STAR.RSEM.genes.results.gz",
+      "sha256": "b7b8da1acc1fd1c8dc6a62b98b9f1bd69c1b10455d55cf412393fe9daca8bf14",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013922",
+      "member": "GSM9013922_9-1-2.STAR.RSEM.genes.results.gz",
+      "sha256": "d233d566a3ade386586ba82ede6987318d709bc3ea3ade85b71373bec0efe763",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013923",
+      "member": "GSM9013923_9-1-3.STAR.RSEM.genes.results.gz",
+      "sha256": "3c3fe9fe644a6c0255fb9ceb164b27f1daf5bef85c6e6f13e3d0cff010d44319",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013924",
+      "member": "GSM9013924_9-1-4.STAR.RSEM.genes.results.gz",
+      "sha256": "1af778579394d099970da9f6da4b6d3028dc670b6f524304fe9bb07df4ab5041",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013925",
+      "member": "GSM9013925_9-1-5.STAR.RSEM.genes.results.gz",
+      "sha256": "a4b979f898baafcf14387952b7557a9a563a1e769d3b78d319069c7b5b458c0d",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013926",
+      "member": "GSM9013926_9-1-6.STAR.RSEM.genes.results.gz",
+      "sha256": "a826d8fae9cafc9c6c80eecad99a84055a69e2c0a57fa4612881150372895142",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013927",
+      "member": "GSM9013927_9-2-1.STAR.RSEM.genes.results.gz",
+      "sha256": "853a5e7e390b58bcb5f72dbcac40727996993d8a9f3c26e479eb803943cf2ba4",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013928",
+      "member": "GSM9013928_9-2-2.STAR.RSEM.genes.results.gz",
+      "sha256": "34a9ae347e488396ca8056ac376dcdfea717c0c739e7907d4721b8df70322738",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013929",
+      "member": "GSM9013929_9-2-3.STAR.RSEM.genes.results.gz",
+      "sha256": "0ca3c7fd30414520cb10e9476a62daad18e70530f507807266a63c7e0de232b8",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013930",
+      "member": "GSM9013930_9-2-4.STAR.RSEM.genes.results.gz",
+      "sha256": "7e58326fc708ff0eae7b0e468a7f9021a655def4736e8b57ff8d52ab73fdd2b7",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013931",
+      "member": "GSM9013931_9-2-5.STAR.RSEM.genes.results.gz",
+      "sha256": "d40dc453ff02d20342c20ad127c50cf03f359482309ccb30284ad0a19cb80dec",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013932",
+      "member": "GSM9013932_9-2-6.STAR.RSEM.genes.results.gz",
+      "sha256": "2639c35749c8905f34bd0c3c651ce7336625bc8a82294c1def2edef8614caba2",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013933",
+      "member": "GSM9013933_9-3-1.STAR.RSEM.genes.results.gz",
+      "sha256": "5335a868c51a184a867f2ac2b9e29a3ed99e9f75904f4f020b2101175ebbe6d8",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013934",
+      "member": "GSM9013934_9-3-2.STAR.RSEM.genes.results.gz",
+      "sha256": "fef8eb327c3d6edaa05a1312c505b1095e4950f5b12e95486b25b505f75b8f0e",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013935",
+      "member": "GSM9013935_9-3-3.STAR.RSEM.genes.results.gz",
+      "sha256": "8e5b2d98e4f7351bfa014e3ff482ecc59e18210c7c5a2f86f4ffdaafd6d8b9b6",
+      "reused": false
+    },
+    {
+      "sample_id": "GSM9013936",
+      "member": "GSM9013936_9-3-4.STAR.RSEM.genes.results.gz",
+      "sha256": "46c93d4b44fec684646f2095b2da3705566a32b2ceca1051236df581f1b2ebf1",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013937",
+      "member": "GSM9013937_9-3-5.STAR.RSEM.genes.results.gz",
+      "sha256": "e01f9bf43cef3391e671f87613f9102d12acdd9e8d21bd9d38ca7b2f82ee06ee",
+      "reused": true
+    },
+    {
+      "sample_id": "GSM9013938",
+      "member": "GSM9013938_9-3-6.STAR.RSEM.genes.results.gz",
+      "sha256": "444926c2841faae1c8ca5bb4f91b0b22788d9f31c7e7ebae1771b37986cf243f",
+      "reused": true
+    }
+  ]
+}

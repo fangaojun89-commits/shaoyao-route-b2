@@ -1,5 +1,7 @@
 # Shaoyao Route B2: reproducibility components
 
+Version 0.26.0 adds [complete constituent-comparison results and readback](supplement/constituent_extension/RUN.md): 126 libraries, 60 new gene contrasts, 240 program families and planned influence results. The portable check reconstructs retained statistics and library-score effects without refitting. Earlier preparation and canonical results are preserved.
+
 Version 0.25.0 adds [GSE298414 preparation results and public readback](supplement/preparation_extension/RUN.md): 72 libraries, 36 gene contrasts, four program collections, source metadata and library-influence results. Unchanged original analysis sources are supplied; the portable command verifies retained statistics without refitting. This release does not claim cold restoration or new PSS validation.
 
 Version 0.24.0 adds the [current six-preparation identity and exposure interpretation](data/preparation_identity/README.md). It distinguishes nominal GSE205906 group validity from unresolved actual exposure and qualifies JGW03 chemistry, while preserving historical source records and all accepted analyses.

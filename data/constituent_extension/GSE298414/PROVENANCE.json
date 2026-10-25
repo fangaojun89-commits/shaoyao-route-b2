@@ -1,0 +1,313 @@
+{
+  "source_accession": "GSE298414",
+  "article_doi": "10.1038/s41597-026-06759-6",
+  "libraries": 126,
+  "conditions": 42,
+  "new_contrasts": 60,
+  "comparator_classes": 2,
+  "contrasts_per_class": 30,
+  "gene_features": 13898,
+  "program_families": 240,
+  "files": [
+    {
+      "path": "contrast_inventory.tsv",
+      "bytes": 4248,
+      "sha256": "a7e5644ced0ff525d883842d09c770953a09c8ede8f1a6164b7943f67ce627b4",
+      "source_sha256": "a7e5644ced0ff525d883842d09c770953a09c8ede8f1a6164b7943f67ce627b4",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "effective_length_eligibility.tsv",
+      "bytes": 893167,
+      "sha256": "2ca94786c2ebb48f86bc6ea466f933e400301dcf6d8808824404cc37c94170ac",
+      "source_sha256": "2ca94786c2ebb48f86bc6ea466f933e400301dcf6d8808824404cc37c94170ac",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "gene_omission_comparison.tsv",
+      "bytes": 6221,
+      "sha256": "eb4b9997e3dc9ad8fb6d961ffc6553eb19ea7c400e933ea4ec891c9116eec294",
+      "source_sha256": "eb4b9997e3dc9ad8fb6d961ffc6553eb19ea7c400e933ea4ec891c9116eec294",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "gene_receipt.json",
+      "bytes": 279,
+      "sha256": "875e3c16cba160cb1b81f5f9582269429398fcdd39ff6436c97b72610f3cf0f6",
+      "source_sha256": "875e3c16cba160cb1b81f5f9582269429398fcdd39ff6436c97b72610f3cf0f6",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "gene_sessionInfo.txt",
+      "bytes": 788,
+      "sha256": "267172e0e006f309f70eae3ab4220a780a88e7564adda37a3a7e021512edeb50",
+      "source_sha256": "267172e0e006f309f70eae3ab4220a780a88e7564adda37a3a7e021512edeb50",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "import_totals.tsv",
+      "bytes": 4519,
+      "sha256": "2ebf8cd7fe02243c6a622c65b70d5488f061c84f6b031c8781d9cd09f0db327f",
+      "source_sha256": "2ebf8cd7fe02243c6a622c65b70d5488f061c84f6b031c8781d9cd09f0db327f",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "input_receipt.json",
+      "bytes": 28089,
+      "sha256": "a99ea9ce128e5d4cba43a8c803d11bb093017714ca7133e9b3a53decd13fc1fc",
+      "source_sha256": "a99ea9ce128e5d4cba43a8c803d11bb093017714ca7133e9b3a53decd13fc1fc",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "signed_omission_summary.tsv",
+      "bytes": 317,
+      "sha256": "85f7c24b802cd6714c7949ed0f082c468b5d1f929b6659a8182c143239fcc78b",
+      "source_sha256": "85f7c24b802cd6714c7949ed0f082c468b5d1f929b6659a8182c143239fcc78b",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "samples.tsv",
+      "bytes": 60210,
+      "sha256": "bb4855f44678a76e2d34e9e1b0bb970e6af9e5d13a0a7e815ea5eb737ad130c6",
+      "source_sha256": "5ba43fa31b116214f17560fe832d0537e9cb3fc62bcfc621a3d9b1c6f774b16a",
+      "transformation": "Only local rsem_path column removed; all other fields unchanged"
+    },
+    {
+      "path": "prior_36_contrast_inventory.tsv",
+      "bytes": 1906,
+      "sha256": "d3a2bd55a15bfacce99245d7949be51e620d8ad67b9fcca7183c86bbbeea2d28",
+      "source_sha256": "d3a2bd55a15bfacce99245d7949be51e620d8ad67b9fcca7183c86bbbeea2d28",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "full_126/COMPLETE.json",
+      "bytes": 148,
+      "sha256": "1203a28bb9477bdc9a33782bf94c8af06bd21521811dd87ec6a735ffe5f0d954",
+      "source_sha256": "1203a28bb9477bdc9a33782bf94c8af06bd21521811dd87ec6a735ffe5f0d954",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "full_126/contrast_summary.tsv",
+      "bytes": 6591,
+      "sha256": "be810a16bef5af96f6247d5c1894547da0c4c4c88af6c34ff7fc4dc5d84ed208",
+      "source_sha256": "be810a16bef5af96f6247d5c1894547da0c4c4c88af6c34ff7fc4dc5d84ed208",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "full_126/edgeR_all_genes.tsv.gz",
+      "bytes": 44627439,
+      "sha256": "195110f939773b7b90132e754b1301ab2d9dbc55a76d58c507b4aac710f63a86",
+      "source_sha256": "195110f939773b7b90132e754b1301ab2d9dbc55a76d58c507b4aac710f63a86",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "full_126/voom_all_genes.tsv.gz",
+      "bytes": 67986386,
+      "sha256": "b14650f259cbfea2298f121204efc0796cff0ff7bbcee738733bd322280230d6",
+      "source_sha256": "b14650f259cbfea2298f121204efc0796cff0ff7bbcee738733bd322280230d6",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "full_126/gene_filter.tsv",
+      "bytes": 1076561,
+      "sha256": "ca0ee72b49aafdbaf81679e1321cb5e2343c374b99c729756e4b2b1e61b263e3",
+      "source_sha256": "ca0ee72b49aafdbaf81679e1321cb5e2343c374b99c729756e4b2b1e61b263e3",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "full_126/PCA_coordinates.tsv",
+      "bytes": 12607,
+      "sha256": "da7245088eeda5c7bd078f31536adfe9431095fd35593cc908aeb347fc0287b3",
+      "source_sha256": "da7245088eeda5c7bd078f31536adfe9431095fd35593cc908aeb347fc0287b3",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "full_126/PCA_variance.tsv",
+      "bytes": 3042,
+      "sha256": "c1de55d620f47c5a7618c0b279cb82c9f93149de3f61f47ed1a61c9637a8a4e8",
+      "source_sha256": "c1de55d620f47c5a7618c0b279cb82c9f93149de3f61f47ed1a61c9637a8a4e8",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "full_126/sample_qc.tsv",
+      "bytes": 66836,
+      "sha256": "4e53e96aefd4e3f222be9b792b7de6934e38c1e4c1a60dd1b6d1676afda2a29f",
+      "source_sha256": "c4e223755c4c78e86a9b522be11cb3c54dcf63d75686117ccb353a1bc3d75f4b",
+      "transformation": "Only local rsem_path column removed; all other fields unchanged"
+    },
+    {
+      "path": "omit_GSM9013891_125/COMPLETE.json",
+      "bytes": 148,
+      "sha256": "78b7434724d12f2d0598f5d66d3b794a32529975c63f8648239d8343ed588646",
+      "source_sha256": "78b7434724d12f2d0598f5d66d3b794a32529975c63f8648239d8343ed588646",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "omit_GSM9013891_125/contrast_summary.tsv",
+      "bytes": 7347,
+      "sha256": "a2f59f7cc76a86aeb7a8e16f5cb71cfdc98a689801d8648f319e8e543dade0da",
+      "source_sha256": "a2f59f7cc76a86aeb7a8e16f5cb71cfdc98a689801d8648f319e8e543dade0da",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "omit_GSM9013891_125/edgeR_all_genes.tsv.gz",
+      "bytes": 49392663,
+      "sha256": "76a24b13caebf18653203ea7758924bd007609ca4567894decb49c34bdffe34e",
+      "source_sha256": "76a24b13caebf18653203ea7758924bd007609ca4567894decb49c34bdffe34e",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "omit_GSM9013891_125/voom_all_genes.tsv.gz",
+      "bytes": 71817847,
+      "sha256": "201898b16e596b72c6d474dc2ed0cacedf5c693c40eb37726db0241bd32f5d49",
+      "source_sha256": "201898b16e596b72c6d474dc2ed0cacedf5c693c40eb37726db0241bd32f5d49",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "omit_GSM9013891_125/gene_filter.tsv",
+      "bytes": 1076561,
+      "sha256": "ca0ee72b49aafdbaf81679e1321cb5e2343c374b99c729756e4b2b1e61b263e3",
+      "source_sha256": "ca0ee72b49aafdbaf81679e1321cb5e2343c374b99c729756e4b2b1e61b263e3",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "omit_GSM9013891_125/PCA_coordinates.tsv",
+      "bytes": 12507,
+      "sha256": "1c18b03c517b9fae0e86cc2976af30a9e8f81b315d3260956d82c954c396868e",
+      "source_sha256": "1c18b03c517b9fae0e86cc2976af30a9e8f81b315d3260956d82c954c396868e",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "omit_GSM9013891_125/PCA_variance.tsv",
+      "bytes": 3006,
+      "sha256": "2af58c188014dd7c3d3cfbf681cfc10315cd2282b5f20715a8204151e19b9db1",
+      "source_sha256": "2af58c188014dd7c3d3cfbf681cfc10315cd2282b5f20715a8204151e19b9db1",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "omit_GSM9013891_125/sample_qc.tsv",
+      "bytes": 66306,
+      "sha256": "a331cff1046958ce911c5c4166b6f2c8fb86c187d82c279c2b92fac081cbe095",
+      "source_sha256": "c71dbb3455fc6d8f1fa095f45c236873748b65f39926ce28201e4aea946880a3",
+      "transformation": "Only local rsem_path column removed; all other fields unchanged"
+    },
+    {
+      "path": "programs_01/camera_all_programs.tsv.gz",
+      "bytes": 5810790,
+      "sha256": "91c273783bf269dc284d8b6ed01d6796abd49fa32e345e5b327413ee32d90ac5",
+      "source_sha256": "91c273783bf269dc284d8b6ed01d6796abd49fa32e345e5b327413ee32d90ac5",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/contrast_inventory.tsv",
+      "bytes": 4189,
+      "sha256": "cb4dc8e786740550c18324dae17246f27c70790907f6bcf8861b05fa7dfa9f31",
+      "source_sha256": "cb4dc8e786740550c18324dae17246f27c70790907f6bcf8861b05fa7dfa9f31",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/DoRothEA_scores.tsv",
+      "bytes": 243411,
+      "sha256": "2bdd0501e961c3a42b3e1defb253e2a862dd2b140928d2654d64e749fa8d2d59",
+      "source_sha256": "2bdd0501e961c3a42b3e1defb253e2a862dd2b140928d2654d64e749fa8d2d59",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/PROGENy_scores.tsv",
+      "bytes": 33078,
+      "sha256": "b9ace3a90ae108fae7bc51a3eb45dc66038aa16b23155ae631437eb911d29a5f",
+      "source_sha256": "b9ace3a90ae108fae7bc51a3eb45dc66038aa16b23155ae631437eb911d29a5f",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/human_symbol_selection.tsv",
+      "bytes": 518755,
+      "sha256": "ba8b168a472d807a906e9812076b055f257a580240ec6b4c31543fc17e3f40cb",
+      "source_sha256": "ba8b168a472d807a906e9812076b055f257a580240ec6b4c31543fc17e3f40cb",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/rat_symbol_selection.tsv",
+      "bytes": 543817,
+      "sha256": "e82be07736ffc9f0076ba2b3b7da6add596a120021f39f0e3371a286aca9c1f5",
+      "source_sha256": "e82be07736ffc9f0076ba2b3b7da6add596a120021f39f0e3371a286aca9c1f5",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/program_family_summary.tsv",
+      "bytes": 19387,
+      "sha256": "2450f696f164a0e64c7976e2b10a197f852ad57807970d183d40fdfa0ceddb2d",
+      "source_sha256": "2450f696f164a0e64c7976e2b10a197f852ad57807970d183d40fdfa0ceddb2d",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/sessionInfo.txt",
+      "bytes": 1325,
+      "sha256": "47783522c5ad7d97741b06f9d9c33f63b4bf671891c3ca0c09df5c24a9d96fe7",
+      "source_sha256": "47783522c5ad7d97741b06f9d9c33f63b4bf671891c3ca0c09df5c24a9d96fe7",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/signed_activity_all_programs.tsv",
+      "bytes": 1431352,
+      "sha256": "6a46d1b8207942a8891fad0c1beb6e2571555f6a61b55e4026045d1d614f517b",
+      "source_sha256": "6a46d1b8207942a8891fad0c1beb6e2571555f6a61b55e4026045d1d614f517b",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/signed_activity_three_omissions.tsv.gz",
+      "bytes": 1308475,
+      "sha256": "b8e9c0eb8965d4041e63603034effbc8bb027b2b1fb8a97e2f707721567db596",
+      "source_sha256": "b8e9c0eb8965d4041e63603034effbc8bb027b2b1fb8a97e2f707721567db596",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/signed_program_coverage.tsv",
+      "bytes": 3411,
+      "sha256": "36b8920ef7e910ee89cee935e5ec8576a80a5dcf392878e1ff7b0b28200adfe1",
+      "source_sha256": "36b8920ef7e910ee89cee935e5ec8576a80a5dcf392878e1ff7b0b28200adfe1",
+      "transformation": "None; unchanged source bytes"
+    },
+    {
+      "path": "programs_01/unsigned_program_coverage.tsv",
+      "bytes": 113367,
+      "sha256": "7b057116e1fad8d63a823336a65fee6c5dd5a3328470d49ca8dbf9794110823f",
+      "source_sha256": "7b057116e1fad8d63a823336a65fee6c5dd5a3328470d49ca8dbf9794110823f",
+      "transformation": "None; unchanged source bytes"
+    }
+  ],
+  "original_source_archive": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE298nnn/GSE298414/suppl/GSE298414_RAW.tar",
+    "bytes": 82524160,
+    "sha256": "eb08eea1f78621476f946fec97ff677c937dad48d25ca7f5d01c8182e23e41cc"
+  },
+  "frozen_resource_hashes": [
+    {
+      "filename": "reactome97_human_long.tsv",
+      "sha256": "1ea55f41f5b0a4ea51f723fb82b940f8b13fce1cab13ea6825b91d207c72fdc0"
+    },
+    {
+      "filename": "quickgo_syngo_mammalian_direct_human.tsv",
+      "sha256": "2a40eeb2bddcf556ea5ac8d6ef6a0cb1bd71f85ac8dddb1aad8165a8d075eb3a"
+    },
+    {
+      "filename": "progeny_human_top500.tsv",
+      "sha256": "b78892ec4d56212b08eb33ea80551fcb018e89b3c698e3d804008537c96bbdb9"
+    },
+    {
+      "filename": "dorothea_rat_AB_one_to_one.tsv",
+      "sha256": "e709ea4a9e0a1517cb00082bfbf6e8c4408d786694b6864f31ec3f57b458ecb8"
+    }
+  ],
+  "retained_primary_model_sha256": "11a642811369089d95f6184eabed764606652de2d2ee12faa0f47dc0a5f6033b",
+  "review_status": {
+    "genes": "GENE_READBACK_PASSED",
+    "programs": "PROGRAM_READBACK_PASSED"
+  },
+  "historical_receipt_note": "gene_receipt.json records completion before review; the review_status above and public readback supersede its pending-review status.",
+  "sample_type": "Public PC12 culture libraries; not patient data",
+  "interpretation": "Mixture-minus-single-herb expression differences, not dose-matched synergy or clinical efficacy",
+  "overlap": "72 libraries shared with the earlier preparation block; no independent replication claim",
+  "tested_scope": "Retained tables, multiplicity arithmetic, summaries and library-score effect reconstruction; no scientific model refits or cold restoration",
+  "excluded": "Raw reads, article PDFs, supplemental workbooks, gene-set membership tables, network edges and R model binaries"
+}
