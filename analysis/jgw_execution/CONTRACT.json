@@ -1,0 +1,212 @@
+{
+  "schema": "jgw-original-primary-entry-v1",
+  "R": "4.6.1",
+  "packages": {
+    "edgeR": "4.10.1",
+    "limma": "3.68.4",
+    "DESeq2": "1.52.0",
+    "decoupleR": "2.17.0",
+    "fgsea": "1.38.0",
+    "AnnotationDbi": "1.74.0",
+    "org.Rn.eg.db": "3.23.0",
+    "org.Mm.eg.db": "3.23.0",
+    "org.Hs.eg.db": "3.23.1",
+    "yaml": "2.3.12",
+    "ggplot2": "4.0.3",
+    "pheatmap": "1.0.13",
+    "jsonlite": "2.0.0"
+  },
+  "runtime_scope": "Direct original package pins plus helper jsonlite; full historical session retained, not a cold-environment lock",
+  "seed": 20260817,
+  "public_inputs": [
+    {
+      "public_path": "analysis/jgw_execution/metadata/geo_series_metadata_long.tsv",
+      "runtime_path": "metadata/geo_series_metadata_long.tsv",
+      "identity": {
+        "bytes": 210516,
+        "sha256": "1ffbef5d20762c8711b7bb15cc652de0335fe1ccd8fd2ea06c7e789b45776f1c"
+      }
+    },
+    {
+      "public_path": "analysis/jgw_execution/metadata/datasets.tsv",
+      "runtime_path": "metadata/datasets.tsv",
+      "identity": {
+        "bytes": 2358,
+        "sha256": "7364c0dc006b3989c6bc5d9c298ac81b83e1ceeec61f4abf24484653a51330ac"
+      }
+    },
+    {
+      "public_path": "analysis/study_sources/code/R/analyze_jgw03_three_cell_lines.R",
+      "runtime_path": "code/R/analyze_jgw03_three_cell_lines.R",
+      "identity": {
+        "bytes": 64603,
+        "sha256": "5df6378ed4dadfb4050d91e252a63af4f44d2be80d3070d889d1e0e007796775"
+      }
+    },
+    {
+      "public_path": "analysis/study_sources/config/contrasts.yaml",
+      "runtime_path": "config/contrasts.yaml",
+      "identity": {
+        "bytes": 19639,
+        "sha256": "98ffd869fb3703e38e3318f18887ad746d78a54c59e5a36e5181648f02b63492"
+      }
+    },
+    {
+      "public_path": "analysis/study_sources/metadata/samples.tsv",
+      "runtime_path": "metadata/samples.tsv",
+      "identity": {
+        "bytes": 46027,
+        "sha256": "1c56da1148f17a5d6ec6e0b11262bb7ae2b77cae67b0883a06a687283bd1a5d1"
+      }
+    },
+    {
+      "public_path": "analysis/GSE16710/expected/S1_GATE.tsv",
+      "runtime_path": "results/GSE16710/program_level/S1_GATE.tsv",
+      "identity": {
+        "bytes": 312957,
+        "sha256": "377ef7e45769d7f842134506e409d69d2f955d760269baf0abba67e156553c40"
+      }
+    },
+    {
+      "public_path": "analysis/jgw_execution/sources/summarize_jgw03_dose_response.R",
+      "runtime_path": "code/R/summarize_jgw03_dose_response.R",
+      "identity": {
+        "bytes": 5653,
+        "sha256": "f7c0307847cf00a1b2ae42d53e5724d01cf832932cda8e730999e37fd41bafbb"
+      }
+    }
+  ],
+  "expected_inputs": [
+    {
+      "public_path": "data/jgw03_inputs/GSE227494/locked_expected_counts.tsv.gz",
+      "identity": {
+        "bytes": 613825,
+        "sha256": "a3e19f4d59da5c8caee8da1d82695b184642af4f616da33b327346efa3b91eea"
+      }
+    },
+    {
+      "public_path": "data/jgw03_inputs/GSE227494/locked_samples.tsv",
+      "identity": {
+        "bytes": 6009,
+        "sha256": "e90434b1b1dcc38e61c958d9c8c18e5708847ef1d936db58750eee01b27bc583"
+      }
+    },
+    {
+      "public_path": "data/jgw03_inputs/GSE289929/locked_expected_counts.tsv.gz",
+      "identity": {
+        "bytes": 515087,
+        "sha256": "63764607cc164ef85e845f5d1f263c0165e101e7e144e67b5c117d3cc5181efa"
+      }
+    },
+    {
+      "public_path": "data/jgw03_inputs/GSE289929/locked_samples.tsv",
+      "identity": {
+        "bytes": 6660,
+        "sha256": "4a1e97a06c692c5750be6895deb66673dcce22d464def2fd7c9f42c1c7212e21"
+      }
+    },
+    {
+      "public_path": "data/jgw03_inputs/GSE299063/locked_expected_counts.tsv.gz",
+      "identity": {
+        "bytes": 725411,
+        "sha256": "e74c1bc149fd56d525f534e3ff3124e65454d4618927d0e25935229a5af2cbb9"
+      }
+    },
+    {
+      "public_path": "data/jgw03_inputs/GSE299063/locked_samples.tsv",
+      "identity": {
+        "bytes": 6531,
+        "sha256": "18e414456468b3971e7ce0f9eaf2175bad0813d62892c0bc20236a4d07239bd6"
+      }
+    }
+  ],
+  "source_inputs": [
+    {
+      "runtime_path": "data/raw/GSE227494/GSE227494_JGT_RCM_C2C12.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227494/suppl/GSE227494_JGT_RCM_C2C12.txt.gz",
+      "identity": {
+        "bytes": 723229,
+        "sha256": "62da2295f12e4861284d17733cd6a81cf70acae840ed72b353f17cad301dddbe"
+      }
+    },
+    {
+      "runtime_path": "data/raw/GSE289929/GSE289929_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE289nnn/GSE289929/suppl/GSE289929_RAW.tar",
+      "identity": {
+        "bytes": 12277760,
+        "sha256": "12bf459a9ebb4097d8a52d27acaa6e1b42bed1647275b8edf57665469707c5af"
+      }
+    },
+    {
+      "runtime_path": "data/raw/GSE299063/GSE299063_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE299nnn/GSE299063/suppl/GSE299063_RAW.tar",
+      "identity": {
+        "bytes": 242319360,
+        "sha256": "2c31b03d6433fb48037b00e15b4e03c44942e245839a3db8e58575884c6b0deb"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "runtime_path": "data/processed/gene_sets/dorothea_human_AB.tsv",
+      "identity": {
+        "bytes": 367202,
+        "sha256": "03914edc22ab31a653e4f407e2fcba6a0746939ad5ba9ee6348ad3ec9a9113ab"
+      }
+    },
+    {
+      "runtime_path": "data/processed/gene_sets/dorothea_mouse_AB.tsv",
+      "identity": {
+        "bytes": 369008,
+        "sha256": "5b594286c267f9410f7e9e1228fc07575c735b7152a5b8b157c7d4a8a37e2205"
+      }
+    },
+    {
+      "runtime_path": "data/processed/gene_sets/dorothea_rat_AB_one_to_one.tsv",
+      "identity": {
+        "bytes": 687990,
+        "sha256": "e709ea4a9e0a1517cb00082bfbf6e8c4408d786694b6864f31ec3f57b458ecb8"
+      }
+    },
+    {
+      "runtime_path": "data/processed/gene_sets/ncbi_human_mouse_rat_one_to_one.tsv",
+      "identity": {
+        "bytes": 1922349,
+        "sha256": "e9dd0c9268e0044f615085e27292cbf977f5a648003ba90054cf3d01225cf998"
+      }
+    },
+    {
+      "runtime_path": "data/processed/gene_sets/progeny_human_top500.tsv",
+      "identity": {
+        "bytes": 609987,
+        "sha256": "b78892ec4d56212b08eb33ea80551fcb018e89b3c698e3d804008537c96bbdb9"
+      }
+    },
+    {
+      "runtime_path": "data/processed/gene_sets/progeny_mouse_top500.tsv",
+      "identity": {
+        "bytes": 615522,
+        "sha256": "97ac161e3a06b54da68fdb2479d444bc73a685f3794366975aa0c9760abaaf4f"
+      }
+    },
+    {
+      "runtime_path": "data/processed/gene_sets/quickgo_syngo_mammalian_direct_human.gmt",
+      "identity": {
+        "bytes": 47129,
+        "sha256": "883dca3df6a7e5fc86bad1daa770aef167fa07f754afe5a7962e2b6a276f6448"
+      }
+    },
+    {
+      "runtime_path": "data/processed/gene_sets/reactome97_human_long.tsv",
+      "identity": {
+        "bytes": 11599354,
+        "sha256": "1ea55f41f5b0a4ea51f723fb82b940f8b13fce1cab13ea6825b91d207c72fdc0"
+      }
+    }
+  ],
+  "sequence": [
+    "code/R/analyze_jgw03_three_cell_lines.R",
+    "code/R/summarize_jgw03_dose_response.R"
+  ],
+  "scope": "Original canonical primary writer and dose summaries; conditional references, later rotations and revised workbook/report projections are separate"
+}

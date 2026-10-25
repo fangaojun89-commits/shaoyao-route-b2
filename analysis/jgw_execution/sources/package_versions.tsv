@@ -1,0 +1,13 @@
+package	version
+R	4.6.1
+edgeR	4.10.1
+limma	3.68.4
+DESeq2	1.52.0
+decoupleR	2.17.0
+fgsea	1.38.0
+AnnotationDbi	1.74.0
+org.Rn.eg.db	3.23.0
+org.Mm.eg.db	3.23.0
+org.Hs.eg.db	3.23.1
+yaml	2.3.12
+ggplot2	4.0.3

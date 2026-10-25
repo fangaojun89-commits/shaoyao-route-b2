@@ -1,0 +1,59 @@
+{
+  "status": "PASS_ORIGINAL_DEPOSITED_COUNTS_TO_ACCEPTED_INPUTS",
+  "datasets": {
+    "GSE289929": {
+      "libraries": 12,
+      "genes": 32883,
+      "compared_count_values": 394596,
+      "exact_count_values_and_order": true,
+      "sample_fields_match": true,
+      "metadata_checks": 17,
+      "metadata_limitation_checks": 1
+    },
+    "GSE227494": {
+      "libraries": 12,
+      "genes": 42807,
+      "compared_count_values": 513684,
+      "exact_count_values_and_order": true,
+      "sample_fields_match": true,
+      "metadata_checks": 17,
+      "metadata_limitation_checks": 0
+    },
+    "GSE299063": {
+      "libraries": 12,
+      "genes": 60675,
+      "compared_count_values": 728100,
+      "exact_count_values_and_order": true,
+      "sample_fields_match": true,
+      "metadata_checks": 17,
+      "metadata_limitation_checks": 2
+    }
+  },
+  "total_libraries": 36,
+  "compared_count_values": 1636380,
+  "metadata_checks": 51,
+  "source_metadata_limitation_checks": 3,
+  "input_check_content_identical_across_two_runs": true,
+  "boundary_checks": [
+    {
+      "name": "existing_output_rejected",
+      "returncode": 2
+    },
+    {
+      "name": "changed_source_rejected_before_staging",
+      "returncode": 1
+    },
+    {
+      "name": "unsupported_resume_mode_rejected",
+      "returncode": 2
+    }
+  ],
+  "primary_analysis_invoked": false,
+  "score_normalization_fit_or_allocation_runs": 0,
+  "original_sources_inputs_unchanged": true,
+  "new_staged_sources_inputs_resources_unchanged": true,
+  "tested_platform": "Windows x86_64 UCRT; R 4.6.1; explicit existing library",
+  "production_run_branch_tested": false,
+  "cold_environment_restoration_verified": false,
+  "scope": "Original count/metadata reader check, source preservation and CLI boundaries; no model reconstruction claimed"
+}
