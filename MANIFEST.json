@@ -1,6 +1,6 @@
 {
-  "version": "0.21.0",
-  "scope": "COMPLETE_LATE_RESULT_AGGREGATE_TABLES_WITH_EXISTING_PUBLIC_ANALYSIS_COMPONENTS",
+  "version": "0.22.0",
+  "scope": "PORTABLE_SEVEN_TABLE_READING_PACKAGE_FROM_ACCEPTED_PUBLIC_RESULTS",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -17,8 +17,8 @@
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
     },
     "README.md": {
-      "bytes": 17108,
-      "sha256": "306f2f9272c633872a36753e26803d1212c2516fd10fc0ef46f171d392ee8432"
+      "bytes": 17377,
+      "sha256": "4db28533c8e18f1af3456c3da664e1b4ad710698fbad15ecb9627232c3288d2a"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 3345,
@@ -1412,6 +1412,10 @@
       "bytes": 6729,
       "sha256": "3a3db5a1c8dbab08eb739d17b79fd33df513709c343533266236e76ba79673af"
     },
+    "pipeline/late_supplement.py": {
+      "bytes": 9683,
+      "sha256": "5c850a86d1a7baebf22f0c8c6372e0127fae8f5929929c86df8c8de11043c8b0"
+    },
     "pipeline/ledger.py": {
       "bytes": 6295,
       "sha256": "4646b56b653e0441ff694c4927e73ee71a00468533f81281bb2d75de49e2a237"
@@ -1495,6 +1499,14 @@
     "supplement/late_results/README.md": {
       "bytes": 17457,
       "sha256": "81998668dcfa49c193b83980ce8087f6b02745fb2c2872f39848b50f6b7e8b18"
+    },
+    "supplement/late_results/RUN.md": {
+      "bytes": 3071,
+      "sha256": "bb4e4a0c20c1fa264dc953b420b21c5db6f6550f46664f1d468836a8e4f2690a"
+    },
+    "supplement/late_results/reading_template.md": {
+      "bytes": 12663,
+      "sha256": "d3880d1535c693c266707317b6a7a82fa8db89617babb6c8a1d606816904a422"
     },
     "supplement/late_results/tables/A2_G128_family_overview.tsv": {
       "bytes": 296,
