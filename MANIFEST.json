@@ -1,6 +1,6 @@
 {
-  "version": "0.27.1",
-  "scope": "GSE205906_MATCHED_SOURCE_GUIDE_COUNT_RECOVERY_CLARIFIED",
+  "version": "0.28.0",
+  "scope": "COMPLETE_GSE205906_SAVED_MATCHED_EXPORTS_AND_NO_FIT_RECONCILIATION",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -1957,8 +1957,8 @@
       "sha256": "045716518eb7034d5c6d3fcfe13fcffc01d44515f588141c2af87b38a7064f64"
     },
     "README.md": {
-      "bytes": 19431,
-      "sha256": "b2de916a7a2b042fc0d07d5ed9a318e6ed3fb938cd1b5295c1b89650c577d5de"
+      "bytes": 19730,
+      "sha256": "db6c27c0ec747a688046c2f327bff20851be3b40609aff66d3236829cd80a077"
     },
     "supplement/constituent_extension/Route_B2_GSE298414_single_herb_gene_summary_20261025.tsv": {
       "bytes": 11480,
@@ -2057,12 +2057,28 @@
       "sha256": "6fe31b37a834a0cb2fda708398ebafe18f6cc1b0aa9edeab3814b7bc4f945442"
     },
     "analysis/g205_matched_sources/README.md": {
-      "bytes": 10716,
-      "sha256": "5d74efb4f4afb4cf7acb0ec9980c140a24a46981198ba791ca76607590fc2775"
+      "bytes": 10809,
+      "sha256": "0164f243d469b1e91c715592775b6824ec29fcbc1d13a4011688a81a7bfdaf6b"
     },
     "analysis/g205_matched_sources/code/python/prepare_gse205906_matched_quantifier_inputs_20261015.py": {
       "bytes": 9031,
       "sha256": "5a95fc0f1421a9eb541deaff750f02670d0f41219bc6e130edfe692ffe2d6a30"
+    },
+    "data/g205_matched_exports/GSE205906_saved_exports_20261026.tar.gz": {
+      "bytes": 13619978,
+      "sha256": "17dca67e8da70bc98cdff0344cc0ec8cc6c7a40bd652c36e9f6ff8576ede2255"
+    },
+    "data/g205_matched_exports/PROVENANCE.json": {
+      "bytes": 824,
+      "sha256": "753495ada79fbfb9a711a90c0c77a86a79b18faccdcf65cc53b41b9e8c816642"
+    },
+    "data/g205_matched_exports/README.md": {
+      "bytes": 2586,
+      "sha256": "f90f90d9f284cd23779ad1a8cb9df9235955b36c69abffd3049df1a0bc7a4ad8"
+    },
+    "data/g205_matched_exports/VALIDATION.json": {
+      "bytes": 480,
+      "sha256": "57e67bdffb0f03c6eb9201041523fd9d3bf2e2ac8b14d46d64c3091c80022a06"
     }
   },
   "real_data_models_run": 0,

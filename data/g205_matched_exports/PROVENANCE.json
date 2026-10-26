@@ -1,0 +1,24 @@
+{
+  "version": "0.28.0",
+  "dataset": "GSE205906",
+  "source": "Previously accepted saved HISAT2-versus-STAR matched comparison, 2026-10-22",
+  "retrieved_utc": "2026-10-26",
+  "transformation": "NONE: exact original TSV bytes, gzip tar packaging only",
+  "archive": {
+    "path": "GSE205906_saved_exports_20261026.tar.gz",
+    "bytes": 13619978,
+    "sha256": "17dca67e8da70bc98cdff0344cc0ec8cc6c7a40bd652c36e9f6ff8576ede2255"
+  },
+  "files": {
+    "full_source_union.tsv": {
+      "bytes": 126018770,
+      "sha256": "b2771b778fde4964ee41143b266836bbb58f9ceb968d57da0d9e0909901cefa5"
+    },
+    "native_table_summary.tsv": {
+      "bytes": 6766,
+      "sha256": "f1d5f0a2b0dc019eba368016b8883877eaf91096359403b931ff92020e2c05d6"
+    }
+  },
+  "scientific_model_runs": 0,
+  "source_network_or_gene_set_memberships": false
+}

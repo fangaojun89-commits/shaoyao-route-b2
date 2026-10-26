@@ -1,0 +1,13 @@
+{
+  "assertions": 528,
+  "families": 22,
+  "inputs": {
+    "full_source_union.tsv": "b2771b778fde4964ee41143b266836bbb58f9ceb968d57da0d9e0909901cefa5",
+    "native_table_summary.tsv": "f1d5f0a2b0dc019eba368016b8883877eaf91096359403b931ff92020e2c05d6"
+  },
+  "iterative_fits": 0,
+  "rows_removed": 0,
+  "scope": "Export counts and hit/sign partitions, not full-chain numerical acceptance",
+  "status": "PASS_SAVED_EXPORT_COUNT_RECONCILIATION",
+  "unique_family_features": 216070
+}

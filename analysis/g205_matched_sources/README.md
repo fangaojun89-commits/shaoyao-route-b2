@@ -12,7 +12,7 @@ The same nine libraries were processed with STAR and HISAT2 against Rnor6/Ensemb
 2. `run_gse205906_matched_STAR_20261015.py` contains the fixed reference admission, index, library and matrix stages. It retains STAR, samtools and featureCounts identities and counting options. The one-library frontend and serial continuation preserve the original library function while changing scheduling boundaries. Their historical host/CPU/window checks describe the recorded run, not a portable configuration for a new machine.
 3. `run_gse205906_matched_downstream_custody_v1_20261022.R` reads the accepted STAR matrix and calls `gse205906_matched_downstream_core_custody_v1_20261022.R`. The core imports the pinned original gene and program methods. Eleven caller/core/configuration/dependency identities were matched directly to the retained scientific completion record when this source selection was made.
 4. `run_gse205906_matched_saved_comparison_custody_v2_20261022.R` compares the saved STAR and HISAT2 results through the original comparison module. The original saved-comparison entry is included as a pinned dependency. It is not an instruction to repeat the earlier HISAT2 preparation. The v2 entry retains the completed preparation and corrects a byte-size representation check without changing the comparison mathematics.
-5. `verify_gse205906_saved_comparison_counts_20261022.py` independently reconciles exported eligibility, returned-result, q-threshold, overlap and sign counts. In the original completed check, it covered 216,070 unique family-feature records and 528 assertions across 22 families. These historical check totals are not a claim that this source-release step reran that check.
+5. `verify_gse205906_saved_comparison_counts_20261022.py` independently reconciles exported eligibility, returned-result, q-threshold, overlap and sign counts. In the original completed check, it covered 216,070 unique family-feature records and 528 assertions across 22 families. The exact complete exports were retrieved in v0.28.0 and the saved-export checker passed again, without any scientific model execution.
 
 ## Locate and verify the sources
 
@@ -24,7 +24,7 @@ From the repository root, the existing standard-library verifier checks the rele
 python -I -B pipeline/sources.py verify
 ```
 
-For an investigator who already holds the two original complete exports, the original saved-export checker accepts a directory containing `full_source_union.tsv` and `native_table_summary.tsv`:
+The [complete original exports](../../data/g205_matched_exports/README.md) are now publicly supplied in v0.28.0. After restoring their exact bytes, the original saved-export checker accepts a directory containing `full_source_union.tsv` and `native_table_summary.tsv`:
 
 ```sh
 python -I -B PATH_TO_THE_MAPPED_EXPORT_CHECKER.py /path/to/saved_exports

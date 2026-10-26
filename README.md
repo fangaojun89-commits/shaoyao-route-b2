@@ -1,5 +1,7 @@
 # Shaoyao Route B2: reproducibility components
 
+Version 0.28.0 supplies the [two complete GSE205906 matched-comparison exports](data/g205_matched_exports/README.md), preserving all 216,070 family-feature rows and their accepted identities. The original saved-export checker passes 528 assertions across 22 families; no scientific model is rerun.
+
 Version 0.27.1 clarifies that the complete GSE205906 HISAT2 and STAR count matrices are already public, and gives their exact restoration command and destinations in the [matched-source guide](analysis/g205_matched_sources/README.md). Scientific inputs, source code and results are unchanged.
 
 Version 0.27.0 connects [the completed GSE205906 matched-alignment sources](analysis/g205_matched_sources/README.md): 20 unchanged source roles, 19 reused public copies and one newly supplied metadata-preparation source. Eleven identities are matched to the retained scientific completion record. This source-navigation release changes no scientific result and does not provide a portable cold-restore adapter.
