@@ -1,6 +1,6 @@
 {
-  "version": "0.28.0",
-  "scope": "COMPLETE_GSE205906_SAVED_MATCHED_EXPORTS_AND_NO_FIT_RECONCILIATION",
+  "version": "0.29.0",
+  "scope": "G205_PRIMARY_EXECUTION_AND_LINUX_CORE_INSTALLER_ENTRIES_SYNTHETICALLY_TESTED",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -1785,8 +1785,8 @@
       "sha256": "508aeb91c3cc0d0d25e2b410c7e3dbd2d8b9d05815438f59de9b444c07be54e1"
     },
     "environment/G205_core/README.md": {
-      "bytes": 3849,
-      "sha256": "3810e45a10d06a42892d6f5db6b8a1f9b4f4cf73e59a4216eb4cabba7f64d346"
+      "bytes": 5803,
+      "sha256": "50801790556ab1e97fe5a8f03a28c01bd96dd3366fd05bc331f7bfca5ee5ce15"
     },
     "environment/G205_core/SOURCES.json": {
       "bytes": 42802,
@@ -1957,8 +1957,8 @@
       "sha256": "045716518eb7034d5c6d3fcfe13fcffc01d44515f588141c2af87b38a7064f64"
     },
     "README.md": {
-      "bytes": 19730,
-      "sha256": "db6c27c0ec747a688046c2f327bff20851be3b40609aff66d3236829cd80a077"
+      "bytes": 20833,
+      "sha256": "2ec2cb3d118bc2a03debf6d49ceac000bfb2649711ff1e61aef8b30340aca4c3"
     },
     "supplement/constituent_extension/Route_B2_GSE298414_single_herb_gene_summary_20261025.tsv": {
       "bytes": 11480,
@@ -2079,6 +2079,46 @@
     "data/g205_matched_exports/VALIDATION.json": {
       "bytes": 480,
       "sha256": "57e67bdffb0f03c6eb9201041523fd9d3bf2e2ac8b14d46d64c3091c80022a06"
+    },
+    "analysis/g205_execution/README.md": {
+      "bytes": 5841,
+      "sha256": "95c4c7612653676f6cf9514e9714b4a50d76e675d3872dac44056af4af85fda0"
+    },
+    "analysis/g205_execution/VALIDATION.json": {
+      "bytes": 1755,
+      "sha256": "f783d617928a7f25ac972f8ceae40daec65e71d6bfd70a3d7fbb2c8bb85a476d"
+    },
+    "analysis/g205_execution/execute.R": {
+      "bytes": 2089,
+      "sha256": "6b9dbd100ae1c6040f56bc97069171e5eaa3df0278a88cc5395c32f59508cee4"
+    },
+    "analysis/g205_execution/test_launcher.py": {
+      "bytes": 5865,
+      "sha256": "3c0b1ec59830d10deca2c34f898a7584f2cad477ceec81a8c60f1d88afff9190"
+    },
+    "analysis/g205_execution/test_writer.R": {
+      "bytes": 2945,
+      "sha256": "07d91c2433ae02738a788ac1e96323a8db7d5a39ff3d09030680f20d9910f7f0"
+    },
+    "analysis/g205_execution/write_result.R": {
+      "bytes": 924,
+      "sha256": "22532d4be82aeb26e7ef3d4c5785e2572d231b3aa5da3fb35dd0a4e048bb311f"
+    },
+    "environment/G205_core/INSTALLER_VALIDATION.json": {
+      "bytes": 427,
+      "sha256": "3f2c30967b0f92d5cd9dee905e47faf1259dc163eea27a6260d6357c48abbd13"
+    },
+    "pipeline/g205_model.py": {
+      "bytes": 6598,
+      "sha256": "c7335d64524798f33fac6bdcf42ee0567adff429b8c88b39d5522e06b21c43ef"
+    },
+    "pipeline/restore_environment.py": {
+      "bytes": 6409,
+      "sha256": "889dfc30d24e92829b27b5d58412418c080502677ee3facd646de343ef4880e8"
+    },
+    "pipeline/test_restore_environment.py": {
+      "bytes": 3909,
+      "sha256": "90c2cf7312afe4a2c0acacb3b147f732f9559e7c10b44a6b267660885eea6c78"
     }
   },
   "real_data_models_run": 0,

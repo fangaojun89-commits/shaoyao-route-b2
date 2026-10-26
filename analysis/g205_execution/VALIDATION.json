@@ -1,0 +1,49 @@
+{
+  "schema": "G205_PRIMARY_EXECUTION_ADAPTER_VALIDATION/v1",
+  "date": "2026-10-26",
+  "status": "PASS_PLAN_SYNTAX_AND_SYNTHETIC_ADAPTER_TESTS",
+  "real_input_plan": {
+    "status": "PLAN_ONLY_NO_R_PROCESS",
+    "prepared_bytes": 1883691,
+    "prepared_sha256": "e8dad4011176f2368cb6406e34777e7f7ba1abdf793e8d82d52212e091abd583",
+    "frozen_resource_count": 7,
+    "original_source_and_configuration_identity_checks": "PASS",
+    "R_process_started": false,
+    "preparation_repeated": false
+  },
+  "R_syntax": "PASS_execute.R_write_result.R_test_writer.R",
+  "synthetic_writer": {
+    "status": "PASS_SYNTHETIC_WRITER",
+    "original_serialized_tables": 15,
+    "output_files": 17,
+    "output_bytes": 15678,
+    "checks": [
+      "all_output_hash_readback",
+      "checked_RDS_roundtrip",
+      "TSV_text_numeric_NA_factor_JSON_roundtrip",
+      "existing_destination_rejected",
+      "incorrect_hash_rejected",
+      "path_traversal_rejected"
+    ]
+  },
+  "synthetic_launcher": {
+    "status": "PASS_SYNTHETIC_LAUNCHER",
+    "R_subprocess": "MOCKED_NOT_EXECUTED",
+    "checks": [
+      "default_plan_starts_no_R_process",
+      "explicit_execution_mock_command_environment_and_receipt",
+      "failed_child_rejected",
+      "launch_failure_recorded",
+      "existing_output_rejected",
+      "incorrect_input_rejected_before_output_or_process"
+    ]
+  },
+  "test_runtime": {"R": "4.6.1", "platform": "Windows", "packages": ["jsonlite", "digest"]},
+  "real_scientific_fits": 0,
+  "real_reference_refits": 0,
+  "historical_custody_recreated": false,
+  "full_model_adapter_execution_tested": false,
+  "historical_numerical_equivalence_tested": false,
+  "fresh_Linux_full_model_execution_tested": false,
+  "matched_STAR_adapter_implemented_here": false
+}

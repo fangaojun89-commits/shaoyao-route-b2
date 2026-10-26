@@ -1,0 +1,13 @@
+{
+  "status": "PASS_FIVE_SYNTHETIC_INSTALL_CONTROL_FLOW_TESTS",
+  "date": "2026-10-26",
+  "build_failure_stops": true,
+  "existing_output_preserved": true,
+  "load_failure_rejected": true,
+  "missing_acceptance_rejected": true,
+  "serial_isolated_success_flow": true,
+  "real_packages_installed": 0,
+  "fresh_Linux_build_tested": false,
+  "scientific_models_run": 0,
+  "whole_study_cold_restore_verified": false
+}
