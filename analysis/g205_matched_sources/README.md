@@ -27,10 +27,10 @@ python -I -B pipeline/sources.py verify
 The [complete original exports](../../data/g205_matched_exports/README.md) are now publicly supplied in v0.28.0. After restoring their exact bytes, the original saved-export checker accepts a directory containing `full_source_union.tsv` and `native_table_summary.tsv`:
 
 ```sh
-python -I -B PATH_TO_THE_MAPPED_EXPORT_CHECKER.py /path/to/saved_exports
+python -I -B analysis/reference_sources/code/python/verify_gse205906_saved_comparison_counts_20261022.py /path/to/saved_exports
 ```
 
-Replace the source path using its `public_path` in the provenance map. The seven-table public reading supplement supplies a reporting projection, not those two complete native exports; do not pass that projection as the checker input.
+The source path above is its `public_path` in the provenance map. The seven-table public reading supplement supplies a reporting projection, not those two complete native exports; do not pass that projection as the checker input.
 
 ## Inputs and reconstruction scope
 

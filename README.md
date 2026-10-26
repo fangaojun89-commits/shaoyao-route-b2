@@ -1,5 +1,7 @@
 # Shaoyao Route B2: reproducibility components
 
+**Start here: [result reading and reproduction guide](REPRODUCE.md).** Version 0.29.1 organizes the available commands by saved-result checks, input reconstruction and explicit scientific execution. Scientific code, inputs and results are unchanged.
+
 Version 0.29.0 adds a [path-parameterized GSE205906 primary execution entry](analysis/g205_execution/README.md) and an [explicit isolated Linux R-core installer](environment/G205_core/README.md). Both default to planning. The model entry passed a frozen-input plan and synthetic adapter tests; the installer passed five synthetic control-flow tests. Neither a new real-data fit nor a new Linux package installation was run. Historical numerical equivalence through the new entry and whole-study cold restoration remain unverified.
 
 Version 0.28.0 supplies the [two complete GSE205906 matched-comparison exports](data/g205_matched_exports/README.md), preserving all 216,070 family-feature rows and their accepted identities. The original saved-export checker passes 528 assertions across 22 families; no scientific model is rerun.
