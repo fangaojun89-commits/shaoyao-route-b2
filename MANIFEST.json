@@ -1,6 +1,6 @@
 {
-  "version": "0.29.1",
-  "scope": "UNIFIED_RESULT_READING_AND_REPRODUCTION_GUIDE_SCIENTIFIC_PAYLOAD_UNCHANGED",
+  "version": "0.30.0",
+  "scope": "PORTABLE_MATCHED_STAR_ENTRY_SYNTHETIC_STRUCTURE_VALIDATED_NO_REAL_FITS",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -1957,8 +1957,8 @@
       "sha256": "045716518eb7034d5c6d3fcfe13fcffc01d44515f588141c2af87b38a7064f64"
     },
     "README.md": {
-      "bytes": 21084,
-      "sha256": "b0fd74f09126897dda0ccb80574ff28944af527e8af7d6ba3abe6dababf5157b"
+      "bytes": 21489,
+      "sha256": "459910ab854f495556272cc932a23df422c1100c66c6de8a66aff921fbdfa6cb"
     },
     "supplement/constituent_extension/Route_B2_GSE298414_single_herb_gene_summary_20261025.tsv": {
       "bytes": 11480,
@@ -2057,8 +2057,8 @@
       "sha256": "6fe31b37a834a0cb2fda708398ebafe18f6cc1b0aa9edeab3814b7bc4f945442"
     },
     "analysis/g205_matched_sources/README.md": {
-      "bytes": 10859,
-      "sha256": "dcb5d061612867a5eb6d0890f3be47d56863b33001c7173146241b432bc0a0cf"
+      "bytes": 11243,
+      "sha256": "aa69d8296eb5b9674ee2e6b4c899253152aafc03708a10ff0067811e00693721"
     },
     "analysis/g205_matched_sources/code/python/prepare_gse205906_matched_quantifier_inputs_20261015.py": {
       "bytes": 9031,
@@ -2121,8 +2121,40 @@
       "sha256": "90c2cf7312afe4a2c0acacb3b147f732f9559e7c10b44a6b267660885eea6c78"
     },
     "REPRODUCE.md": {
-      "bytes": 7378,
-      "sha256": "6d074eb5c5e42a319df66576fb626bf2eda9aed81f36386c7f9fe64144b11ac8"
+      "bytes": 7601,
+      "sha256": "a4a6da3fcae4b28715891773fa020b5372cf4c8d620e72bee79ca1b10004f432"
+    },
+    "analysis/g205_matched_execution/CONTRACT.json": {
+      "bytes": 4556,
+      "sha256": "fc84d799ebf7cfae4b44f5022c85d7c3d077b82d81f90d8ecfdb515dbc32b7e7"
+    },
+    "analysis/g205_matched_execution/README.md": {
+      "bytes": 4963,
+      "sha256": "3a792457a72563016a8c07232fe38e6fded8c0167776dbf4f6961ee7c068e788"
+    },
+    "analysis/g205_matched_execution/VALIDATION.json": {
+      "bytes": 1202,
+      "sha256": "5b417c7a990aa21255aeffbb21b6b33c5a85fa972b6953e59ade8d4b643506d5"
+    },
+    "analysis/g205_matched_execution/adapter.R": {
+      "bytes": 4248,
+      "sha256": "addd49c70db90d311dcbd97cd2d33b82bc2326beabd525d1228afcd094edc2c8"
+    },
+    "analysis/g205_matched_execution/execute.R": {
+      "bytes": 7197,
+      "sha256": "774240107eca21ab4db97aa9eb00bf7621b245739b8a0fc95c760f02bf65f3e3"
+    },
+    "analysis/g205_matched_execution/test_entry.py": {
+      "bytes": 4577,
+      "sha256": "72aae11322f75aa1214385761e55fe49140291cea1e13a2e9265a0ed8ac61f1c"
+    },
+    "analysis/g205_matched_execution/test_structure.R": {
+      "bytes": 6289,
+      "sha256": "0c1f452facf603a49fc7ccb0735a5d31c7ee226aee750063724c923f8000345f"
+    },
+    "pipeline/g205_matched_model.py": {
+      "bytes": 6781,
+      "sha256": "d339993fb675f11862e2ed2d70a23745bde9439f6045da3d8ed5e0efcb90b738"
     }
   },
   "real_data_models_run": 0,

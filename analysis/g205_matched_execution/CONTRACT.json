@@ -1,0 +1,102 @@
+{
+  "schema": "G205_MATCHED_PORTABLE_CONTRACT/v1",
+  "scope": "Fresh STAR s0 downstream only; no historical custody reconstruction or HISAT2 refit",
+  "engine_roles": {
+    "model": "analysis/study_sources/code/R/analyze_gse205906_bulk_model_v2_r4.R",
+    "helpers": "analysis/study_sources/code/R/gse205906_bulk_model_v2_r4_lib.R",
+    "config": "analysis/study_sources/config/GSE205906_Ensembl101_full_model_v1_20261006.json",
+    "loader": "analysis/study_sources/code/R/gse205906_ensembl101_input_loader_v2_20261006.R",
+    "prefit": "analysis/study_sources/code/R/gse205906_ensembl101_effect_independent_prefit_v1_20261006.R",
+    "annotation": "analysis/study_sources/code/R/gse205906_ensembl101_annotation_adapter_v1_20261006.R"
+  },
+  "auxiliary_roles": {
+    "core": "analysis/reference_sources/code/R/gse205906_matched_downstream_core_custody_v1_20261022.R",
+    "caller": "analysis/reference_sources/code/R/run_gse205906_matched_downstream_custody_v1_20261022.R",
+    "resource_adapter": "analysis/study_sources/code/R/gse205906_resource_object_validation_v1.R",
+    "writer": "analysis/study_sources/code/R/gse205906_ensembl101_checked_model_RAM_worker_v4_20261006.R"
+  },
+  "sources": {
+    "analysis/study_sources/code/R/analyze_gse205906_bulk_model_v2_r4.R": {
+      "bytes": 72490,
+      "sha256": "b8b274667dcb68e5c8a729e10f4df46d9e596371be4ee6a8a99efc7be1286cd2"
+    },
+    "analysis/study_sources/code/R/gse205906_bulk_model_v2_r4_lib.R": {
+      "bytes": 175131,
+      "sha256": "407bbf2acda7db749f33a4f679564e5cddd0c758f1d0ad9f45e870b2c25432c3"
+    },
+    "analysis/study_sources/config/GSE205906_Ensembl101_full_model_v1_20261006.json": {
+      "bytes": 10612,
+      "sha256": "ee6e22592b06ecdb31707234e97dc55b7b66cbad8dd11c364187af0624ece980"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_input_loader_v2_20261006.R": {
+      "bytes": 10884,
+      "sha256": "45f21c67674b5cd2b424e9c145662910361baee1019cbc68d366a9aab1fcc4ba"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_effect_independent_prefit_v1_20261006.R": {
+      "bytes": 18762,
+      "sha256": "b394a9e301db4e17a3c0495ada7071337198e8aae15eccf82d87cfa7b32f9bc3"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_annotation_adapter_v1_20261006.R": {
+      "bytes": 9943,
+      "sha256": "9f223ec6163a4ac6aca5e85edccac9594f2c5a631889c76bd81f6d560f187470"
+    },
+    "analysis/reference_sources/code/R/gse205906_matched_downstream_core_custody_v1_20261022.R": {
+      "bytes": 32156,
+      "sha256": "b7cac68a7ef3f5fc63ab727f7498b7b6d0c46b9bde18276affce3c87c4f3a71f"
+    },
+    "analysis/reference_sources/code/R/run_gse205906_matched_downstream_custody_v1_20261022.R": {
+      "bytes": 37161,
+      "sha256": "7cdafad1f838cd01ca8ae730762c059a78b2b3f515d47785fd09fe87f9e2275e"
+    },
+    "analysis/study_sources/code/R/gse205906_resource_object_validation_v1.R": {
+      "bytes": 13034,
+      "sha256": "e93aae6769a1173bb7842f213152f56695f5b7b5621b71106c54181496f994ae"
+    },
+    "analysis/study_sources/code/R/gse205906_ensembl101_checked_model_RAM_worker_v4_20261006.R": {
+      "bytes": 31616,
+      "sha256": "3acd88e536a7808ad750c1d5aaa8d79ff6f1c84510f1bd9e4ed5d92f68363efc"
+    }
+  },
+  "prepared_identity": {
+    "bytes": 1889731,
+    "sha256": "5579d3d6e289c1443c9cb89754fe3c170b9ac553b628b3e47169e466079d64dc"
+  },
+  "prepared_identity_source": "analysis/input_bridge/VALIDATION.json",
+  "prepared_identity_source_pin": {
+    "bytes": 4976,
+    "sha256": "cc8a6225381d70baa2afdd30dd0568a308e600b2104d59509e24360bd3bf9d57"
+  },
+  "resources": {
+    "frozen_resource_RDS": {
+      "relative_path": "data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds",
+      "identity": {
+        "bytes": 1506178,
+        "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51"
+      }
+    },
+    "orthology": {
+      "relative_path": "data/processed/gene_sets/ncbi_human_mouse_rat_one_to_one.tsv",
+      "identity": {
+        "bytes": 1922349,
+        "sha256": "e9dd0c9268e0044f615085e27292cbf977f5a648003ba90054cf3d01225cf998"
+      }
+    }
+  },
+  "runtime": {
+    "R": "4.6.1",
+    "edgeR": "4.10.1",
+    "limma": "3.68.4",
+    "DESeq2": "1.52.0",
+    "fgsea": "1.38.0",
+    "decoupleR": "2.17.0",
+    "data.table": "1.18.4",
+    "yaml": "2.3.12",
+    "jsonlite": "2.0.0",
+    "digest": "0.6.39",
+    "openssl": "2.4.2",
+    "PowerShell": "7.6.5",
+    "BiocParallel": "1.46.0"
+  },
+  "historical_native_custody_recreated": false,
+  "numerical_equivalence_to_historical_results_established": false
+}

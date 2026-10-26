@@ -1,5 +1,7 @@
 # GSE205906 matched STAR/HISAT2 analysis: source guide
 
+For a new downstream STAR fit from the restored accepted count preparation, use the [portable entry](../g205_matched_execution/README.md). It reuses the original scientific kernel without invoking historical host/process bindings. Its synthetic and structural checks do not establish a fresh numerical reproduction. The source provenance and saved comparison below remain unchanged.
+
 This guide connects the retained code for the completed nine-library processing sensitivity to the accepted 22-family comparison. Nineteen of the 20 selected sources were already distributed elsewhere in this repository; their existing copies are reused. The metadata/reservoir preparation source is newly supplied. All selected source bytes are unchanged. No alignment, counting, model, random-label reference or accepted-result check was replayed to create this guide.
 
 ## Scientific interpretation
