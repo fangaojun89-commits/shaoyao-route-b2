@@ -66,13 +66,27 @@ The output identity binds input, code, lock and sample hashes but not workstatio
 
 `data/raw_ledger/ENA_quantification_manifest.tsv` records the 24 original read URLs, MD5s and sizes. Historical scientific preparation sources are under `analysis/original/`; their workstation paths are archival, not a portable raw-processing command. The native procedure used fastp 0.20.0, kallisto 0.46.1, Ensembl107 GRCm39 cDNA plus ncRNA, k=31, the original 250000-pair orientation audit, and the recorded index hash. Do not infer that this new accepted-quantification entry performs those upstream steps.
 
-Obtain upstream Ensembl annotation, frozen strict one-to-one orthology, Reactome97 and the mouse PROGENy/DoRothEA resources through their original sources and applicable terms. Membership files and third-party article files are not redistributed. `EXTERNAL_INPUTS.json` prevents using a different resource snapshot silently. An independently verified portable resource acquisition recipe and raw-quantification entry remain release blockers; frozen-file mapping is now integrated below; users without the exact frozen files must not substitute a new version and claim the same analysis.
+Obtain upstream Ensembl annotation, frozen strict one-to-one orthology, Reactome97 and the mouse PROGENy/DoRothEA resources through their original sources and applicable terms. Membership files and third-party article files are not redistributed. `EXTERNAL_INPUTS.json` prevents using a different resource snapshot silently. The parent repository's `PRJNA886048_INTEGRATION.md` now documents the retained NCBI/QuickGO snapshots, external Reactome/Matrisome acquisition and the explicit eight-input portable resource builder. Its thirteen resource outputs reproduced the frozen identities. Frozen-file mapping is integrated below. A portable raw-quantification execution entry and independent fresh execution remain outstanding; different resource versions cannot be substituted and called the same analysis.
 
 ## Validation limits
 
 R restoration to a new target library and Python restoration to a new virtual environment have now passed on the same Windows host; all 52 R dependencies resolved outside the old project library. Whole-machine restoration and full execution from raw reads have not been demonstrated. Completed-checkpoint export validation is distinct from a fresh model fit. Test receipts state which branch actually ran. No new PSS validation or change in the study's statistical/claim boundaries follows from this packaging work. Keep the candidate separate from the public release until remaining access/reconstruction and environment validation are addressed.
 
-The exact retained native JSON pins include timestamps and command paths. They are suitable for authenticating the accepted bundles, but fresh native outputs need a separate semantic acceptance interface before the entry can claim end-to-end raw-read reproduction. The present validation is bounded to accepted-input and existing-checkpoint reuse.
+The default mode authenticates exact retained native JSON bytes, including timestamps and command paths. The explicit native-record mode below instead checks canonical records and binds the actual files. Its successful read-only checks do not demonstrate fresh raw-read execution or a completed new analysis run.
+
+## Native-record input mode
+
+The optional `--native-record-checks` mode validates the canonical execution records and numerical content described in [pipeline/native/README.md](pipeline/native/README.md), then binds all 63 actual native/resource files and the checker code to this run's checkpoints. It preserves the fixed scientific arguments and resource identities. The three noncanonical historical libraries (46, 47 and 54) must retain all five historical file identities. This mode rejects `--adopt-completed-checkpoints`; existing results with different input or code bindings cannot be adopted by relabelling them.
+
+From the extension directory, with the locked environments and the same four-path configuration:
+
+```sh
+uv run --locked python -I -B pipeline/run.py --config /path/inputs.json --native-record-checks --check-only --rscript Rscript --r-library /path/R-library
+uv run --locked python -I -B pipeline/run.py --config /path/inputs.json --native-record-checks --run --output /path/new-native-record-run --rscript Rscript --r-library /path/R-library
+uv run --locked python -I -B pipeline/run.py --config /path/inputs.json --native-record-checks --resume --output /path/new-native-record-run --rscript Rscript --r-library /path/R-library
+```
+
+Only the first command has been executed successfully on all 12 retained libraries. Full `--run` and successful `--resume` in this mode remain unverified. Bounded tests confirmed that internally consistent changed receipt times produce a new binding and that resuming an old binding is rejected before analysis. The frozen-table comparison remains mandatory. Recorded input digests are checked against the ENA ledger, but the checker does not independently rehash raw reads or attest a remote execution host. A separate inspected native runner is still required for full raw-to-result reproduction.
 
 ## Integrated reference reconstruction (r03)
 
@@ -86,4 +100,4 @@ This command parses GTF, prepares the published cDNA/ncRNA universe and maps fro
 
 The source directory requires Mus_musculus.GRCm39.107.gtf.gz, Mus_musculus.GRCm39.cdna.all.fa.gz, Mus_musculus.GRCm39.ncrna.fa.gz and gtf_CHECKSUMS.txt, cdna_CHECKSUMS.txt, ncrna_CHECKSUMS.txt. Resources require ncbi_human_mouse_rat_one_to_one.tsv, reactome97_human_long.tsv, progeny_mouse_top500.tsv and dorothea_mouse_AB.tsv. All are hash-pinned by the component entries. Historical acquisition URLs for available records appear in provenance/REFERENCE_SOURCE_LOCATIONS.json; this is not a fresh availability check or a complete resource-acquisition workflow. Third-party resources are not bundled.
 
-Use annotation/genes.tsv, sequences/kallisto_tx2gene.tsv and memberships outputs as reconstructed reference artifacts. The fixed-cohort configuration can point tx2gene to sequences/kallisto_tx2gene.tsv, mapped_edges to memberships/mapped_edges.tsv, and reference_terms to memberships/reference_coverage.tsv. Their exact required pins remain unchanged. The accepted-native root is still required separately. Fresh native quantification acceptance and automatic resource acquisition remain open.
+Use annotation/genes.tsv, sequences/kallisto_tx2gene.tsv and memberships outputs as reconstructed reference artifacts. The fixed-cohort configuration can point tx2gene to sequences/kallisto_tx2gene.tsv, mapped_edges to memberships/mapped_edges.tsv, and reference_terms to memberships/reference_coverage.tsv. Their exact required pins remain unchanged. The native root is required separately. Canonical record/content checking is implemented; portable raw processing and independent fresh execution remain open. Resource preparation uses explicit acquired locations and rejects mismatched bytes rather than downloading a newer version automatically.
