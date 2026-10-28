@@ -1,0 +1,112 @@
+{
+  "schema": "g128-compressed-io-prerequisite-validation-v1",
+  "evidence_created_utc": "2026-10-28T20:48:21.376965+00:00",
+  "base_scientific_source_commit": "992dc6acb7786341fed80c3506f6993c47e43063",
+  "scope": "Real package-build counterexamples and compressed IO preflight; no model reproduction claim",
+  "status": "EXACT_READER_ABSENCE_AND_NO_ZLIB_REJECTED_GZIP_AND_PUBLIC_NO_FIT_CHECK_PASS",
+  "changed_operational_sources": {
+    "pipeline/g128_model.py": {
+      "bytes": 7320,
+      "sha256": "c424f23dac14aa140e7f904e23168c9b529c4540d0c0eb97ae11756b7aa28778"
+    },
+    "analysis/g128_execution/entry.R": {
+      "bytes": 5173,
+      "sha256": "8e6b14ea40b5c2b8a22dcb7d3c551213dbd48ce756fbd7a5fa35a0cd8d93096a"
+    },
+    "analysis/g128_execution/compressed_io.R": {
+      "bytes": 2345,
+      "sha256": "fd1459219b339a04bda9cafc35fef9d515e7b074651e5990f2cee6b1d61c5c29"
+    }
+  },
+  "tested_contract_identity": {
+    "bytes": 3212,
+    "sha256": "fa41072e11738083812b63f9a955baed6eceb148a94f732f94750c143357811a"
+  },
+  "retained_CRLF_contract_identity": {
+    "bytes": 3311,
+    "sha256": "716423e8bfc960b674d9c4c97228fdfdcbbe2530dc421936a7bebb55b65d1851"
+  },
+  "CRLF_contract_normalizes_exactly_to_tested_contract_bytes": true,
+  "cases": {
+    "missing_locked_readers": {
+      "returncode": 1,
+      "status": "FAIL_COMPRESSED_IO_BEFORE_SCIENTIFIC_EXECUTION",
+      "condition": "MISSING_PACKAGE:R.methodsS3",
+      "required_versions": {
+        "data.table": "1.18.4",
+        "R.methodsS3": "1.8.2",
+        "R.oo": "1.27.1",
+        "R.utils": "2.13.0"
+      },
+      "actual_versions": {
+        "data.table": "1.18.4"
+      },
+      "roundtrip_rows": null,
+      "scientific_model_invocations": 0
+    },
+    "same_version_without_gzip": {
+      "returncode": 1,
+      "status": "FAIL_COMPRESSED_IO_BEFORE_SCIENTIFIC_EXECUTION",
+      "condition": "Compression in fwrite uses zlib library. Its header files were not found at the time data.table was compiled. To enable fwrite compression, please reinstall data.table and study the output for further guidance.",
+      "required_versions": {
+        "data.table": "1.18.4",
+        "R.methodsS3": "1.8.2",
+        "R.oo": "1.27.1",
+        "R.utils": "2.13.0"
+      },
+      "actual_versions": {
+        "data.table": "1.18.4",
+        "R.methodsS3": "1.8.2",
+        "R.oo": "1.27.1",
+        "R.utils": "2.13.0"
+      },
+      "roundtrip_rows": null,
+      "scientific_model_invocations": 0
+    },
+    "repaired_exact_library": {
+      "returncode": 0,
+      "status": "PASS_EXACT_GZIP_WRITE_READ_PREFIT_CHECK",
+      "condition": null,
+      "required_versions": {
+        "data.table": "1.18.4",
+        "R.methodsS3": "1.8.2",
+        "R.oo": "1.27.1",
+        "R.utils": "2.13.0"
+      },
+      "actual_versions": {
+        "data.table": "1.18.4",
+        "R.methodsS3": "1.8.2",
+        "R.oo": "1.27.1",
+        "R.utils": "2.13.0"
+      },
+      "roundtrip_rows": 3,
+      "scientific_model_invocations": 0
+    }
+  },
+  "public_no_fit_check": {
+    "status": "PASS_ORIGINAL_MODEL_INPUT_RUNTIME_CHECK_NO_FITS",
+    "genes": 41079,
+    "libraries": 30,
+    "pre_expression_filter_programs": 3211,
+    "scientific_model_runs": 0,
+    "driver_factory_constructed": true,
+    "linux_execution_validated": false,
+    "mode": "check",
+    "rotation_count": 9999,
+    "minimum_members": 10,
+    "seed": 20260819,
+    "system": "Linux",
+    "whole_study_restoration_verified": false
+  },
+  "public_no_fit_inputs_unchanged": true,
+  "public_no_fit_sources_unchanged": true,
+  "scientific_model_invocations": 0,
+  "original_statistical_bodies_and_parameters_changed": false,
+  "live_validation_job_source_package_modified": false,
+  "model_agreement_or_independent_validation_established_by_this_test": false,
+  "protected_PSS_holdout_validation": false,
+  "retained_complete_private_operational_evidence_identity": {
+    "bytes": 6994,
+    "sha256": "6899c037f1fd8540eb3f0ad7688cea707e6732e7eddb92b79aad595426a07b69"
+  }
+}

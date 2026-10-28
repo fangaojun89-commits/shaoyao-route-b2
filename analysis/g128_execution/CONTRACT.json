@@ -79,5 +79,21 @@
     "Inversion",
     "Rejection"
   ],
-  "real_data_rerun_for_release": false
+  "real_data_rerun_for_release": false,
+  "operational_prerequisites": {
+    "compressed_io_source": {
+      "path": "analysis/g128_execution/compressed_io.R",
+      "identity": {
+        "bytes": 2345,
+        "sha256": "fd1459219b339a04bda9cafc35fef9d515e7b074651e5990f2cee6b1d61c5c29"
+      }
+    },
+    "required_compressed_table_reader_versions": {
+      "R.methodsS3": "1.8.2",
+      "R.oo": "1.27.1",
+      "R.utils": "2.13.0"
+    },
+    "actual_gzip_write_read_roundtrip_before_scientific_kernels": true,
+    "statistical_kernels_or_parameters_changed": false
+  }
 }

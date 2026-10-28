@@ -45,6 +45,7 @@ def main():
     contract_name = 'analysis/g128_execution/CONTRACT.json'
     dependencies = ['pipeline/g128_model.py', contract_name,
                     'analysis/g128_execution/entry.R', 'analysis/g128_execution/synthetic.R',
+                    'analysis/g128_execution/compressed_io.R',
                     'analysis/GSE16710/expected/S1_GATE.tsv', 'data/count_inputs/PROVENANCE.json']
     for name in dependencies:
         if identity(REPO / name) != manifest['files'][name]:

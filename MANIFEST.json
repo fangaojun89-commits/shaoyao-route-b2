@@ -145,20 +145,20 @@
       "sha256": "7106e939abae52a0280f95d83d53554050a642cd955f801e0f78bac15dab97fe"
     },
     "analysis/g128_execution/CONTRACT.json": {
-      "bytes": 2762,
-      "sha256": "984654096dd1a2305964b353095fc7a18e4b5955bbdd69171fa6a491330caa65"
+      "bytes": 3311,
+      "sha256": "716423e8bfc960b674d9c4c97228fdfdcbbe2530dc421936a7bebb55b65d1851"
     },
     "analysis/g128_execution/README.md": {
-      "bytes": 6862,
-      "sha256": "85affb3df4c9f437fd9826e0106dd334e906c32e280df2922f3c612f8efa70f4"
+      "bytes": 8263,
+      "sha256": "b54427ed7a0d4825a3ce4cf6945d8ebc7d4ba1402d4811dd8b36d3b7e6db3b28"
     },
     "analysis/g128_execution/VALIDATION.json": {
       "bytes": 13913,
       "sha256": "97ba10a5ee4e1f0dc378596c9d3db8ba9570ce0275cddba7a89f5a2f3f8f1cc2"
     },
     "analysis/g128_execution/entry.R": {
-      "bytes": 4732,
-      "sha256": "81042ef573133cff8bc84ba15638965386e6a8463a7e383ce81739c5b8dd9352"
+      "bytes": 5173,
+      "sha256": "8e6b14ea40b5c2b8a22dcb7d3c551213dbd48ce756fbd7a5fa35a0cd8d93096a"
     },
     "analysis/g128_execution/negative_checks.R": {
       "bytes": 3714,
@@ -2633,8 +2633,8 @@
       "sha256": "9722816f9abf0727dddaf32c7006d831c7fc962dc13ebc4c341455764082c0ea"
     },
     "pipeline/g128_model.py": {
-      "bytes": 7257,
-      "sha256": "217588b1cd516ce245111876fff17c95459ae918b021378926a658c829c1c28e"
+      "bytes": 7320,
+      "sha256": "c424f23dac14aa140e7f904e23168c9b529c4540d0c0eb97ae11756b7aa28778"
     },
     "pipeline/g205_matched_model.py": {
       "bytes": 6781,
@@ -2839,6 +2839,14 @@
     "supplement/preparation_extension/Route_B2_GSE298414_program_and_stratified_results_20261025.md": {
       "bytes": 8505,
       "sha256": "10c7f5fada67ef3293a73a0371bf6757aa7c52aa560a29097d32f4ecc7729fa1"
+    },
+    "analysis/g128_execution/compressed_io.R": {
+      "bytes": 2345,
+      "sha256": "fd1459219b339a04bda9cafc35fef9d515e7b074651e5990f2cee6b1d61c5c29"
+    },
+    "analysis/g128_execution/COMPRESSED_IO_PREFLIGHT_VALIDATION.json": {
+      "bytes": 3995,
+      "sha256": "d76a6897297f17d8a051889f5b2e6b7b3ae3380963d4dce382cee8263fa8defd"
     }
   },
   "real_data_models_run": 0,

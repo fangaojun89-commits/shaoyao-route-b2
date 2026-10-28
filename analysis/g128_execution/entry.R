@@ -3,6 +3,13 @@ stopifnot(length(args) == 1L)
 spec <- jsonlite::fromJSON(args[[1L]], simplifyVector = FALSE)
 contract <- jsonlite::fromJSON(file.path(spec$repo, "analysis/g128_execution/CONTRACT.json"),
                                simplifyVector = FALSE)
+io <- contract$operational_prerequisites$compressed_io_source
+io_raw <- readBin(file.path(spec$repo, io$path), "raw", n = io$identity$bytes)
+stopifnot(length(io_raw) == io$identity$bytes,
+          tolower(as.character(openssl::sha256(io_raw))) == io$identity$sha256)
+io_env <- new.env(parent = baseenv())
+eval(parse(text = rawToChar(io_raw), keep.source = FALSE), io_env)
+io_env$g128_check_compressed_io(file.path(spec$output, "receipts"))
 raws <- setNames(lapply(contract$sources, function(record) {
   path <- file.path(spec$repo, record$path)
   value <- readBin(path, "raw", n = file.info(path)$size)

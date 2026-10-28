@@ -13,7 +13,7 @@ when a researcher intends to reproduce those analyses. Routine inspection uses
 accepted gzip inputs --count_inputs.py materialize--> exact count/annotation/ledger files
 eight lawful frozen source files --build_resources.py--> exact frozen resource RDS
 count files + resource RDS + retained S1 gate + pinned R library
-  --g128_model.py check--> original-reader, runtime and member checks (no fits)
+  --g128_model.py check--> gzip roundtrip, original-reader, runtime and member checks (no fits)
   --g128_model.py run--> original analyzer --> independent validator --> comparison check
 
 generated counts + generated memberships
@@ -38,6 +38,7 @@ run/
   receipts/
     RUN.json, COMMAND.json, stdout.txt, stderr.txt
     sessionInfo.txt, loaded_packages.tsv, R_VALIDATION.json, COMPLETE.json
+    COMPRESSED_IO_CHECK.json, GZIP_IO_PROBE.tsv.gz  # generated three-row IO evidence
 ```
 
 ## Environment
@@ -52,6 +53,26 @@ the [Linux package guide](../../environment/G205_core/README.md) documents the
 available core package archives and installation sequence. Neither proves that
 an arbitrary new Linux installation has been restored. `sessionInfo.txt` records
 the actual loaded environment and linked numerical libraries.
+
+Compressed tables additionally require the original locked reader packages
+R.methodsS3 1.8.2, R.oo 1.27.1 and R.utils 2.13.0. Version checks alone are
+insufficient: data.table 1.18.4 can be built without optional zlib support, and
+that build cannot write the required gzip files. Install matching zlib development
+headers and make their compiler/pkg-config metadata visible **before** building
+data.table. A pre-existing build without gzip support needs an isolated same-version
+rebuild; this does not justify changing a statistical package version.
+
+Every `check`, `synthetic` and `run` now performs an actual three-row gzip
+write/read/missingness roundtrip before invoking a scientific kernel. A failure
+retains its condition and loaded package paths in `COMPRESSED_IO_CHECK.json` and
+stops before fitting. The probe is generated data; it does not read or alter any
+study count matrix. This operational check does not establish model agreement,
+independent validation, or whole-study restoration. Existing completed analyzer
+output must be inspected after a downstream failure rather than refitted merely
+to obtain a new environment check.
+
+The [executed prerequisite checks](COMPRESSED_IO_PREFLIGHT_VALIDATION.json)
+record both real build/dependency failures and the passing no-fit input check.
 
 Formal execution retains the original Linux requirement. Windows supports the
 original runtime's explicit test-only check for **check/synthetic modes only**.
