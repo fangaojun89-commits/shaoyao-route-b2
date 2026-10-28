@@ -97,7 +97,7 @@ def main():
     spec_path.write_text(json.dumps(spec, indent=2) + '\n', encoding='utf-8')
     env = os.environ.copy()
     for key in ('LANG', 'LC_ALL', 'LC_CTYPE'):
-        env[key] = 'English_United States.utf8' if os.name == 'nt' else 'en_US.UTF-8'
+        env[key] = 'English_United States.utf8' if os.name == 'nt' else 'C.UTF-8'
     for key in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS', 'R_DATATABLE_NUM_THREADS'):
         env[key] = '1'
     env['R_LIBS_USER'] = str(library)

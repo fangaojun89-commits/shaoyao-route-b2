@@ -71,8 +71,26 @@ independent validation, or whole-study restoration. Existing completed analyzer
 output must be inspected after a downstream failure rather than refitted merely
 to obtain a new environment check.
 
-The [executed prerequisite checks](COMPRESSED_IO_PREFLIGHT_VALIDATION.json)
+The [earlier gzip-only prerequisite checks](COMPRESSED_IO_PREFLIGHT_VALIDATION.json)
 record both real build/dependency failures and the passing no-fit input check.
+
+The subprocess requires a native UTF-8 character environment and records the
+actual locale before fitting. Linux uses `C.UTF-8`; if that locale is unavailable,
+the entry stops with `UTF8_CTYPE_REQUIRED` instead of continuing in `C`. Windows
+check/synthetic retain `English_United States.utf8` and the same actual-UTF-8 guard.
+This matters for exact metadata comparisons: in an observed `C` session, six
+program names per branch had identical UTF-8 bytes but different R encoding tags;
+the original exact-string predicate rejected them. Actual `C.UTF-8` sessions read
+the same saved files without these metadata mismatches. This finding does not
+establish the hidden cause of an earlier full-validator failure or prove numeric
+agreement. No saved table is re-encoded, edited or accepted by this preflight.
+
+The [UTF-8 prerequisite and regression evidence](UTF8_RUNTIME_VALIDATION.json)
+records the rejected `C` environment, the accepted UTF-8 environment, both gzip
+dependency/build counterexamples, and the original no-fit check. The source of
+the separate [saved-name metadata inspection](inspect_saved_program_names.R)
+takes an existing `RUN.json`, a fresh report directory, and the actual requested
+character locale; it reads names and memberships without fitting models.
 
 Formal execution retains the original Linux requirement. Windows supports the
 original runtime's explicit test-only check for **check/synthetic modes only**.

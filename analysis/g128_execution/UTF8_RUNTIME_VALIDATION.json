@@ -1,0 +1,159 @@
+{
+  "schema": "g128-utf8-runtime-prerequisite-validation-v1",
+  "evidence_created_utc": "2026-10-28T21:03:16.163273+00:00",
+  "base_commit": "eb9f4df703b8cd9d1d88bc9e122aa1b7fe8b85f9",
+  "status": "C_LOCALE_REJECTED_UTF8_AND_GZIP_REGRESSIONS_PASS_PUBLIC_NO_FIT_CHECK_PASS",
+  "scope": "Operational runtime preflight and saved program-name metadata only; no new analyzer or inference",
+  "changed_operational_sources": {
+    "pipeline/g128_model.py": {
+      "bytes": 7316,
+      "sha256": "926b65b9aa91b0bdda34638c81072909d597b877d7cce7c20bba401d2a66c696"
+    },
+    "analysis/g128_execution/CONTRACT.json": {
+      "bytes": 3415,
+      "sha256": "f5bd09a312106950abfcf6e80177bbce8b1fe33e794c0ad89f90ee0239999dfa"
+    },
+    "analysis/g128_execution/compressed_io.R": {
+      "bytes": 2551,
+      "sha256": "7b46deaac605db13364b63c1b95e651cf432373e63f6870c3307736684dfa54d"
+    }
+  },
+  "cases": {
+    "non_UTF8_C": {
+      "returncode": 1,
+      "status": "FAIL_COMPRESSED_IO_BEFORE_SCIENTIFIC_EXECUTION",
+      "condition": "UTF8_CTYPE_REQUIRED",
+      "native_UTF8": false,
+      "actual_locale": "C",
+      "generated_roundtrip_rows": null
+    },
+    "exact_UTF8": {
+      "returncode": 0,
+      "status": "PASS_EXACT_GZIP_WRITE_READ_PREFIT_CHECK",
+      "condition": null,
+      "native_UTF8": true,
+      "actual_locale": "LC_CTYPE=C.UTF-8;LC_NUMERIC=C;LC_TIME=C.UTF-8;LC_COLLATE=C.UTF-8;LC_MONETARY=C.UTF-8;LC_MESSAGES=C.UTF-8;LC_PAPER=C.UTF-8;LC_NAME=C;LC_ADDRESS=C;LC_TELEPHONE=C;LC_MEASUREMENT=C.UTF-8;LC_IDENTIFICATION=C",
+      "generated_roundtrip_rows": 3
+    },
+    "missing_readers_UTF8": {
+      "returncode": 1,
+      "status": "FAIL_COMPRESSED_IO_BEFORE_SCIENTIFIC_EXECUTION",
+      "condition": "MISSING_PACKAGE:R.methodsS3",
+      "native_UTF8": true,
+      "actual_locale": "LC_CTYPE=C.UTF-8;LC_NUMERIC=C;LC_TIME=C.UTF-8;LC_COLLATE=C.UTF-8;LC_MONETARY=C.UTF-8;LC_MESSAGES=C.UTF-8;LC_PAPER=C.UTF-8;LC_NAME=C;LC_ADDRESS=C;LC_TELEPHONE=C;LC_MEASUREMENT=C.UTF-8;LC_IDENTIFICATION=C",
+      "generated_roundtrip_rows": null
+    },
+    "no_gzip_build_UTF8": {
+      "returncode": 1,
+      "status": "FAIL_COMPRESSED_IO_BEFORE_SCIENTIFIC_EXECUTION",
+      "condition": "Compression in fwrite uses zlib library. Its header files were not found at the time data.table was compiled. To enable fwrite compression, please reinstall data.table and study the output for further guidance.",
+      "native_UTF8": true,
+      "actual_locale": "LC_CTYPE=C.UTF-8;LC_NUMERIC=C;LC_TIME=C.UTF-8;LC_COLLATE=C.UTF-8;LC_MONETARY=C.UTF-8;LC_MESSAGES=C.UTF-8;LC_PAPER=C.UTF-8;LC_NAME=C;LC_ADDRESS=C;LC_TELEPHONE=C;LC_MEASUREMENT=C.UTF-8;LC_IDENTIFICATION=C",
+      "generated_roundtrip_rows": null
+    }
+  },
+  "public_no_fit_check": {
+    "status": "PASS_ORIGINAL_MODEL_INPUT_RUNTIME_CHECK_NO_FITS",
+    "genes": 41079,
+    "libraries": 30,
+    "pre_expression_filter_programs": 3211,
+    "scientific_model_runs": 0,
+    "driver_factory_constructed": true,
+    "linux_execution_validated": false,
+    "mode": "check",
+    "rotation_count": 9999,
+    "minimum_members": 10,
+    "seed": 20260819,
+    "system": "Linux",
+    "whole_study_restoration_verified": false
+  },
+  "public_no_fit_source_and_inputs_unchanged": true,
+  "actual_public_entry_native_UTF8": true,
+  "actual_public_entry_locale": "LC_CTYPE=C.UTF-8;LC_NUMERIC=C;LC_TIME=C.UTF-8;LC_COLLATE=C.UTF-8;LC_MONETARY=C.UTF-8;LC_MESSAGES=C.UTF-8;LC_PAPER=C.UTF-8;LC_NAME=C;LC_ADDRESS=C;LC_TELEPHONE=C;LC_MEASUREMENT=C.UTF-8;LC_IDENTIFICATION=C",
+  "saved_metadata_inspection_source": {
+    "path": "analysis/g128_execution/inspect_saved_program_names.R",
+    "identity": {
+      "bytes": 4266,
+      "sha256": "56aa545ec9d8ad518b87c5c35c1368560fd60d6d37319cb0e27b803da3eed662"
+    }
+  },
+  "saved_metadata_inspection": {
+    "C": [
+      {
+        "file": "primary_all30/loao/program_chronic_true_refit.tsv.gz",
+        "program_count": 3211,
+        "exact_vector_predicate_used_by_original_validator": false,
+        "exact_cell_mismatches": 6,
+        "raw_byte_mismatches": 0,
+        "hypothetical_UTF8_tag_cell_mismatches": 0,
+        "observed_encoding_counts": {
+          "unknown": 3211
+        },
+        "expected_encoding_counts": {
+          "UTF-8": 6,
+          "unknown": 3205
+        }
+      },
+      {
+        "file": "complete29_sensitivity/loao/program_chronic_true_refit.tsv.gz",
+        "program_count": 3211,
+        "exact_vector_predicate_used_by_original_validator": false,
+        "exact_cell_mismatches": 6,
+        "raw_byte_mismatches": 0,
+        "hypothetical_UTF8_tag_cell_mismatches": 0,
+        "observed_encoding_counts": {
+          "unknown": 3211
+        },
+        "expected_encoding_counts": {
+          "UTF-8": 6,
+          "unknown": 3205
+        }
+      }
+    ],
+    "UTF8": [
+      {
+        "file": "primary_all30/loao/program_chronic_true_refit.tsv.gz",
+        "program_count": 3211,
+        "exact_vector_predicate_used_by_original_validator": true,
+        "exact_cell_mismatches": 0,
+        "raw_byte_mismatches": 0,
+        "hypothetical_UTF8_tag_cell_mismatches": 0,
+        "observed_encoding_counts": {
+          "unknown": 3211
+        },
+        "expected_encoding_counts": {
+          "unknown": 3211
+        }
+      },
+      {
+        "file": "complete29_sensitivity/loao/program_chronic_true_refit.tsv.gz",
+        "program_count": 3211,
+        "exact_vector_predicate_used_by_original_validator": true,
+        "exact_cell_mismatches": 0,
+        "raw_byte_mismatches": 0,
+        "hypothetical_UTF8_tag_cell_mismatches": 0,
+        "observed_encoding_counts": {
+          "unknown": 3211
+        },
+        "expected_encoding_counts": {
+          "unknown": 3211
+        }
+      }
+    ]
+  },
+  "retained_complete_operational_evidence_identity": {
+    "bytes": 9389,
+    "sha256": "c4f845adf909cb32f2c0b5eabdfafedf4bc157270facbccc7d9bf044c95c1c82"
+  },
+  "retained_complete_metadata_evidence_identity": {
+    "bytes": 12417,
+    "sha256": "3d6d2690922f084bbf60150afb52fc789191603831a274e571039b9991ea9404"
+  },
+  "all_33_saved_analyzer_outputs_unchanged_by_metadata_inspection": true,
+  "source_statistical_bodies_parameters_or_tolerances_changed": false,
+  "scientific_model_invocations_by_these_checks": 0,
+  "saved_table_reencoding_or_replacement_performed": false,
+  "original_hidden_full_validator_failure_cause_proven": false,
+  "full_numeric_reconstruction_accepted_by_these_checks": false,
+  "protected_PSS_holdout_validation": false
+}

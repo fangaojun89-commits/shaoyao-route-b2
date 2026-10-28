@@ -6,10 +6,14 @@ g128_check_compressed_io <- function(receipts) {
   result <- list(schema = "g128-compressed-table-io-v1",
                  status = "PREFIT_COMPRESSED_IO_CHECK_STARTED",
                  stage = "before_scientific_execution",
+                 actual_locale = Sys.getlocale(),
+                 native_UTF8 = isTRUE(l10n_info()[["UTF-8"]]),
                  scientific_model_invocations = 0L,
                  required_versions = as.list(expected), loaded = list())
   record <- file.path(receipts, "COMPRESSED_IO_CHECK.json")
   tryCatch({
+    if (!isTRUE(result$native_UTF8))
+      stop("UTF8_CTYPE_REQUIRED", call. = FALSE)
     for (name in names(expected)) {
       if (!requireNamespace(name, quietly = TRUE))
         stop(paste0("MISSING_PACKAGE:", name), call. = FALSE)
@@ -22,7 +26,7 @@ g128_check_compressed_io <- function(receipts) {
     path <- file.path(receipts, "GZIP_IO_PROBE.tsv.gz")
     if (file.exists(path)) stop("EXISTING_GZIP_PROBE", call. = FALSE)
     expected_table <- data.table::data.table(
-      id = 1:3, value = c(1, NA_real_, -2.5), text = c("first", "second", "third"))
+      id = 1:3, value = c(1, NA_real_, -2.5), text = c("first", "second", "third_\u0394"))
     data.table::fwrite(expected_table, path, sep = "\t", quote = TRUE, na = "NA")
     magic <- readBin(path, "raw", n = 2L)
     if (!identical(magic, as.raw(c(0x1f, 0x8b))))
