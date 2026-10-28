@@ -1,0 +1,28 @@
+{
+  "external_input_manifest_sha256": "236e7a1bf6cfc8d49a9234816ebceb15b840bd5448fedbaebee9f33ad40cbac1",
+  "source_execution_sha256": "95f64aa8eea1766e5caa5e3bafc3781b8837e576e3a02153ce05957c76e3f806",
+  "files": {
+    "import": {
+      "relative": "gene_import_objects.rds",
+      "bytes": 17810512,
+      "sha256": "784d0250e7791f791f1e6eb677983b99852aa8729c3ce28764df4ab473279ce3"
+    },
+    "genes": {
+      "relative": "genes/gene_model_objects.rds",
+      "bytes": 7083248,
+      "sha256": "bbf243da476d8b3f21c2cd44407b9a34e9f30f75cd58ba5d601f4a31148013f2"
+    },
+    "programs": {
+      "relative": "program_membership_objects.rds",
+      "bytes": 114819,
+      "sha256": "ed7b7cdca9225647bf964f7827f3ff5978457ec9489903c4b6ea57b5ac740e29"
+    },
+    "activity": {
+      "relative": "signed_activity_objects.rds",
+      "bytes": 19194,
+      "sha256": "9f5d0f7c7a244fde323d11f38c313cac4819becb31478f2eb00f8e15197b090c"
+    }
+  },
+  "scientific_parameter_changes": false,
+  "model_binaries_redistributed": false
+}

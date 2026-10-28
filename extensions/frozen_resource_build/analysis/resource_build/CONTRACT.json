@@ -1,0 +1,173 @@
+{
+  "scope": "Original resource construction from eight frozen source files and existing pinned packages; no scientific model fitting",
+  "R_version": "4.6.1",
+  "packages": {
+    "data.table": "1.18.4",
+    "AnnotationDbi": "1.74.0",
+    "org.Hs.eg.db": "3.23.1",
+    "org.Mm.eg.db": "3.23.0",
+    "org.Rn.eg.db": "3.23.0",
+    "jsonlite": "2.0.0",
+    "progeny": "1.34.0",
+    "dorothea": "1.23.0",
+    "digest": "0.6.39",
+    "openssl": "2.4.2"
+  },
+  "package_version_provenance": "Eight package versions and R from the retained anchor lock; progeny and dorothea from the original builder and corroborated frozen resource release fields (not present in the anchor lock).",
+  "inputs": [
+    {
+      "path": "data/raw/gene_sets/orthology/ncbi_datasets_rest/download_summary.tsv",
+      "identity": {
+        "bytes": 593,
+        "sha256": "2c331b6c7b31718e4a1c446b6f7edefcdef1c5e35b1bd55ef7a130a9533ee2ab"
+      }
+    },
+    {
+      "path": "data/raw/gene_sets/orthology/ncbi_datasets_rest/NCBI_human_protein_coding_gene_groups_2026-08-18.tsv",
+      "identity": {
+        "bytes": 1351565,
+        "sha256": "edea85d702030a5de77d9f79b43fd242bd0f577cf821367a9faebd2e86688e60"
+      }
+    },
+    {
+      "path": "data/raw/gene_sets/orthology/ncbi_datasets_rest/NCBI_mouse_protein_coding_gene_groups_2026-08-18.tsv",
+      "identity": {
+        "bytes": 1647565,
+        "sha256": "13a9c3cb2d80e26d9f5a0838a99c6e3d20031b9ca082d13066db5dc99e7f74e7"
+      }
+    },
+    {
+      "path": "data/raw/gene_sets/orthology/ncbi_datasets_rest/NCBI_rat_protein_coding_gene_groups_2026-08-18.tsv",
+      "identity": {
+        "bytes": 1617409,
+        "sha256": "7b1eeb01d2202b4ef58cdac07c0e051f802515add3da33f6ed7d207a77510307"
+      }
+    },
+    {
+      "path": "data/raw/gene_sets/reactome/release97/ReactomePathways.gmt",
+      "identity": {
+        "bytes": 1032186,
+        "sha256": "89983d5c1f0af11c52edfeee7323eb425580ac6281d387a528562ab1787ce56b"
+      }
+    },
+    {
+      "path": "data/raw/gene_sets/syngo/QuickGO_SynGO_assignedBy_2026-08-17.tsv",
+      "identity": {
+        "bytes": 5437842,
+        "sha256": "b732d1aec044de739d11a14dc745806eb4cc04988415979b7acd427a7348587d"
+      }
+    },
+    {
+      "path": "data/raw/gene_sets/matrisome/official_masterlists/Hs_Matrisome_Masterlist_rev2014.csv",
+      "identity": {
+        "bytes": 171239,
+        "sha256": "a51adb2461b861dcf981494aa71c0fcda42cde065f1d1f12285a704a71c50925"
+      }
+    },
+    {
+      "path": "data/raw/gene_sets/matrisome/official_masterlists/Mm_Matrisome_Masterlist_rev2014.csv",
+      "identity": {
+        "bytes": 204863,
+        "sha256": "c1c2b0a16fc27a02e9cd56de0eea02581addc46eff1c7bc999dfd55889b37e27"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/gene_sets/dorothea_human_AB.tsv",
+      "identity": {
+        "bytes": 367202,
+        "sha256": "03914edc22ab31a653e4f407e2fcba6a0746939ad5ba9ee6348ad3ec9a9113ab"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/dorothea_mouse_AB.tsv",
+      "identity": {
+        "bytes": 369008,
+        "sha256": "5b594286c267f9410f7e9e1228fc07575c735b7152a5b8b157c7d4a8a37e2205"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/dorothea_rat_AB_one_to_one.tsv",
+      "identity": {
+        "bytes": 687990,
+        "sha256": "e709ea4a9e0a1517cb00082bfbf6e8c4408d786694b6864f31ec3f57b458ecb8"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/gene_set_resources_frozen_2026-08-18.rds",
+      "identity": {
+        "bytes": 1506178,
+        "sha256": "0a8526c5f84435a025ec4bdb07be021ce050eda39777f30cbf40bb1ec2daba51"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/matrisome_human.tsv",
+      "identity": {
+        "bytes": 157456,
+        "sha256": "75913860744ab40616d5ac66b177a475d34d9d41ecd354d0edf550754f7d2543"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/matrisome_mouse.tsv",
+      "identity": {
+        "bytes": 171557,
+        "sha256": "63487ebe61057668ca729019c1636d6f3445eaec42175d0db86ccf7f1c04b800"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/ncbi_human_mouse_rat_one_to_one.tsv",
+      "identity": {
+        "bytes": 1922349,
+        "sha256": "e9dd0c9268e0044f615085e27292cbf977f5a648003ba90054cf3d01225cf998"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/progeny_human_top500.tsv",
+      "identity": {
+        "bytes": 609987,
+        "sha256": "b78892ec4d56212b08eb33ea80551fcb018e89b3c698e3d804008537c96bbdb9"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/progeny_mouse_top500.tsv",
+      "identity": {
+        "bytes": 615522,
+        "sha256": "97ac161e3a06b54da68fdb2479d444bc73a685f3794366975aa0c9760abaaf4f"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/quickgo_syngo_mammalian_direct_human.gmt",
+      "identity": {
+        "bytes": 47129,
+        "sha256": "883dca3df6a7e5fc86bad1daa770aef167fa07f754afe5a7962e2b6a276f6448"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/quickgo_syngo_mammalian_direct_human.tsv",
+      "identity": {
+        "bytes": 4835295,
+        "sha256": "2a40eeb2bddcf556ea5ac8d6ef6a0cb1bd71f85ac8dddb1aad8165a8d075eb3a"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/reactome97_human_long.tsv",
+      "identity": {
+        "bytes": 11599354,
+        "sha256": "1ea55f41f5b0a4ea51f723fb82b940f8b13fce1cab13ea6825b91d207c72fdc0"
+      }
+    },
+    {
+      "path": "data/processed/gene_sets/reactome97_human.gmt",
+      "identity": {
+        "bytes": 1012030,
+        "sha256": "e1210356685d231100f419cabb4f4fb8bf76e525e0bf282939f1bf8c91f9fc80"
+      }
+    }
+  ],
+  "locales": {
+    "Windows": "English_United States.utf8",
+    "other": "en_US.UTF-8"
+  },
+  "locale_provenance": "Original environment/run_r.ps1 explicitly sets LANG, LC_ALL and LC_CTYPE to English_United States.utf8. Linux locale mapping is untested; acceptance still requires all thirteen exact output hashes."
+}

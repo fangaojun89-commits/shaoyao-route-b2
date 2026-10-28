@@ -1,0 +1,35 @@
+{
+  "scope": "Historical acquisition records; URLs not re-probed in this packaging step",
+  "records": [
+    {
+      "name": "Mus_musculus.GRCm39.cdna.all.fa.gz",
+      "url": "https://ftp.ensembl.org/pub/release-107/fasta/mus_musculus/cdna/Mus_musculus.GRCm39.cdna.all.fa.gz",
+      "bytes": 51269494,
+      "sha256": "34499a727ff72bdddb2f32e5831b14fb5a9d20218cd79b8639dc8736b2c596c0"
+    },
+    {
+      "name": "Mus_musculus.GRCm39.ncrna.fa.gz",
+      "url": "https://ftp.ensembl.org/pub/release-107/fasta/mus_musculus/ncrna/Mus_musculus.GRCm39.ncrna.fa.gz",
+      "bytes": 7668482,
+      "sha256": "0472b7d912e84d838485ecf236670a68319a32fb4580062cd9768c7bce85d9ab"
+    },
+    {
+      "name": "ncrna_CHECKSUMS.txt",
+      "url": "https://ftp.ensembl.org/pub/release-107/fasta/mus_musculus/ncrna/CHECKSUMS",
+      "bytes": 63,
+      "sha256": "3d80a6c4784561b65834456322f76b9b72cc3e1376a6e8e8832cc73be6ce5329"
+    },
+    {
+      "name": "Mus_musculus.GRCm39.107.gtf.gz",
+      "url": "https://ftp.ensembl.org/pub/release-107/gtf/mus_musculus/Mus_musculus.GRCm39.107.gtf.gz",
+      "bytes": 31861821,
+      "sha256": "15af16b7bef88c4309a82d49579fdd967f6ac8769b7f0bf657bbf7ee73b779e3"
+    },
+    {
+      "name": "kallisto_linux-v0.46.1.tar.gz",
+      "url": "https://github.com/pachterlab/kallisto/releases/download/v0.46.1/kallisto_linux-v0.46.1.tar.gz",
+      "bytes": 7274037,
+      "sha256": "cf16b0bb78cf7b0b8089bed1bcd29aa59c64b1353c2893345e0647ad0df87e74"
+    }
+  ]
+}

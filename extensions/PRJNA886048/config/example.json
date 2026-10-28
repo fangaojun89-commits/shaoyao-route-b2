@@ -1,0 +1,6 @@
+{
+  "native_root": "/absolute/path/to/accepted/PRJNA886048",
+  "tx2gene": "/absolute/path/to/kallisto_tx2gene.tsv",
+  "mapped_edges": "/absolute/path/to/mapped_edges.tsv",
+  "reference_terms": "/absolute/path/to/reference_coverage.tsv"
+}

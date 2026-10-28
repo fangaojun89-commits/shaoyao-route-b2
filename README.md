@@ -124,3 +124,8 @@ Source accessions: [GSE128623](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?ac
 ## Citation and archive
 
 Cite this repository, version and commit for the reporting component. A Zenodo DOI is planned for a deposited version after creator metadata are finalized; no DOI is assigned or implied here. Final manuscript authors, affiliations and contact details are supplied separately by the project owner.
+
+
+## Local PRJNA886048 integration candidate
+
+See [integration scope and commands](PRJNA886048_INTEGRATION.md). This branch is unpublished; v0.30.0 remains the prior published version.

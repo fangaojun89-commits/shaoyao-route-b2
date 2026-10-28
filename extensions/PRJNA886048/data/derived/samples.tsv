@@ -1,0 +1,13 @@
+run	biosample	alias	treatment	replicate	sex	age_source	disease	tissue
+SRR21775850	SAMN31116945	Vehicle-10	Saline solution	Biological replicate 6	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775853	SAMN31116942	Vehicle-05	Saline solution	Biological replicate 3	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775849	SAMN31116946	AC-1mg-04	Baclofen	Biological replicate 1	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775852	SAMN31116943	Vehicle-06	Saline solution	Biological replicate 4	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775856	SAMN31116941	Vehicle-04	Saline solution	Biological replicate 2	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775846	SAMN31116949	AC-1mg-08	Baclofen	Biological replicate 4	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775847	SAMN31116948	AC-1mg-07	Baclofen	Biological replicate 3	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775848	SAMN31116947	AC-1mg-06	Baclofen	Biological replicate 2	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775855	SAMN31116950	AC-1mg-09	Baclofen	Biological replicate 5	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775857	SAMN31116940	Vehicle-01	Saline solution	Biological replicate 1	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775851	SAMN31116944	Vehicle-07	Saline solution	Biological replicate 5	female	1015 weeks	Spinal cord compression	Spinal cord
+SRR21775854	SAMN31116951	AC-1mg-10	Baclofen	Biological replicate 6	female	1015 weeks	Spinal cord compression	Spinal cord

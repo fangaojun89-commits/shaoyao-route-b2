@@ -23,3 +23,8 @@ The preparation-identity extension contains original interpretive curation and l
 GSE298414 preparation results add project-generated statistical tables, expression-QC summaries, inferred score matrices, mapped annotation identifiers and original source-label curation. No gene-set memberships, network edges, full article or supplemental workbook is redistributed. These results do not relicense the public GEO inputs or external resources. The separate source ledger preserves conflicting source labels rather than replacing original metadata.
 
 GSE298414 constituent comparisons add original statistical outputs, public-library QC and inferred score matrices, representative annotation identifiers and curated metadata. They share 72 input libraries with the earlier preparation extension. No article files, supplemental workbook, gene-set memberships, network edges or scientific model binaries are added. External resources retain their respective terms.
+
+
+## Historical annotation snapshot additions in this candidate
+
+The earlier exclusion of third-party resource inputs is amended only for the NCBI gene-group and QuickGO assignedBy=SynGO snapshots now under data/resource_snapshots. Each has a source notice. NCBI factual mapping records retain NCBI molecular-data policy and third-party caveats; GO annotations retain CC BY 4.0 attribution and warranty terms. Neither is relicensed as original MIT code or original CC BY curation. Matrisome workbooks/CSVs, dependency tarballs and other full resource memberships remain external. No private acquisition headers or credentials are added.

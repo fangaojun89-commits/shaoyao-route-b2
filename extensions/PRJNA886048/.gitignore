@@ -1,0 +1,6 @@
+.venv/
+renv/library/
+renv/staging/
+__pycache__/
+*.pyc
+local-inputs.json

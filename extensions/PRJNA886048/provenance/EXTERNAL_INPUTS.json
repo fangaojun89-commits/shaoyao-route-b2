@@ -1,0 +1,384 @@
+{
+  "status": "FIXED_ACCEPTED_COHORT_INPUTS",
+  "files": [
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775846_01/receipt.json",
+      "bytes": 5149,
+      "sha256": "e4bd61e91537ff85971fce8efe4055615d2029dd5e4a08b267d18a478d321bab"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775846_01/fastp.json",
+      "bytes": 136485,
+      "sha256": "d348373c80dd22995e60487a2a205e634bef81bece4f506520cd0ab123adb17c"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775846_01/fastp.html",
+      "bytes": 488431,
+      "sha256": "1463c2639ae7c68907b48bed0ccb579afd4dedb49244fe83a5a6086a996f5d00"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775846_01/quant/abundance.tsv",
+      "bytes": 6491951,
+      "sha256": "685e4a45032cc1ee622a6d69ee63373fcc2bc3c08a0b6e6e681a71548d3e2d31"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775846_01/quant/run_info.json",
+      "bytes": 630,
+      "sha256": "7e2f623fabf2c893ec7cf162c115439ca425ac0d879570efa444689e985da975"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775847_01/receipt.json",
+      "bytes": 10824,
+      "sha256": "0568aa75caca51b230313ed623d75b736f73d8f63c6d3b0d009c697cb8987aec"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775847_01/fastp.json",
+      "bytes": 136530,
+      "sha256": "16e1ec55fedddbe8eaf165a8ccf83ca480edb2ec3bb33c45e32e175ec745c7c6"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775847_01/fastp.html",
+      "bytes": 488549,
+      "sha256": "f2f1f950ba70cae96da83b4fd4398833715545b0cf481fe71de6758dbe254cd3"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775847_01/quant/abundance.tsv",
+      "bytes": 6518019,
+      "sha256": "70868816fad5d5b4766464f94ef7d98b3bbb6930576d3d8c408b6036b62e3aeb"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775847_01/quant/run_info.json",
+      "bytes": 675,
+      "sha256": "0d8bffa3d8e8983085c1fa0ca4f77f2bd6cc600c87a98e0d874a4482c23cc223"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775848_01/receipt.json",
+      "bytes": 10297,
+      "sha256": "bc70ba5a3a0de3d2f85bf86ee77a7c6d34d0ba4cba9851b656d3844bc9af5a2a"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775848_01/fastp.json",
+      "bytes": 136341,
+      "sha256": "7d3bdb170d9a0431ed9ac5409f96095ee8df1b79333d6b52361200f41aa41180"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775848_01/fastp.html",
+      "bytes": 488540,
+      "sha256": "ae8a058468490a5adaa6518d44f54588047ab0e83335785927273741f900920e"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775848_01/quant/abundance.tsv",
+      "bytes": 6483191,
+      "sha256": "d1a8bde9d9f1f61cbd4062ca1c9516394ac49c01dc1b4033fb5c65fc4f020042"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775848_01/quant/run_info.json",
+      "bytes": 675,
+      "sha256": "5d01ccb106e817a14c56e5987cab9503aee5edc5687c66a8c00ded5404898f9c"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775849_01/receipt.json",
+      "bytes": 10391,
+      "sha256": "17ecef09891dc8623949d5d35a70aa3819d457d807777c51e791e354b0314949"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775849_01/fastp.json",
+      "bytes": 137258,
+      "sha256": "a657ab6797075c3a8c8ff9a459ab691bc9434c1d9a70bb091aef63670f047483"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775849_01/fastp.html",
+      "bytes": 489347,
+      "sha256": "e5ac5a18e4db3a27197ed009ddbbc81e178111a80827c2881a917acb402a2a2d"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775849_01/quant/abundance.tsv",
+      "bytes": 6487712,
+      "sha256": "6aa0c4924ae8392054b6dc35bc9a6823ecb74bd26b17b3c3481edd861cff0423"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775849_01/quant/run_info.json",
+      "bytes": 675,
+      "sha256": "39175bccb37ecaa2e95ee0db769a474959cb77b500084ac4845ff5f78503a221"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775850_01/receipt.json",
+      "bytes": 9781,
+      "sha256": "e8bba39afe8f851ac0e0c6a86b1f8f30a545e1f602f77b3ed0f950207e348843"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775850_01/fastp.json",
+      "bytes": 137921,
+      "sha256": "de76da4f35e6b46375607591755427dbbdbdf9773792d843c9966fac531bc7ee"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775850_01/fastp.html",
+      "bytes": 490302,
+      "sha256": "362861fb48c690071f39a21dad0484540fb552070db42d558a195ef63b8122a6"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775850_01/quant/abundance.tsv",
+      "bytes": 6495393,
+      "sha256": "f9f79aa566e8769bd9e8633d70f3e79a802cf0fe9c2a9063cf9941a933c8a020"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775850_01/quant/run_info.json",
+      "bytes": 606,
+      "sha256": "8039acf544ee1bbfbde15e6edf3dab69051a8de4e1fd1fa3d1d27e934ea1369f"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775851_01/receipt.json",
+      "bytes": 9950,
+      "sha256": "dd1d4e3dd4cfcb372acb41d9eb963059e80a813bf20439cad1e7d6de2b52ad37"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775851_01/fastp.json",
+      "bytes": 137289,
+      "sha256": "5cd60d59368422eaabc153586dc02f9228f2c0fd5883e8703c24ebfa5edb7078"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775851_01/fastp.html",
+      "bytes": 489675,
+      "sha256": "92693c9b69384a87d60cbec94d6dcf9ce0da5a31fd10358f825eaa6034974dc1"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775851_01/quant/abundance.tsv",
+      "bytes": 6366844,
+      "sha256": "8864a8d17f1a575166fa29bacad02f798fcf0f3da002e802477267f902478db9"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775851_01/quant/run_info.json",
+      "bytes": 630,
+      "sha256": "44fd10b4333cec953e17d3126ba3d4d4db522052f8dee6e5500824824b5ac9e1"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775852_01/receipt.json",
+      "bytes": 9784,
+      "sha256": "43455bb93e6c0986f275f94a1227e9e218b0b5f3cfb811533fea48ce0179a800"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775852_01/fastp.json",
+      "bytes": 137864,
+      "sha256": "9d684e609a0e2e7627fb5e1f0b4b37c869bd4de55b6c3a7a8ba979a614d651d4"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775852_01/fastp.html",
+      "bytes": 490146,
+      "sha256": "24eb74cf36a7cca70e5c792f4e26ea062fe29da3922e1cf17658d537e32adfbc"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775852_01/quant/abundance.tsv",
+      "bytes": 6472763,
+      "sha256": "c656040ea77b87d863f0e42b85f0e3f088dd68f9afb5bf00e78a28a714a36c40"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775852_01/quant/run_info.json",
+      "bytes": 606,
+      "sha256": "6985640d92ff4aaca1efb76970b7dd098d2efec6c20c57ca6f2420e29a90a5b0"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775853_01/receipt.json",
+      "bytes": 9760,
+      "sha256": "0d20ba7bd2cf6cd8796cb00d40c61ee2c24b8848776f9a3b6f82a0d9d27497c9"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775853_01/fastp.json",
+      "bytes": 137296,
+      "sha256": "27149d676f4f8d350a9c8d227bedc81d0b8f75a7ace17710b36148f10f32c4da"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775853_01/fastp.html",
+      "bytes": 489216,
+      "sha256": "609b03b7ab8e55dfca2d4626e54f41b303b534b120bf17296778dceda9348307"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775853_01/quant/abundance.tsv",
+      "bytes": 6534117,
+      "sha256": "0e4f0456b37c44332f7f6c0fb3d0bf2ae2f3c08dd0b27f59e301e3cd6d90d853"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775853_01/quant/run_info.json",
+      "bytes": 606,
+      "sha256": "cba2705d4c80d0c38bc5abedfcd25026fe25894a51e73bafde21d622d6a6c9be"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775854_01/receipt.json",
+      "bytes": 10805,
+      "sha256": "9ff8ac6dba2786eca7758c567f3b03f6018499728a3186ed82aed1f1a6bd979a"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775854_01/fastp.json",
+      "bytes": 136582,
+      "sha256": "3f67221e45204c3304fa74f143e836c97cf17cfb136523b60d25ef62ac9ee223"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775854_01/fastp.html",
+      "bytes": 488739,
+      "sha256": "29fcaf11163e5c6f60fe1941a688772607deee569cf6d335d958b47afc8f4559"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775854_01/quant/abundance.tsv",
+      "bytes": 6490416,
+      "sha256": "0bd74e8ccce53d35651dbc8499cfdf6c624966fbb997dbb374962937edb889e0"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775854_01/quant/run_info.json",
+      "bytes": 630,
+      "sha256": "97badf79f122199ec2e92a2e2aa0728f97edd71c850c86e034ec77dd58f7ec14"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775855_01/receipt.json",
+      "bytes": 9861,
+      "sha256": "e89fb97da4dd839185241c38b0d258db523d91203b132d26bdae4806190c505f"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775855_01/fastp.json",
+      "bytes": 136900,
+      "sha256": "3774ee9fdc8b6de04f65a76ac32d957a580d71af1eec8c9f3b10942885a23e30"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775855_01/fastp.html",
+      "bytes": 489027,
+      "sha256": "99e0bb060cffbdaad908bb3bcc47b0767b0b7cc3c9c2a1cb944a5032e1aeb368"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775855_01/quant/abundance.tsv",
+      "bytes": 6517479,
+      "sha256": "6858b98a9ee0249487ec3412926d5fbf40664b96dd16719285d827f50f95ae15"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775855_01/quant/run_info.json",
+      "bytes": 630,
+      "sha256": "ac55d9524e83c236590c744162d2974721ecf62d63eef0b0f9205a112829edd5"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775856_01/receipt.json",
+      "bytes": 9914,
+      "sha256": "4ca175f09d95294f850aa873face53f9dcbaf84435b17f04920a956a6ca63618"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775856_01/fastp.json",
+      "bytes": 138055,
+      "sha256": "b8d1ab8c5380aa4cc9005de6741e61fbbb815127c571c129cde8151071358a85"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775856_01/fastp.html",
+      "bytes": 489998,
+      "sha256": "2b83cae6dee23a614a033f1307d8002147f52e28ed3c52577ad9d2ab2ae69ffa"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775856_01/quant/abundance.tsv",
+      "bytes": 6500454,
+      "sha256": "3844605f8f850c10e0ad80c66eccc7f45318c5e63ba1c67f6d6a5fd04bdd70b0"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775856_01/quant/run_info.json",
+      "bytes": 606,
+      "sha256": "23e7c224ccc63b910dccb34b8e3042397741977b608272474287437b2fe221d6"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775857_01/receipt.json",
+      "bytes": 9913,
+      "sha256": "7ee4c6eeffd95e8b7c91c7e7b6da26998cd0738c4ac63f1d9feac0ced4bca86d"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775857_01/fastp.json",
+      "bytes": 137541,
+      "sha256": "2dfaf47162afe07ed4905c0f5aa6e180f80d9ada07876748bd012c227240d31e"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775857_01/fastp.html",
+      "bytes": 489505,
+      "sha256": "1fd5a1670e2a9ae226ac13ee06659279b3266b58a46d67320bffad3f17316a3a"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775857_01/quant/abundance.tsv",
+      "bytes": 6513874,
+      "sha256": "b540b2bc3e01e582b73efe81ab69181309aba5e58228cc6d75ed7a39f58bfa54"
+    },
+    {
+      "role": "native_root",
+      "relative": "linux_full_SRR21775857_01/quant/run_info.json",
+      "bytes": 606,
+      "sha256": "691e498712bba46d74fb9a04881bb77e7d942c5bd07af7cbe7790ec4d6f424b8"
+    },
+    {
+      "role": "tx2gene",
+      "bytes": 10465327,
+      "sha256": "b4bd74bd2e0056d950940686e31bcec66eacdcea2873d4a70cb1df431ee0fda5"
+    },
+    {
+      "role": "mapped_edges",
+      "bytes": 11890762,
+      "sha256": "65ab2c82121dfd86d48c11df783a7e80e3e6502630bbcc9f71480f19d184f535"
+    },
+    {
+      "role": "reference_terms",
+      "bytes": 214748,
+      "sha256": "b44d90a2e869b0ed4af3e377091c30921af9b98c3cdcf43cfa5e2501f39561be"
+    }
+  ],
+  "raw_FASTQ_read_by_this_packager": false,
+  "source_aggregate_sha256": "88e8eaa37394aea85bdb9edbbe2834d13cae84c18486d1d759c0b2a44e1a21c2",
+  "index_sha256": "8345052ff38d43971d50cbff8f5b767ad438cfb6e868c820d836bc056d2b1f73",
+  "scope": "Hashes only; native receipts, quantification and reference memberships remain external"
+}

@@ -1,0 +1,704 @@
+{
+  "source": "NCBI Datasets v2 gene/taxon/dataset_report",
+  "source_policy": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+  "retrieval_utc_date": "2026-08-17",
+  "filename_date_label": "2026-08-18",
+  "api_service_version": "18.35.0",
+  "original_summary_sha256": "f7edd8bfd51bd350ed01ebbb0e6532d8b3f9bf24acf3331c666e427bc2b6e6be",
+  "original_audit_sha256": "ee2f60c7e6384c3569cb6e397f607d1b128bb1f8a3c9fd9c22e566bcfd6885fa",
+  "combined_files": [
+    {
+      "label": "human",
+      "path": "NCBI_human_protein_coding_gene_groups_2026-08-18.tsv",
+      "bytes": 1351565,
+      "sha256": "edea85d702030a5de77d9f79b43fd242bd0f577cf821367a9faebd2e86688e60"
+    },
+    {
+      "label": "mouse",
+      "path": "NCBI_mouse_protein_coding_gene_groups_2026-08-18.tsv",
+      "bytes": 1647565,
+      "sha256": "13a9c3cb2d80e26d9f5a0838a99c6e3d20031b9ca082d13066db5dc99e7f74e7"
+    },
+    {
+      "label": "rat",
+      "path": "NCBI_rat_protein_coding_gene_groups_2026-08-18.tsv",
+      "bytes": 1617409,
+      "sha256": "7b1eeb01d2202b4ef58cdac07c0e051f802515add3da33f6ed7d207a77510307"
+    }
+  ],
+  "retained_response_metadata": [
+    {
+      "label": "human",
+      "page": "page_001.tsv",
+      "header_sha256": "4a3ccd3ae2bb1d63f48b4f82280285e4c6b3451dd079217ca9077f4283768ca3",
+      "date": "Mon, 17 Aug 2026 16:35:08 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_002.tsv",
+      "header_sha256": "602bbc98e854cf4a5c32aefa6e06ed7b549896644f403de08f64feb1bdf9f879",
+      "date": "Mon, 17 Aug 2026 16:35:11 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_003.tsv",
+      "header_sha256": "a980ec65249691bbed91c4d3c9f037c963995a48bddf8bbb93269cbb3fc6e2fe",
+      "date": "Mon, 17 Aug 2026 16:35:14 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_004.tsv",
+      "header_sha256": "4e44b648a379961b51c471f8dc3361c8df916b3d87d6f78dd0c478f78b75071a",
+      "date": "Mon, 17 Aug 2026 16:35:16 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_005.tsv",
+      "header_sha256": "579bfbfa50b229b474217d8082d618b7e005c07af87625bf4b19ab6d8c2c655a",
+      "date": "Mon, 17 Aug 2026 16:35:19 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_006.tsv",
+      "header_sha256": "3a203ad6c8bb6d43955855702415cb1ffe53bf98594e093a7c4591542a863f14",
+      "date": "Mon, 17 Aug 2026 16:35:22 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_007.tsv",
+      "header_sha256": "dedc5b32d4ff9b712326ec3d8d0301aab758a77f508debb0dda778d9a68c796b",
+      "date": "Mon, 17 Aug 2026 16:35:25 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_008.tsv",
+      "header_sha256": "0010bff23a78f4ce97524b9667fc831f540c834c89d3c8f8baed60a9a26c7f82",
+      "date": "Mon, 17 Aug 2026 16:35:27 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_009.tsv",
+      "header_sha256": "dd8686f8238663252d9675ece7c700d2dc70f7a0a8971ac8bb89fe6063f6f532",
+      "date": "Mon, 17 Aug 2026 16:35:30 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_010.tsv",
+      "header_sha256": "e68b0ab2939631f64bdc1688c89e1831f61c829f9da6b02457fc037350386caf",
+      "date": "Mon, 17 Aug 2026 16:35:32 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_011.tsv",
+      "header_sha256": "97275cbb700890e1f1d0142afcc5a55b7ae639e8f5628fafed8e903dc6699633",
+      "date": "Mon, 17 Aug 2026 16:35:33 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_012.tsv",
+      "header_sha256": "f7d3dd9bcfb277f3289ef05dc348475c655d8fd55dbd52727cd1fec372de3dd0",
+      "date": "Mon, 17 Aug 2026 16:35:35 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_013.tsv",
+      "header_sha256": "696d0a6c0dc39d214ca825a8d67f9fd1fe94ed210d420da420481f424fa82a53",
+      "date": "Mon, 17 Aug 2026 16:35:37 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_014.tsv",
+      "header_sha256": "4f69634d209f754db08b33eca6bfba664b10ac535aa95f8c379aa29acf04c30f",
+      "date": "Mon, 17 Aug 2026 16:35:40 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_015.tsv",
+      "header_sha256": "094c5d88f7fa995c16398357f16749f46876875c1d92c9ec590576cc0aff6a5f",
+      "date": "Mon, 17 Aug 2026 16:35:42 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_016.tsv",
+      "header_sha256": "d9219bbe52b24fa759e45ea116783bc6b0185dead01f1c3b485574d49c363a12",
+      "date": "Mon, 17 Aug 2026 16:35:44 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_017.tsv",
+      "header_sha256": "effd31df92f3b37df2ad795765b0c20c8396dd9e951ffd116be97cf12c42edf3",
+      "date": "Mon, 17 Aug 2026 16:35:46 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_018.tsv",
+      "header_sha256": "d62c1f4bbb574e2f6689a1a0b5d9d5757a371fa4b6e2300673d7baf71341aa91",
+      "date": "Mon, 17 Aug 2026 16:35:48 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_019.tsv",
+      "header_sha256": "c42d99e05c689f47f5518aebe652f0d20d49a4ca7af917a7b6da8e6d3835ccff",
+      "date": "Mon, 17 Aug 2026 16:35:50 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_020.tsv",
+      "header_sha256": "1495074191924548246a251e9583ebb0bbf23f39c28be38ad2301023c71cf9bd",
+      "date": "Mon, 17 Aug 2026 16:35:52 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": true
+    },
+    {
+      "label": "human",
+      "page": "page_021.tsv",
+      "header_sha256": "7bf99ea5e344963fa6ce45c605d79f91eff4b9ba032f5bbd957c5dd7ff19b466",
+      "date": "Mon, 17 Aug 2026 16:35:53 GMT",
+      "api_version": "18.35.0",
+      "total_count": "20598",
+      "next_page_token_present": false
+    },
+    {
+      "label": "mouse",
+      "page": "page_001.tsv",
+      "header_sha256": "ec14175a044e29843d09eef1cf39ed437b75767375d02f197f02f40cc0030be6",
+      "date": "Mon, 17 Aug 2026 16:35:56 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_002.tsv",
+      "header_sha256": "150671ad7b022d7df30d34f49775b0da06ebeea6f676b2f7181d9e197cb1bfc0",
+      "date": "Mon, 17 Aug 2026 16:36:00 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_003.tsv",
+      "header_sha256": "10eb6866521c9eeca34179afd3cec08fbc05b6902d47c943c6212c209d9d4c0e",
+      "date": "Mon, 17 Aug 2026 16:36:03 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_004.tsv",
+      "header_sha256": "7ecb905400cd10c1aa7651dd68958d96d052bb1f5153d80c88f2b046c81b6d9a",
+      "date": "Mon, 17 Aug 2026 16:36:06 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_005.tsv",
+      "header_sha256": "eac55e39f943dee7fd504caf66c914a3ad3d70f4d0f8ddd9068e118227b21f58",
+      "date": "Mon, 17 Aug 2026 16:36:09 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_006.tsv",
+      "header_sha256": "04211ceaccb319ccf8e7b867db5261dab547c487213811cf205ef6277911ea60",
+      "date": "Mon, 17 Aug 2026 16:36:11 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_007.tsv",
+      "header_sha256": "3803218aa3d41866256d0cf17b9d7807c7e70439db60f09e012b49d26bce316b",
+      "date": "Mon, 17 Aug 2026 16:36:14 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_008.tsv",
+      "header_sha256": "4122681e3176d4ec39e5b66f39b28a4511067149849b2c236b82816bfc7e9956",
+      "date": "Mon, 17 Aug 2026 16:36:16 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_009.tsv",
+      "header_sha256": "3fa9e0f30b29d5dcea9f11df600d3675f3cdcb2e874be8b47d326574d871cf6c",
+      "date": "Mon, 17 Aug 2026 16:36:18 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_010.tsv",
+      "header_sha256": "217131745f8aa3df83e07b4c00139368d929219c01116e6b06ad9b10b6292e57",
+      "date": "Mon, 17 Aug 2026 16:36:21 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_011.tsv",
+      "header_sha256": "b1f6fedfe61d7073c6a0326c95d339ac81109e916454255affe678a5b7fa2856",
+      "date": "Mon, 17 Aug 2026 16:36:24 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_012.tsv",
+      "header_sha256": "6195f8803dee2e8d7c76245603e0ba37e918c99ce5a55aea9c54889b86731214",
+      "date": "Mon, 17 Aug 2026 16:36:25 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_013.tsv",
+      "header_sha256": "06921b9fbd3b2f062129432ba442c353cecf4b8e7480289d85c2a70067a1609c",
+      "date": "Mon, 17 Aug 2026 16:36:28 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_014.tsv",
+      "header_sha256": "452be8f129ed5d2e7621663122fa1ab7dd61b58de811fbbb9788a40c7221191a",
+      "date": "Mon, 17 Aug 2026 16:36:30 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_015.tsv",
+      "header_sha256": "c066a64b40a16d0024bdcabd1f813c6a71af3f724f6f029d2f4163f3f6fc7807",
+      "date": "Mon, 17 Aug 2026 16:36:32 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_016.tsv",
+      "header_sha256": "2e7fcb19ae0e3b46ef7b339811ab131f211622e7dfb13a8d8654b580b0f3abd1",
+      "date": "Mon, 17 Aug 2026 16:36:35 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_017.tsv",
+      "header_sha256": "cbb0f4b1e71a6c39f6c31b56bbfaf63b234b9e017cb9118cb6c8376abe9b65bb",
+      "date": "Mon, 17 Aug 2026 16:36:37 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_018.tsv",
+      "header_sha256": "e044e75bdd52df9182d5a1dc522a17f36a431ac1e4fa5cc4b1807f20717f4b2b",
+      "date": "Mon, 17 Aug 2026 16:36:39 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_019.tsv",
+      "header_sha256": "58ce17f94a68d818c9abba133ebef12ff74e4e42f4cb5286055aa3caf8b63f96",
+      "date": "Mon, 17 Aug 2026 16:36:42 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_020.tsv",
+      "header_sha256": "a846fb1440788fd35a0a5a771cb3b025919872476485614dae4740c42798f621",
+      "date": "Mon, 17 Aug 2026 16:36:44 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_021.tsv",
+      "header_sha256": "8d31839d302d154278ac095b0bc635f76edecb71f4b95fbbfcff10deba327be3",
+      "date": "Mon, 17 Aug 2026 16:36:46 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_022.tsv",
+      "header_sha256": "748db534d5e3d7b36d04b25b7b44ed7e692c117ed5a00b42784b7a96611e487b",
+      "date": "Mon, 17 Aug 2026 16:36:47 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_023.tsv",
+      "header_sha256": "fc2890b95afde149d38ee44b012dc4635984eac727335a5d6081f7e275e1012b",
+      "date": "Mon, 17 Aug 2026 16:36:50 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_024.tsv",
+      "header_sha256": "f05dcaf47362286a99e1443e7df9f58cfffe811e25862e17484165226431204b",
+      "date": "Mon, 17 Aug 2026 16:36:51 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_025.tsv",
+      "header_sha256": "70a2be518507d20d5e1810a0217c19b190d4872d533d7260a37069dce859f02b",
+      "date": "Mon, 17 Aug 2026 16:36:53 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_026.tsv",
+      "header_sha256": "e543410a2c91fd0a18e8101a7a4f36a1a5b129766f4f6bde5710a557f2497e0d",
+      "date": "Mon, 17 Aug 2026 16:36:55 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": true
+    },
+    {
+      "label": "mouse",
+      "page": "page_027.tsv",
+      "header_sha256": "f0b6164365325780df7cfd945a9f73ad967183e4198462ddbff16efe109bbe3c",
+      "date": "Mon, 17 Aug 2026 16:36:57 GMT",
+      "api_version": "18.35.0",
+      "total_count": "26313",
+      "next_page_token_present": false
+    },
+    {
+      "label": "rat",
+      "page": "page_001.tsv",
+      "header_sha256": "b4ff1efc54e396754bdc9df62ee8097a125047697e4fb4b5342f4ecb4470b77b",
+      "date": "Mon, 17 Aug 2026 16:36:59 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_002.tsv",
+      "header_sha256": "4a92c56795b9f7fa3f3bad5b02004dca4820435abdaede0ac1537b84e20bafc2",
+      "date": "Mon, 17 Aug 2026 16:37:03 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_003.tsv",
+      "header_sha256": "6fd736d140e0fb83d5912dc679806d9c38cf4cae613c2df5b06cadda31fbf144",
+      "date": "Mon, 17 Aug 2026 16:37:05 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_004.tsv",
+      "header_sha256": "bf8bd27af7bd07e88b29095a8c6b0a14f850c34e3229b7eb09a956f2f8a82be7",
+      "date": "Mon, 17 Aug 2026 16:37:09 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_005.tsv",
+      "header_sha256": "2c59325af74b8af5e14ee58085c4ca62a64e1cbcc6e104aa074b15a224f59ec4",
+      "date": "Mon, 17 Aug 2026 16:37:11 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_006.tsv",
+      "header_sha256": "f2c9862dea289a6c801ce1907f5e8f632d273045936e29ee294237c09d3c9182",
+      "date": "Mon, 17 Aug 2026 16:37:14 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_007.tsv",
+      "header_sha256": "91a6d0897c4a936796ef85f28c1025e0ef10bffe50e51fa087bc3dadd3c72567",
+      "date": "Mon, 17 Aug 2026 16:37:15 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_008.tsv",
+      "header_sha256": "a5861330e8d4283f454880fd3d2baec2b3743764ec1897e6f43314bcd5b843d2",
+      "date": "Mon, 17 Aug 2026 16:37:18 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_009.tsv",
+      "header_sha256": "1a8ba7fbd389436c22851d4f25dd175381188fcccf48cf1a8b53bca2e769d4a7",
+      "date": "Mon, 17 Aug 2026 16:37:20 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_010.tsv",
+      "header_sha256": "cb1c7f9eba751524f433191486ffb78320e10b7b8bbe09cd3b4d590958eeac38",
+      "date": "Mon, 17 Aug 2026 16:37:22 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_011.tsv",
+      "header_sha256": "809b8bd768cf7fa092e83b28bb12bfda192079afd491f2a3b70236783fd7b58e",
+      "date": "Mon, 17 Aug 2026 16:37:24 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_012.tsv",
+      "header_sha256": "b561cf7102f4c60720e9c74877b4fccffbdb4b1aa82fa4d581a3984af9e97850",
+      "date": "Mon, 17 Aug 2026 16:37:27 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_013.tsv",
+      "header_sha256": "394bfd44096465781a1707772f3de0e0a45caefb7a4b6d7e76157b77aab605b4",
+      "date": "Mon, 17 Aug 2026 16:37:29 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_014.tsv",
+      "header_sha256": "95f3e66355b8ccef04c814051147cfb11b905bee4216c45d65a59b45d8353cc4",
+      "date": "Mon, 17 Aug 2026 16:37:32 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_015.tsv",
+      "header_sha256": "e7fd2f6b4d57184e08e9c050c7b15a8930698e755774f7cd6958dceb0d30de98",
+      "date": "Mon, 17 Aug 2026 16:37:34 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_016.tsv",
+      "header_sha256": "8c6208fb68d4d5fcf0cc291d5fc16cefe8a86c2fb12556d2106a3ccd3aab25f3",
+      "date": "Mon, 17 Aug 2026 16:37:36 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_017.tsv",
+      "header_sha256": "361fdf739dff53ba0a7d8def0474a66b448c49245662173f3622dab4c91bd109",
+      "date": "Mon, 17 Aug 2026 16:37:37 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_018.tsv",
+      "header_sha256": "8b6eedda74c601e83c81d1f309f8496b4de153a638a9fa0448466f17c883a470",
+      "date": "Mon, 17 Aug 2026 16:37:39 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_019.tsv",
+      "header_sha256": "eda413c0af0aa405e05327ba1709aa839e25f57bf8a2f20581902318343f6d56",
+      "date": "Mon, 17 Aug 2026 16:37:42 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_020.tsv",
+      "header_sha256": "22c9614f3f19a0f10f5fe020ba1e8e56a2c56e1bec6cd21479ffb8b34369c520",
+      "date": "Mon, 17 Aug 2026 16:37:43 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_021.tsv",
+      "header_sha256": "242fbd0d48e965739a8e3e0e03e6b8deb6a6c50381c26daa4583b3754536e52c",
+      "date": "Mon, 17 Aug 2026 16:37:45 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_022.tsv",
+      "header_sha256": "9e3e95b88246fd4d6b960192cb8c096c988525a69bca25182fa00716da47beec",
+      "date": "Mon, 17 Aug 2026 16:37:48 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_023.tsv",
+      "header_sha256": "574fcbe69adb8b3aca5e18f4247f1b3c3961499fe824b2901ab98ded759b07db",
+      "date": "Mon, 17 Aug 2026 16:37:49 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": true
+    },
+    {
+      "label": "rat",
+      "page": "page_024.tsv",
+      "header_sha256": "4540fb4c556733c36c10d67fcfcb10fd3a75f8d232339190e85f07b360c2af90",
+      "date": "Mon, 17 Aug 2026 16:37:52 GMT",
+      "api_version": "18.35.0",
+      "total_count": "23246",
+      "next_page_token_present": false
+    }
+  ],
+  "limits": [
+    "Local retained headers are not signed server authentication.",
+    "Per-page request URLs were not retained.",
+    "Current API retrieval is not historical replay.",
+    "Portable summary replaces only output_file values; its hash intentionally differs from the historical contract."
+  ],
+  "query": {
+    "taxa": [
+      9606,
+      10090,
+      10116
+    ],
+    "types": "PROTEIN_CODING",
+    "page_size": 1000,
+    "table_fields": [
+      "gene-id",
+      "symbol",
+      "group-id",
+      "group-method",
+      "tax-id",
+      "tax-name",
+      "gene-type"
+    ],
+    "include_tabular_header": "INCLUDE_TABULAR_HEADER_ALWAYS"
+  }
+}

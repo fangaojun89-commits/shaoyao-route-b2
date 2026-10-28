@@ -1,0 +1,92 @@
+{
+  "status": "PASS_RESTORED_ENVIRONMENT_CHECKPOINT_EXPORT_AND_COMPLETED_REUSE",
+  "verified_utc": "2026-10-28T12:42:42.303084+00:00",
+  "tested_execution_binding": "5d8227e0b590c915312267ab7661b68c44879e4067232f0767f68cb75e861b2e",
+  "initial_validation_manifest_sha256": "2c85f7d93fa83cb2b9b63aeba4128071bbaa482e341af45ccf9566c9277fe829",
+  "R_version": "4.6.1",
+  "verified_R_dependency_count": 52,
+  "R_package_origins": {
+    "RESTORED_TARGET": 40,
+    "R_BASE_OR_RECOMMENDED": 12
+  },
+  "R_target_library_restored_from_lock": true,
+  "old_R_project_library_used": false,
+  "whole_machine_clean_room": false,
+  "Python_virtual_environment_restored_with_uv_sync_locked": true,
+  "Python_major_minor": [
+    3,
+    12
+  ],
+  "Python_packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "python-dateutil": "2.9.0.post0",
+    "six": "1.17.0",
+    "tzdata": "2026.5"
+  },
+  "retained_complete_TSV_tables_compared": 13,
+  "numeric_tolerance": 1e-09,
+  "text_and_row_order_comparison": "exact",
+  "R_execution_counts": {
+    "import_executed": 0,
+    "gene_fit_executed": 0,
+    "camera_executed": 0,
+    "activity_executed": 0,
+    "adopted_checkpoints": 4,
+    "reused_checkpoints": 0
+  },
+  "complete_descriptive_cells": 266,
+  "retained_contexts": 19,
+  "real_completed_run_reuse_passed": true,
+  "synthetic_failure_cases": [
+    {
+      "case": "refuse_existing_output",
+      "synthetic": true,
+      "returncode": 1,
+      "expected_evidence": "FileExistsError",
+      "passed": true
+    },
+    {
+      "case": "reject_statistical_override",
+      "synthetic": true,
+      "returncode": 1,
+      "expected_evidence": "statistical overrides are not supported",
+      "passed": true
+    },
+    {
+      "case": "reject_wrong_resource",
+      "synthetic": true,
+      "returncode": 1,
+      "expected_evidence": "Input identity mismatch",
+      "passed": true
+    },
+    {
+      "case": "reject_corrupt_completed_output",
+      "synthetic": true,
+      "returncode": 1,
+      "expected_evidence": "Input identity mismatch",
+      "passed": true
+    },
+    {
+      "case": "stop_at_partial_checkpoint",
+      "synthetic": true,
+      "returncode": 1,
+      "expected_evidence": "Stage stopped; inspect retained logs before any retry: analysis",
+      "passed": true
+    }
+  ],
+  "accepted_checkpoints_changed": false,
+  "raw_FASTQ_accessed": false,
+  "fresh_gene_or_program_models_executed": false,
+  "full_raw_read_end_to_end_reproduction_tested": false,
+  "output_graphics_portability_tested": false,
+  "original_scientific_modules_changed": false,
+  "public_repository_modified": false,
+  "remaining_release_work": [
+    "Portable source-resource acquisition and annotation/mapping reconstruction under source-specific terms",
+    "Portable raw FASTQ quantification preparation with original scientific parameters",
+    "Separate retained-byte acceptance from fresh-run semantic validation, because native JSON timestamps and command paths will change",
+    "Final public source/privacy/license audit, Git publication and anonymous byte verification",
+    "Whole-objective evidence audit across all Route B2 branches"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "files": {
+    "analysis/GSE16710/code/R/freeze_gene_sets.R": {
+      "bytes": 20839,
+      "sha256": "01b8f54303656fe063476ce272b30dd93aa668d023ecb6a6c3c947a7d908d6ea"
+    },
+    "analysis/GSE16710/metadata/gene_set_manifest.tsv": {
+      "bytes": 32072,
+      "sha256": "b3a9089a6e136c5271cf6ac3999d10304dc2316fafd10f5c170d9f43084bbce1"
+    },
+    "analysis/GSE16710/renv.lock": {
+      "bytes": 486560,
+      "sha256": "184dca11877ecfe94b92112a0d62acda986be6587f580d926f793bf6f2bba452"
+    },
+    "analysis/resource_build/check_consumers.R": {
+      "bytes": 4376,
+      "sha256": "f4ebc2d77d4e1b7f1fc5ced3d793168a48b63ee2d7b9217cb1e133fda443985f"
+    },
+    "analysis/resource_build/CONTRACT.json": {
+      "bytes": 6101,
+      "sha256": "369dbf9b8a1d5c2f9ee8b28f04d81a89961de80ad3ffba6067acf4658f15d5e4"
+    },
+    "analysis/resource_build/original_run_r.ps1": {
+      "bytes": 910,
+      "sha256": "1bfafcbcc9deee63a5880ad912d35c1de8cad2dc7a09e8e86e64f4ace7d2bf9c"
+    },
+    "analysis/resource_build/preflight.R": {
+      "bytes": 896,
+      "sha256": "a3956eb9be3d5f18013137d05ab8b09843f2958a168741e36a9bcaadfb0a6808"
+    },
+    "analysis/study_sources/code/R/analyze_gse128623_exact30_linux_model_v2.R": {
+      "bytes": 43165,
+      "sha256": "e251c6ae9bb70cd944ebb1d781895878ee80963946f6e8ad94a52a83713add50"
+    },
+    "analysis/study_sources/code/R/gse128623_model_kernel_loader_candidate_v1_20261007.R": {
+      "bytes": 6822,
+      "sha256": "7da5e5abdd028e3a5d237a8eb01763b5244f65252267ef6f1417cefef8988014"
+    },
+    "analysis/study_sources/code/R/gse128623_model_member_guard_candidate_v2_20261010.R": {
+      "bytes": 6827,
+      "sha256": "eb4158c7849dac19e5e046b3b74e9dcf2724a1fb6929e791d20138bc15b2cf0e"
+    },
+    "analysis/study_sources/code/R/gse205906_resource_object_validation_v1.R": {
+      "bytes": 13034,
+      "sha256": "e93aae6769a1173bb7842f213152f56695f5b7b5621b71106c54181496f994ae"
+    },
+    "analysis/study_sources/code/R/validate_gse128623_exact30_linux_model_v2.R": {
+      "bytes": 41328,
+      "sha256": "87b7f3c26b088d352724fb7f5546fc31e8bec56c0c45e3aa490716240d17d08a"
+    },
+    "pipeline/build_resources.py": {
+      "bytes": 6608,
+      "sha256": "2d5fab41a31b9cc5bfc702b59c438a2ea72662170be03ce2d142ab516cbbcd10"
+    },
+    "PORTABLE_CONTRACT_BINDING.json": {
+      "bytes": 1044,
+      "sha256": "7ac9f6876c69760d3a87e36ccbb79460b42cf746925d88c4e8d68573407a4d30"
+    },
+    "README.md": {
+      "bytes": 1143,
+      "sha256": "dd2fe0b8cb6c1475d4bc59032c9113921c12c901e3f50e827d256f356439ad32"
+    },
+    "pipeline/prepare_inputs.py": {
+      "bytes": 2647,
+      "sha256": "ac2bcbd4d36080343928be0befe2900e64e4609407cd150a15e29f5622145869"
+    }
+  }
+}

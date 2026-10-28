@@ -1,0 +1,27 @@
+{
+  "scope": "Only the NCBI summary output_file column is made portable. Original scientific builder, seven other input identities, package versions, locale, thirteen output identities and consumer checks are unchanged.",
+  "historical_contract": {
+    "bytes": 6101,
+    "sha256": "435c367849fe14fdd264854165e3d0899dcc36630c1a31d20782dc719a217c50"
+  },
+  "portable_contract": {
+    "bytes": 6101,
+    "sha256": "369dbf9b8a1d5c2f9ee8b28f04d81a89961de80ad3ffba6067acf4658f15d5e4"
+  },
+  "historical_summary": {
+    "bytes": 857,
+    "sha256": "f7edd8bfd51bd350ed01ebbb0e6532d8b3f9bf24acf3331c666e427bc2b6e6be"
+  },
+  "portable_summary": {
+    "bytes": 593,
+    "sha256": "2c331b6c7b31718e4a1c446b6f7edefcdef1c5e35b1bd55ef7a130a9533ee2ab"
+  },
+  "snapshot_manifest": {
+    "bytes": 13217,
+    "sha256": "670f02fb11432bda38f12629124bfeb03c8e8226b4b9aca3e37c00d357109698"
+  },
+  "changed_column": "output_file",
+  "all_other_summary_fields_equal": true,
+  "release_published": false,
+  "source_release_modified": false
+}

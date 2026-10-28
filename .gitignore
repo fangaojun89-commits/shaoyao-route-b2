@@ -1,3 +1,7 @@
 output/
 __pycache__/
 *.pyc
+
+# Retained PRJ scientific outputs are versioned inputs to readback.
+!extensions/PRJNA886048/data/output/
+!extensions/PRJNA886048/data/output/**

@@ -1,0 +1,4 @@
+"tax_id"	"label"	"official_report_count"	"response_slots"	"parseable_gene_records"	"empty_gene_reports"	"pages"	"api_version"	"retrieved_at_utc"	"output_file"
+"9606"	"human"	"20598"	"20598"	"20596"	"2"	"21"	"18.35.0"	"2026-08-17T16:35:56.3133645Z"	"NCBI_human_protein_coding_gene_groups_2026-08-18.tsv"
+"10090"	"mouse"	"26313"	"26313"	"26313"	"0"	"27"	"18.35.0"	"2026-08-17T16:36:59.5421431Z"	"NCBI_mouse_protein_coding_gene_groups_2026-08-18.tsv"
+"10116"	"rat"	"23246"	"23246"	"23245"	"1"	"24"	"18.35.0"	"2026-08-17T16:37:54.1331982Z"	"NCBI_rat_protein_coding_gene_groups_2026-08-18.tsv"

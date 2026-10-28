@@ -1,0 +1,64 @@
+{
+  "status": "PASS_INTEGRATED_REFERENCE_RECONSTRUCTION",
+  "utc": "2026-10-28T13:13:53.851169+00:00",
+  "checks": [
+    {
+      "path": "annotation/genes.tsv",
+      "bytes": 2583832,
+      "sha256": "f8a1052c2989c4d78fb5a2965e7a6a342f19c4bc7e719bc79b3cfa90ddb83498",
+      "matches_original": true
+    },
+    {
+      "path": "annotation/transcript_to_gene.tsv",
+      "bytes": 9449272,
+      "sha256": "89176b6187573094bc4d3b7139290880870562c4ff44e9ff1b860fb3f77eb03d",
+      "matches_original": true
+    },
+    {
+      "path": "sequences/transcripts_Ensembl107_GRCm39.fa",
+      "bytes": 285491086,
+      "sha256": "92030a483bfac27e1f45873f4a5f741dafc0b6d276479e7903c0a40687409495",
+      "matches_original": true
+    },
+    {
+      "path": "sequences/kallisto_tx2gene.tsv",
+      "bytes": 10465327,
+      "sha256": "b4bd74bd2e0056d950940686e31bcec66eacdcea2873d4a70cb1df431ee0fda5",
+      "matches_original": true
+    },
+    {
+      "path": "sequences/GTF_transcripts_not_in_published_FASTA.tsv",
+      "bytes": 176627,
+      "sha256": "c6c9d8eba79ed79ac2c0ec425f9687a7fa780a40dfac9b35a337007fe1d68c1b",
+      "matches_original": true
+    },
+    {
+      "path": "memberships/mapped_edges.tsv",
+      "bytes": 11890762,
+      "sha256": "65ab2c82121dfd86d48c11df783a7e80e3e6502630bbcc9f71480f19d184f535",
+      "matches_original": true
+    },
+    {
+      "path": "memberships/excluded_edges.tsv",
+      "bytes": 1455192,
+      "sha256": "482490407e2f7af69eca320117b4c0c963c096d45621dc1af66d0e78b77dc136",
+      "matches_original": true
+    },
+    {
+      "path": "memberships/reference_coverage.tsv",
+      "bytes": 214748,
+      "sha256": "b44d90a2e869b0ed4af3e377091c30921af9b98c3cdcf43cfa5e2501f39561be",
+      "matches_original": true
+    }
+  ],
+  "concordance_semantically_equal": true,
+  "index_builds": 0,
+  "quantifications": 0,
+  "model_fits": 0,
+  "limits": [
+    "Frozen local resources required",
+    "No fresh network acquisition",
+    "No fresh native acceptance",
+    "Not a whole-machine rerun"
+  ]
+}
