@@ -1,0 +1,8 @@
+{
+  "source_file": "run_PRJNA886048_final56_57_memory_R3_20261027.py",
+  "source_sha256": "d73fb7fc59c3da5564a19054cdfca447659de52071580bc1d2d4b8b1d8d3acd5",
+  "scientific_section_sha256_lf_dedented": "d9dd431102039a0446dfa714652d2a79e0b84ac1114212de25bbaa781378f557",
+  "scientific_section_bytes_lf_dedented": 3548,
+  "changes": "Function signature and indentation only; scientific section is text-identical after LF/dedent normalization",
+  "portable_native_execution_verified": false
+}
