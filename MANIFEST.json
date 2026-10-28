@@ -1,6 +1,6 @@
 {
   "version": "0.31.0-candidate",
-  "scope": "UNPUBLISHED_PRJ_COMPLETE_RESULTS_AND_FROZEN_RESOURCE_INPUT_EXTENSION",
+  "scope": "UNRELEASED_PRJ_COMPLETE_RESULTS_AND_FROZEN_RESOURCE_INPUT_EXTENSION",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -17,12 +17,12 @@
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
     },
     "PRJNA886048_INTEGRATION.md": {
-      "bytes": 3668,
-      "sha256": "f51ef4402deca22aa777b0e06bd868bf574448578bf0936af5e6d3663d8af200"
+      "bytes": 3710,
+      "sha256": "ad97ad79ba19732751f5a567c2602726c876d28aa6ef8cdf0cf14764d61807f4"
     },
     "README.md": {
-      "bytes": 21674,
-      "sha256": "44e2701b39f3a482122d1cdb4742e18a2054a757632287b7c311b1f8d7d40ccb"
+      "bytes": 21702,
+      "sha256": "a7eb20d150a4a028f77037bb5268029b26381adc72b2e81c78f74e87d8c741e1"
     },
     "REPRODUCE.md": {
       "bytes": 7601,
@@ -2258,11 +2258,11 @@
     },
     "extensions/PRJNA886048/MANIFEST.json": {
       "bytes": 10933,
-      "sha256": "4edef82acba5ea86d4b0d3cfd523e76f657ef492fbcd0f3c0336d5f4684128f0"
+      "sha256": "6dbda74e331dc7736f6c36a28890c452e07df3e15350a39c64be756521060cc6"
     },
     "extensions/PRJNA886048/README.md": {
-      "bytes": 6335,
-      "sha256": "713e37225998970ba878a3fa55b794e0ca732856c966a6243ff9944c35cd589c"
+      "bytes": 6347,
+      "sha256": "7beb55c1b8003f1abc89b1bcc42a6b5d907542e4c76bac24b025c98c41099c55"
     },
     "extensions/PRJNA886048/REPRODUCE.md": {
       "bytes": 12621,

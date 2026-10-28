@@ -1,6 +1,6 @@
 # PRJNA886048 and frozen-resource integration candidate
 
-This local branch extends v0.30.0. It has not been published or tagged as a release. The PRJ extension reports the fixed six-versus-six acute injured-spinal baclofen context; it does not establish protected post-stroke spasticity validation, target engagement or efficacy of Shaoyao-Gancao Decoction.
+This candidate extends v0.30.0. It has not been tagged as a release. The PRJ extension reports the fixed six-versus-six acute injured-spinal baclofen context; it does not establish protected post-stroke spasticity validation, target engagement or efficacy of Shaoyao-Gancao Decoction.
 
 ## Saved results
 
@@ -10,7 +10,7 @@ From the repository root run:
 
 This authenticates complete retained tables and checks their content without fitting models. Read extensions/PRJNA886048/REPRODUCE.md for the analysis entry, environment and checkpoint contracts. A separate canonical native record/content entry is documented in extensions/PRJNA886048/pipeline/native/README.md; it checks fixed parameters and source identities while allowing consistent runtime metadata changes. Its bounded tests are not fresh execution evidence. The historical exact-hash analysis entry must not be represented as accepting arbitrary reruns or granting historical checkpoint reuse for changed inputs.
 
-The explicit native-record analysis mode has also completed a real full run from retained quantification inputs with the restored environments: all four import/scientific stages executed once without checkpoint adoption, all 13 tables matched, and completed-run recovery left all run files unchanged without refitting. The separate FULL_ANALYSIS_VALIDATION.json records that scope. Portable native processing remains implemented but not executed through the new wrapper; no raw-to-result or protected PSS validation claim follows from the completed analysis test.
+The explicit native-record analysis mode has also completed a real full run from retained quantification inputs with the restored environments: all four import/scientific stages executed once without checkpoint adoption, all 13 tables matched, and completed-run recovery left all run files unchanged without refitting. The separate [full-analysis validation record](extensions/PRJNA886048/FULL_ANALYSIS_VALIDATION.json) records that scope. Portable native processing remains implemented but not executed through the new wrapper; no raw-to-result or protected PSS validation claim follows from the completed analysis test.
 
 ## Frozen resources
 
