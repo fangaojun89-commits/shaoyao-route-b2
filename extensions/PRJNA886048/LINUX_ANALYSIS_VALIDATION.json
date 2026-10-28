@@ -1,0 +1,586 @@
+{
+  "status": "ORIGINAL_R_CRITERION_AND_COMPLETED_RECOVERY_PASSED_WITH_DOCUMENTED_ABSOLUTE_CELL_DIFFERENCE",
+  "source_commit": "2caf377c05e1cc2bf81c76c58ef12bde87fd095a",
+  "execution_platform": "New isolated prefix on an existing Ubuntu 22.04.1 Linux x86_64 host; not an OS reinstall",
+  "Python": "3.12.14",
+  "R": "4.6.1",
+  "base_explicit_artifacts": 104,
+  "base_explicit_sha256": "d79311167b2e29ee8c185983d97a5f2b0267676eb06e721c7cee8e3e170b8fca",
+  "project_dependency_locks": [
+    "uv.lock",
+    "environment/renv.lock"
+  ],
+  "actual_external_input_files": 63,
+  "native_input_libraries": 12,
+  "mode": "--native-record-checks",
+  "full_analysis_runs": 1,
+  "full_analysis_started_utc": "2026-10-28T17:35:01.034998+00:00",
+  "full_analysis_finished_utc": "2026-10-28T17:35:47.774758+00:00",
+  "analysis_completion_status": "COMPLETE_PORTABLE_RUN_MATCHES_FROZEN_TABLES",
+  "R_execution_counts": {
+    "import_executed": 1,
+    "gene_fit_executed": 1,
+    "camera_executed": 1,
+    "activity_executed": 1,
+    "adopted_checkpoints": 0,
+    "reused_checkpoints": 0
+  },
+  "input_code_binding": "d83d8f2da518c124e15ee15afc215fe793058cf04a762b64d2e765767394f7db",
+  "completion_manifest_sha256": "a991a06a8dd131df18ae9b9ddc1398db25f78064c262513401cc912c05b1c20f",
+  "original_frozen_table_comparison": {
+    "tables_passed": 13,
+    "text_columns_dimensions_and_row_correspondence": "exact",
+    "criterion": "R all.equal(tolerance=1e-9), per-column mean-relative comparison, not a maximum absolute-cell bound",
+    "independent_local_R_readback_returncode": 0
+  },
+  "additional_absolute_cell_check": {
+    "criterion": "maximum absolute numeric cell difference <= 1e-9",
+    "all_tables_passed": false,
+    "tables_passed": 12,
+    "table_requiring_qualification": "genes/primary_edgeR.tsv",
+    "table_metrics": [
+      {
+        "table": "camera_complete_coverage.tsv",
+        "rows": 2973,
+        "columns_with_numeric_differences": [],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": true
+      },
+      {
+        "table": "camera_complete_results.tsv",
+        "rows": 1693,
+        "columns_with_numeric_differences": [
+          {
+            "column": "PValue",
+            "changed_numeric_renderings": 1587,
+            "maximum_absolute_difference": 3.9968028886505635e-14,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 1273,
+              "gene_or_term": "R-HSA-9005891",
+              "frozen": 0.616492710739987,
+              "Linux": 0.616492710739947
+            }
+          },
+          {
+            "column": "FDR",
+            "changed_numeric_renderings": 1642,
+            "maximum_absolute_difference": 4.196643033083092e-14,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 829,
+              "gene_or_term": "R-HSA-5218920",
+              "frozen": 0.864792118479685,
+              "Linux": 0.864792118479643
+            }
+          },
+          {
+            "column": "mean_member_log2FC",
+            "changed_numeric_renderings": 1451,
+            "maximum_absolute_difference": 3.6914915568786455e-15,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 277,
+              "gene_or_term": "R-HSA-166663",
+              "frozen": -0.0943755054957672,
+              "Linux": -0.0943755054957709
+            }
+          },
+          {
+            "column": "median_member_log2FC",
+            "changed_numeric_renderings": 1486,
+            "maximum_absolute_difference": 2.6596780333676406e-14,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 20,
+              "gene_or_term": "Esr2",
+              "frozen": -0.0465380628821883,
+              "Linux": -0.0465380628821617
+            }
+          }
+        ],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": false
+      },
+      {
+        "table": "comparison/complete_program_comparisons.tsv",
+        "rows": 266,
+        "columns_with_numeric_differences": [
+          {
+            "column": "SCI_effect",
+            "changed_numeric_renderings": 76,
+            "maximum_absolute_difference": 9.992007221626409e-16,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 1,
+              "gene_or_term": null,
+              "frozen": 0.26640657026086,
+              "Linux": 0.266406570260861
+            }
+          },
+          {
+            "column": "SCI_ci_low",
+            "changed_numeric_renderings": 57,
+            "maximum_absolute_difference": 9.992007221626409e-15,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 5,
+              "gene_or_term": null,
+              "frozen": -1.27405162295727,
+              "Linux": -1.27405162295728
+            }
+          },
+          {
+            "column": "SCI_ci_high",
+            "changed_numeric_renderings": 38,
+            "maximum_absolute_difference": 9.992007221626409e-16,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 8,
+              "gene_or_term": null,
+              "frozen": 0.26122803226947,
+              "Linux": 0.261228032269469
+            }
+          },
+          {
+            "column": "SCI_PValue",
+            "changed_numeric_renderings": 76,
+            "maximum_absolute_difference": 1.9984014443252818e-15,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 9,
+              "gene_or_term": null,
+              "frozen": 0.524369390040168,
+              "Linux": 0.524369390040166
+            }
+          }
+        ],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": false
+      },
+      {
+        "table": "comparison/descriptive_comparison_summary.tsv",
+        "rows": 19,
+        "columns_with_numeric_differences": [],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": true
+      },
+      {
+        "table": "complete_cohort_MDS_coordinates.tsv",
+        "rows": 12,
+        "columns_with_numeric_differences": [
+          {
+            "column": "x",
+            "changed_numeric_renderings": 2,
+            "maximum_absolute_difference": 9.992007221626409e-16,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 3,
+              "gene_or_term": null,
+              "frozen": 0.335843417981542,
+              "Linux": 0.335843417981541
+            }
+          },
+          {
+            "column": "y",
+            "changed_numeric_renderings": 3,
+            "maximum_absolute_difference": 9.992007221626409e-16,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 4,
+              "gene_or_term": null,
+              "frozen": -0.340282004280864,
+              "Linux": -0.340282004280865
+            }
+          }
+        ],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": false
+      },
+      {
+        "table": "complete_library_qc.tsv",
+        "rows": 12,
+        "columns_with_numeric_differences": [
+          {
+            "column": "pseudoaligned_fraction",
+            "changed_numeric_renderings": 10,
+            "maximum_absolute_difference": 4.440892098500626e-16,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 4,
+              "gene_or_term": null,
+              "frozen": 0.915246783588951,
+              "Linux": 0.9152467835889505
+            }
+          }
+        ],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": false
+      },
+      {
+        "table": "DoRothEA_per_library_scores.tsv",
+        "rows": 91,
+        "columns_with_numeric_differences": [],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": true
+      },
+      {
+        "table": "genes/gene_filter.tsv",
+        "rows": 53511,
+        "columns_with_numeric_differences": [],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": true
+      },
+      {
+        "table": "genes/primary_edgeR.tsv",
+        "rows": 17013,
+        "columns_with_numeric_differences": [
+          {
+            "column": "logFC",
+            "changed_numeric_renderings": 17012,
+            "maximum_absolute_difference": 2.305888036069348e-09,
+            "cells_above_extra_absolute_1e_9": 19,
+            "largest_difference": {
+              "row": 14128,
+              "gene_or_term": "ENSMUSG00000073485",
+              "frozen": 0.950916823065478,
+              "Linux": 0.950916825371366
+            }
+          },
+          {
+            "column": "logCPM",
+            "changed_numeric_renderings": 335,
+            "maximum_absolute_difference": 1.0658141036401503e-14,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 1870,
+              "gene_or_term": "ENSMUSG00000019889",
+              "frozen": 4.64129661663944,
+              "Linux": 4.64129661663945
+            }
+          },
+          {
+            "column": "F",
+            "changed_numeric_renderings": 17013,
+            "maximum_absolute_difference": 7.154300085687737e-08,
+            "cells_above_extra_absolute_1e_9": 3783,
+            "largest_difference": {
+              "row": 8348,
+              "gene_or_term": "ENSMUSG00000035270",
+              "frozen": 12.091079910142,
+              "Linux": 12.091079981685
+            }
+          },
+          {
+            "column": "PValue",
+            "changed_numeric_renderings": 17013,
+            "maximum_absolute_difference": 4.008948006894997e-09,
+            "cells_above_extra_absolute_1e_9": 374,
+            "largest_difference": {
+              "row": 13752,
+              "gene_or_term": "ENSMUSG00000068964",
+              "frozen": 0.379510991162752,
+              "Linux": 0.3795109951717
+            }
+          },
+          {
+            "column": "FDR",
+            "changed_numeric_renderings": 17013,
+            "maximum_absolute_difference": 5.76918801620252e-09,
+            "cells_above_extra_absolute_1e_9": 1724,
+            "largest_difference": {
+              "row": 16755,
+              "gene_or_term": "ENSMUSG00000118171",
+              "frozen": 0.709301359989446,
+              "Linux": 0.709301365758634
+            }
+          }
+        ],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": false
+      },
+      {
+        "table": "genes/sensitivity_voom.tsv",
+        "rows": 17013,
+        "columns_with_numeric_differences": [
+          {
+            "column": "logFC",
+            "changed_numeric_renderings": 13902,
+            "maximum_absolute_difference": 7.993605777301127e-14,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 16895,
+              "gene_or_term": "ENSMUSG00000120512",
+              "frozen": 1.3022547685531,
+              "Linux": 1.30225476855318
+            }
+          },
+          {
+            "column": "CI.L",
+            "changed_numeric_renderings": 13798,
+            "maximum_absolute_difference": 9.992007221626409e-14,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 16126,
+              "gene_or_term": "ENSMUSG00000106415",
+              "frozen": -2.77274232767466,
+              "Linux": -2.77274232767456
+            }
+          },
+          {
+            "column": "CI.R",
+            "changed_numeric_renderings": 13509,
+            "maximum_absolute_difference": 1.7008616737257398e-13,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 16025,
+              "gene_or_term": "ENSMUSG00000103318",
+              "frozen": 3.24198305185982,
+              "Linux": 3.24198305185999
+            }
+          },
+          {
+            "column": "t",
+            "changed_numeric_renderings": 14423,
+            "maximum_absolute_difference": 1.900701818158268e-13,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 505,
+              "gene_or_term": "ENSMUSG00000003429",
+              "frozen": 3.71939084897182,
+              "Linux": 3.71939084897201
+            }
+          },
+          {
+            "column": "P.Value",
+            "changed_numeric_renderings": 15506,
+            "maximum_absolute_difference": 1.1790568521519162e-13,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 2415,
+              "gene_or_term": "ENSMUSG00000020932",
+              "frozen": 0.907919640251091,
+              "Linux": 0.907919640250973
+            }
+          },
+          {
+            "column": "adj.P.Val",
+            "changed_numeric_renderings": 16086,
+            "maximum_absolute_difference": 2.1405099914773018e-13,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 1156,
+              "gene_or_term": "ENSMUSG00000011158",
+              "frozen": 0.677102720441757,
+              "Linux": 0.677102720441543
+            }
+          },
+          {
+            "column": "B",
+            "changed_numeric_renderings": 8984,
+            "maximum_absolute_difference": 2.899902540320909e-13,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 505,
+              "gene_or_term": "ENSMUSG00000003429",
+              "frozen": -1.45737311592149,
+              "Linux": -1.4573731159212
+            }
+          }
+        ],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": false
+      },
+      {
+        "table": "PROGENy_per_library_scores.tsv",
+        "rows": 14,
+        "columns_with_numeric_differences": [],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": true
+      },
+      {
+        "table": "signed_activity_contrasts.tsv",
+        "rows": 105,
+        "columns_with_numeric_differences": [
+          {
+            "column": "estimate",
+            "changed_numeric_renderings": 24,
+            "maximum_absolute_difference": 1.9984014443252818e-15,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 25,
+              "gene_or_term": "E2f1",
+              "frozen": 0.499539832751537,
+              "Linux": 0.499539832751539
+            }
+          },
+          {
+            "column": "SE",
+            "changed_numeric_renderings": 3,
+            "maximum_absolute_difference": 9.992007221626409e-16,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 88,
+              "gene_or_term": "Stat5b",
+              "frozen": 0.163368127728125,
+              "Linux": 0.163368127728124
+            }
+          },
+          {
+            "column": "t",
+            "changed_numeric_renderings": 37,
+            "maximum_absolute_difference": 9.992007221626409e-15,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 34,
+              "gene_or_term": "Esr2",
+              "frozen": -1.1505724976136,
+              "Linux": -1.15057249761361
+            }
+          },
+          {
+            "column": "PValue",
+            "changed_numeric_renderings": 36,
+            "maximum_absolute_difference": 3.9968028886505635e-15,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 68,
+              "gene_or_term": "Prdm14",
+              "frozen": 0.792746846058359,
+              "Linux": 0.792746846058363
+            }
+          },
+          {
+            "column": "FDR",
+            "changed_numeric_renderings": 90,
+            "maximum_absolute_difference": 3.9968028886505635e-15,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 15,
+              "gene_or_term": "Ar",
+              "frozen": 0.981138142999178,
+              "Linux": 0.981138142999182
+            }
+          },
+          {
+            "column": "ci_low",
+            "changed_numeric_renderings": 21,
+            "maximum_absolute_difference": 9.992007221626409e-15,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 5,
+              "gene_or_term": "JAK-STAT",
+              "frozen": -1.27405162295727,
+              "Linux": -1.27405162295728
+            }
+          },
+          {
+            "column": "ci_high",
+            "changed_numeric_renderings": 15,
+            "maximum_absolute_difference": 9.992007221626409e-16,
+            "cells_above_extra_absolute_1e_9": 0,
+            "largest_difference": {
+              "row": 13,
+              "gene_or_term": "WNT",
+              "frozen": 0.364215476728997,
+              "Linux": 0.364215476728998
+            }
+          }
+        ],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": false
+      },
+      {
+        "table": "signed_activity_coverage.tsv",
+        "rows": 137,
+        "columns_with_numeric_differences": [],
+        "bytes_identical_to_committed_blob": false,
+        "equal_after_line_ending_normalization": true
+      }
+    ],
+    "original_failed_local_receipt_sha256": "beb0233afddd470379a59a7b84847df98ecfbda0cf6239f3cce1e7c338710c6a",
+    "failed_receipt_preserved": true
+  },
+  "fixed_decisions": [
+    {
+      "table": "genes/primary_edgeR.tsv",
+      "fixed_q_threshold": 0.05,
+      "frozen_significant": 0,
+      "Linux_significant": 0,
+      "significant_ID_sets_equal": true,
+      "effect_direction_changes": 0,
+      "minimum_distance_to_threshold_frozen_and_Linux": [
+        0.478497302605795,
+        0.47849730254848005
+      ]
+    },
+    {
+      "table": "genes/sensitivity_voom.tsv",
+      "fixed_q_threshold": 0.05,
+      "frozen_significant": 0,
+      "Linux_significant": 0,
+      "significant_ID_sets_equal": true,
+      "effect_direction_changes": 0,
+      "minimum_distance_to_threshold_frozen_and_Linux": [
+        0.5241473119371589,
+        0.524147311937092
+      ]
+    },
+    {
+      "table": "camera_complete_results.tsv",
+      "fixed_q_threshold": 0.05,
+      "frozen_significant": 69,
+      "Linux_significant": 69,
+      "significant_ID_sets_equal": true,
+      "effect_direction_changes": 0,
+      "minimum_distance_to_threshold_frozen_and_Linux": [
+        8.384540086430609e-05,
+        8.38454008652012e-05
+      ]
+    },
+    {
+      "table": "signed_activity_contrasts.tsv",
+      "fixed_q_threshold": 0.05,
+      "frozen_significant": 0,
+      "Linux_significant": 0,
+      "significant_ID_sets_equal": true,
+      "effect_direction_changes": 0,
+      "minimum_distance_to_threshold_frozen_and_Linux": [
+        0.730475216720382,
+        0.730475216720382
+      ]
+    }
+  ],
+  "gene_method_logFC_Spearman_frozen_and_Linux": [
+    0.9697887148919758,
+    0.9697887148919758
+  ],
+  "resume_returncode": 0,
+  "resume_models_fitted": 0,
+  "resume_verified_data_checkpoint_files": 44,
+  "all_59_run_files_unchanged_after_resume": true,
+  "operator_postprocessing": {
+    "original_supervisor_status": "STOPPED_REQUIRES_INSPECTION",
+    "original_supervisor_returncode": 1,
+    "error": "After completed analysis, a Python 3.10 supervisor used unavailable hashlib.file_digest.",
+    "recovery": "Verified completed output and ran only completed --resume with Python 3.12; no refit.",
+    "original_error_record_preserved": true
+  },
+  "returned_private_evidence_archive": {
+    "bytes": 52248659,
+    "members": 113,
+    "sha256": "3721d716b76e2c42b62d735a029ff3ba7837dc55af2c9f598ea28122e655301f"
+  },
+  "linux_sessionInfo": {
+    "original_sha256": "35ac4040ddf86a3851ae38128dacf6a65737191e5cbb333465858f0284e2e66f",
+    "published_sha256": "0d3b7e9bd18c647821d3bebcfa638085b568aea5d0800f807bd2a22a70828e47",
+    "redaction": "Only the isolated absolute prefix is replaced by <isolated-prefix>."
+  },
+  "numeric_audit_receipt_sha256": "6564e785d3fda5d1ea3b10a635cb386b5204bfbd01a9a614de9507fa048519a5",
+  "raw_fastq_accessed": false,
+  "native_quantification_repeated": false,
+  "fresh_native_input_execution": false,
+  "whole_machine_restoration": false,
+  "protected_PSS_validation": false,
+  "scientific_parameters_or_frozen_results_changed": false
+}

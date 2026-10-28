@@ -12,6 +12,8 @@ This authenticates complete retained tables and checks their content without fit
 
 The explicit native-record analysis mode has also completed a real full run from retained quantification inputs with the restored environments: all four import/scientific stages executed once without checkpoint adoption, all 13 tables matched, and completed-run recovery left all run files unchanged without refitting. The separate [full-analysis validation record](extensions/PRJNA886048/FULL_ANALYSIS_VALIDATION.json) records that scope. Portable native processing remains implemented but not executed through the new wrapper; no raw-to-result or protected PSS validation claim follows from the completed analysis test.
 
+A second real retained-input validation completed on an existing Linux host after isolated base and project dependency restoration. The [Linux report](extensions/PRJNA886048/LINUX_VALIDATION.md) and [structured evidence](extensions/PRJNA886048/LINUX_ANALYSIS_VALIDATION.json) preserve the original R comparison pass and the additional edgeR absolute-cell failure separately. Fixed threshold decisions and effect directions were unchanged; completed recovery refitted no models. This is not a new cohort or raw-to-result reproduction.
+
 ## Frozen resources
 
 The NCBI and QuickGO historical snapshots are in data/resource_snapshots, each with source attribution and provenance limits. NCBI has an offline page-reconstruction verifier. Raw HTTP headers, pagination tokens, machine logs and the machine-specific historical summary are excluded. Historical analysis code retains original path literals for source identity; use the portable entries for execution.

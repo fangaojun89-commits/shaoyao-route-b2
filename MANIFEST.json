@@ -17,12 +17,12 @@
       "sha256": "15eb4c0ae61fc32cfe64139eddf4a32c621a8f7fce79ab11c74a8a5d31ad9d2e"
     },
     "PRJNA886048_INTEGRATION.md": {
-      "bytes": 3710,
-      "sha256": "ad97ad79ba19732751f5a567c2602726c876d28aa6ef8cdf0cf14764d61807f4"
+      "bytes": 4245,
+      "sha256": "633e672e3cc0575ff8013ed2bd5cc637d059a9fb48ecdc68fb491ad6512d1c10"
     },
     "README.md": {
-      "bytes": 21702,
-      "sha256": "a7eb20d150a4a028f77037bb5268029b26381adc72b2e81c78f74e87d8c741e1"
+      "bytes": 22131,
+      "sha256": "f64e6af07543bd4fa658ebd4ca370721802418a906b4313f875a08d924db1bb1"
     },
     "REPRODUCE.md": {
       "bytes": 7601,
@@ -2256,17 +2256,25 @@
       "bytes": 5710,
       "sha256": "942ba3e0971e587a03aa63c02b8223094369530c51c9d3aae37d99811dcd25c7"
     },
+    "extensions/PRJNA886048/LINUX_ANALYSIS_VALIDATION.json": {
+      "bytes": 20873,
+      "sha256": "06ce413c1dcccaad4e42099237b9a618c9042cd7942f08d99c34c8fea4dbcedf"
+    },
+    "extensions/PRJNA886048/LINUX_VALIDATION.md": {
+      "bytes": 5447,
+      "sha256": "da557ffb92a1615ec3728010c599dea949c89e38da02ed31bf627ca1e3ea4791"
+    },
     "extensions/PRJNA886048/MANIFEST.json": {
-      "bytes": 10933,
-      "sha256": "6dbda74e331dc7736f6c36a28890c452e07df3e15350a39c64be756521060cc6"
+      "bytes": 11587,
+      "sha256": "624f495dce8046935a79424426fcbe75ae1b5876e90acc81ad60bb3e9e288c4b"
     },
     "extensions/PRJNA886048/README.md": {
-      "bytes": 6347,
-      "sha256": "7beb55c1b8003f1abc89b1bcc42a6b5d907542e4c76bac24b025c98c41099c55"
+      "bytes": 6734,
+      "sha256": "3bbac76d4d2c2e70caed7f9ceb458964a2a948622d7316270b632138b76f9b66"
     },
     "extensions/PRJNA886048/REPRODUCE.md": {
-      "bytes": 12621,
-      "sha256": "fe733d77b15fccd3f0708624bfd534e832f238e04356eb7adb6c135672f63e07"
+      "bytes": 13321,
+      "sha256": "8ddaa6bb0d0e3e9ebe9af9141486ea95165b87eb1cb9c953f58fa200a7f0cef0"
     },
     "extensions/PRJNA886048/VALIDATION.json": {
       "bytes": 3228,
@@ -2399,6 +2407,14 @@
     "extensions/PRJNA886048/environment/current_full_namespace_sessionInfo.txt": {
       "bytes": 1231,
       "sha256": "8e8f850e3e7fefc39ed7203da555ddf3ca8f3608519baffc94cf25f3c042cb28"
+    },
+    "extensions/PRJNA886048/environment/linux_base_explicit.txt": {
+      "bytes": 12067,
+      "sha256": "d79311167b2e29ee8c185983d97a5f2b0267676eb06e721c7cee8e3e170b8fca"
+    },
+    "extensions/PRJNA886048/environment/linux_validation_sessionInfo.txt": {
+      "bytes": 1242,
+      "sha256": "0d3b7e9bd18c647821d3bebcfa638085b568aea5d0800f807bd2a22a70828e47"
     },
     "extensions/PRJNA886048/environment/recorded_gene_export_sessionInfo.txt": {
       "bytes": 591,
@@ -2826,5 +2842,11 @@
     }
   },
   "real_data_models_run": 0,
-  "synthetic_full_kernel_sequences_tested": 2
+  "synthetic_full_kernel_sequences_tested": 2,
+  "real_data_models_run_scope": "Legacy v0.30.0 root-release checks only; excludes subsequent PRJ retained-input validation runs.",
+  "PRJNA886048_full_analysis_validation_runs": {
+    "Windows": 1,
+    "Linux": 1,
+    "unit": "One full import/gene/CAMERA/activity sequence per platform; not number of independent cohorts."
+  }
 }

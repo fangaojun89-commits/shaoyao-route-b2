@@ -129,3 +129,5 @@ Cite this repository, version and commit for the reporting component. A Zenodo D
 ## PRJNA886048 integration candidate
 
 See [integration scope and commands](PRJNA886048_INTEGRATION.md). This branch proposes an unreleased integration candidate; v0.30.0 remains the prior tagged public version.
+
+The PRJ extension also records [Linux retained-input environment restoration, full analysis, recovery and numerical limits](extensions/PRJNA886048/LINUX_VALIDATION.md). Its original R comparison passed; an extra absolute-cell audit retained a documented edgeR discrepancy without changed fixed significance sets or effect directions. This scoped test does not establish whole-study cold restoration or protected PSS validation.

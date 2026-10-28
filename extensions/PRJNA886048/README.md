@@ -16,6 +16,8 @@ The fixed-input analysis entry, path-only configuration, restored dependencies a
 
 [FULL_ANALYSIS_VALIDATION.json](FULL_ANALYSIS_VALIDATION.json) records a subsequent real `--native-record-checks --run` from a clean committed export with the restored environments. Import, gene fitting, CAMERA and signed activity each executed once, with zero adopted or reused checkpoints. All 13 frozen tables matched in text/row order and within numeric tolerance 1e-9. A completed `--resume` then verified 44 data/checkpoint files without refitting; all 59 files in that validation run stayed byte-identical. This used the 12 retained quantification bundles, not newly processed raw reads.
 
+A separate [Linux retained-input validation](LINUX_VALIDATION.md) now records an isolated dependency restore, one full analysis and completed-run recovery. All 13 tables passed the original R comparison; the stricter absolute-cell check did not fully pass for the edgeR table. Fixed significant ID sets and effect directions were unchanged. The numerical caveat is retained explicitly.
+
 ## Reproduction plan and layout
 
 ```text

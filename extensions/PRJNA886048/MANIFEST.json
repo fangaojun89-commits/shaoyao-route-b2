@@ -1,6 +1,6 @@
 {
-  "version": "candidate-20261028-r06",
-  "scope": "Real retained-input full analysis and completed resume verified; portable native entry implemented, raw-to-result execution unverified",
+  "version": "candidate-20261028-r07",
+  "scope": "Windows and isolated-Linux retained-input full analysis and completed recovery verified; additional Linux edgeR absolute-cell discrepancy documented; raw-to-result unverified",
   "files": {
     ".gitignore": {
       "bytes": 72,
@@ -14,13 +14,21 @@
       "bytes": 5710,
       "sha256": "942ba3e0971e587a03aa63c02b8223094369530c51c9d3aae37d99811dcd25c7"
     },
+    "LINUX_ANALYSIS_VALIDATION.json": {
+      "bytes": 20873,
+      "sha256": "06ce413c1dcccaad4e42099237b9a618c9042cd7942f08d99c34c8fea4dbcedf"
+    },
+    "LINUX_VALIDATION.md": {
+      "bytes": 5447,
+      "sha256": "da557ffb92a1615ec3728010c599dea949c89e38da02ed31bf627ca1e3ea4791"
+    },
     "README.md": {
-      "bytes": 6347,
-      "sha256": "7beb55c1b8003f1abc89b1bcc42a6b5d907542e4c76bac24b025c98c41099c55"
+      "bytes": 6734,
+      "sha256": "3bbac76d4d2c2e70caed7f9ceb458964a2a948622d7316270b632138b76f9b66"
     },
     "REPRODUCE.md": {
-      "bytes": 12621,
-      "sha256": "fe733d77b15fccd3f0708624bfd534e832f238e04356eb7adb6c135672f63e07"
+      "bytes": 13321,
+      "sha256": "8ddaa6bb0d0e3e9ebe9af9141486ea95165b87eb1cb9c953f58fa200a7f0cef0"
     },
     "VALIDATION.json": {
       "bytes": 3228,
@@ -153,6 +161,14 @@
     "environment/current_full_namespace_sessionInfo.txt": {
       "bytes": 1231,
       "sha256": "8e8f850e3e7fefc39ed7203da555ddf3ca8f3608519baffc94cf25f3c042cb28"
+    },
+    "environment/linux_base_explicit.txt": {
+      "bytes": 12067,
+      "sha256": "d79311167b2e29ee8c185983d97a5f2b0267676eb06e721c7cee8e3e170b8fca"
+    },
+    "environment/linux_validation_sessionInfo.txt": {
+      "bytes": 1242,
+      "sha256": "0d3b7e9bd18c647821d3bebcfa638085b568aea5d0800f807bd2a22a70828e47"
     },
     "environment/recorded_gene_export_sessionInfo.txt": {
       "bytes": 591,
