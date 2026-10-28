@@ -10,6 +10,8 @@ From the repository root run:
 
 This authenticates complete retained tables and checks their content without fitting models. Read extensions/PRJNA886048/REPRODUCE.md for the analysis entry, environment and checkpoint contracts. A separate canonical native record/content entry is documented in extensions/PRJNA886048/pipeline/native/README.md; it checks fixed parameters and source identities while allowing consistent runtime metadata changes. Its bounded tests are not fresh execution evidence. The historical exact-hash analysis entry must not be represented as accepting arbitrary reruns or granting historical checkpoint reuse for changed inputs.
 
+The explicit native-record analysis mode has also completed a real full run from retained quantification inputs with the restored environments: all four import/scientific stages executed once without checkpoint adoption, all 13 tables matched, and completed-run recovery left all run files unchanged without refitting. The separate FULL_ANALYSIS_VALIDATION.json records that scope. Portable native processing remains implemented but not executed through the new wrapper; no raw-to-result or protected PSS validation claim follows from the completed analysis test.
+
 ## Frozen resources
 
 The NCBI and QuickGO historical snapshots are in data/resource_snapshots, each with source attribution and provenance limits. NCBI has an offline page-reconstruction verifier. Raw HTTP headers, pagination tokens, machine logs and the machine-specific historical summary are excluded. Historical analysis code retains original path literals for source identity; use the portable entries for execution.

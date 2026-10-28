@@ -1,0 +1,128 @@
+{
+  "status": "PASS_REAL_FULL_ANALYSIS_AND_COMPLETED_RESUME_ON_RETAINED_INPUTS",
+  "source_commit": "1126ee3a3bb2d9b3a22f6eb046d51a87f8755fd1",
+  "executed_package_manifest_sha256": "a8a6db358f82ac02f2b0fd719afbef6a6ae741e402081eb803b2543076a00075",
+  "execution_platform": "Existing Windows host; independently restored Python environment and R target library on that host",
+  "Python": "3.12.14",
+  "R": "4.6.1",
+  "native_input_libraries": 12,
+  "actual_external_input_files": 63,
+  "mode": "--native-record-checks",
+  "full_run_started_utc": "2026-10-28T15:00:32.113032+00:00",
+  "full_run_finished_utc": "2026-10-28T15:01:22.077167+00:00",
+  "full_run_exit_code": 0,
+  "R_execution_counts": {
+    "import_executed": 1,
+    "gene_fit_executed": 1,
+    "camera_executed": 1,
+    "activity_executed": 1,
+    "adopted_checkpoints": 0,
+    "reused_checkpoints": 0
+  },
+  "completion_manifest_sha256": "7fc9c9d804a57484ebeb294cb125b11c96f0fbb37de50ef7b30202c41220d62c",
+  "input_code_binding": "d83d8f2da518c124e15ee15afc215fe793058cf04a762b64d2e765767394f7db",
+  "frozen_tables_compared": 13,
+  "numeric_tolerance": 1e-09,
+  "text_and_row_order_comparison": "exact",
+  "tables": [
+    {
+      "path": "camera_complete_coverage.tsv",
+      "frozen_sha256": "24fe19267c60981379e3b17a13e3889d2ddba1ba3583af2d475c0149ce6da996",
+      "produced_sha256": "24fe19267c60981379e3b17a13e3889d2ddba1ba3583af2d475c0149ce6da996",
+      "byte_identical": true
+    },
+    {
+      "path": "camera_complete_results.tsv",
+      "frozen_sha256": "0798eb38d2b4c56aa5cc32b3a31d0b336ca6796b5775bdc9c227cd4bcdcbae81",
+      "produced_sha256": "0798eb38d2b4c56aa5cc32b3a31d0b336ca6796b5775bdc9c227cd4bcdcbae81",
+      "byte_identical": true
+    },
+    {
+      "path": "comparison/complete_program_comparisons.tsv",
+      "frozen_sha256": "251eda875348fc8500506c636bb709f136c8d4b4cf99e70a080dd5c401bf2578",
+      "produced_sha256": "251eda875348fc8500506c636bb709f136c8d4b4cf99e70a080dd5c401bf2578",
+      "byte_identical": true
+    },
+    {
+      "path": "comparison/descriptive_comparison_summary.tsv",
+      "frozen_sha256": "1216d309b0b87c8f009a5b6750e075158f07020ae41e2b09b36f02533239355b",
+      "produced_sha256": "1216d309b0b87c8f009a5b6750e075158f07020ae41e2b09b36f02533239355b",
+      "byte_identical": true
+    },
+    {
+      "path": "complete_cohort_MDS_coordinates.tsv",
+      "frozen_sha256": "71e919c4d311a9202d5586b2546f8c34b0ec9238d7e50b68d2cd19777a3e564f",
+      "produced_sha256": "71e919c4d311a9202d5586b2546f8c34b0ec9238d7e50b68d2cd19777a3e564f",
+      "byte_identical": true
+    },
+    {
+      "path": "complete_library_qc.tsv",
+      "frozen_sha256": "274482deca2b1cc5425b3a1de09971d761212ac74c1aebb6ee894e20e9c81a91",
+      "produced_sha256": "4f0b3fc9c1f573192c3fc7176ed904fb4f3b12504b1dc96ea8f62e492f0a1e24",
+      "byte_identical": false
+    },
+    {
+      "path": "DoRothEA_per_library_scores.tsv",
+      "frozen_sha256": "d31caacfd033d83078c8c38c62999dd6e3270a9fe1b9408cfdc37f3158ae163e",
+      "produced_sha256": "d31caacfd033d83078c8c38c62999dd6e3270a9fe1b9408cfdc37f3158ae163e",
+      "byte_identical": true
+    },
+    {
+      "path": "genes/gene_filter.tsv",
+      "frozen_sha256": "a84bb07fcc4d56646ba05985e0f84ce839a0db1d2521b2b8ab4e4fa5177805b8",
+      "produced_sha256": "a84bb07fcc4d56646ba05985e0f84ce839a0db1d2521b2b8ab4e4fa5177805b8",
+      "byte_identical": true
+    },
+    {
+      "path": "genes/primary_edgeR.tsv",
+      "frozen_sha256": "c7da754096a2b1f064e0bb998c4a39d2b1d6152465e3c7fc75f6d6847ac0250c",
+      "produced_sha256": "c7da754096a2b1f064e0bb998c4a39d2b1d6152465e3c7fc75f6d6847ac0250c",
+      "byte_identical": true
+    },
+    {
+      "path": "genes/sensitivity_voom.tsv",
+      "frozen_sha256": "d9dd47af354143b3ea4475056cedda301edb311c22ae445f153a2b341a782cb0",
+      "produced_sha256": "d9dd47af354143b3ea4475056cedda301edb311c22ae445f153a2b341a782cb0",
+      "byte_identical": true
+    },
+    {
+      "path": "PROGENy_per_library_scores.tsv",
+      "frozen_sha256": "466006a91f8660b64f29c42d79f95d24b9287b6931a5a401c365a5e71294555b",
+      "produced_sha256": "466006a91f8660b64f29c42d79f95d24b9287b6931a5a401c365a5e71294555b",
+      "byte_identical": true
+    },
+    {
+      "path": "signed_activity_contrasts.tsv",
+      "frozen_sha256": "663c7cb6d3b1486bb74cefc3ae1c06286e09843e679b36e957c7742fd1030372",
+      "produced_sha256": "663c7cb6d3b1486bb74cefc3ae1c06286e09843e679b36e957c7742fd1030372",
+      "byte_identical": true
+    },
+    {
+      "path": "signed_activity_coverage.tsv",
+      "frozen_sha256": "bd39a68dc19748f09b0176fae2b8581e78d3f3a6010d059779222d9f2f65440f",
+      "produced_sha256": "bd39a68dc19748f09b0176fae2b8581e78d3f3a6010d059779222d9f2f65440f",
+      "byte_identical": true
+    }
+  ],
+  "resume_exit_code": 0,
+  "resume_finished_utc": "2026-10-28T15:02:09.701979+00:00",
+  "resume_verified_data_checkpoint_files": 44,
+  "all_59_run_files_unchanged_after_resume": true,
+  "models_fitted_during_completed_resume": 0,
+  "raw_fastq_accessed": false,
+  "native_quantification_repeated": false,
+  "whole_machine_restoration": false,
+  "fresh_native_input_execution": false,
+  "portable_Linux_native_preflight": false,
+  "trusted_host_attestation": false,
+  "protected_PSS_validation": false,
+  "local_execution_receipt_sha256": "a796c76d4c4abb6c9f4e1bbccbc91ef5aa578ecd0250ffbaa7512e0de96d7d1a",
+  "local_resume_receipt_sha256": "5144486392842b1cf0134a2fa4d1ef1e1d67cb9a9e53310f373e9b8be32059ad",
+  "byte_identical_tables": 12,
+  "QC_float_representation_difference": {
+    "table": "complete_library_qc.tsv",
+    "column": "pseudoaligned_fraction",
+    "text_fields_differing": 10,
+    "maximum_absolute_numeric_difference": 4.440892098500626e-16
+  }
+}
