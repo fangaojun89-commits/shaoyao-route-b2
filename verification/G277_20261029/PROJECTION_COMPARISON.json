@@ -1,0 +1,848 @@
+{
+  "status": "ALL24_NEW_PROJECTIONS_EXACT_TO_NEW_SOURCE_HISTORICAL_LEXICAL_DIFFERENCES_RETAINED",
+  "families": 24,
+  "records": [
+    {
+      "source": "results/GSE277064/boundary_rotarod/gene_level/astrocyte/H2_vs_D14_untrained.tsv.gz",
+      "rows": 13875,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90112,
+      "columns": {
+        "logFC": 13869,
+        "F": 13873,
+        "PValue": 13872,
+        "FDR": 13873,
+        "signed_sqrt_F": 13872,
+        "df_total": 13875,
+        "logCPM": 6878
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.128151316204248",
+          "new": "0.128151316182339"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "2.30292434254432",
+          "new": "2.3029243420156"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.143563485794127",
+          "new": "0.143563485837212"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/boundary_rotarod/gene_level/astrocyte/H4_vs_D14_untrained.tsv.gz",
+      "rows": 13875,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90128,
+      "columns": {
+        "logFC": 13875,
+        "F": 13875,
+        "PValue": 13875,
+        "FDR": 13875,
+        "signed_sqrt_F": 13875,
+        "df_total": 13875,
+        "logCPM": 6878
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "-0.0197320288392624",
+          "new": "-0.0197320288688057"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.0530445697515469",
+          "new": "0.0530445699116408"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.82000481209581",
+          "new": "0.82000481182907"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/boundary_rotarod/gene_level/astrocyte/H8_vs_D14_untrained.tsv.gz",
+      "rows": 13875,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90097,
+      "columns": {
+        "logFC": 13870,
+        "F": 13871,
+        "PValue": 13872,
+        "FDR": 13860,
+        "signed_sqrt_F": 13871,
+        "df_total": 13875,
+        "logCPM": 6878
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.0559052652215576",
+          "new": "0.0559052651825783"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.414836907356443",
+          "new": "0.414836906753852"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.526273663039026",
+          "new": "0.526273663336334"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/boundary_rotarod/gene_level/v2a/H2_vs_D14_untrained.tsv.gz",
+      "rows": 14323,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 86859,
+      "columns": {
+        "logFC": 14320,
+        "F": 14322,
+        "PValue": 14322,
+        "FDR": 14322,
+        "signed_sqrt_F": 14320,
+        "df_total": 14323,
+        "logCPM": 930
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "-0.148312873128571",
+          "new": "-0.148312873133283"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "1.91567826897542",
+          "new": "1.91567826911173"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.182132582808078",
+          "new": "0.182132582793065"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/boundary_rotarod/gene_level/v2a/H4_vs_D14_untrained.tsv.gz",
+      "rows": 14323,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 86851,
+      "columns": {
+        "logFC": 14316,
+        "F": 14322,
+        "PValue": 14321,
+        "FDR": 14317,
+        "signed_sqrt_F": 14322,
+        "df_total": 14323,
+        "logCPM": 930
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "-0.0221250680329019",
+          "new": "-0.0221250680297549"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.0424422457228021",
+          "new": "0.0424422457106038"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.838936835885759",
+          "new": "0.838936835908539"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/boundary_rotarod/gene_level/v2a/H8_vs_D14_untrained.tsv.gz",
+      "rows": 14323,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 86864,
+      "columns": {
+        "logFC": 14320,
+        "F": 14322,
+        "PValue": 14323,
+        "FDR": 14323,
+        "signed_sqrt_F": 14323,
+        "df_total": 14323,
+        "logCPM": 930
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "-0.0314330606793693",
+          "new": "-0.0314330606822959"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.093809341308211",
+          "new": "0.0938093413306938"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.76266888872515",
+          "new": "0.762668888697595"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/astrocyte/D14_vs_control.tsv.gz",
+      "rows": 13842,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 85157,
+      "columns": {
+        "logFC": 13726,
+        "F": 13833,
+        "PValue": 13832,
+        "FDR": 13834,
+        "signed_sqrt_F": 13817,
+        "df_total": 13836,
+        "logCPM": 2279
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "-0.0751790231581623",
+          "new": "-0.0751790231581059"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.882976396937921",
+          "new": "0.882976396935493"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.357398595234489",
+          "new": "0.357398595235136"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/astrocyte/D28_vs_control.tsv.gz",
+      "rows": 13842,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 85023,
+      "columns": {
+        "logFC": 13628,
+        "F": 13829,
+        "PValue": 13823,
+        "FDR": 13831,
+        "signed_sqrt_F": 13797,
+        "df_total": 13836,
+        "logCPM": 2279
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.151585656812027",
+          "new": "0.151585656811961"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "3.72015633736927",
+          "new": "3.72015633736896"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.0665102187626982",
+          "new": "0.0665102187627058"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/astrocyte/D3_vs_control.tsv.gz",
+      "rows": 13842,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 85026,
+      "columns": {
+        "logFC": 13609,
+        "F": 13829,
+        "PValue": 13828,
+        "FDR": 13834,
+        "signed_sqrt_F": 13811,
+        "df_total": 13836,
+        "logCPM": 2279
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.0293009518151225",
+          "new": "0.0293009518150405"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.142601097766874",
+          "new": "0.142601097765643"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.709258786452302",
+          "new": "0.709258786453495"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/astrocyte/D7_vs_control.tsv.gz",
+      "rows": 13842,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 85057,
+      "columns": {
+        "logFC": 13642,
+        "F": 13822,
+        "PValue": 13836,
+        "FDR": 13832,
+        "signed_sqrt_F": 13810,
+        "df_total": 13836,
+        "logCPM": 2279
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.221673755206845",
+          "new": "0.221673755206745"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "8.07233340649817",
+          "new": "8.07233340650249"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.00939079125211497",
+          "new": "0.00939079125209735"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/astrocyte/chronic_combined.tsv.gz",
+      "rows": 13842,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 85166,
+      "columns": {
+        "logFC": 13755,
+        "F": 13824,
+        "PValue": 13831,
+        "FDR": 13837,
+        "signed_sqrt_F": 13804,
+        "df_total": 13836,
+        "logCPM": 2279
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.0382033168269325",
+          "new": "0.0382033168269274"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.311006957122657",
+          "new": "0.311006957122541"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.582587074408232",
+          "new": "0.582587074408301"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/astrocyte/early_combined.tsv.gz",
+      "rows": 13842,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 85127,
+      "columns": {
+        "logFC": 13721,
+        "F": 13823,
+        "PValue": 13831,
+        "FDR": 13827,
+        "signed_sqrt_F": 13810,
+        "df_total": 13836,
+        "logCPM": 2279
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.125487353510984",
+          "new": "0.125487353510893"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "3.42930903669755",
+          "new": "3.42930903669651"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.0772590651028564",
+          "new": "0.0772590651028952"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/microglia/D14_vs_control.tsv.gz",
+      "rows": 14547,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90627,
+      "columns": {
+        "logFC": 14546,
+        "F": 14547,
+        "PValue": 14547,
+        "FDR": 14547,
+        "signed_sqrt_F": 14547,
+        "df_total": 14547,
+        "logCPM": 3346
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "-0.0467366617363387",
+          "new": "-0.0467366617423611"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.564053559101709",
+          "new": "0.564053559267113"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.4607389061605",
+          "new": "0.46073890609578"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/microglia/D28_vs_control.tsv.gz",
+      "rows": 14547,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90626,
+      "columns": {
+        "logFC": 14545,
+        "F": 14547,
+        "PValue": 14547,
+        "FDR": 14547,
+        "signed_sqrt_F": 14547,
+        "df_total": 14547,
+        "logCPM": 3346
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.0954677627011186",
+          "new": "0.0954677626872055"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "2.37274039600674",
+          "new": "2.37274039552698"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.137997988169477",
+          "new": "0.13799798820763"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/microglia/D3_vs_control.tsv.gz",
+      "rows": 14547,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90616,
+      "columns": {
+        "logFC": 14541,
+        "F": 14545,
+        "PValue": 14546,
+        "FDR": 14546,
+        "signed_sqrt_F": 14545,
+        "df_total": 14547,
+        "logCPM": 3346
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.262128661939449",
+          "new": "0.262128661940361"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "18.7093586821128",
+          "new": "18.7093586894507"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.000282548532659491",
+          "new": "0.00028254853209137"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/microglia/D7_vs_control.tsv.gz",
+      "rows": 14547,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90619,
+      "columns": {
+        "logFC": 14538,
+        "F": 14547,
+        "PValue": 14547,
+        "FDR": 14547,
+        "signed_sqrt_F": 14547,
+        "df_total": 14547,
+        "logCPM": 3346
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.315103412859631",
+          "new": "0.315103412858734"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "27.0504379406565",
+          "new": "27.0504379511099"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "3.43121097715929e-05",
+          "new": "3.43121096917939e-05"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/microglia/chronic_combined.tsv.gz",
+      "rows": 14547,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90624,
+      "columns": {
+        "logFC": 14544,
+        "F": 14547,
+        "PValue": 14547,
+        "FDR": 14547,
+        "signed_sqrt_F": 14546,
+        "df_total": 14547,
+        "logCPM": 3346
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.02436555048239",
+          "new": "0.0243655504724222"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.207539093683116",
+          "new": "0.207539093545358"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.653251229625212",
+          "new": "0.653251229732349"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/microglia/early_combined.tsv.gz",
+      "rows": 14547,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 90624,
+      "columns": {
+        "logFC": 14544,
+        "F": 14547,
+        "PValue": 14546,
+        "FDR": 14547,
+        "signed_sqrt_F": 14547,
+        "df_total": 14547,
+        "logCPM": 3346
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.28861603739954",
+          "new": "0.288616037399547"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "29.8155741042209",
+          "new": "29.8155741172721"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "1.85471900867835e-05",
+          "new": "1.85471900358862e-05"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/v2a/D14_vs_control.tsv.gz",
+      "rows": 15511,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 97678,
+      "columns": {
+        "logFC": 15476,
+        "F": 15506,
+        "PValue": 15510,
+        "FDR": 15511,
+        "signed_sqrt_F": 15496,
+        "df_total": 15509,
+        "logCPM": 4670
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.164794978760628",
+          "new": "0.16479497876091"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "2.0852924706972",
+          "new": "2.08529247070276"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.163407928485213",
+          "new": "0.163407928484593"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/v2a/D28_vs_control.tsv.gz",
+      "rows": 15511,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 97694,
+      "columns": {
+        "logFC": 15481,
+        "F": 15507,
+        "PValue": 15509,
+        "FDR": 15511,
+        "signed_sqrt_F": 15507,
+        "df_total": 15509,
+        "logCPM": 4670
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.154935696009401",
+          "new": "0.154935696010242"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "1.83729040916106",
+          "new": "1.83729040917969"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.18960039033142",
+          "new": "0.189600390329183"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/v2a/D3_vs_control.tsv.gz",
+      "rows": 15511,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 97699,
+      "columns": {
+        "logFC": 15487,
+        "F": 15509,
+        "PValue": 15510,
+        "FDR": 15509,
+        "signed_sqrt_F": 15505,
+        "df_total": 15509,
+        "logCPM": 4670
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.0920236147469794",
+          "new": "0.0920236147477431"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.694775295465421",
+          "new": "0.69477529548"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.413880668830846",
+          "new": "0.413880668825971"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/v2a/D7_vs_control.tsv.gz",
+      "rows": 15511,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 97667,
+      "columns": {
+        "logFC": 15461,
+        "F": 15509,
+        "PValue": 15506,
+        "FDR": 15509,
+        "signed_sqrt_F": 15503,
+        "df_total": 15509,
+        "logCPM": 4670
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.0399732173916159",
+          "new": "0.0399732173919978"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.121296698256971",
+          "new": "0.121296698259301"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.731082858073107",
+          "new": "0.731082858070611"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/v2a/chronic_combined.tsv.gz",
+      "rows": 15511,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 97695,
+      "columns": {
+        "logFC": 15488,
+        "F": 15508,
+        "PValue": 15509,
+        "FDR": 15509,
+        "signed_sqrt_F": 15502,
+        "df_total": 15509,
+        "logCPM": 4670
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.159865337385015",
+          "new": "0.159865337385576"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "2.62882825852837",
+          "new": "2.62882825854976"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.119786740016902",
+          "new": "0.119786740015395"
+        }
+      ]
+    },
+    {
+      "source": "results/GSE277064/gene_level/v2a/early_combined.tsv.gz",
+      "rows": 15511,
+      "new_source_to_view_all_cells_exact": true,
+      "historical_retained_lexical_different_cells": 97706,
+      "columns": {
+        "logFC": 15490,
+        "F": 15511,
+        "PValue": 15509,
+        "FDR": 15511,
+        "signed_sqrt_F": 15506,
+        "df_total": 15509,
+        "logCPM": 4670
+      },
+      "examples": [
+        {
+          "row": 1,
+          "column": "logFC",
+          "old": "0.0659984160692977",
+          "new": "0.0659984160698704"
+        },
+        {
+          "row": 1,
+          "column": "F",
+          "old": "0.455815942675494",
+          "new": "0.45581594268368"
+        },
+        {
+          "row": 1,
+          "column": "PValue",
+          "old": "0.506916936930487",
+          "new": "0.50691693692667"
+        }
+      ]
+    }
+  ],
+  "historical_different_cells": 2171342,
+  "numeric_comparison": "Separate fixed R comparison covers numeric equivalence; lexical mismatches are not relabelled exact."
+}

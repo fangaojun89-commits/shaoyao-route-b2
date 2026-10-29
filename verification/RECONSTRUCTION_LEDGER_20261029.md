@@ -1,0 +1,13 @@
+# Actual reconstruction and reuse scope
+
+| Branch | Completed evidence | Scope for reuse |
+|---|---|---|
+| GSE16710 | Saved anchor/source checks,1771 gate decisions and retained omission estimates | Retained-output verification; no new complete raw-array reconstruction claimed here |
+| [GSE128623 evidence](G128_20261028/SUMMARY.json) | Actual Linux staged reconstruction;34 accepted model-output files byte-identical to retained outputs and 2102 summary fields matched | Original whole-entry failure remains preserved. Staged model/validator/comparison content recovery is reported separately; adapter/conditional-reference branches retain their own records |
+| [GSE277064 evidence](G277_20261029/README.md) | Selected-input native preflight plus all 5 stages returned0; complete 169-file comparison and 24 reporting families reviewed | Reported gene/program output agreement under fixed rules; full strict table/RDS/provenance/lexical/graph differences supplied in verification/G277_20261029. Original gene-interval quarantine remains in force |
+| JGW03 | Original source/readback entries, accepted dose-encoding comparison and completed conditional-reference result exports | Saved-result checks and completed historical reference runs are named separately; no additional primary fit performed for this update |
+| GSE298414 | Complete preparation and single-herb tables, source identities, sample metadata and score-effect readbacks | Overlapping72/126-library analyses; no new independent biological validation or portable full raw reconstruction claimed |
+| GSE205906 | Original scientific sources and matched STAR/HISAT2 results; portable primary/matched entries and 528-assertion saved-export reconciliation | Same-library processing sensitivity. New-entry full real-model numerical equivalence is not established by synthetic tests |
+| [PRJNA886048 evidence](../extensions/PRJNA886048/README.md) | Complete 12-library results; one retained-input import/gene/CAMERA/activity analysis on each of Windows and Linux; all 13 tables pass original R per-column comparisons | Separate absolute-cell check retained the edgeR maximum-F difference7.15e-8. Significant ID sets and directions agree. Retained quantification inputs were used; whole raw-to-result restoration remains separate |
+
+The original statistical specifications, multiplicity families, candidate rules and phenotype roles remain in force. Current code and result reading start at REPRODUCE.md. Selected-input reconstruction, saved-output readback, historical model execution and whole-study cold restoration are distinct recorded operations.

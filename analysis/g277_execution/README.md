@@ -9,8 +9,7 @@ are now supplied. `check` never evaluates a scientific source. `report-saved`
 reuses the 169 pinned accepted result files and runs only summary/figures/validation
 and the current gene reporting projection. It does not repeat normalization,
 scores, fits, rotations or fgsea. `run` is for an intentional future reproduction
-from the processed counts, with all five stages, and **was not executed for this
-release**. Completed project analyses are retained.
+from the processed counts, with all five stages, and was subsequently executed once on Linux on 29 October 2026. The [complete comparison](../../verification/G277_20261029/README.md) records all 169 retained files and 24 gene-reporting families, including strict differences. Completed historical project analyses are retained.
 
 ## Commands
 
@@ -18,7 +17,7 @@ Use Python 3.12+ (standard library only), R 4.6.1 and the explicit R library who
 direct package versions are listed in `CONTRACT.json`. The existing Windows
 environment is recorded in the executed preflight. The anchor's `renv.lock`
 provides package provenance; it is not proof of a newly installed environment.
-No package is installed automatically. The code explicitly sets subprocess UTF-8,
+No package is installed automatically. On Linux, verify that en_US.UTF-8 exists before using the direct entry. The actual 29 October run used an explicit Rscript wrapper exporting LANG, LC_ALL and LC_CTYPE as C.UTF-8 before exec of the pinned Rscript, because en_US.UTF-8 was unavailable. The wrapper changed runtime encoding only; the scientific code and parameters were preserved. The code explicitly sets subprocess UTF-8,
 the recorded Asia/Shanghai timezone and one computational thread. The original
 seed 20260817, 9,999 rotations and primary fgsea flag TRUE are retained; the
 subsequent original fgsea refresh has its own original tie-handling/seed logic.

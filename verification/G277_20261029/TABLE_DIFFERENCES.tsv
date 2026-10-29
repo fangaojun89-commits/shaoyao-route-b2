@@ -1,0 +1,42 @@
+"file"	"component"	"rule"	"pass"	"detail"	"max_absolute_difference"
+"audit/run_manifest.tsv"	"$"	"schema_and_row_count"	FALSE	""	NA
+"boundary_rotarod/gene_level/astrocyte/H4_vs_D14_untrained.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.98877e-08"	7.47857065836049e-05
+"boundary_rotarod/gene_level/astrocyte/H4_vs_D14_untrained.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.55841e-08"	0.000155219278765995
+"boundary_rotarod/gene_level/astrocyte/H4_vs_D14_untrained.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.348604e-08"	0.000155219262164025
+"boundary_rotarod/gene_level/astrocyte/H8_vs_D14_untrained.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 9.654194e-09"	1.2551401781899e-05
+"boundary_rotarod/gene_level/astrocyte/H8_vs_D14_untrained.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 8.862207e-09"	2.60507127949894e-05
+"boundary_rotarod/gene_level/astrocyte/H8_vs_D14_untrained.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 7.375602e-09"	2.60507032669999e-05
+"boundary_rotarod/gene_level/v2a/H2_vs_D14_untrained.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.330365e-09"	5.38634495500512e-06
+"boundary_rotarod/gene_level/v2a/H2_vs_D14_untrained.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.603814e-09"	1.12662418989551e-05
+"boundary_rotarod/gene_level/v2a/H2_vs_D14_untrained.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.751905e-09"	1.12662396839491e-05
+"boundary_rotarod/gene_level/v2a/H4_vs_D14_untrained.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.777629e-09"	5.88258691200383e-06
+"boundary_rotarod/gene_level/v2a/H4_vs_D14_untrained.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.178493e-09"	1.22995175799723e-05
+"boundary_rotarod/gene_level/v2a/H4_vs_D14_untrained.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.556777e-09"	1.22995227770373e-05
+"boundary_rotarod/gene_level/v2a/H8_vs_D14_untrained.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.084792e-09"	6.86963597396062e-06
+"boundary_rotarod/gene_level/v2a/H8_vs_D14_untrained.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.409821e-09"	1.43637916920625e-05
+"boundary_rotarod/gene_level/v2a/H8_vs_D14_untrained.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.662825e-09"	1.43637886120818e-05
+"diagnostics/output_validation.tsv"	"observed"	"exact_identity_category_boolean"	FALSE	""	NA
+"diagnostics/output_validation.tsv"	"expected"	"exact_identity_category_boolean"	FALSE	""	NA
+"gene_level/astrocyte/D7_vs_control.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.985624e-09"	6.59375675819696e-06
+"gene_level/astrocyte/D7_vs_control.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.490631e-09"	1.36594973740023e-05
+"gene_level/astrocyte/D7_vs_control.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.725109e-09"	1.36594974100013e-05
+"gene_level/astrocyte/early_combined.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.030753e-07"	0.000212524744780396
+"gene_level/astrocyte/early_combined.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 8.970418e-08"	0.000440316759219961
+"gene_level/astrocyte/early_combined.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 8.903778e-08"	0.000440316759159565
+"gene_level/microglia/chronic_combined.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 6.776997e-09"	9.40186494602369e-06
+"gene_level/microglia/chronic_combined.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 5.922432e-09"	1.95198889800796e-05
+"gene_level/microglia/chronic_combined.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 5.590908e-09"	1.95198688499598e-05
+"gene_level/microglia/D14_vs_control.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.914807e-09"	8.93642488000723e-06
+"gene_level/microglia/D14_vs_control.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.399263e-09"	1.85533699200158e-05
+"gene_level/microglia/D14_vs_control.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.945183e-09"	1.85533654190051e-05
+"gene_level/microglia/D28_vs_control.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.183752e-09"	2.32035553202059e-06
+"gene_level/microglia/D28_vs_control.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.055179e-09"	4.81779296390705e-06
+"gene_level/microglia/D7_vs_control.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.514111e-09"	8.39803049401677e-06
+"gene_level/microglia/D7_vs_control.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.43637e-09"	1.74361714729843e-05
+"gene_level/microglia/D7_vs_control.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.140761e-09"	1.74361748259688e-05
+"gene_level/microglia/early_combined.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.469151e-07"	0.00144990416993096
+"gene_level/microglia/early_combined.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.285698e-07"	0.00305296729857218
+"gene_level/microglia/early_combined.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.372745e-07"	0.00305296730039117
+"gene_level/v2a/early_combined.tsv.gz"	"ql_se"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.460586e-08"	7.82630881901447e-05
+"gene_level/v2a/early_combined.tsv.gz"	"ci_low"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.288047e-08"	0.000162711570149909
+"gene_level/v2a/early_combined.tsv.gz"	"ci_high"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 3.011351e-08"	0.00016271156668024

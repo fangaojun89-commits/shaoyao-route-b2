@@ -1,0 +1,54 @@
+{
+  "check_comparison_cases.R": {
+    "bytes": 1775,
+    "sha256": "aa8aba1dcf397ee9416abddd33bdde45c4d9027b7026c6dccfe516e6751682f4"
+  },
+  "compare_tables_RDS.R": {
+    "bytes": 5694,
+    "sha256": "946497648af0874d0485850b948f4b12d0932cd97a3b5c479c5527b9d9fcd4aa"
+  },
+  "GRAPHICS_COMPARISON.json": {
+    "bytes": 19272,
+    "sha256": "c58f75f3f131d9c9839841df8ed4a6a82ef8b5f0cf45ee0fa587a56da8b42002"
+  },
+  "PROJECTION_COMPARISON.json": {
+    "bytes": 21620,
+    "sha256": "0299f5d66e8782cf3f00c4bd5b0d4419910267eed562140e1544a2a5f154bab8"
+  },
+  "RDS_COMPONENT_COMPARISON.tsv": {
+    "bytes": 3681166,
+    "sha256": "f181bc9cf37bfa8c2de4fb6dc6ac360a406bc18c420ede196318eba30d726e7d"
+  },
+  "RDS_DIFFERENCES.tsv": {
+    "bytes": 2857,
+    "sha256": "75f8a5a2804efd482cee53960a61e482f545b9e460a7cb6ade8b836cd535c4db"
+  },
+  "README.md": {
+    "bytes": 3124,
+    "sha256": "a54a69393f75ea2404e835d00cda07fe6be1c8edfc2bb707d1b2f71849c80c27"
+  },
+  "rscript_utf8.sh": {
+    "bytes": 194,
+    "sha256": "87a85fd4114d16201f9df55653a8afc0167f9d173f2b5afba26c48e3deae3836"
+  },
+  "SELECTED_METADATA_AND_DESIGNS.tsv": {
+    "bytes": 21119,
+    "sha256": "9364e5038e713a00ee1a1fb13323c0b19550ed8b743072984686e45dd3599e35"
+  },
+  "SUMMARY.json": {
+    "bytes": 2480,
+    "sha256": "0ea7c285c2b37f451958ee42895045dbdf656ec9a12c2f24698cb29b67e0fe4b"
+  },
+  "TABLE_COMPONENT_COMPARISON.tsv": {
+    "bytes": 291199,
+    "sha256": "05a1689fd52979e05b482108e16dbf83a3f3967c4ffa90c298b08e63e759d018"
+  },
+  "TABLE_DIFFERENCES.tsv": {
+    "bytes": 5926,
+    "sha256": "e401067cf8a688fdbeef0d9169c9d7186c42e96c820a2207c4aaaa9ce1aded35"
+  },
+  "verify.py": {
+    "bytes": 1596,
+    "sha256": "72bce0c4c0df721aa26d437c9e0738956b7bb335770ebf7deb4299a1ecbc7785"
+  }
+}

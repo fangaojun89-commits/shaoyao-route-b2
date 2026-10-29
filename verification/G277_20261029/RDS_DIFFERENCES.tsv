@@ -1,0 +1,25 @@
+"file"	"component"	"rule"	"pass"	"detail"	"max_absolute_difference"
+"boundary_rotarod/objects/astrocyte_analysis.rds"	"$[[4]][[20]]"	"storage_type_and_class"	FALSE	""	NA
+"boundary_rotarod/objects/astrocyte_analysis.rds"	"$[[4]][[29]]"	"storage_type_and_class"	FALSE	""	NA
+"boundary_rotarod/objects/astrocyte_analysis.rds"	"$[[12]]@.Data[[3]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.421683e-09"	7.4529400535539e-06
+"boundary_rotarod/objects/astrocyte_analysis.rds"	"$[[12]]@.Data[[10]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 4.54734e-09"	1.44948532343481e-11
+"boundary_rotarod/objects/astrocyte_analysis.rds"	"$[[12]]@.Data[[14]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.430185e-09"	7.45815714253695e-06
+"boundary_rotarod/objects/astrocyte_analysis.rds"	"$[[12]]@.Data[[17]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.429501e-09"	9.09837950757719e-07
+"boundary_rotarod/objects/astrocyte_analysis.rds"	"$[[12]]@.Data[[18]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.4044e-09"	3.01709723871113e-09
+"boundary_rotarod/objects/v2a_analysis.rds"	"$[[4]][[20]]"	"storage_type_and_class"	FALSE	""	NA
+"boundary_rotarod/objects/v2a_analysis.rds"	"$[[4]][[29]]"	"storage_type_and_class"	FALSE	""	NA
+"boundary_rotarod/objects/v2a_analysis.rds"	"$[[12]]@.Data[[10]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 1.515214e-09"	4.84262586628037e-12
+"objects/astrocyte_analysis.rds"	"$[[4]][[20]]"	"storage_type_and_class"	FALSE	""	NA
+"objects/astrocyte_analysis.rds"	"$[[4]][[29]]"	"storage_type_and_class"	FALSE	""	NA
+"objects/astrocyte_analysis.rds"	"$[[23]][[5]]"	"exact_atomic_storage"	FALSE	""	NA
+"objects/microglia_analysis.rds"	"$[[4]][[20]]"	"storage_type_and_class"	FALSE	""	NA
+"objects/microglia_analysis.rds"	"$[[4]][[29]]"	"storage_type_and_class"	FALSE	""	NA
+"objects/microglia_analysis.rds"	"$[[12]]@.Data[[3]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.575149e-09"	1.01145265034575e-05
+"objects/microglia_analysis.rds"	"$[[12]]@.Data[[10]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 8.722284e-09"	2.60652445807641e-11
+"objects/microglia_analysis.rds"	"$[[12]]@.Data[[14]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.591982e-09"	1.01237487797334e-05
+"objects/microglia_analysis.rds"	"$[[12]]@.Data[[17]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.584737e-09"	1.21806363040378e-06
+"objects/microglia_analysis.rds"	"$[[12]]@.Data[[18]]"	"R_all.equal_1e-9"	FALSE	"Mean relative difference: 2.460061e-09"	5.17294029833693e-09
+"objects/microglia_analysis.rds"	"$[[23]][[5]]"	"exact_atomic_storage"	FALSE	""	NA
+"objects/v2a_analysis.rds"	"$[[4]][[20]]"	"storage_type_and_class"	FALSE	""	NA
+"objects/v2a_analysis.rds"	"$[[4]][[29]]"	"storage_type_and_class"	FALSE	""	NA
+"objects/v2a_analysis.rds"	"$[[23]][[5]]"	"exact_atomic_storage"	FALSE	""	NA

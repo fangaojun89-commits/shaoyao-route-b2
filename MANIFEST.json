@@ -1,6 +1,6 @@
 {
   "version": "0.31.0-candidate",
-  "scope": "UNRELEASED_PRJ_COMPLETE_RESULTS_AND_FROZEN_RESOURCE_INPUT_EXTENSION",
+  "scope": "UNRELEASED_PRJ_COMPLETE_RESULTS_AND_EXECUTED_BRANCH_RECONSTRUCTION_EVIDENCE",
   "code_license": "MIT",
   "documentation_and_original_aggregate_tables_license": "CC-BY-4.0",
   "files": {
@@ -21,12 +21,12 @@
       "sha256": "633e672e3cc0575ff8013ed2bd5cc637d059a9fb48ecdc68fb491ad6512d1c10"
     },
     "README.md": {
-      "bytes": 22131,
-      "sha256": "f64e6af07543bd4fa658ebd4ca370721802418a906b4313f875a08d924db1bb1"
+      "bytes": 22731,
+      "sha256": "d8d5d98ec74797044822c3c0236783eab65e770a774a1a0f7e19d1cbcd671b70"
     },
     "REPRODUCE.md": {
-      "bytes": 7601,
-      "sha256": "a4a6da3fcae4b28715891773fa020b5372cf4c8d620e72bee79ca1b10004f432"
+      "bytes": 8069,
+      "sha256": "f32b2cd9c967fe2eeb8388485747dea77c9d598a4048d42871f09875fcf47742"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 5487,
@@ -265,8 +265,8 @@
       "sha256": "2607b967c7cad9269eba32b60c9b4f69fc6656fc15831e278d4fab48bf3d5f31"
     },
     "analysis/g277_execution/README.md": {
-      "bytes": 6201,
-      "sha256": "7789ab67c416d2d1ed7609cc023f1d72e0af593a17ae7e3659382357d98b25bc"
+      "bytes": 6740,
+      "sha256": "38814052fe65316e524856d84be338b384a158287ffd69dfc4685afcf788b4ea"
     },
     "analysis/g277_execution/VALIDATION.json": {
       "bytes": 3454,
@@ -2855,14 +2855,83 @@
     "analysis/g128_execution/UTF8_RUNTIME_VALIDATION.json": {
       "bytes": 6462,
       "sha256": "42c463f55d0cb2740bb693504a6008672ed31758186ca4d3077e007ab8495481"
+    },
+    "verification/G277_20261029/TABLE_COMPONENT_COMPARISON.tsv": {
+      "bytes": 291199,
+      "sha256": "05a1689fd52979e05b482108e16dbf83a3f3967c4ffa90c298b08e63e759d018"
+    },
+    "verification/G277_20261029/TABLE_DIFFERENCES.tsv": {
+      "bytes": 5926,
+      "sha256": "e401067cf8a688fdbeef0d9169c9d7186c42e96c820a2207c4aaaa9ce1aded35"
+    },
+    "verification/G277_20261029/RDS_COMPONENT_COMPARISON.tsv": {
+      "bytes": 3681166,
+      "sha256": "f181bc9cf37bfa8c2de4fb6dc6ac360a406bc18c420ede196318eba30d726e7d"
+    },
+    "verification/G277_20261029/RDS_DIFFERENCES.tsv": {
+      "bytes": 2857,
+      "sha256": "75f8a5a2804efd482cee53960a61e482f545b9e460a7cb6ade8b836cd535c4db"
+    },
+    "verification/G277_20261029/SELECTED_METADATA_AND_DESIGNS.tsv": {
+      "bytes": 21119,
+      "sha256": "9364e5038e713a00ee1a1fb13323c0b19550ed8b743072984686e45dd3599e35"
+    },
+    "verification/G277_20261029/PROJECTION_COMPARISON.json": {
+      "bytes": 21620,
+      "sha256": "0299f5d66e8782cf3f00c4bd5b0d4419910267eed562140e1544a2a5f154bab8"
+    },
+    "verification/G277_20261029/GRAPHICS_COMPARISON.json": {
+      "bytes": 19272,
+      "sha256": "c58f75f3f131d9c9839841df8ed4a6a82ef8b5f0cf45ee0fa587a56da8b42002"
+    },
+    "verification/G277_20261029/compare_tables_RDS.R": {
+      "bytes": 5694,
+      "sha256": "946497648af0874d0485850b948f4b12d0932cd97a3b5c479c5527b9d9fcd4aa"
+    },
+    "verification/G277_20261029/check_comparison_cases.R": {
+      "bytes": 1775,
+      "sha256": "aa8aba1dcf397ee9416abddd33bdde45c4d9027b7026c6dccfe516e6751682f4"
+    },
+    "verification/G277_20261029/SUMMARY.json": {
+      "bytes": 2480,
+      "sha256": "0ea7c285c2b37f451958ee42895045dbdf656ec9a12c2f24698cb29b67e0fe4b"
+    },
+    "verification/G277_20261029/README.md": {
+      "bytes": 3124,
+      "sha256": "a54a69393f75ea2404e835d00cda07fe6be1c8edfc2bb707d1b2f71849c80c27"
+    },
+    "verification/G277_20261029/verify.py": {
+      "bytes": 1596,
+      "sha256": "72bce0c4c0df721aa26d437c9e0738956b7bb335770ebf7deb4299a1ecbc7785"
+    },
+    "verification/RECONSTRUCTION_LEDGER_20261029.md": {
+      "bytes": 2610,
+      "sha256": "00401539f942b736034c97280c0848e81fa77037d1401c5e8a053cccc1512c1c"
+    },
+    "verification/G277_20261029/EVIDENCE_MANIFEST.json": {
+      "bytes": 1749,
+      "sha256": "bfaa3c3ca5bd88d414e6a67dac986d8cccd5a74a4fdd4fd897e9a87122039198"
+    },
+    "verification/G128_20261028/SUMMARY.json": {
+      "bytes": 14275,
+      "sha256": "aaf5c7e811dfc84e1f5742dfae7c896049bef788ec42dced35f6c08e6d673116"
+    },
+    "verification/G277_20261029/rscript_utf8.sh": {
+      "bytes": 194,
+      "sha256": "87a85fd4114d16201f9df55653a8afc0167f9d173f2b5afba26c48e3deae3836"
     }
   },
   "real_data_models_run": 0,
   "synthetic_full_kernel_sequences_tested": 2,
-  "real_data_models_run_scope": "Legacy v0.30.0 root-release checks only; excludes subsequent PRJ retained-input validation runs.",
+  "real_data_models_run_scope": "Legacy v0.30.0 root-release checks only; excludes subsequent PRJ retained-input validations and G277 selected-input execution.",
   "PRJNA886048_full_analysis_validation_runs": {
     "Windows": 1,
     "Linux": 1,
     "unit": "One full import/gene/CAMERA/activity sequence per platform; not number of independent cohorts."
+  },
+  "GSE277064_selected_input_validation_runs": {
+    "Linux": 1,
+    "unit": "One native preflight and five-stage sequence; complete comparison with retained strict differences.",
+    "comparison": "verification/G277_20261029/SUMMARY.json"
   }
 }

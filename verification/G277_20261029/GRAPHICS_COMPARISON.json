@@ -1,0 +1,600 @@
+{
+  "files": 33,
+  "records": [
+    {
+      "id": 1,
+      "file": "boundary_rotarod/figures/astrocyte_BCV.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "boundary_rotarod/objects/astrocyte_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 2,
+      "file": "boundary_rotarod/figures/astrocyte_QL_dispersion.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "boundary_rotarod/objects/astrocyte_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 3,
+      "file": "boundary_rotarod/figures/astrocyte_sample_correlation.pdf",
+      "old_size": [
+        864,
+        756
+      ],
+      "new_size": [
+        864,
+        756
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "boundary_rotarod/diagnostics/astrocyte_sample_correlations.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 4,
+      "file": "boundary_rotarod/figures/v2a_BCV.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "boundary_rotarod/objects/v2a_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 5,
+      "file": "boundary_rotarod/figures/v2a_QL_dispersion.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "boundary_rotarod/objects/v2a_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 6,
+      "file": "boundary_rotarod/figures/v2a_sample_correlation.pdf",
+      "old_size": [
+        864,
+        756
+      ],
+      "new_size": [
+        864,
+        756
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "boundary_rotarod/diagnostics/v2a_sample_correlations.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 7,
+      "file": "figures/astrocyte_BCV.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.000914494741655e-05,
+      "different_pixel_fraction": 5.715592135345222e-06,
+      "source": "objects/astrocyte_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 8,
+      "file": "figures/astrocyte_QL_dispersion.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "objects/astrocyte_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 9,
+      "file": "figures/astrocyte_sample_correlation.pdf",
+      "old_size": [
+        864,
+        756
+      ],
+      "new_size": [
+        864,
+        756
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "diagnostics/astrocyte_sample_correlations.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 10,
+      "file": "figures/microglia_BCV.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "objects/microglia_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 11,
+      "file": "figures/microglia_QL_dispersion.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "objects/microglia_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 12,
+      "file": "figures/microglia_sample_correlation.pdf",
+      "old_size": [
+        864,
+        756
+      ],
+      "new_size": [
+        864,
+        756
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "diagnostics/microglia_sample_correlations.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 13,
+      "file": "figures/programs/exploratory_consensus_counts_not_S3.pdf",
+      "old_size": [
+        821,
+        561
+      ],
+      "new_size": [
+        821,
+        561
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 7.700753323881504,
+      "different_pixel_fraction": 0.08994943343299007,
+      "source": "programs/exploratory_consensus_counts_not_S3.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 14,
+      "file": "figures/programs/PROGENy_chronic_by_celltype_not_S3.pdf",
+      "old_size": [
+        734,
+        723
+      ],
+      "new_size": [
+        734,
+        723
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.996865040331749,
+      "different_pixel_fraction": 0.07682566961004896,
+      "source": "programs/all_celltypes_activity_contrasts.tsv.gz",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "Inherited long subtitle is cropped in the regenerated legacy plot; use the reviewed current manuscript graphics."
+    },
+    {
+      "id": 15,
+      "file": "figures/programs/PROGENy_natural_timecourse_not_S3.pdf",
+      "old_size": [
+        1134,
+        713
+      ],
+      "new_size": [
+        1134,
+        713
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 8.629499766245909,
+      "different_pixel_fraction": 0.17859430926284597,
+      "source": "programs/all_celltypes_activity_contrasts.tsv.gz",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 16,
+      "file": "figures/programs/PROGENy_rotarod_boundary_only.pdf",
+      "old_size": [
+        906,
+        702
+      ],
+      "new_size": [
+        906,
+        702
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 6.341199537115652,
+      "different_pixel_fraction": 0.11545536876662704,
+      "source": "boundary_rotarod/programs/all_celltypes_activity_contrasts.tsv.gz",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "Inherited long subtitle is cropped in the regenerated legacy plot; use the reviewed current manuscript graphics."
+    },
+    {
+      "id": 17,
+      "file": "figures/v2a_BCV.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "objects/v2a_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 18,
+      "file": "figures/v2a_QL_dispersion.pdf",
+      "old_size": [
+        648,
+        540
+      ],
+      "new_size": [
+        648,
+        540
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "objects/v2a_analysis.rds",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 19,
+      "file": "figures/v2a_sample_correlation.pdf",
+      "old_size": [
+        864,
+        756
+      ],
+      "new_size": [
+        864,
+        756
+      ],
+      "pixel_exact": true,
+      "mean_absolute_channel_difference": 0.0,
+      "different_pixel_fraction": 0.0,
+      "source": "diagnostics/v2a_sample_correlations.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 20,
+      "file": "boundary_rotarod/figures/astrocyte_library_size.png",
+      "old_size": [
+        1170,
+        810
+      ],
+      "new_size": [
+        1170,
+        810
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 5.842276388449228,
+      "different_pixel_fraction": 0.07989342618972249,
+      "source": "boundary_rotarod/diagnostics/astrocyte_sample_QC.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 21,
+      "file": "boundary_rotarod/figures/astrocyte_PCA.png",
+      "old_size": [
+        1350,
+        990
+      ],
+      "new_size": [
+        1350,
+        990
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.497380471380471,
+      "different_pixel_fraction": 0.06964683875794987,
+      "source": "boundary_rotarod/diagnostics/astrocyte_PCA_coordinates.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 22,
+      "file": "boundary_rotarod/figures/v2a_library_size.png",
+      "old_size": [
+        1170,
+        810
+      ],
+      "new_size": [
+        1170,
+        810
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 6.365889346136259,
+      "different_pixel_fraction": 0.09141394956209771,
+      "source": "boundary_rotarod/diagnostics/v2a_sample_QC.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 23,
+      "file": "boundary_rotarod/figures/v2a_PCA.png",
+      "old_size": [
+        1350,
+        990
+      ],
+      "new_size": [
+        1350,
+        990
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.216251153510413,
+      "different_pixel_fraction": 0.06816161616161616,
+      "source": "boundary_rotarod/diagnostics/v2a_PCA_coordinates.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 24,
+      "file": "figures/astrocyte_library_size.png",
+      "old_size": [
+        1170,
+        810
+      ],
+      "new_size": [
+        1170,
+        810
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 6.151216629735148,
+      "different_pixel_fraction": 0.08279729872322465,
+      "source": "diagnostics/astrocyte_sample_QC.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 25,
+      "file": "figures/astrocyte_PCA.png",
+      "old_size": [
+        1350,
+        990
+      ],
+      "new_size": [
+        1350,
+        990
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.642483352038908,
+      "different_pixel_fraction": 0.08581668537224092,
+      "source": "diagnostics/astrocyte_PCA_coordinates.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 26,
+      "file": "figures/microglia_library_size.png",
+      "old_size": [
+        1170,
+        810
+      ],
+      "new_size": [
+        1170,
+        810
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 5.305324821497661,
+      "different_pixel_fraction": 0.06998100664767332,
+      "source": "diagnostics/microglia_sample_QC.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 27,
+      "file": "figures/microglia_PCA.png",
+      "old_size": [
+        1350,
+        990
+      ],
+      "new_size": [
+        1350,
+        990
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.2591195909714425,
+      "different_pixel_fraction": 0.0761010101010101,
+      "source": "diagnostics/microglia_PCA_coordinates.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 28,
+      "file": "figures/programs/exploratory_consensus_counts_not_S3.png",
+      "old_size": [
+        1824,
+        1248
+      ],
+      "new_size": [
+        1824,
+        1248
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 5.694024913545884,
+      "different_pixel_fraction": 0.0477869854925776,
+      "source": "programs/exploratory_consensus_counts_not_S3.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 29,
+      "file": "figures/programs/PROGENy_chronic_by_celltype_not_S3.png",
+      "old_size": [
+        1632,
+        1608
+      ],
+      "new_size": [
+        1632,
+        1608
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.2086344980571,
+      "different_pixel_fraction": 0.05015402460735538,
+      "source": "programs/all_celltypes_activity_contrasts.tsv.gz",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "Inherited long subtitle is cropped in the regenerated legacy plot; use the reviewed current manuscript graphics."
+    },
+    {
+      "id": 30,
+      "file": "figures/programs/PROGENy_natural_timecourse_not_S3.png",
+      "old_size": [
+        2520,
+        1584
+      ],
+      "new_size": [
+        2520,
+        1584
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 8.095902811180588,
+      "different_pixel_fraction": 0.1521016213724547,
+      "source": "programs/all_celltypes_activity_contrasts.tsv.gz",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 31,
+      "file": "figures/programs/PROGENy_rotarod_boundary_only.png",
+      "old_size": [
+        2016,
+        1560
+      ],
+      "new_size": [
+        2016,
+        1560
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.814882966185049,
+      "different_pixel_fraction": 0.06924984737484738,
+      "source": "boundary_rotarod/programs/all_celltypes_activity_contrasts.tsv.gz",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "Inherited long subtitle is cropped in the regenerated legacy plot; use the reviewed current manuscript graphics."
+    },
+    {
+      "id": 32,
+      "file": "figures/v2a_library_size.png",
+      "old_size": [
+        1170,
+        810
+      ],
+      "new_size": [
+        1170,
+        810
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 6.429115050473075,
+      "different_pixel_fraction": 0.08336709929302522,
+      "source": "diagnostics/v2a_sample_QC.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    },
+    {
+      "id": 33,
+      "file": "figures/v2a_PCA.png",
+      "old_size": [
+        1350,
+        990
+      ],
+      "new_size": [
+        1350,
+        990
+      ],
+      "pixel_exact": false,
+      "mean_absolute_channel_difference": 4.436981169721911,
+      "different_pixel_fraction": 0.08054994388327721,
+      "source": "diagnostics/v2a_PCA_coordinates.tsv",
+      "visual_review": "All 33 historical/rebuilt pairs reviewed; data geometry, signs, markers and labels agree.",
+      "presentation_note": "No material visual discrepancy found"
+    }
+  ],
+  "visual_review_complete": true
+}

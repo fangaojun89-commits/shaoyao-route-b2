@@ -1,0 +1,435 @@
+{
+  "status": "RETAINED_SUMMARY_FIELDS_MATCH",
+  "utc": "2026-10-28T22:22:59.490144+00:00",
+  "summary_engine": {
+    "bytes": 18997,
+    "sha256": "6778d250c97c93cba7c859db1af1db2cd6978c70a38e219f98f21b73ff936948"
+  },
+  "summary_fields_checked": 2102,
+  "integer_key_and_text_rule": "Exact; no changed threshold or rounding.",
+  "median_effect_rule": "Same numeric envelope as original v2v_numeric_equal: 2e-7 * max(1,abs(a),abs(b)).",
+  "summary_differences": [],
+  "historical_full_file_identity": [
+    {
+      "path": "ANALYZER_COMPLETE.tsv",
+      "historical": {
+        "bytes": 668,
+        "sha256": "73ced6d1f4ce6fcb732adbbd973ad2436e329d3ccc45cd98f7e20c78abc9c201"
+      },
+      "new": {
+        "bytes": 668,
+        "sha256": "73ced6d1f4ce6fcb732adbbd973ad2436e329d3ccc45cd98f7e20c78abc9c201"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "VALIDATION_REPORT.tsv",
+      "historical": {
+        "bytes": 450,
+        "sha256": "67ba07e7df95fd6ff8739669f7f6d0e78e16c5edd56f2f9b6f421b1469054457"
+      },
+      "new": {
+        "bytes": 450,
+        "sha256": "67ba07e7df95fd6ff8739669f7f6d0e78e16c5edd56f2f9b6f421b1469054457"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "comparison/all30_vs_complete29_gene.tsv.gz",
+      "historical": {
+        "bytes": 4481182,
+        "sha256": "836cd4c8d370cbb6d6b1f27ee592bad98a1b3c5bf09987064dd3dd932a201696"
+      },
+      "new": {
+        "bytes": 4481182,
+        "sha256": "836cd4c8d370cbb6d6b1f27ee592bad98a1b3c5bf09987064dd3dd932a201696"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "comparison/all30_vs_complete29_summary.tsv",
+      "historical": {
+        "bytes": 568,
+        "sha256": "44515a49b1feade8860050f7c3a6a5ba736a88723b29af0a08e62c82c5f417cd"
+      },
+      "new": {
+        "bytes": 568,
+        "sha256": "44515a49b1feade8860050f7c3a6a5ba736a88723b29af0a08e62c82c5f417cd"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/diagnostics/MDS_coordinates.tsv",
+      "historical": {
+        "bytes": 1976,
+        "sha256": "f222aa3debcc75ac90be157f41b1266372e0fce69a25324f97065741e8715d62"
+      },
+      "new": {
+        "bytes": 1976,
+        "sha256": "f222aa3debcc75ac90be157f41b1266372e0fce69a25324f97065741e8715d62"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/diagnostics/dispersion_BCV_QL.tsv.gz",
+      "historical": {
+        "bytes": 712172,
+        "sha256": "ac2e04f1f85cdf14c59cf8e2ef497c73146b9d2f90b4aead1d1e397fdd7c75af"
+      },
+      "new": {
+        "bytes": 712172,
+        "sha256": "ac2e04f1f85cdf14c59cf8e2ef497c73146b9d2f90b4aead1d1e397fdd7c75af"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/diagnostics/library_sizes_TMM.tsv",
+      "historical": {
+        "bytes": 2376,
+        "sha256": "761b6859939c7274bd57a6b2f31d512a963acc3b4dab0895645c89c228cf3444"
+      },
+      "new": {
+        "bytes": 2376,
+        "sha256": "761b6859939c7274bd57a6b2f31d512a963acc3b4dab0895645c89c228cf3444"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/diagnostics/mean_variance.tsv.gz",
+      "historical": {
+        "bytes": 368999,
+        "sha256": "a85680c167371b4752421688375a098fbe421dd42dab6af79b8a4d4aee9ff833"
+      },
+      "new": {
+        "bytes": 368999,
+        "sha256": "a85680c167371b4752421688375a098fbe421dd42dab6af79b8a4d4aee9ff833"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/diagnostics/prefilter_summary.tsv",
+      "historical": {
+        "bytes": 158,
+        "sha256": "5daf79edc89ba969029a786dc6193b7b805c2b29354d498a4d8abb67c5d73de0"
+      },
+      "new": {
+        "bytes": 158,
+        "sha256": "5daf79edc89ba969029a786dc6193b7b805c2b29354d498a4d8abb67c5d73de0"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/diagnostics/sample_influence.tsv",
+      "historical": {
+        "bytes": 1640,
+        "sha256": "575d53728860751a046cdd24f5b2a27075ea00f2685246a1d634a2e0826c4766"
+      },
+      "new": {
+        "bytes": 1640,
+        "sha256": "575d53728860751a046cdd24f5b2a27075ea00f2685246a1d634a2e0826c4766"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/gene_level/DESeq2_Wald_sensitivity.tsv.gz",
+      "historical": {
+        "bytes": 8453247,
+        "sha256": "01b9e4418cdc3b39ad7a4b2ca252e630269ef0387576c2e06d05904755143100"
+      },
+      "new": {
+        "bytes": 8453247,
+        "sha256": "01b9e4418cdc3b39ad7a4b2ca252e630269ef0387576c2e06d05904755143100"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/gene_level/edgeR_primary.tsv.gz",
+      "historical": {
+        "bytes": 7421784,
+        "sha256": "3863972284c77dd6886aed689b4879a51b3e4532139f9ccf74798614c6d8d0e7"
+      },
+      "new": {
+        "bytes": 7421784,
+        "sha256": "3863972284c77dd6886aed689b4879a51b3e4532139f9ccf74798614c6d8d0e7"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/gene_level/limma_voom_sensitivity.tsv.gz",
+      "historical": {
+        "bytes": 8879620,
+        "sha256": "a5ddb983870cfafa75a723d6b981304f8da83aad9d061a596f9f87de0412f0d7"
+      },
+      "new": {
+        "bytes": 8879620,
+        "sha256": "a5ddb983870cfafa75a723d6b981304f8da83aad9d061a596f9f87de0412f0d7"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/loao/gene_chronic_true_refit.tsv.gz",
+      "historical": {
+        "bytes": 32573909,
+        "sha256": "c1dcee31be326da8827828d069ad046c6bf6e1135b77ba4d07d8b1401ab271b1"
+      },
+      "new": {
+        "bytes": 32573909,
+        "sha256": "c1dcee31be326da8827828d069ad046c6bf6e1135b77ba4d07d8b1401ab271b1"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/loao/program_chronic_true_refit.tsv.gz",
+      "historical": {
+        "bytes": 4953883,
+        "sha256": "7e867e1056915cc1ba58309e27a1aa6c0e101c6b759b3bfcd59a5ae1c1574981"
+      },
+      "new": {
+        "bytes": 4953883,
+        "sha256": "7e867e1056915cc1ba58309e27a1aa6c0e101c6b759b3bfcd59a5ae1c1574981"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/programs/activity_all_contrasts.tsv.gz",
+      "historical": {
+        "bytes": 657252,
+        "sha256": "b538b51dc6d260e0cfb90e822d9e8ad29e6f2c3778ead0ec4745fe5dc2bdc7da"
+      },
+      "new": {
+        "bytes": 657252,
+        "sha256": "b538b51dc6d260e0cfb90e822d9e8ad29e6f2c3778ead0ec4745fe5dc2bdc7da"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/programs/camera.tsv.gz",
+      "historical": {
+        "bytes": 309967,
+        "sha256": "892d172fe69a3974d4047a537bff169da52a3f95fbc91c566b68621deca10705"
+      },
+      "new": {
+        "bytes": 309967,
+        "sha256": "892d172fe69a3974d4047a537bff169da52a3f95fbc91c566b68621deca10705"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/programs/fgsea_chronic.tsv.gz",
+      "historical": {
+        "bytes": 174862,
+        "sha256": "805f111c5e2d7168e4d35f58410b8ddd5e1594f6be80a26d39bec91cbb662ce9"
+      },
+      "new": {
+        "bytes": 174862,
+        "sha256": "805f111c5e2d7168e4d35f58410b8ddd5e1594f6be80a26d39bec91cbb662ce9"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "complete29_sensitivity/programs/mroast_chronic.tsv.gz",
+      "historical": {
+        "bytes": 65799,
+        "sha256": "ada62de48467341626ff29299f41883e7bcf38674b04904fabcbd09c6289855a"
+      },
+      "new": {
+        "bytes": 65799,
+        "sha256": "ada62de48467341626ff29299f41883e7bcf38674b04904fabcbd09c6289855a"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/diagnostics/MDS_coordinates.tsv",
+      "historical": {
+        "bytes": 2042,
+        "sha256": "1f9f0fb2ce3de6024e1ccb448913033010814956151bd9a1be501599b15ecf77"
+      },
+      "new": {
+        "bytes": 2042,
+        "sha256": "1f9f0fb2ce3de6024e1ccb448913033010814956151bd9a1be501599b15ecf77"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/diagnostics/dispersion_BCV_QL.tsv.gz",
+      "historical": {
+        "bytes": 702381,
+        "sha256": "4a72f77c9402e0ec0a9795b2c95a37db1afd2f51d8000d2b5ccca92fe41f0d03"
+      },
+      "new": {
+        "bytes": 702381,
+        "sha256": "4a72f77c9402e0ec0a9795b2c95a37db1afd2f51d8000d2b5ccca92fe41f0d03"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/diagnostics/library_sizes_TMM.tsv",
+      "historical": {
+        "bytes": 2455,
+        "sha256": "02f456c323a3cf05afc13ec549ceea2fd620715c2acaf008f2ed0d89eabe3867"
+      },
+      "new": {
+        "bytes": 2455,
+        "sha256": "02f456c323a3cf05afc13ec549ceea2fd620715c2acaf008f2ed0d89eabe3867"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/diagnostics/mean_variance.tsv.gz",
+      "historical": {
+        "bytes": 363304,
+        "sha256": "cc990036295da4a1b4064c82d9c21c76a7d7778c72bc271b8d79c39ce7779c4a"
+      },
+      "new": {
+        "bytes": 363304,
+        "sha256": "cc990036295da4a1b4064c82d9c21c76a7d7778c72bc271b8d79c39ce7779c4a"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/diagnostics/prefilter_summary.tsv",
+      "historical": {
+        "bytes": 158,
+        "sha256": "758e2290e660de64c105c9b24039a6fee6e1080150e44b8a03a719fbd0c142cf"
+      },
+      "new": {
+        "bytes": 158,
+        "sha256": "758e2290e660de64c105c9b24039a6fee6e1080150e44b8a03a719fbd0c142cf"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/diagnostics/sample_influence.tsv",
+      "historical": {
+        "bytes": 1687,
+        "sha256": "720617157eccc20007f37d994c357f82a9fd6f6050a44129eb64607e54226da0"
+      },
+      "new": {
+        "bytes": 1687,
+        "sha256": "720617157eccc20007f37d994c357f82a9fd6f6050a44129eb64607e54226da0"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/gene_level/DESeq2_Wald_sensitivity.tsv.gz",
+      "historical": {
+        "bytes": 8248592,
+        "sha256": "4454bc3f9dda5f33cada9b0c1ae4a5794f6ba49cc52336a6fa6d55fb112f549f"
+      },
+      "new": {
+        "bytes": 8248592,
+        "sha256": "4454bc3f9dda5f33cada9b0c1ae4a5794f6ba49cc52336a6fa6d55fb112f549f"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/gene_level/edgeR_primary.tsv.gz",
+      "historical": {
+        "bytes": 7289852,
+        "sha256": "2ed9e66cec8a4b00337f3b44bb77698d657a0ff3c02dd93273b04460038a390b"
+      },
+      "new": {
+        "bytes": 7289852,
+        "sha256": "2ed9e66cec8a4b00337f3b44bb77698d657a0ff3c02dd93273b04460038a390b"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/gene_level/limma_voom_sensitivity.tsv.gz",
+      "historical": {
+        "bytes": 8599129,
+        "sha256": "cfdb5a4001706ad9ef32b8fa1963c058fb32e3f842939b4fee0d0c322d24f8ab"
+      },
+      "new": {
+        "bytes": 8599129,
+        "sha256": "cfdb5a4001706ad9ef32b8fa1963c058fb32e3f842939b4fee0d0c322d24f8ab"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/loao/gene_chronic_true_refit.tsv.gz",
+      "historical": {
+        "bytes": 33753098,
+        "sha256": "7e1281aba1665da73d5c06a6e550819d2bccbae80f8ac77a363a687b4f10469c"
+      },
+      "new": {
+        "bytes": 33753098,
+        "sha256": "7e1281aba1665da73d5c06a6e550819d2bccbae80f8ac77a363a687b4f10469c"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/loao/program_chronic_true_refit.tsv.gz",
+      "historical": {
+        "bytes": 5042585,
+        "sha256": "249447e0d5a4728af9fc60b0021e5e3d46410377c93a485f398388f191b74455"
+      },
+      "new": {
+        "bytes": 5042585,
+        "sha256": "249447e0d5a4728af9fc60b0021e5e3d46410377c93a485f398388f191b74455"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/programs/activity_all_contrasts.tsv.gz",
+      "historical": {
+        "bytes": 548392,
+        "sha256": "1e0943aeeff36db36270f98bf3a4839009664b6d82da3916d6051ddf138faba4"
+      },
+      "new": {
+        "bytes": 548392,
+        "sha256": "1e0943aeeff36db36270f98bf3a4839009664b6d82da3916d6051ddf138faba4"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/programs/camera.tsv.gz",
+      "historical": {
+        "bytes": 305382,
+        "sha256": "6609045840288591bad35d4c2bd2730cd28229996e7802260adbbdfc0f3e951e"
+      },
+      "new": {
+        "bytes": 305382,
+        "sha256": "6609045840288591bad35d4c2bd2730cd28229996e7802260adbbdfc0f3e951e"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/programs/fgsea_chronic.tsv.gz",
+      "historical": {
+        "bytes": 173632,
+        "sha256": "d747688bc0fbdca88240d2c2af2671750fa1eb408dccbb9a4d0aa27bf3d42880"
+      },
+      "new": {
+        "bytes": 173632,
+        "sha256": "d747688bc0fbdca88240d2c2af2671750fa1eb408dccbb9a4d0aa27bf3d42880"
+      },
+      "byte_identical": true
+    },
+    {
+      "path": "primary_all30/programs/mroast_chronic.tsv.gz",
+      "historical": {
+        "bytes": 69797,
+        "sha256": "c35bb6d0c9af65f190875ca210aa5482d7855f3cbc235bdcf4a19fa703c84fff"
+      },
+      "new": {
+        "bytes": 69797,
+        "sha256": "c35bb6d0c9af65f190875ca210aa5482d7855f3cbc235bdcf4a19fa703c84fff"
+      },
+      "byte_identical": true
+    }
+  ],
+  "byte_identical_model_files": 34,
+  "all_34_model_files_byte_identical": true,
+  "full_historical_numeric_equivalence_proven": true,
+  "scope": "Actual recovered independent-validation/comparison stages plus original-rule raw summaries; original whole-entry failure retained. Differing hashes alone do not quantify table-level drift; no unavailable historical table was invented.",
+  "original_whole_driver_returned": false,
+  "original_failed_whole_entry_receipt_preserved": true,
+  "models_fitted_by_this_check": 0,
+  "raw_FASTQ_accessed": false,
+  "protected_PSS_validation": false,
+  "original_result_identity": {
+    "bytes": 14397,
+    "sha256": "f279e474c159f8b633b524baa050f4e5bfa3bc3b438e562bbb3e3b9eae2e9587"
+  }
+}
