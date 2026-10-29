@@ -25,8 +25,8 @@
       "sha256": "d8d5d98ec74797044822c3c0236783eab65e770a774a1a0f7e19d1cbcd671b70"
     },
     "REPRODUCE.md": {
-      "bytes": 8069,
-      "sha256": "f32b2cd9c967fe2eeb8388485747dea77c9d598a4048d42871f09875fcf47742"
+      "bytes": 8228,
+      "sha256": "14bca9f44a35edd72b36275c5eef133ecf02ef567f233495da4141b8b3e89a69"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 5487,
@@ -2919,6 +2919,34 @@
     "verification/G277_20261029/rscript_utf8.sh": {
       "bytes": 194,
       "sha256": "87a85fd4114d16201f9df55653a8afc0167f9d173f2b5afba26c48e3deae3836"
+    },
+    "supplement/preparation_display/all_420_primary_pairs.tsv": {
+      "bytes": 102450,
+      "sha256": "0020e0419a643d48e2f8a3004b7d346ba62a2919daba9772aa21f6128c9e8fdc"
+    },
+    "supplement/preparation_display/ENVIRONMENT.json": {
+      "bytes": 224,
+      "sha256": "a7c8836d6553c42c3437b7c523361147b9b11bfc02cef79bc2504686cb21dc9d"
+    },
+    "supplement/preparation_display/expected_plotted_data.tsv": {
+      "bytes": 1477,
+      "sha256": "76d9e85083e14e3175a5f2a68569a32d0c611e35e002221b0de1b35efa5dd3cc"
+    },
+    "supplement/preparation_display/Figure_preparation_single_herb_effects.pdf": {
+      "bytes": 24577,
+      "sha256": "72f403115d95a2b93269aa0a7c48a2dcd796b975b3c321e8f5dc491c26e9ebd1"
+    },
+    "supplement/preparation_display/Figure_preparation_single_herb_effects.png": {
+      "bytes": 214702,
+      "sha256": "59f9c70bbc27d366b345b87401ef1b9175320b6f41eaf5e0522342a88598a063"
+    },
+    "supplement/preparation_display/plot.py": {
+      "bytes": 4315,
+      "sha256": "7fe42eae172d9c531d0c6055dc3c9f863a7ed9007ed4ff4050cc5097b51183d8"
+    },
+    "supplement/preparation_display/README.md": {
+      "bytes": 2254,
+      "sha256": "b4e80f42b5429fa715f829d78006d157d3bb178114965c81a427ab60f253827f"
     }
   },
   "real_data_models_run": 0,

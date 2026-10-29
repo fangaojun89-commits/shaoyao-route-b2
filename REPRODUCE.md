@@ -11,6 +11,7 @@ Start with the operation you need. All paths below are relative to the repositor
 | How stable are the whole-formula culture results across conditional label assignments? | [JGW03 Linux complete reference summary](supplement/late_results/README.md): 89 four-dose and 34 high-dose/vehicle families |
 | How does the same-library alignment choice affect GSE205906? | [Complete STAR/HISAT2 exports](data/g205_matched_exports/README.md): 216,070 family-feature records across 22 families |
 | What depends on extraction, solvent or herb ratio? | [GSE298414 preparation results](supplement/preparation_extension/RUN.md): 72 libraries and 36 stratified contrasts |
+| How can the preparation-effect figure be regenerated? | [Complete 420-pair inputs and portable plotting command](supplement/preparation_display/README.md) |
 | How do mixtures compare with the single herbs? | [GSE298414 constituent comparisons](supplement/constituent_extension/RUN.md): 126 libraries and 60 contrasts |
 | What was actually reconstructed and compared? | [Current branch-scope ledger](verification/RECONSTRUCTION_LEDGER_20261029.md), including G277 complete comparison and PRJ retained-input execution |
 | Which deposited units were used? | [Dated submitted-unit ledger](data/ledger/README.md), supplemented by each later branch's sample and provenance tables |
